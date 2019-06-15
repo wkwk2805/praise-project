@@ -16,8 +16,8 @@ const Registration = () => {
           className="form-control"
         />
       </div>
-      <button>
-        <i class="fas fa-plus-circle" />
+      <button className="btn btn-primary" style={{ fontSize: "1.5em" }}>
+        <i className="fas fa-plus-circle" />
       </button>
     </div>
   );

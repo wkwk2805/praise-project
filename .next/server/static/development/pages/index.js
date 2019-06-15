@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/lyrics_check_view.js":
-/*!************************************!*\
-  !*** ./pages/lyrics_check_view.js ***!
-  \************************************/
+/***/ "./components/Home.js":
+/*!****************************!*\
+  !*** ./components/Home.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,31 +104,91 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_check_view.js";
+/* harmony import */ var _LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LyricsList */ "./components/LyricsList.js");
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Home.js";
+
+ // list시 카드를 활용해서 하면 좋을듯
+
+var Home = function Home() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LyricsList__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./components/LyricsList.js":
+/*!**********************************!*\
+  !*** ./components/LyricsList.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
 
 
-var lyrics_check_view = function lyrics_check_view() {
+var LyricsList = function LyricsList() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "\uAC00\uC0AC\uB97C \uCCB4\uD06C\uBB34\uB2AC \uD615\uD0DC\uB85C \uBCF4\uC5EC\uC8FC\uC138\uC694");
+  }, "\uAC00\uC0AC \uBAA9\uB85D\uC744 \uBFCC\uB824\uC8FC\uC138\uC694");
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (lyrics_check_view);
+/* harmony default export */ __webpack_exports__["default"] = (LyricsList);
 
 /***/ }),
 
-/***/ 5:
-/*!******************************************!*\
-  !*** multi ./pages/lyrics_check_view.js ***!
-  \******************************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Home */ "./components/Home.js");
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\index.js";
+
+
+
+var index = function index() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+/***/ }),
+
+/***/ 3:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\lyrics_check_view.js */"./pages/lyrics_check_view.js");
+module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -145,4 +205,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=lyrics_check_view.js.map
+//# sourceMappingURL=index.js.map

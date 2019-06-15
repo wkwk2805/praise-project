@@ -160,7 +160,7 @@ var Registration = function Registration() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-plus-circle",
+    class: "fas fa-plus-circle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20

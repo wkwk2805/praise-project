@@ -17,7 +17,7 @@ const Registration = () => {
         />
       </div>
       <button>
-        <i className="fas fa-plus-circle" />
+        <i class="fas fa-plus-circle" />
       </button>
     </div>
   );

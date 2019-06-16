@@ -3742,7 +3742,7 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
   \***********************************************************************************************************************************************************************************************************************/
@@ -3765,5 +3765,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_registration.js.map

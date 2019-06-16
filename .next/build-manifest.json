@@ -11,6 +11,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/lyrics_list": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/lyrics_registration": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

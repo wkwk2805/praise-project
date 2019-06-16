@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -122,55 +122,68 @@ var Registration = function Registration() {
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    placeholder: "Title",
-    className: "form-control",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    className: "text-center",
+    style: {
+      margin: "20px 0px 0px 0px"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\uAC00\uC0AC\uB97C \uCD94\uAC00\uD574 \uC8FC\uC138\uC694"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "\uC81C\uBAA9",
+    className: "form-control",
     style: {
-      margin: "10px",
-      border: "1px"
+      margin: "20px 0px 15px 0px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
     name: "",
     id: "",
     cols: "30",
-    rows: "10",
-    placeholder: "Lyrics",
+    rows: "20",
+    placeholder: "\uAC00\uC0AC",
     className: "form-control",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 17
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-primary",
-    style: {
-      fontSize: "1.5em"
-    },
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 26
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "\uB4F1\uB85D"), " ", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-plus-circle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 29
     },
     __self: this
-  })));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Registration);
@@ -239,7 +252,7 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************************!*\
   !*** multi ./pages/lyrics_registration.js ***!
   \********************************************/

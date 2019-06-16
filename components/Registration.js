@@ -5,20 +5,30 @@ const Registration = () => {
   return (
     <div className="container">
       <div className="form-group">
-        <input type="text" placeholder="Title" className="form-control" />
-        <div style={{ margin: "10px", border: "1px" }} />
+        <h5 className="text-center" style={{ margin: "20px 0px 0px 0px" }}>
+          가사를 추가해 주세요
+        </h5>
+        <input
+          type="text"
+          placeholder="제목"
+          className="form-control"
+          style={{ margin: "20px 0px 15px 0px" }}
+        />
         <textarea
           name=""
           id=""
           cols="30"
-          rows="10"
-          placeholder="Lyrics"
+          rows="20"
+          placeholder="가사"
           className="form-control"
         />
       </div>
-      <button className="btn btn-primary" style={{ fontSize: "1.5em" }}>
-        <i className="fas fa-plus-circle" />
-      </button>
+      <div className="text-right">
+        <button className="btn btn-primary">
+          <span>등록</span> {` `}
+          <i className="fas fa-plus-circle" />
+        </button>
+      </div>
     </div>
   );
 };

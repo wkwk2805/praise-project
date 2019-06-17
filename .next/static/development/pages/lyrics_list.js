@@ -11,11 +11,12 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\LyricsList.js";
 
 var lyrics = [{
   l_id: 1,
   title: "title",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의 입니다"
@@ -26,6 +27,7 @@ var lyrics = [{
 }, {
   l_id: 2,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -34,8 +36,9 @@ var lyrics = [{
     statement: "제 취미는요 코딩2이에요"
   }]
 }, {
-  l_id: 2,
+  l_id: 3,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -44,8 +47,9 @@ var lyrics = [{
     statement: "제 취미는요 코딩2이에요"
   }]
 }, {
-  l_id: 2,
+  l_id: 4,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -54,8 +58,9 @@ var lyrics = [{
     statement: "제 취미는요 코딩2이에요"
   }]
 }, {
-  l_id: 2,
+  l_id: 5,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -64,8 +69,9 @@ var lyrics = [{
     statement: "제 취미는요 코딩2이에요"
   }]
 }, {
-  l_id: 2,
+  l_id: 6,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -74,8 +80,9 @@ var lyrics = [{
     statement: "제 취미는요 코딩2이에요"
   }]
 }, {
-  l_id: 2,
+  l_id: 7,
   title: "title2",
+  lyr_img: "no_img.gif",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의2 입니다"
@@ -90,7 +97,7 @@ var LyricsList = function LyricsList() {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -100,7 +107,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -109,28 +116,28 @@ var LyricsList = function LyricsList() {
     placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 115
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "input-group-append",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "input-group-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 121
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 122
     },
     __self: this
   })))), lyrics.map(function (e) {
@@ -143,48 +150,73 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 121
+        lineNumber: 128
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "...",
+      src: "/static/".concat(e.lyr_img),
       className: "card-img-top",
-      alt: "...",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 129
+        lineNumber: 136
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130
+        lineNumber: 137
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131
+        lineNumber: 138
       },
       __self: this
-    }, "Card title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 139
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+      type: "checkbox",
+      id: "title_".concat(e.l_id),
+      style: {
+        width: "20px"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 140
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+      htmlFor: "title_".concat(e.l_id),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 145
+      },
+      __self: this
+    }, e.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 132
+        lineNumber: 148
       },
       __self: this
-    }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "#",
+    }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       className: "btn btn-primary",
+      style: {
+        float: "left"
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136
+        lineNumber: 150
       },
       __self: this
-    }, "Go somewhere")));
+    }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
   }));
 };
 
@@ -3741,10 +3773,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js!./":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
+  \***********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3789,7 +3821,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_list.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_list.js";
 
 
 
@@ -3844,13 +3876,13 @@ var lyrics_list = function lyrics_list() {
 /***/ }),
 
 /***/ 2:
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \*******************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
+  \***************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js!./");
 
 
 /***/ }),

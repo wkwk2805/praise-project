@@ -1,7 +1,8 @@
 import React from "react";
+import View from "../components/View";
 
 const lyrics_view = () => {
-  return <div>가사를 보여주세요</div>;
+  return <View />;
 };
 
 export default lyrics_view;

@@ -1,4 +1,5 @@
 import React from "react";
+import Layout from "./Layout";
 
 const lyrics = [
   {
@@ -110,51 +111,58 @@ const lyrics = [
 
 const LyricsList = () => {
   return (
-    <div className="container">
-      <div className="input-group mb-3" style={{ margin: "20px 0px 0px 0px" }}>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="제목 또는 가사를 입력해 주세요"
-        />
-        <div className="input-group-append">
-          <button className="input-group-text">
-            <i className="fas fa-search" />
-          </button>
-        </div>
-      </div>
-      {lyrics.map(e => {
-        return (
+    <>
+      <Layout title="가사목록페이지">
+        <div className="container">
           <div
-            className="card"
-            style={{
-              width: "16rem",
-              float: "left",
-              margin: "0px 20px 10px 0px"
-            }}
+            className="input-group mb-3"
+            style={{ margin: "20px 0px 0px 0px" }}
           >
-            <img src={`/static/${e.lyr_img}`} className="card-img-top" />
-            <div className="card-body">
-              <h5 className="card-title">
-                <span>
-                  <input
-                    type="checkbox"
-                    id={`title_${e.l_id}`}
-                    style={{ width: "20px" }}
-                  />
-                  <label htmlFor={`title_${e.l_id}`}>{e.title}</label>
-                </span>
-              </h5>
-              <p className="card-text">{e.contents[0].statement}</p>
-
-              <button className="btn btn-primary" style={{ float: "left" }}>
-                악보 다운로드
+            <input
+              type="text"
+              className="form-control"
+              placeholder="제목 또는 가사를 입력해 주세요"
+            />
+            <div className="input-group-append">
+              <button className="input-group-text">
+                <i className="fas fa-search" />
               </button>
             </div>
           </div>
-        );
-      })}
-    </div>
+          {lyrics.map(e => {
+            return (
+              <div
+                className="card"
+                style={{
+                  width: "16rem",
+                  float: "left",
+                  margin: "0px 20px 10px 0px"
+                }}
+              >
+                <img src={`/static/${e.lyr_img}`} className="card-img-top" />
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <span>
+                      <input
+                        type="checkbox"
+                        id={`title_${e.l_id}`}
+                        style={{ width: "20px" }}
+                      />
+                      <label htmlFor={`title_${e.l_id}`}>{e.title}</label>
+                    </span>
+                  </h5>
+                  <p className="card-text">{e.contents[0].statement}</p>
+
+                  <button className="btn btn-primary" style={{ float: "left" }}>
+                    악보 다운로드
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </Layout>
+    </>
   );
 };
 

@@ -3723,7 +3723,7 @@ var lyrics_view = function lyrics_view() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 8:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flyrics_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_view.js ***!
   \***************************************************************************************************************************************************/
@@ -3746,5 +3746,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_view.js.map

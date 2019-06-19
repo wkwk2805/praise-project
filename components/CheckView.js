@@ -1,10 +1,18 @@
 import React from "react";
 import Layout from "./Layout";
+import download_ppt from "../util/download_ppt";
 
 const CheckView = () => {
   return (
     <Layout title="Check View Page">
       <div className="container">
+        <div className="text-right" style={{ marginTop: "10px" }}>
+          <button className="btn btn-danger" onClick={download_ppt}>
+            <span>DOWNLOAD PPT</span>
+            {` `}
+            <i className="fas fa-download" />
+          </button>
+        </div>
         <div className="row">
           <div className="col-sm">
             <div className="lyr-title">Hello</div>

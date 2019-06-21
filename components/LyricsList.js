@@ -173,17 +173,114 @@ const LyricsList = () => {
               <h4 className="text-center">가사 제목</h4>
               <p />
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">
-                  Cras justo odio <i className="far fa-minus-square" />
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
                 </li>
-                <li className="list-group-item">Dapibus ac facilisis in</li>
-                <li className="list-group-item">Morbi leo risus</li>
-                <li className="list-group-item">Porta ac consectetur ac</li>
-                <li className="list-group-item">Vestibulum at eros</li>
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
+                </li>
+                <li
+                  className="list-group-item"
+                  style={{ verticalAlign: "center" }}
+                >
+                  <input type="checkbox" id="check" />
+                  {` `}
+                  <label htmlFor="check">Cras justo odio</label>
+                  <i
+                    className="fas fa-window-close"
+                    style={{
+                      color: "red",
+                      cursor: "pointer",
+                      float: "right",
+                      fontSize: "20px"
+                    }}
+                  />
+                </li>
               </ul>
               <p />
-              <div className="text-right">
-                <button className="btn btn-success">PPT 만들기</button>
+              <div className="text-center">
+                <button className="btn btn-success">PPT 생성</button>
+                {` `}
+                <button className="btn btn-danger">PPT 제거</button>
               </div>
             </div>
           </div>

@@ -424,67 +424,260 @@ var LyricsList = function LyricsList() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 176
     },
     __self: this
-  }, "Cras justo odio ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "far fa-minus-square",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 177
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 179
-    },
-    __self: this
-  }, "Dapibus ac facilisis in"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
     },
     __self: this
-  }, "Morbi leo risus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 181
-    },
-    __self: this
-  }, "Porta ac consectetur ac"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 182
     },
     __self: this
-  }, "Vestibulum at eros")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184
+      lineNumber: 183
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 210
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 216
+    },
+    __self: this
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 217
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 231
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 233
+    },
+    __self: this
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 234
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 244
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 248
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250
+    },
+    __self: this
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list-group-item",
+    style: {
+      verticalAlign: "center"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 261
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    id: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 265
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 267
+    },
+    __self: this
+  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-window-close",
+    style: {
+      color: "red",
+      cursor: "pointer",
+      float: "right",
+      fontSize: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 268
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 279
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text-right",
+    className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185
+      lineNumber: 280
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 281
     },
     __self: this
-  }, "PPT \uB9CC\uB4E4\uAE30")))))));
+  }, "PPT \uC0DD\uC131"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-danger",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 283
+    },
+    __self: this
+  }, "PPT \uC81C\uAC70")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (LyricsList);

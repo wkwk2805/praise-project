@@ -3,10 +3,23 @@ import Layout from "./Layout";
 import download_ppt from "../util/download_ppt";
 
 const CheckView = () => {
+  const open_view = () => {
+    open(
+      "./lyrics_view",
+      "_blank",
+      "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
+    );
+  };
   return (
     <Layout title="Check View Page">
       <div className="container">
         <div className="text-right" style={{ marginTop: "10px" }}>
+          <button className="btn btn-success" onClick={open_view}>
+            <span>SHOW VIEW</span>
+            {` `}
+            <i className="fas fa-search-plus" />
+          </button>
+          {` `}
           <button className="btn btn-danger" onClick={download_ppt}>
             <span>DOWNLOAD PPT</span>
             {` `}

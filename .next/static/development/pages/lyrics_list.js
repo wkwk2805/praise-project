@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
 
 
 
@@ -74,7 +74,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\LyricsList.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
 
 
 var lyrics = [{
@@ -4140,10 +4140,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js!./":
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \***********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4186,7 +4186,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_list.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_list.js";
 
 
 
@@ -4204,14 +4204,14 @@ var lyrics_list = function lyrics_list() {
 
 /***/ }),
 
-/***/ 2:
-/*!***************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \***************************************************************************************************************************************************/
+/***/ 1:
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_list.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./");
 
 
 /***/ }),
@@ -4227,5 +4227,5 @@ module.exports = dll_afa7b25a60452594c240;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_list.js.map

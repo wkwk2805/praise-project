@@ -1,13 +1,9 @@
 import React from "react";
 import Layout from "./Layout";
-import { useSelector, useDispatch } from "react-redux";
-import { downloadPPT } from "../modules/lyrics";
+
 // list시 카드를 활용해서 하면 좋을듯
 const Home = () => {
-  const lyrics = useSelector(state => state.lyrics);
-  const dispatch = useDispatch();
   const keyEvent = e => {
-    dispatch(downloadPPT());
     switch (e.keyCode) {
       case 13:
         e.target.value && (window.location.href = "./lyrics_list");

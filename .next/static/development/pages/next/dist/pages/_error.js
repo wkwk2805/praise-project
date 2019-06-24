@@ -1,595 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\lyrics_list.js"],{
-
-/***/ "./components/Layout.js":
-/*!******************************!*\
-  !*** ./components/Layout.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
-
-
-
-var Layout = function Layout(_ref) {
-  var children = _ref.children,
-      title = _ref.title;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
-    integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossorigin: "anonymous",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    src: "https://kit.fontawesome.com/9607a2acfb.js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  })), children);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/LyricsList.js":
-/*!**********************************!*\
-  !*** ./components/LyricsList.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
-
-
-var lyrics = [{
-  l_id: 1,
-  title: "title",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩이에요"
-  }]
-}, {
-  l_id: 2,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}, {
-  l_id: 3,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}, {
-  l_id: 4,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}, {
-  l_id: 5,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}, {
-  l_id: 6,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}, {
-  l_id: 7,
-  title: "title2",
-  lyr_img: "no_img.gif",
-  contents: [{
-    c_id: 1,
-    statement: "안녕하세요\n저는 박의2 입니다"
-  }, {
-    c_id: 2,
-    statement: "제 취미는요 코딩2이에요"
-  }]
-}];
-
-var LyricsList = function LyricsList() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "\uAC00\uC0AC\uBAA9\uB85D\uD398\uC774\uC9C0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "input-group mb-3",
-    style: {
-      margin: "20px 0px 0px 0px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text",
-    className: "form-control",
-    placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "input-group-append",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "input-group-text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-search",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col-sm-9",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133
-    },
-    __self: this
-  }, lyrics.map(function (e) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card",
-      style: {
-        width: "16rem",
-        float: "left",
-        margin: "0px 10px 10px 0px"
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 136
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/static/".concat(e.lyr_img),
-      className: "card-img-top",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 144
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-body",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 148
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-      className: "card-title",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 149
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 150
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-      type: "checkbox",
-      id: "title_".concat(e.l_id),
-      style: {
-        width: "20px"
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 151
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-      htmlFor: "title_".concat(e.l_id),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 156
-      },
-      __self: this
-    }, e.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "card-text",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 159
-      },
-      __self: this
-    }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      className: "btn btn-primary",
-      style: {
-        float: "left"
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 161
-      },
-      __self: this
-    }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-sm-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 172
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 173
-    },
-    __self: this
-  }, "\uAC00\uC0AC \uC81C\uBAA9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "list-group list-group-flush",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 176
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 182
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 193
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 216
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 217
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 231
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 233
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 234
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 244
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 248
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 250
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 251
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 261
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 265
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 267
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 268
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 279
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 280
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-success",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 281
-    },
-    __self: this
-  }, "PPT \uC0DD\uC131"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-danger",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 283
-    },
-    __self: this
-  }, "PPT \uC81C\uAC70")))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (LyricsList);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\next\\dist\\pages\\_error.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -698,6 +107,72 @@ module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "./node_mo
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "./node_modules/core-js/library/fn/symbol/iterator.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+module.exports = _classCallCheck;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+
+    _Object$defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+module.exports = _createClass;
 
 /***/ }),
 
@@ -997,6 +472,58 @@ function _typeof(obj) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || _Object$getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+module.exports = _getPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = _Object$create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
 /*!******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
@@ -1011,6 +538,82 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
+
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return assertThisInitialized(self);
+}
+
+module.exports = _possibleConstructorReturn;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+
+var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+
+function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof _Symbol === "function" && _typeof2(_Symbol$iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
 
 /***/ }),
 
@@ -4140,26 +3743,166 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next-server/head.js":
+/*!******************************************!*\
+  !*** ./node_modules/next-server/head.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next-server/dist/lib/head.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/lyrics_list", function() {
-      var page = __webpack_require__(/*! ./pages/lyrics_list.js */ "./pages/lyrics_list.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
+      var page = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
       if(true) {
-        module.hot.accept(/*! ./pages/lyrics_list.js */ "./pages/lyrics_list.js", function() {
-          if(!next.router.components["/lyrics_list"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/lyrics_list.js */ "./pages/lyrics_list.js")
-          next.router.update("/lyrics_list", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
+          if(!next.router.components["/next/dist/pages/_error"]) return
+          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
+          next.router.update("/next/dist/pages/_error", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
     }]);
   
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/pages/_error.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js"));
+
+var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js"));
+
+var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var head_1 = __importDefault(__webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js"));
+
+var statusCodes = {
+  400: 'Bad Request',
+  404: 'This page could not be found',
+  500: 'Internal Server Error',
+  501: 'Not Implemented'
+};
+
+var Error =
+/*#__PURE__*/
+function (_react_1$default$Comp) {
+  (0, _inherits2.default)(Error, _react_1$default$Comp);
+
+  function Error() {
+    (0, _classCallCheck2.default)(this, Error);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Error).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(Error, [{
+    key: "render",
+    value: function render() {
+      var statusCode = this.props.statusCode;
+      var title = statusCodes[statusCode] || 'An unexpected error has occurred';
+      return react_1.default.createElement("div", {
+        style: styles.error
+      }, react_1.default.createElement(head_1.default, null, react_1.default.createElement("title", null, statusCode, ": ", title)), react_1.default.createElement("div", null, react_1.default.createElement("style", {
+        dangerouslySetInnerHTML: {
+          __html: 'body { margin: 0 }'
+        }
+      }), statusCode ? react_1.default.createElement("h1", {
+        style: styles.h1
+      }, statusCode) : null, react_1.default.createElement("div", {
+        style: styles.desc
+      }, react_1.default.createElement("h2", {
+        style: styles.h2
+      }, title, "."))));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var res = _ref.res,
+          err = _ref.err;
+      var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+      return {
+        statusCode: statusCode
+      };
+    }
+  }]);
+  return Error;
+}(react_1.default.Component);
+
+Error.displayName = 'ErrorPage';
+exports.default = Error;
+var styles = {
+  error: {
+    color: '#000',
+    background: '#fff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    height: '100vh',
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  desc: {
+    display: 'inline-block',
+    textAlign: 'left',
+    lineHeight: '49px',
+    height: '49px',
+    verticalAlign: 'middle'
+  },
+  h1: {
+    display: 'inline-block',
+    borderRight: '1px solid rgba(0, 0, 0,.3)',
+    margin: 0,
+    marginRight: '20px',
+    padding: '10px 23px 10px 0',
+    fontSize: '24px',
+    fontWeight: 500,
+    verticalAlign: 'top'
+  },
+  h2: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    lineHeight: 'inherit',
+    margin: 0,
+    padding: 0
+  }
+};
 
 /***/ }),
 
@@ -4174,44 +3917,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240
 
 /***/ }),
 
-/***/ "./pages/lyrics_list.js":
-/*!******************************!*\
-  !*** ./pages/lyrics_list.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_list.js";
-
-
-
-var lyrics_list = function lyrics_list() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_LyricsList__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (lyrics_list);
-
-/***/ }),
-
 /***/ 1:
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
-  \*******************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./");
 
 
 /***/ }),
@@ -4228,4 +3941,4 @@ module.exports = dll_afa7b25a60452594c240;
 /***/ })
 
 },[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=lyrics_list.js.map
+//# sourceMappingURL=_error.js.map

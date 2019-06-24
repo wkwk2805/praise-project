@@ -6,6 +6,8 @@ const lyrics = [
     l_id: 1,
     title: "title",
     lyr_img: "no_img.gif",
+    code: "E",
+    tag: "",
     contents: [
       {
         c_id: 1,

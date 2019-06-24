@@ -105,12 +105,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Home.js";
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _modules_lyrics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/lyrics */ "./modules/lyrics.js");
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Home.js";
+
+
 
  // list시 카드를 활용해서 하면 좋을듯
 
 var Home = function Home() {
+  var lyrics = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["useSelector"])(function (state) {
+    return state.lyrics;
+  });
+  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["useDispatch"])();
+
   var keyEvent = function keyEvent(e) {
+    dispatch(Object(_modules_lyrics__WEBPACK_IMPORTED_MODULE_3__["downloadPPT"])());
+
     switch (e.keyCode) {
       case 13:
         e.target.value && (window.location.href = "./lyrics_list");
@@ -121,14 +133,14 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -138,14 +150,14 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 24
     },
     __self: this
   }, "\uCC2C\uC591 \uAC00\uC0AC \uAC80\uC0C9 \uC5D4\uC9C4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -155,7 +167,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -165,7 +177,7 @@ var Home = function Home() {
     onKeyDown: keyEvent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 29
     },
     __self: this
   })))));
@@ -188,7 +200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
 
 
 
@@ -237,6 +249,63 @@ var Layout = function Layout(_ref) {
 
 /***/ }),
 
+/***/ "./modules/lyrics.js":
+/*!***************************!*\
+  !*** ./modules/lyrics.js ***!
+  \***************************/
+/*! exports provided: downloadPPT, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_0__);
+//import
+ // action
+
+var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
+var downloadPPT = function downloadPPT() {
+  return {
+    type: DOWNLOAD_PPT
+  };
+}; // initialState
+
+var initialState = {}; //Reducers
+
+var lyrics = function lyrics() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case DOWNLOAD_PPT:
+      download_ppt(state);
+      return state;
+
+    default:
+      return state;
+  }
+}; // create functions
+
+
+var download_ppt = function download_ppt(state) {
+  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default.a();
+  pptx.setTitle("Hello world Title");
+  pptx.setLayout({
+    name: "A3",
+    width: 16.5,
+    height: 11.7
+  });
+  var slide = pptx.addNewSlide("MASTER");
+  slide.back = "000000";
+  slide.color = "FFFFFF";
+  pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (lyrics);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -249,7 +318,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Home */ "./components/Home.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\index.js";
 
 
 
@@ -274,7 +343,7 @@ var index = function index() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -290,6 +359,17 @@ module.exports = require("next/head");
 
 /***/ }),
 
+/***/ "pptxgenjs":
+/*!****************************!*\
+  !*** external "pptxgenjs" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("pptxgenjs");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -298,6 +378,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
 
 /***/ })
 

@@ -1,6 +1,9 @@
 import React from "react";
 import App, { Container } from "next/app";
-
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import rootReducer from "../modules/index";
+const store = createStore(rootReducer);
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
@@ -17,7 +20,9 @@ class MyApp extends App {
 
     return (
       <Container>
-        <Component {...pageProps} />
+        <Provider store={store}>
+          <Component {...pageProps} />
+        </Provider>
       </Container>
     );
   }

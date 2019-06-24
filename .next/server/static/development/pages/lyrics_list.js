@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
 
 
 
@@ -167,13 +167,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\LyricsList.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
 
 
 var lyrics = [{
   l_id: 1,
   title: "title",
   lyr_img: "no_img.gif",
+  code: "E",
+  tag: "",
   contents: [{
     c_id: 1,
     statement: "안녕하세요\n저는 박의 입니다"
@@ -254,14 +256,14 @@ var LyricsList = function LyricsList() {
     title: "\uAC00\uC0AC\uBAA9\uB85D\uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -271,7 +273,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 119
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -280,42 +282,42 @@ var LyricsList = function LyricsList() {
     placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 123
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "input-group-append",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "input-group-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 130
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 134
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "col-sm-9",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 135
     },
     __self: this
   }, lyrics.map(function (e) {
@@ -328,7 +330,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 136
+        lineNumber: 138
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -336,27 +338,27 @@ var LyricsList = function LyricsList() {
       className: "card-img-top",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 144
+        lineNumber: 146
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 148
+        lineNumber: 150
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 149
+        lineNumber: 151
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150
+        lineNumber: 152
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -367,21 +369,21 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 151
+        lineNumber: 153
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
       htmlFor: "title_".concat(e.l_id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156
+        lineNumber: 158
       },
       __self: this
     }, e.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 159
+        lineNumber: 161
       },
       __self: this
     }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -391,7 +393,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 161
+        lineNumber: 163
       },
       __self: this
     }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
@@ -399,27 +401,27 @@ var LyricsList = function LyricsList() {
     className: "col-sm-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 174
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 175
     },
     __self: this
   }, "\uAC00\uC0AC \uC81C\uBAA9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 176
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "list-group list-group-flush",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -429,24 +431,24 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 178
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 182
     },
     __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184
+    },
+    __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-window-close",
     style: {
@@ -457,7 +459,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 185
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -467,24 +469,24 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 195
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 199
     },
     __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201
+    },
+    __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-window-close",
     style: {
@@ -495,7 +497,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 202
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -505,24 +507,24 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210
+      lineNumber: 212
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 216
     },
     __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218
+    },
+    __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-window-close",
     style: {
@@ -533,7 +535,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 219
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -543,24 +545,24 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227
+      lineNumber: 229
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 231
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 233
     },
     __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 235
+    },
+    __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-window-close",
     style: {
@@ -571,7 +573,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
+      lineNumber: 236
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -581,24 +583,24 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 246
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
     id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 248
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-    htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 250
     },
     __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "check",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 252
+    },
+    __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-window-close",
     style: {
@@ -609,7 +611,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251
+      lineNumber: 253
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -619,7 +621,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261
+      lineNumber: 263
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -627,14 +629,14 @@ var LyricsList = function LyricsList() {
     id: "check",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 267
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "check",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267
+      lineNumber: 269
     },
     __self: this
   }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -647,47 +649,47 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268
+      lineNumber: 270
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279
+      lineNumber: 281
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280
+      lineNumber: 282
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281
+      lineNumber: 283
     },
     __self: this
   }, "PPT \uC0DD\uC131"), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-danger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283
+      lineNumber: 285
     },
     __self: this
   }, "PPT \uC81C\uAC70"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 284
+      lineNumber: 286
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 285
+      lineNumber: 287
     },
     __self: this
   }, "\uC545\uBCF4\uB2E4\uC6B4\uB85C\uB4DC")))))));
@@ -709,7 +711,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_list.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_list.js";
 
 
 
@@ -727,14 +729,14 @@ var lyrics_list = function lyrics_list() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!************************************!*\
   !*** multi ./pages/lyrics_list.js ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\lyrics_list.js */"./pages/lyrics_list.js");
+module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\lyrics_list.js */"./pages/lyrics_list.js");
 
 
 /***/ }),

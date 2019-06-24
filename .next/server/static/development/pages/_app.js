@@ -93,6 +93,84 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./modules/index.js":
+/*!**************************!*\
+  !*** ./modules/index.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "redux");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lyrics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lyrics */ "./modules/lyrics.js");
+
+
+var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  lyrics: _lyrics__WEBPACK_IMPORTED_MODULE_1__["default"]
+});
+/* harmony default export */ __webpack_exports__["default"] = (rootReducer);
+
+/***/ }),
+
+/***/ "./modules/lyrics.js":
+/*!***************************!*\
+  !*** ./modules/lyrics.js ***!
+  \***************************/
+/*! exports provided: downloadPPT, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_0__);
+//import
+ // action
+
+var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
+var downloadPPT = function downloadPPT() {
+  return {
+    type: DOWNLOAD_PPT
+  };
+}; // initialState
+
+var initialState = {}; //Reducers
+
+var lyrics = function lyrics() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case DOWNLOAD_PPT:
+      download_ppt(state);
+      return state;
+
+    default:
+      return state;
+  }
+}; // create functions
+
+
+var download_ppt = function download_ppt(state) {
+  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default.a();
+  pptx.setTitle("Hello world Title");
+  pptx.setLayout({
+    name: "A3",
+    width: 16.5,
+    height: 11.7
+  });
+  var slide = pptx.addNewSlide("MASTER");
+  slide.back = "000000";
+  slide.color = "FFFFFF";
+  pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (lyrics);
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
@@ -952,6 +1030,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! redux */ "redux");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _modules_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../modules/index */ "./modules/index.js");
 
 
 
@@ -963,6 +1046,10 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\_app.js";
 
 
+
+
+
+var store = Object(redux__WEBPACK_IMPORTED_MODULE_11__["createStore"])(_modules_index__WEBPACK_IMPORTED_MODULE_12__["default"]);
 
 var MyApp =
 /*#__PURE__*/
@@ -984,16 +1071,23 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
+        store: store,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 24
         },
         __self: this
-      })));
+      }))));
     }
   }], [{
     key: "getInitialProps",
@@ -1170,6 +1264,17 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ "pptxgenjs":
+/*!****************************!*\
+  !*** external "pptxgenjs" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("pptxgenjs");
+
+/***/ }),
+
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -1189,6 +1294,28 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
+
+/***/ }),
+
+/***/ "redux":
+/*!************************!*\
+  !*** external "redux" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("redux");
 
 /***/ }),
 

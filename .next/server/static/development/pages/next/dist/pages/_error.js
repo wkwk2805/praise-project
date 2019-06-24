@@ -88,7 +88,11 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 4);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+>>>>>>> 36280249f17e2779c9cbcf5f72ad3d022ab31a04
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -498,14 +502,22 @@ var styles = {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 4:
+=======
+/***/ 5:
+>>>>>>> 36280249f17e2779c9cbcf5f72ad3d022ab31a04
 /*!******************************************************!*\
   !*** multi ./node_modules/next/dist/pages/_error.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\node_modules\next\dist\pages\_error.js */"./node_modules/next/dist/pages/_error.js");
+=======
+module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\node_modules\next\dist\pages\_error.js */"./node_modules/next/dist/pages/_error.js");
+>>>>>>> 36280249f17e2779c9cbcf5f72ad3d022ab31a04
 
 
 /***/ }),

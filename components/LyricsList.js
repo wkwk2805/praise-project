@@ -283,6 +283,8 @@ const LyricsList = () => {
                 <button className="btn btn-success">PPT 생성</button>
                 {` `}
                 <button className="btn btn-danger">PPT 제거</button>
+                <p />
+                <button className="btn btn-primary">악보다운로드</button>
               </div>
             </div>
           </div>

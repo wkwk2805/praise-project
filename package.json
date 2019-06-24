@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "next": "^8.1.0",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
     "pptxgenjs": "^2.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

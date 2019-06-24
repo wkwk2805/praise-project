@@ -1,6 +1,6 @@
 import PptxGenJS from "pptxgenjs";
 
-const download_ppt = obj => {
+const download_ppt = state => {
   let pptx = new PptxGenJS();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({ name: "A3", width: 16.5, height: 11.7 });

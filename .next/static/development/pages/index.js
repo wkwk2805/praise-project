@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Home.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Home.js";
 
  // list시 카드를 활용해서 하면 좋을듯
 
@@ -95,7 +95,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
 
 
 
@@ -3693,10 +3693,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Cindex.js!./":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Cindex.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3718,12 +3718,12 @@ exports.default = withSideEffect;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_afa7b25a60452594c240 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_afa7b25a60452594c240 */ "dll-reference dll_afa7b25a60452594c240"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -3739,7 +3739,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Home */ "./components/Home.js");
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\index.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\index.js";
 
 
 
@@ -3758,25 +3758,25 @@ var index = function index() {
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_afa7b25a60452594c240":
+/***/ "dll-reference dll_7aff549c98b978433226":
 /*!*******************************************!*\
-  !*** external "dll_afa7b25a60452594c240" ***!
+  !*** external "dll_7aff549c98b978433226" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_afa7b25a60452594c240;
+module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 

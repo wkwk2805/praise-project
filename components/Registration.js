@@ -3,6 +3,11 @@ import Layout from "./Layout";
 
 //가사 등록 컴포넌트
 const Registration = () => {
+  const tapEvent = e => {
+    if (e.keyCode === 9) {
+      e.preventDefault();
+    }
+  };
   return (
     <Layout title="가사등록 페이지">
       <div className="container">
@@ -41,15 +46,8 @@ const Registration = () => {
             type="text"
             class="form-control"
             placeholder="탭으로 TAG를 구분 해주세요"
-          />
-        </div>
-        <div class="form-group col-md-2" style={{ float: "left" }}>
-          <input
-            type="text"
-            class="form-control form-control-lg"
-            readOnly
-            style={{ backgroundColor: "white" }}
-            placeholder="파일이름"
+            name="tag"
+            onKeyDown={tapEvent}
           />
         </div>
         <input type="file" id="uploadFile" style={{ display: "none" }} />
@@ -65,7 +63,15 @@ const Registration = () => {
             <div style={{ cursor: "pointer" }}>upload</div>
           </label>
         </button>
-
+        <div style={{ display: "inline-block", marginLeft: "10px" }}>
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            readOnly
+            style={{ backgroundColor: "white" }}
+            placeholder="파일이름"
+          />
+        </div>
         <div className="text-right">
           <button className="btn btn-primary">
             <span>등록</span> {` `}

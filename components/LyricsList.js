@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
+import Link from "next/link";
 
 const lyrics = [
   {
@@ -280,7 +281,9 @@ const LyricsList = () => {
               </ul>
               <p />
               <div className="text-center">
-                <button className="btn btn-success">PPT 생성</button>
+                <Link href="/lyrics_check_view">
+                  <button className="btn btn-success">PPT 생성</button>
+                </Link>
                 {` `}
                 <button className="btn btn-danger">PPT 제거</button>
                 <p />

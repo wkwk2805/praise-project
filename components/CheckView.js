@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
-import download_ppt from "../util/download_ppt";
+import Link from "next/link";
 
 const CheckView = () => {
   const open_view = () => {
@@ -14,13 +14,21 @@ const CheckView = () => {
     <Layout title="Check View Page">
       <div className="container">
         <div className="text-right" style={{ marginTop: "10px" }}>
+          <Link href="/lyrics_list">
+            <button className="btn btn-info">
+              <span>HOME</span>
+              {` `}
+              <i className="fas fa-home" />
+            </button>
+          </Link>
+          {` `}
           <button className="btn btn-success" onClick={open_view}>
             <span>SHOW VIEW</span>
             {` `}
             <i className="fas fa-search-plus" />
           </button>
           {` `}
-          <button className="btn btn-danger" onClick={download_ppt}>
+          <button className="btn btn-danger">
             <span>DOWNLOAD PPT</span>
             {` `}
             <i className="fas fa-download" />

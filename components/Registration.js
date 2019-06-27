@@ -14,6 +14,10 @@ const Registration = () => {
   // 값이 변경될 때마다 값에 대한 내용을 넣어줌
   const insertData = e => {
     setData({ ...data, [e.target.name]: e.target.value });
+    if (e.target.value === "") {
+      delete data[e.target.name];
+      setData(data);
+    }
   };
   // 들어온 값을 데이터 베이스로 넘기기
   const register = e => {

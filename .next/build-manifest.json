@@ -19,11 +19,19 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+<<<<<<< HEAD
+    "/lyrics_check_view": [
+=======
+    "/lyrics_list": [
+>>>>>>> dd54e893356b7414283c0a67752c88ae56eb055c
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/lyrics_list": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/lyrics_registration": [
+    "/lyrics_view": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

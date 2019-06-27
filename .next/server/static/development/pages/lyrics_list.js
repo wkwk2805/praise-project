@@ -106,7 +106,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+<<<<<<< HEAD:.next/server/static/development/pages/lyrics_list.js
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
+=======
 var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
+>>>>>>> dd54e893356b7414283c0a67752c88ae56eb055c:.next/server/static/development/pages/lyrics_list.js
 
 
 
@@ -169,7 +173,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\LyricsList.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
 
 
 
@@ -1274,7 +1278,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
+<<<<<<< HEAD:.next/server/static/development/pages/lyrics_list.js
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_list.js";
+=======
 var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_list.js";
+>>>>>>> dd54e893356b7414283c0a67752c88ae56eb055c:.next/server/static/development/pages/lyrics_list.js
 
 
 
@@ -1299,7 +1307,11 @@ var lyrics_list = function lyrics_list() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD:.next/server/static/development/pages/lyrics_list.js
+module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\lyrics_list.js */"./pages/lyrics_list.js");
+=======
 module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\lyrics_list.js */"./pages/lyrics_list.js");
+>>>>>>> dd54e893356b7414283c0a67752c88ae56eb055c:.next/server/static/development/pages/lyrics_list.js
 
 
 /***/ }),

@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "./Layout";
 
-//가사 등록 컴포넌트
+// 가사 등록 컴포넌트
 const Registration = () => {
+  const [data, setData] = useState({});
+
+  // 나중에 능력 될때 처리하자
   const tapEvent = e => {
     if (e.keyCode === 9) {
       e.preventDefault();
     }
+  };
+  // 값이 변경될 때마다 값에 대한 내용을 넣어줌
+  const insertData = e => {
+    setData({ ...data, [e.target.name]: e.target.value });
+  };
+  // 들어온 값을 데이터 베이스로 넘기기
+  const register = e => {
+    e.preventDefault();
+    console.log(data); //data로 값을 넘길 예정임
   };
   return (
     <Layout title="가사등록 페이지">
@@ -19,10 +31,14 @@ const Registration = () => {
             type="text"
             placeholder="제목"
             className="form-control"
+            name="title"
+            onChange={insertData}
             style={{ margin: "20px 0px 15px 0px" }}
           />
-          <select className="form-control">
-            <option selected>악보코드</option>
+          <select className="form-control" onChange={insertData} name="code">
+            <option selected value="">
+              악보코드
+            </option>
             <option value="C">C 코드</option>
             <option value="D">D 코드</option>
             <option value="E">E 코드</option>
@@ -39,6 +55,8 @@ const Registration = () => {
             rows="10"
             placeholder="가사"
             className="form-control"
+            name="contents"
+            onChange={insertData}
           />
         </div>
         <div class="form-group">
@@ -48,9 +66,16 @@ const Registration = () => {
             placeholder="탭으로 TAG를 구분 해주세요"
             name="tag"
             onKeyDown={tapEvent}
+            onChange={insertData}
           />
         </div>
-        <input type="file" id="uploadFile" style={{ display: "none" }} />
+        <input
+          type="file"
+          id="uploadFile"
+          style={{ display: "none" }}
+          name="img"
+          onChange={insertData}
+        />
         <button className="btn btn-info">
           <label
             htmlFor="uploadFile"
@@ -73,7 +98,7 @@ const Registration = () => {
           />
         </div>
         <div className="text-right">
-          <button className="btn btn-primary">
+          <button type="submit" className="btn btn-primary" onClick={register}>
             <span>등록</span> {` `}
             <i className="fas fa-plus-circle" />
           </button>

@@ -11,7 +11,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/lyrics_check_view": [
+    "/lyrics_list": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

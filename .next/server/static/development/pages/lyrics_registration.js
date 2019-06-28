@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -473,14 +473,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 /* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
 /* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
 
 //import
+
  // action
 
 var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
 var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-var SUBMIT_HANDLER = "lyrics/CHANGE_HANDLER";
+var SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER";
 var downloadPPT = function downloadPPT() {
   return {
     type: DOWNLOAD_PPT
@@ -507,15 +510,14 @@ var lyrics = function lyrics() {
 
   switch (action.type) {
     case DOWNLOAD_PPT:
-      download_ppt(state);
+      onDownloadPpt(state);
       return state;
 
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
 
     case SUBMIT_HANDLER:
-      onSubmitHandler(action.data);
-      return state;
+      return onSubmitHandler(action.data);
 
     default:
       return state;
@@ -524,7 +526,7 @@ var lyrics = function lyrics() {
 // PPT 다운로드 함수
 
 
-var download_ppt = function download_ppt(state) {
+var onDownloadPpt = function onDownloadPpt(state) {
   var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_2___default.a();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({
@@ -540,18 +542,18 @@ var download_ppt = function download_ppt(state) {
 
 
 var onChangeHandler = function onChangeHandler(state, e) {
-  state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value));
+  e.target && (state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
 
   if (e.target.value === "") {
     delete state[e.target.name];
   }
 
   return state;
-}; // 값이 변경된 것을 저장해주는 로직
-
+};
 
 var onSubmitHandler = function onSubmitHandler(data) {
   console.log(data);
+  return data;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
@@ -705,7 +707,7 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!********************************************!*\
   !*** multi ./pages/lyrics_registration.js ***!
   \********************************************/
@@ -714,6 +716,17 @@ var lyrics_registration = function lyrics_registration() {
 
 module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\lyrics_registration.js */"./pages/lyrics_registration.js");
 
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
 
 /***/ }),
 

@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import Layout from "./Layout";
+import { useSelector, useDispatch } from "react-redux";
+import { changeHandler, submitHandler } from "../modules/lyrics";
 
 // 가사 등록 컴포넌트
 const Registration = () => {
-  const [data, setData] = useState({});
+  const datas = useSelector(state => state.lyrics);
+  const dispatch = useDispatch();
 
   // 나중에 능력 될때 처리하자
   const tapEvent = e => {
@@ -11,18 +14,15 @@ const Registration = () => {
       e.preventDefault();
     }
   };
+
   // 값이 변경될 때마다 값에 대한 내용을 넣어줌
-  const insertData = e => {
-    setData({ ...data, [e.target.name]: e.target.value });
-    if (e.target.value === "") {
-      delete data[e.target.name];
-      setData(data);
-    }
+  const onChangeHandler = e => {
+    dispatch(changeHandler(e));
   };
+
   // 들어온 값을 데이터 베이스로 넘기기
-  const register = e => {
-    e.preventDefault();
-    console.log(data); //data로 값을 넘길 예정임
+  const onSubmitHandler = () => {
+    dispatch(submitHandler(datas));
   };
   return (
     <Layout title="가사등록 페이지">
@@ -36,13 +36,15 @@ const Registration = () => {
             placeholder="제목"
             className="form-control"
             name="title"
-            onChange={insertData}
+            onChange={onChangeHandler}
             style={{ margin: "20px 0px 15px 0px" }}
           />
-          <select className="form-control" onChange={insertData} name="code">
-            <option selected value="">
-              악보코드
-            </option>
+          <select
+            className="form-control"
+            onChange={onChangeHandler}
+            name="code"
+          >
+            <option value="">악보코드</option>
             <option value="C">C 코드</option>
             <option value="D">D 코드</option>
             <option value="E">E 코드</option>
@@ -60,17 +62,17 @@ const Registration = () => {
             placeholder="가사"
             className="form-control"
             name="contents"
-            onChange={insertData}
+            onChange={onChangeHandler}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="탭으로 TAG를 구분 해주세요"
             name="tag"
             onKeyDown={tapEvent}
-            onChange={insertData}
+            onChange={onChangeHandler}
           />
         </div>
         <input
@@ -78,7 +80,7 @@ const Registration = () => {
           id="uploadFile"
           style={{ display: "none" }}
           name="img"
-          onChange={insertData}
+          onChange={onChangeHandler}
         />
         <button className="btn btn-info">
           <label
@@ -95,14 +97,18 @@ const Registration = () => {
         <div style={{ display: "inline-block", marginLeft: "10px" }}>
           <input
             type="text"
-            class="form-control form-control-lg"
+            className="form-control form-control-lg"
             readOnly
             style={{ backgroundColor: "white" }}
             placeholder="파일이름"
           />
         </div>
         <div className="text-right">
-          <button type="submit" className="btn btn-primary" onClick={register}>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={onSubmitHandler}
+          >
             <span>등록</span> {` `}
             <i className="fas fa-plus-circle" />
           </button>

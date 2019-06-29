@@ -118,11 +118,13 @@ var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
 /*!***************************!*\
   !*** ./modules/lyrics.js ***!
   \***************************/
-/*! exports provided: downloadPPT, changeHandler, submitHandler, default */
+/*! exports provided: success, failed, downloadPPT, changeHandler, submitHandler, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "success", function() { return success; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "failed", function() { return failed; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "submitHandler", function() { return submitHandler; });
@@ -130,17 +132,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 /* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
 /* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
 
 //import
-
  // action
+// action
 
 var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
+var SUCCESS = "lyrics/DOWNLOAD_PPT";
+var FAILED = "lyrics/DOWNLOAD_PPT";
 var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-var SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER";
+var SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER"; //action creator
+
+var success = function success() {
+  return {
+    type: SUCCESS
+  };
+};
+var failed = function failed() {
+  return {
+    type: FAILED
+  };
+};
 var downloadPPT = function downloadPPT() {
   return {
     type: DOWNLOAD_PPT
@@ -176,6 +189,12 @@ var lyrics = function lyrics() {
     case SUBMIT_HANDLER:
       return onSubmitHandler(action.data);
 
+    case SUCCESS:
+      return onSuccess();
+
+    case SUCCESS:
+      return onFailed();
+
     default:
       return state;
   }
@@ -206,14 +225,64 @@ var onChangeHandler = function onChangeHandler(state, e) {
   }
 
   return state;
+}; // redux-saga를 위한 사전준비
+
+
+var onSuccess = function onSuccess() {
+  return {
+    result: true,
+    message: "성공"
+  };
 };
 
-var onSubmitHandler = function onSubmitHandler(data) {
-  console.log(data);
-  return data;
+var onFailed = function onFailed() {
+  return {
+    result: false,
+    message: "실패"
+  };
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
+
+/***/ }),
+
+/***/ "./modules/sagas.js":
+/*!**************************!*\
+  !*** ./modules/sagas.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux-saga/effects */ "redux-saga/effects");
+/* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var _marked =
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(rootSaga);
+
+
+
+function rootSaga() {
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function rootSaga$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          console.log("rootSaga");
+
+        case 1:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _marked);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (rootSaga);
 
 /***/ }),
 
@@ -1187,6 +1256,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! redux */ "redux");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _modules_index__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../modules/index */ "./modules/index.js");
+/* harmony import */ var redux_saga__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! redux-saga */ "redux-saga");
+/* harmony import */ var redux_saga__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(redux_saga__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _modules_sagas__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../modules/sagas */ "./modules/sagas.js");
 
 
 
@@ -1195,13 +1267,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\_app.js";
 
 
 
 
 
-var store = Object(redux__WEBPACK_IMPORTED_MODULE_11__["createStore"])(_modules_index__WEBPACK_IMPORTED_MODULE_12__["default"]);
+
+ // redux-saga 호출
+
+var sagaMiddleware = redux_saga__WEBPACK_IMPORTED_MODULE_13___default()(); // redux-saga와 store연결
+
+var store = Object(redux__WEBPACK_IMPORTED_MODULE_11__["createStore"])(_modules_index__WEBPACK_IMPORTED_MODULE_12__["default"], Object(redux__WEBPACK_IMPORTED_MODULE_11__["applyMiddleware"])(sagaMiddleware)); // redux-saga에 rootSaga연결
+
+sagaMiddleware.run(_modules_sagas__WEBPACK_IMPORTED_MODULE_14__["default"]);
 
 var MyApp =
 /*#__PURE__*/
@@ -1223,20 +1302,20 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
         store: store,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 32
         },
         __self: this
       }))));
@@ -1303,17 +1382,6 @@ function (_App) {
 
 module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
-
-/***/ }),
-
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
 
 /***/ }),
 
@@ -1512,6 +1580,28 @@ module.exports = require("react-redux");
 /***/ (function(module, exports) {
 
 module.exports = require("redux");
+
+/***/ }),
+
+/***/ "redux-saga":
+/*!*****************************!*\
+  !*** external "redux-saga" ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("redux-saga");
+
+/***/ }),
+
+/***/ "redux-saga/effects":
+/*!*************************************!*\
+  !*** external "redux-saga/effects" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("redux-saga/effects");
 
 /***/ }),
 

@@ -1,12 +1,17 @@
 //import
 import PptxGenJS from "pptxgenjs";
-import axios from "axios";
+// action
 
 // action
 const DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
+const SUCCESS = "lyrics/DOWNLOAD_PPT";
+const FAILED = "lyrics/DOWNLOAD_PPT";
 const CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
 const SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER";
 
+//action creator
+export const success = () => ({ type: SUCCESS });
+export const failed = () => ({ type: FAILED });
 export const downloadPPT = () => ({ type: DOWNLOAD_PPT });
 export const changeHandler = e => ({ type: CHANGE_HANDLER, e: e });
 export const submitHandler = data => ({ type: SUBMIT_HANDLER, data: data });
@@ -24,6 +29,10 @@ const lyrics = (state = initialState, action) => {
       return onChangeHandler(state, action.e);
     case SUBMIT_HANDLER:
       return onSubmitHandler(action.data);
+    case SUCCESS:
+      return onSuccess();
+    case SUCCESS:
+      return onFailed();
     default:
       return state;
   }
@@ -50,10 +59,12 @@ const onChangeHandler = (state, e) => {
   }
   return state;
 };
-
-const onSubmitHandler = data => {
-  console.log(data);
-  return data;
+// redux-saga를 위한 사전준비
+const onSuccess = () => {
+  return { result: true, message: "성공" };
+};
+const onFailed = () => {
+  return { result: false, message: "실패" };
 };
 
 export default lyrics;

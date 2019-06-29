@@ -1,9 +1,18 @@
 import React from "react";
 import App, { Container } from "next/app";
 import { Provider } from "react-redux";
-import { createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
 import rootReducer from "../modules/index";
-const store = createStore(rootReducer);
+import createSagaMiddleware from "redux-saga";
+import rootSaga from "../modules/sagas";
+
+// redux-saga 호출
+const sagaMiddleware = createSagaMiddleware();
+// redux-saga와 store연결
+const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
+// redux-saga에 rootSaga연결
+sagaMiddleware.run(rootSaga);
+
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};

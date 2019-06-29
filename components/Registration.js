@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "./Layout";
 import { useSelector, useDispatch } from "react-redux";
 import { changeHandler, submitHandler } from "../modules/lyrics";
+import { insertData } from "../modules/sagas";
 
 // 가사 등록 컴포넌트
 const Registration = () => {
   const datas = useSelector(state => state.lyrics);
   const dispatch = useDispatch();
-
+  useEffect(() => {
+    datas.axiosData && alert(datas.axiosData.data);
+  }, [datas]);
   // 나중에 능력 될때 처리하자
   const tapEvent = e => {
     if (e.keyCode === 9) {
@@ -20,10 +23,10 @@ const Registration = () => {
     dispatch(changeHandler(e));
   };
 
-  // 들어온 값을 데이터 베이스로 넘기기
-  const onSubmitHandler = () => {
-    dispatch(submitHandler(datas));
+  const _onSubmit = () => {
+    dispatch(insertData(datas));
   };
+
   return (
     <Layout title="가사등록 페이지">
       <div className="container">
@@ -104,11 +107,7 @@ const Registration = () => {
           />
         </div>
         <div className="text-right">
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={onSubmitHandler}
-          >
+          <button className="btn btn-primary" onClick={_onSubmit}>
             <span>등록</span> {` `}
             <i className="fas fa-plus-circle" />
           </button>

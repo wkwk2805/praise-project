@@ -118,16 +118,15 @@ var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
 /*!***************************!*\
   !*** ./modules/lyrics.js ***!
   \***************************/
-/*! exports provided: success, failed, downloadPPT, changeHandler, submitHandler, default */
+/*! exports provided: axiosResult, axiosError, downloadPPT, changeHandler, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "success", function() { return success; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "failed", function() { return failed; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosResult", function() { return axiosResult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosError", function() { return axiosError; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "submitHandler", function() { return submitHandler; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 /* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
@@ -136,22 +135,21 @@ __webpack_require__.r(__webpack_exports__);
 
 //import
  // action
-// action
 
 var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
-var SUCCESS = "lyrics/DOWNLOAD_PPT";
-var FAILED = "lyrics/DOWNLOAD_PPT";
-var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-var SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER"; //action creator
+var AXIOS_RESULT = "lyrics/AXIOS_RESULT";
+var AXIOS_ERROR = "lyrics/AXIOS_ERROR";
+var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER"; //action creator
 
-var success = function success() {
+var axiosResult = function axiosResult(res) {
   return {
-    type: SUCCESS
+    type: AXIOS_RESULT,
+    res: res
   };
 };
-var failed = function failed() {
+var axiosError = function axiosError() {
   return {
-    type: FAILED
+    type: AXIOS_ERROR
   };
 };
 var downloadPPT = function downloadPPT() {
@@ -164,12 +162,6 @@ var changeHandler = function changeHandler(e) {
     type: CHANGE_HANDLER,
     e: e
   };
-};
-var submitHandler = function submitHandler(data) {
-  return {
-    type: SUBMIT_HANDLER,
-    data: data
-  };
 }; // initialState
 
 var initialState = {}; //Reducers
@@ -180,20 +172,16 @@ var lyrics = function lyrics() {
 
   switch (action.type) {
     case DOWNLOAD_PPT:
-      onDownloadPpt(state);
-      return state;
+      return onDownloadPpt(state);
 
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
 
-    case SUBMIT_HANDLER:
-      return onSubmitHandler(action.data);
+    case AXIOS_RESULT:
+      return onAxiosResult(state, action.res);
 
-    case SUCCESS:
-      return onSuccess();
-
-    case SUCCESS:
-      return onFailed();
+    case AXIOS_ERROR:
+      return onAxiosError();
 
     default:
       return state;
@@ -214,10 +202,12 @@ var onDownloadPpt = function onDownloadPpt(state) {
   slide.back = "000000";
   slide.color = "FFFFFF";
   pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
+  return "다운로드 성공";
 }; // 값이 변경될 때마다 값에 대한 내용을 넣어줌
 
 
 var onChangeHandler = function onChangeHandler(state, e) {
+  delete state["axiosData"];
   e.target && (state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
 
   if (e.target.value === "") {
@@ -228,18 +218,14 @@ var onChangeHandler = function onChangeHandler(state, e) {
 }; // redux-saga를 위한 사전준비
 
 
-var onSuccess = function onSuccess() {
-  return {
-    result: true,
-    message: "성공"
-  };
+var onAxiosResult = function onAxiosResult(state, data) {
+  return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, {
+    axiosData: data
+  });
 };
 
-var onFailed = function onFailed() {
-  return {
-    result: false,
-    message: "실패"
-  };
+var onAxiosError = function onAxiosError() {
+  return "에러가 발생하였습니다.";
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
@@ -250,38 +236,138 @@ var onFailed = function onFailed() {
 /*!**************************!*\
   !*** ./modules/sagas.js ***!
   \**************************/
-/*! exports provided: default */
+/*! exports provided: insertData, updateData, deleteData, rootSaga, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "insertData", function() { return insertData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateData", function() { return updateData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteData", function() { return deleteData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rootSaga", function() { return rootSaga; });
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux-saga/effects */ "redux-saga/effects");
 /* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lyrics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lyrics */ "./modules/lyrics.js");
 
 
 var _marked =
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(onAxiosData),
+    _marked2 =
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(axiosSaga),
+    _marked3 =
 /*#__PURE__*/
 _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(rootSaga);
 
 
 
-function rootSaga() {
-  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function rootSaga$(_context) {
+
+var INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
+
+var UPDATE_DATA = "sagas/UPDATE_DATA";
+var DELETE_DATA = "sagas/DELETE_DATA";
+var insertData = function insertData(param) {
+  return {
+    type: INSERT_DATA,
+    payload: "insert",
+    param: param
+  };
+};
+var updateData = function updateData() {
+  return {
+    type: UPDATE_DATA,
+    payload: "update"
+  };
+};
+var deleteData = function deleteData() {
+  return {
+    type: DELETE_DATA,
+    payload: "delete"
+  };
+};
+
+var axiosData = function axiosData(payload, param) {
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("http://localhost:3001/api/".concat(payload), param);
+}; // dispatch => checking =>
+
+
+function onAxiosData(action) {
+  var res;
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function onAxiosData$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          console.log("rootSaga");
+          _context.prev = 0;
+          _context.next = 3;
+          return axiosData(action.payload, action.param);
 
-        case 1:
+        case 3:
+          res = _context.sent;
+          _context.next = 6;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
+
+        case 6:
+          _context.next = 12;
+          break;
+
+        case 8:
+          _context.prev = 8;
+          _context.t0 = _context["catch"](0);
+          _context.next = 12;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
+
+        case 12:
         case "end":
           return _context.stop();
       }
     }
-  }, _marked);
+  }, _marked, null, [[0, 8]]);
 }
 
+function axiosSaga() {
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function axiosSaga$(_context2) {
+    while (1) {
+      switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.next = 2;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])(INSERT_DATA, onAxiosData);
+
+        case 2:
+          _context2.next = 4;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])(UPDATE_DATA, onAxiosData);
+
+        case 4:
+          _context2.next = 6;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])(DELETE_DATA, onAxiosData);
+
+        case 6:
+        case "end":
+          return _context2.stop();
+      }
+    }
+  }, _marked2);
+}
+
+function rootSaga() {
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function rootSaga$(_context3) {
+    while (1) {
+      switch (_context3.prev = _context3.next) {
+        case 0:
+          _context3.next = 2;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["all"])([axiosSaga()]);
+
+        case 2:
+        case "end":
+          return _context3.stop();
+      }
+    }
+  }, _marked3);
+}
 /* harmony default export */ __webpack_exports__["default"] = (rootSaga);
 
 /***/ }),
@@ -1382,6 +1468,17 @@ function (_App) {
 
 module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
 
 /***/ }),
 

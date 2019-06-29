@@ -1,20 +1,17 @@
 //import
 import PptxGenJS from "pptxgenjs";
-// action
 
 // action
 const DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
-const SUCCESS = "lyrics/DOWNLOAD_PPT";
-const FAILED = "lyrics/DOWNLOAD_PPT";
+const AXIOS_RESULT = "lyrics/AXIOS_RESULT";
+const AXIOS_ERROR = "lyrics/AXIOS_ERROR";
 const CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-const SUBMIT_HANDLER = "lyrics/SUBMIT_HANDLER";
 
 //action creator
-export const success = () => ({ type: SUCCESS });
-export const failed = () => ({ type: FAILED });
+export const axiosResult = res => ({ type: AXIOS_RESULT, res: res });
+export const axiosError = () => ({ type: AXIOS_ERROR });
 export const downloadPPT = () => ({ type: DOWNLOAD_PPT });
 export const changeHandler = e => ({ type: CHANGE_HANDLER, e: e });
-export const submitHandler = data => ({ type: SUBMIT_HANDLER, data: data });
 
 // initialState
 const initialState = {};
@@ -23,16 +20,13 @@ const initialState = {};
 const lyrics = (state = initialState, action) => {
   switch (action.type) {
     case DOWNLOAD_PPT:
-      onDownloadPpt(state);
-      return state;
+      return onDownloadPpt(state);
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
-    case SUBMIT_HANDLER:
-      return onSubmitHandler(action.data);
-    case SUCCESS:
-      return onSuccess();
-    case SUCCESS:
-      return onFailed();
+    case AXIOS_RESULT:
+      return onAxiosResult(state, action.res);
+    case AXIOS_ERROR:
+      return onAxiosError();
     default:
       return state;
   }
@@ -49,22 +43,26 @@ const onDownloadPpt = state => {
   slide.back = "000000";
   slide.color = "FFFFFF";
   pptx.save(`가사모음_20190619`);
+  return "다운로드 성공";
 };
 
 // 값이 변경될 때마다 값에 대한 내용을 넣어줌
 const onChangeHandler = (state, e) => {
+  delete state["axiosData"];
   e.target && (state = { ...state, [e.target.name]: e.target.value });
   if (e.target.value === "") {
     delete state[e.target.name];
   }
   return state;
 };
+
 // redux-saga를 위한 사전준비
-const onSuccess = () => {
-  return { result: true, message: "성공" };
+const onAxiosResult = (state, data) => {
+  return { ...state, axiosData: data };
 };
-const onFailed = () => {
-  return { result: false, message: "실패" };
+
+const onAxiosError = () => {
+  return "에러가 발생하였습니다.";
 };
 
 export default lyrics;

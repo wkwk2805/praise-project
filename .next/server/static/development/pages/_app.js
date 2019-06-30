@@ -93,6 +93,65 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./modules/async.js":
+/*!**************************!*\
+  !*** ./modules/async.js ***!
+  \**************************/
+/*! exports provided: axiosResult, axiosError, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosResult", function() { return axiosResult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosError", function() { return axiosError; });
+// action
+var AXIOS_RESULT = "lyrics/AXIOS_RESULT";
+var AXIOS_ERROR = "lyrics/AXIOS_ERROR"; // action creator
+
+var axiosResult = function axiosResult(res) {
+  return {
+    type: AXIOS_RESULT,
+    res: res
+  };
+};
+var axiosError = function axiosError() {
+  return {
+    type: AXIOS_ERROR
+  };
+}; // initialState
+
+var initialState = {}; // reducer
+
+var async = function async() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case AXIOS_RESULT:
+      return onAxiosResult(action.res);
+
+    case AXIOS_ERROR:
+      return onAxiosError();
+
+    default:
+      return state;
+  }
+}; // functions
+
+
+var onAxiosResult = function onAxiosResult(res) {
+  return res;
+};
+
+var onAxiosError = function onAxiosError() {
+  return "에러가 발생하였습니다.";
+}; // export
+
+
+/* harmony default export */ __webpack_exports__["default"] = (async);
+
+/***/ }),
+
 /***/ "./modules/index.js":
 /*!**************************!*\
   !*** ./modules/index.js ***!
@@ -105,10 +164,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "redux");
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(redux__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _lyrics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lyrics */ "./modules/lyrics.js");
+/* harmony import */ var _async__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./async */ "./modules/async.js");
+
 
 
 var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
-  lyrics: _lyrics__WEBPACK_IMPORTED_MODULE_1__["default"]
+  lyrics: _lyrics__WEBPACK_IMPORTED_MODULE_1__["default"],
+  async: _async__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 /* harmony default export */ __webpack_exports__["default"] = (rootReducer);
 
@@ -118,13 +180,11 @@ var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
 /*!***************************!*\
   !*** ./modules/lyrics.js ***!
   \***************************/
-/*! exports provided: axiosResult, axiosError, downloadPPT, changeHandler, default */
+/*! exports provided: downloadPPT, changeHandler, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosResult", function() { return axiosResult; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosError", function() { return axiosError; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
@@ -137,21 +197,8 @@ __webpack_require__.r(__webpack_exports__);
  // action
 
 var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
-var AXIOS_RESULT = "lyrics/AXIOS_RESULT";
-var AXIOS_ERROR = "lyrics/AXIOS_ERROR";
 var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER"; //action creator
 
-var axiosResult = function axiosResult(res) {
-  return {
-    type: AXIOS_RESULT,
-    res: res
-  };
-};
-var axiosError = function axiosError() {
-  return {
-    type: AXIOS_ERROR
-  };
-};
 var downloadPPT = function downloadPPT() {
   return {
     type: DOWNLOAD_PPT
@@ -177,12 +224,6 @@ var lyrics = function lyrics() {
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
 
-    case AXIOS_RESULT:
-      return onAxiosResult(state, action.res);
-
-    case AXIOS_ERROR:
-      return onAxiosError();
-
     default:
       return state;
   }
@@ -203,11 +244,10 @@ var onDownloadPpt = function onDownloadPpt(state) {
   slide.color = "FFFFFF";
   pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
   return "다운로드 성공";
-}; // 값이 변경될 때마다 값에 대한 내용을 넣어줌
+}; // 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
 
 
 var onChangeHandler = function onChangeHandler(state, e) {
-  delete state["axiosData"];
   e.target && (state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
 
   if (e.target.value === "") {
@@ -215,17 +255,6 @@ var onChangeHandler = function onChangeHandler(state, e) {
   }
 
   return state;
-}; // redux-saga를 위한 사전준비
-
-
-var onAxiosResult = function onAxiosResult(state, data) {
-  return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, {
-    axiosData: data
-  });
-};
-
-var onAxiosError = function onAxiosError() {
-  return "에러가 발생하였습니다.";
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
@@ -251,7 +280,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lyrics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lyrics */ "./modules/lyrics.js");
+/* harmony import */ var _async__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./async */ "./modules/async.js");
 
 
 var _marked =
@@ -274,25 +303,27 @@ var DELETE_DATA = "sagas/DELETE_DATA";
 var insertData = function insertData(param) {
   return {
     type: INSERT_DATA,
-    payload: "insert",
+    payload: "put",
     param: param
   };
 };
-var updateData = function updateData() {
+var updateData = function updateData(param) {
   return {
     type: UPDATE_DATA,
-    payload: "update"
+    payload: "patch",
+    param: param
   };
 };
-var deleteData = function deleteData() {
+var deleteData = function deleteData(param) {
   return {
     type: DELETE_DATA,
-    payload: "delete"
+    payload: "delete",
+    param: param
   };
 };
 
 var axiosData = function axiosData(payload, param) {
-  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("http://localhost:3001/api/".concat(payload), param);
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
 }; // dispatch => checking =>
 
 
@@ -309,7 +340,7 @@ function onAxiosData(action) {
         case 3:
           res = _context.sent;
           _context.next = 6;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
         case 6:
           _context.next = 12;
@@ -319,7 +350,7 @@ function onAxiosData(action) {
           _context.prev = 8;
           _context.t0 = _context["catch"](0);
           _context.next = 12;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
         case 12:
         case "end":

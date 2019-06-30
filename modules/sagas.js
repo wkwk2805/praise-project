@@ -1,6 +1,6 @@
 import { call, put, takeEvery, all } from "redux-saga/effects";
 import axios from "axios";
-import { axiosResult, axiosError } from "./lyrics";
+import { axiosResult, axiosError } from "./async";
 
 const INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
 const UPDATE_DATA = "sagas/UPDATE_DATA";
@@ -8,14 +8,22 @@ const DELETE_DATA = "sagas/DELETE_DATA";
 
 export const insertData = param => ({
   type: INSERT_DATA,
-  payload: "insert",
-  param: param
+  payload: "put",
+  param
 });
-export const updateData = () => ({ type: UPDATE_DATA, payload: "update" });
-export const deleteData = () => ({ type: DELETE_DATA, payload: "delete" });
+export const updateData = param => ({
+  type: UPDATE_DATA,
+  payload: "patch",
+  param
+});
+export const deleteData = param => ({
+  type: DELETE_DATA,
+  payload: "delete",
+  param
+});
 
 const axiosData = (payload, param) =>
-  axios.put(`http://localhost:3001/api/${payload}`, param);
+  axios[payload](`http://localhost:3001/api`, param);
 
 // dispatch => checking =>
 function* onAxiosData(action) {

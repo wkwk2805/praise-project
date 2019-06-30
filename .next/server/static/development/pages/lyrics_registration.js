@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -183,13 +183,17 @@ var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react
 var Registration = function Registration() {
   var _React$createElement;
 
-  var datas = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"])(function (state) {
+  var async = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"])(function (state) {
+    return state.async;
+  });
+  var lyrics = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useSelector"])(function (state) {
     return state.lyrics;
   });
   var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["useDispatch"])();
+  var fileNameRef = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    datas.axiosData && alert(datas.axiosData.data);
-  }, [datas]); // 나중에 능력 될때 처리하자
+    async.data && alert(async.data.message);
+  }, [async]); // 나중에 능력 될때 처리하자
 
   var tapEvent = function tapEvent(e) {
     if (e.keyCode === 9) {
@@ -199,32 +203,36 @@ var Registration = function Registration() {
 
 
   var onChangeHandler = function onChangeHandler(e) {
+    if (e.target.type === "file") {
+      fileNameRef.current.value = e.target.value.split(/\\/)[2];
+    }
+
     dispatch(Object(_modules_lyrics__WEBPACK_IMPORTED_MODULE_4__["changeHandler"])(e));
   };
 
   var _onSubmit = function _onSubmit() {
-    dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["insertData"])(datas));
+    dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["insertData"])(lyrics));
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "\uAC00\uC0AC\uB4F1\uB85D \uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
@@ -234,7 +242,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 40
     },
     __self: this
   }, "\uAC00\uC0AC\uB97C \uCD94\uAC00\uD574 \uC8FC\uC138\uC694"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -248,7 +256,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
@@ -257,69 +265,69 @@ var Registration = function Registration() {
     name: "code",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 56
     },
     __self: this
   }, "\uC545\uBCF4\uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "C",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 57
     },
     __self: this
   }, "C \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "D",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 58
     },
     __self: this
   }, "D \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "E",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 59
     },
     __self: this
   }, "E \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "F",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 60
     },
     __self: this
   }, "F \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "G",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 61
     },
     __self: this
   }, "G \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "A",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 62
     },
     __self: this
   }, "A \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "B",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 63
     },
     __self: this
   }, "B \uCF54\uB4DC")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 65
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", (_React$createElement = {
@@ -331,12 +339,12 @@ var Registration = function Registration() {
     className: "form-control"
   }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "name", "contents"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "onChange", onChangeHandler), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__source", {
     fileName: _jsxFileName,
-    lineNumber: 60
+    lineNumber: 66
   }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__self", this), _React$createElement))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -348,7 +356,7 @@ var Registration = function Registration() {
     onChange: onChangeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 78
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -359,16 +367,17 @@ var Registration = function Registration() {
     },
     name: "img",
     onChange: onChangeHandler,
+    accept: "image/jpeg,image/gif,image/png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 87
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
@@ -379,7 +388,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
@@ -390,7 +399,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 100
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -399,7 +408,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 104
     },
     __self: this
   }, "upload"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -409,7 +418,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 107
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -419,17 +428,18 @@ var Registration = function Registration() {
     style: {
       backgroundColor: "white"
     },
-    placeholder: "\uD30C\uC77C\uC774\uB984",
+    placeholder: "\uC545\uBCF4\uC774\uBBF8\uC9C0\uD30C\uC77C",
+    ref: fileNameRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 108
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -437,20 +447,20 @@ var Registration = function Registration() {
     onClick: _onSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 119
     },
     __self: this
   }, "\uB4F1\uB85D"), " ", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fas fa-plus-circle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 120
     },
     __self: this
   })))));
@@ -460,17 +470,74 @@ var Registration = function Registration() {
 
 /***/ }),
 
-/***/ "./modules/lyrics.js":
-/*!***************************!*\
-  !*** ./modules/lyrics.js ***!
-  \***************************/
-/*! exports provided: axiosResult, axiosError, downloadPPT, changeHandler, default */
+/***/ "./modules/async.js":
+/*!**************************!*\
+  !*** ./modules/async.js ***!
+  \**************************/
+/*! exports provided: axiosResult, axiosError, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosResult", function() { return axiosResult; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "axiosError", function() { return axiosError; });
+// action
+var AXIOS_RESULT = "lyrics/AXIOS_RESULT";
+var AXIOS_ERROR = "lyrics/AXIOS_ERROR"; // action creator
+
+var axiosResult = function axiosResult(res) {
+  return {
+    type: AXIOS_RESULT,
+    res: res
+  };
+};
+var axiosError = function axiosError() {
+  return {
+    type: AXIOS_ERROR
+  };
+}; // initialState
+
+var initialState = {}; // reducer
+
+var async = function async() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case AXIOS_RESULT:
+      return onAxiosResult(action.res);
+
+    case AXIOS_ERROR:
+      return onAxiosError();
+
+    default:
+      return state;
+  }
+}; // functions
+
+
+var onAxiosResult = function onAxiosResult(res) {
+  return res;
+};
+
+var onAxiosError = function onAxiosError() {
+  return "에러가 발생하였습니다.";
+}; // export
+
+
+/* harmony default export */ __webpack_exports__["default"] = (async);
+
+/***/ }),
+
+/***/ "./modules/lyrics.js":
+/*!***************************!*\
+  !*** ./modules/lyrics.js ***!
+  \***************************/
+/*! exports provided: downloadPPT, changeHandler, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
@@ -483,21 +550,8 @@ __webpack_require__.r(__webpack_exports__);
  // action
 
 var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
-var AXIOS_RESULT = "lyrics/AXIOS_RESULT";
-var AXIOS_ERROR = "lyrics/AXIOS_ERROR";
 var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER"; //action creator
 
-var axiosResult = function axiosResult(res) {
-  return {
-    type: AXIOS_RESULT,
-    res: res
-  };
-};
-var axiosError = function axiosError() {
-  return {
-    type: AXIOS_ERROR
-  };
-};
 var downloadPPT = function downloadPPT() {
   return {
     type: DOWNLOAD_PPT
@@ -523,12 +577,6 @@ var lyrics = function lyrics() {
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
 
-    case AXIOS_RESULT:
-      return onAxiosResult(state, action.res);
-
-    case AXIOS_ERROR:
-      return onAxiosError();
-
     default:
       return state;
   }
@@ -549,11 +597,10 @@ var onDownloadPpt = function onDownloadPpt(state) {
   slide.color = "FFFFFF";
   pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
   return "다운로드 성공";
-}; // 값이 변경될 때마다 값에 대한 내용을 넣어줌
+}; // 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
 
 
 var onChangeHandler = function onChangeHandler(state, e) {
-  delete state["axiosData"];
   e.target && (state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
 
   if (e.target.value === "") {
@@ -561,17 +608,6 @@ var onChangeHandler = function onChangeHandler(state, e) {
   }
 
   return state;
-}; // redux-saga를 위한 사전준비
-
-
-var onAxiosResult = function onAxiosResult(state, data) {
-  return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, {
-    axiosData: data
-  });
-};
-
-var onAxiosError = function onAxiosError() {
-  return "에러가 발생하였습니다.";
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
@@ -597,7 +633,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_saga_effects__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _lyrics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lyrics */ "./modules/lyrics.js");
+/* harmony import */ var _async__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./async */ "./modules/async.js");
 
 
 var _marked =
@@ -620,25 +656,27 @@ var DELETE_DATA = "sagas/DELETE_DATA";
 var insertData = function insertData(param) {
   return {
     type: INSERT_DATA,
-    payload: "insert",
+    payload: "put",
     param: param
   };
 };
-var updateData = function updateData() {
+var updateData = function updateData(param) {
   return {
     type: UPDATE_DATA,
-    payload: "update"
+    payload: "patch",
+    param: param
   };
 };
-var deleteData = function deleteData() {
+var deleteData = function deleteData(param) {
   return {
     type: DELETE_DATA,
-    payload: "delete"
+    payload: "delete",
+    param: param
   };
 };
 
 var axiosData = function axiosData(payload, param) {
-  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("http://localhost:3001/api/".concat(payload), param);
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
 }; // dispatch => checking =>
 
 
@@ -655,7 +693,7 @@ function onAxiosData(action) {
         case 3:
           res = _context.sent;
           _context.next = 6;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
         case 6:
           _context.next = 12;
@@ -665,7 +703,7 @@ function onAxiosData(action) {
           _context.prev = 8;
           _context.t0 = _context["catch"](0);
           _context.next = 12;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_lyrics__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
         case 12:
         case "end":
@@ -877,7 +915,7 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************************!*\
   !*** multi ./pages/lyrics_registration.js ***!
   \********************************************/

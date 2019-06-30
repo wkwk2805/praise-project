@@ -1,16 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Layout from "./Layout";
 import { useSelector, useDispatch } from "react-redux";
-import { changeHandler, submitHandler } from "../modules/lyrics";
+import { changeHandler } from "../modules/lyrics";
 import { insertData } from "../modules/sagas";
 
 // 가사 등록 컴포넌트
 const Registration = () => {
-  const datas = useSelector(state => state.lyrics);
+  const async = useSelector(state => state.async);
+  const lyrics = useSelector(state => state.lyrics);
   const dispatch = useDispatch();
+  const fileNameRef = useRef();
   useEffect(() => {
-    datas.axiosData && alert(datas.axiosData.data);
-  }, [datas]);
+    async.data && alert(async.data.message);
+  }, [async]);
+
   // 나중에 능력 될때 처리하자
   const tapEvent = e => {
     if (e.keyCode === 9) {
@@ -20,11 +23,14 @@ const Registration = () => {
 
   // 값이 변경될 때마다 값에 대한 내용을 넣어줌
   const onChangeHandler = e => {
+    if (e.target.type === "file") {
+      fileNameRef.current.value = e.target.value.split(/\\/)[2];
+    }
     dispatch(changeHandler(e));
   };
 
   const _onSubmit = () => {
-    dispatch(insertData(datas));
+    dispatch(insertData(lyrics));
   };
 
   return (
@@ -84,6 +90,7 @@ const Registration = () => {
           style={{ display: "none" }}
           name="img"
           onChange={onChangeHandler}
+          accept="image/jpeg,image/gif,image/png"
         />
         <button className="btn btn-info">
           <label
@@ -103,7 +110,8 @@ const Registration = () => {
             className="form-control form-control-lg"
             readOnly
             style={{ backgroundColor: "white" }}
-            placeholder="파일이름"
+            placeholder="악보이미지파일"
+            ref={fileNameRef}
           />
         </div>
         <div className="text-right">

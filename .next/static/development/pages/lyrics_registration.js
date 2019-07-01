@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
 
 
 
@@ -79,7 +79,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_lyrics__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/lyrics */ "./modules/lyrics.js");
 /* harmony import */ var _modules_sagas__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/sagas */ "./modules/sagas.js");
 
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Registration.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Registration.js";
 
 
 
@@ -524,7 +524,7 @@ var onChangeHandler = function onChangeHandler(state, e) {
 /*!**************************!*\
   !*** ./modules/sagas.js ***!
   \**************************/
-/*! exports provided: insertData, updateData, deleteData, rootSaga, default */
+/*! exports provided: insertData, updateData, deleteData, uploadFile, rootSaga, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -532,6 +532,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "insertData", function() { return insertData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateData", function() { return updateData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteData", function() { return deleteData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uploadFile", function() { return uploadFile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rootSaga", function() { return rootSaga; });
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
@@ -558,11 +559,13 @@ var INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
 
 var UPDATE_DATA = "sagas/UPDATE_DATA";
 var DELETE_DATA = "sagas/DELETE_DATA";
+var UPLOAD_FILE = "sagas/UPLOAD_FILE";
 var insertData = function insertData(param) {
   return {
     type: INSERT_DATA,
     payload: "put",
-    param: param
+    param: param,
+    formData: param.formData
   };
 };
 var updateData = function updateData(param) {
@@ -579,9 +582,19 @@ var deleteData = function deleteData(param) {
     param: param
   };
 };
+var uploadFile = function uploadFile(param) {
+  return {
+    type: UPLOAD_FILE,
+    param: param
+  };
+};
 
 var axiosData = function axiosData(payload, param) {
   return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
+};
+
+var axiosFile = function axiosFile(param) {
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("http://localhost:3001/api/upload", param);
 }; // dispatch => checking =>
 
 
@@ -598,24 +611,28 @@ function onAxiosData(action) {
         case 3:
           res = _context.sent;
           _context.next = 6;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
+          return axiosFile(action.formData);
 
         case 6:
-          _context.next = 12;
-          break;
+          _context.next = 8;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
         case 8:
-          _context.prev = 8;
+          _context.next = 14;
+          break;
+
+        case 10:
+          _context.prev = 10;
           _context.t0 = _context["catch"](0);
-          _context.next = 12;
+          _context.next = 14;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
-        case 12:
+        case 14:
         case "end":
           return _context.stop();
       }
     }
-  }, _marked, null, [[0, 8]]);
+  }, _marked, null, [[0, 10]]);
 }
 
 function axiosSaga() {
@@ -26106,10 +26123,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js!./":
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_registration.js!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -42228,7 +42245,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Registration__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Registration */ "./components/Registration.js");
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_registration.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_registration.js";
 
 
 
@@ -42312,14 +42329,14 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 8:
-/*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
-  \***********************************************************************************************************************************************************************************************************************/
+/***/ 9:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_registration.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_registration&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_registration.js!./");
 
 
 /***/ }),
@@ -42335,5 +42352,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_registration.js.map

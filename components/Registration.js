@@ -11,7 +11,10 @@ const Registration = () => {
   const dispatch = useDispatch();
   const fileNameRef = useRef();
   useEffect(() => {
-    async.data && alert(async.data.message);
+    if (async.data) {
+      alert(async.data.message);
+      window.location.href = "/lyrics_list";
+    }
   }, [async]);
 
   // 나중에 능력 될때 처리하자
@@ -88,7 +91,7 @@ const Registration = () => {
           type="file"
           id="uploadFile"
           style={{ display: "none" }}
-          name="img"
+          name="file"
           onChange={onChangeHandler}
           accept="image/jpeg,image/gif,image/png"
         />

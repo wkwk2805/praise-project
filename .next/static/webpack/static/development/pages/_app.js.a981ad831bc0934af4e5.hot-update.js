@@ -4,7 +4,7 @@ webpackHotUpdate("static\\development\\pages\\_app.js",{
 /*!**************************!*\
   !*** ./modules/sagas.js ***!
   \**************************/
-/*! exports provided: insertData, updateData, deleteData, uploadFile, rootSaga, default */
+/*! exports provided: insertData, updateData, deleteData, rootSaga, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,7 +12,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "insertData", function() { return insertData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateData", function() { return updateData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteData", function() { return deleteData; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "uploadFile", function() { return uploadFile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rootSaga", function() { return rootSaga; });
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
@@ -39,13 +38,11 @@ var INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
 
 var UPDATE_DATA = "sagas/UPDATE_DATA";
 var DELETE_DATA = "sagas/DELETE_DATA";
-var UPLOAD_FILE = "sagas/UPLOAD_FILE";
 var insertData = function insertData(param) {
   return {
     type: INSERT_DATA,
     payload: "put",
-    param: param,
-    formData: param.formData
+    param: param
   };
 };
 var updateData = function updateData(param) {
@@ -62,19 +59,9 @@ var deleteData = function deleteData(param) {
     param: param
   };
 };
-var uploadFile = function uploadFile(param) {
-  return {
-    type: UPLOAD_FILE,
-    param: param
-  };
-};
 
 var axiosData = function axiosData(payload, param) {
   return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
-};
-
-var axiosFile = function axiosFile(param) {
-  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("http://localhost:3001/api/upload", param);
 }; // dispatch => checking =>
 
 
@@ -90,29 +77,35 @@ function onAxiosData(action) {
 
         case 3:
           res = _context.sent;
-          _context.next = 6;
-          return axiosFile(action.formData);
 
-        case 6:
-          _context.next = 8;
+          if (!action.param.formData) {
+            _context.next = 7;
+            break;
+          }
+
+          _context.next = 7;
+          return axiosData("post", action.param.formData);
+
+        case 7:
+          _context.next = 9;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
-        case 8:
-          _context.next = 14;
+        case 9:
+          _context.next = 15;
           break;
 
-        case 10:
-          _context.prev = 10;
+        case 11:
+          _context.prev = 11;
           _context.t0 = _context["catch"](0);
-          _context.next = 14;
+          _context.next = 15;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
-        case 14:
+        case 15:
         case "end":
           return _context.stop();
       }
     }
-  }, _marked, null, [[0, 10]]);
+  }, _marked, null, [[0, 11]]);
 }
 
 function axiosSaga() {
@@ -132,10 +125,6 @@ function axiosSaga() {
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])(DELETE_DATA, onAxiosData);
 
         case 6:
-          _context2.next = 8;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["takeEvery"])(UPLOAD_FILE, onUploadFile);
-
-        case 8:
         case "end":
           return _context2.stop();
       }
@@ -163,4 +152,4 @@ function rootSaga() {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.2a9236c3bc9c1bf4eaa9.hot-update.js.map
+//# sourceMappingURL=_app.js.a981ad831bc0934af4e5.hot-update.js.map

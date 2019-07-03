@@ -42,7 +42,7 @@ var Layout = function Layout(_ref) {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -42436,7 +42436,7 @@ var lyrics_registration = function lyrics_registration() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flyrics_registration&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_registration.js ***!
   \***********************************************************************************************************************************************************************************************************************/
@@ -42459,5 +42459,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_registration.js.map

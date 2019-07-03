@@ -42,7 +42,7 @@ var Layout = function Layout(_ref) {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossorigin: "anonymous",
+    crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -100,10 +100,19 @@ var LyricsList = function LyricsList() {
       lyrics = _useState2[0],
       setLyrics = _useState2[1];
 
-  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["useDispatch"])();
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      checked = _useState4[0],
+      setChecked = _useState4[1];
+
+  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["useDispatch"])(); // init
+
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     addEventListener("scroll", scrollHandler);
+    getInitData();
+  }, [select]); // init data
 
+  var getInitData = function getInitData() {
     if (lyrics.length === 0) {
       axios__WEBPACK_IMPORTED_MODULE_6___default.a.get("http://localhost:3001/api").then(function (res) {
         setLyrics(res.data);
@@ -115,7 +124,8 @@ var LyricsList = function LyricsList() {
         return setLyrics(lyrics.concat(e));
       });
     }
-  }, [select]);
+  }; // scroll event
+
 
   var scrollHandler = function scrollHandler() {
     var _window = window,
@@ -125,26 +135,46 @@ var LyricsList = function LyricsList() {
     var scrollTop = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop; // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
 
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      var param = {
-        first: select[0].l_id,
-        last: select[select.length - 1].l_id
-      };
-      dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["selectData"])(param)); // 넣어준 값으로 다시 뿌려줄 준비하기
+      dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["selectData"])()); // 넣어준 값으로 다시 뿌려줄 준비하기
     }
+  }; // checkbox event
+
+
+  var checkboxHandler = function checkboxHandler(e) {
+    if (e.target.checked) {
+      var val = e.target.value.split("#");
+      var id = e.target.id;
+      setChecked(checked.concat({
+        id: id,
+        title: val[0],
+        code: val[1] !== "undefined" ? "(".concat(val[1], ")") : ""
+      }));
+    } else {
+      var _id = e.target.id;
+      setChecked(checked.filter(function (el) {
+        return el.id !== _id;
+      }));
+    }
+  };
+
+  var removeChecked = function removeChecked(e, id) {
+    var el = document.getElementById(id);
+    el.checked = false;
+    e.target.parentElement && (e.target.parentElement.outerHTML = "");
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "\uAC00\uC0AC\uBAA9\uB85D\uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -154,7 +184,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -163,42 +193,42 @@ var LyricsList = function LyricsList() {
     placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 76
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "input-group-append",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "input-group-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fas fa-search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 83
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col-sm-9",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 88
     },
     __self: this
   }, lyrics.map(function (e) {
@@ -212,7 +242,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 91
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -220,52 +250,58 @@ var LyricsList = function LyricsList() {
       className: "card-img-top",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 75
+        lineNumber: 100
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 108
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84
+        lineNumber: 109
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 110
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
       type: "checkbox",
       id: "title_".concat(e.l_id),
+      value: e.title + "#" + e.code,
+      onChange: checkboxHandler,
       style: {
-        width: "20px"
+        width: "20px",
+        cursor: "pointer"
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 111
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
       htmlFor: "title_".concat(e.l_id),
+      style: {
+        cursor: "pointer"
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91
+        lineNumber: 118
       },
       __self: this
-    }, e.title))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    }, e.title + " " + (e.code ? "(".concat(e.code, ")") : "")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 126
       },
       __self: this
     }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -275,313 +311,141 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96
+        lineNumber: 128
       },
       __self: this
     }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "col-sm-3",
+    style: {
+      overflow: "auto"
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 139
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-sm-2 position-fixed border",
+    style: {
+      padding: "15px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 144
     },
     __self: this
   }, "\uAC00\uC0AC \uC81C\uBAA9"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 145
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "list-group list-group-flush",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 146
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
+  }, checked.map(function (el, i) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      key: i,
+      className: "list-group-item",
+      style: {
+        verticalAlign: "center"
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 150
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "checkbox",
+      id: "check",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 155
+      },
+      __self: this
+    }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+      htmlFor: "check",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 157
+      },
+      __self: this
+    }, el.title + " " + el.code), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
+      className: "fas fa-window-close",
+      style: {
+        color: "red",
+        cursor: "pointer",
+        float: "right",
+        fontSize: "20px"
+      },
+      onClick: function onClick(e) {
+        return removeChecked(e, el.id);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 160
+      },
+      __self: this
+    }));
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 151
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 152
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 166
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 168
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 169
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 179
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 185
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 186
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-    className: "list-group-item",
-    style: {
-      verticalAlign: "center"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-    type: "checkbox",
-    id: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 200
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    htmlFor: "check",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202
-    },
-    __self: this
-  }, "Cras justo odio"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
-    className: "fas fa-window-close",
-    style: {
-      color: "red",
-      cursor: "pointer",
-      float: "right",
-      fontSize: "20px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 175
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 176
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/lyrics_check_view",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 178
     },
     __self: this
   }, "PPT \uC0DD\uC131")), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-danger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 181
     },
     __self: this
   }, "PPT \uC81C\uAC70"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 182
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222
+      lineNumber: 183
     },
     __self: this
-  }, "\uC545\uBCF4\uB2E4\uC6B4\uB85C\uB4DC")))))));
+  }, "\uC545\uBCF4\uB2E4\uC6B4\uB85C\uB4DC"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (LyricsList);
@@ -18174,7 +18038,7 @@ var lyrics_list = function lyrics_list() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 8:
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flyrics_list&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_list.js ***!
   \*******************************************************************************************************************************************************************************************************/
@@ -18197,5 +18061,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_list.js.map

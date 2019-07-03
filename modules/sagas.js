@@ -1,10 +1,12 @@
 import { put, takeEvery, all } from "redux-saga/effects";
 import axios from "axios";
 import { axiosResult, axiosError } from "./async";
+import { getData } from "./select";
 
 const INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
 const UPDATE_DATA = "sagas/UPDATE_DATA";
 const DELETE_DATA = "sagas/DELETE_DATA";
+const SELECT_DATA = "sagas/SELECT_DATA";
 
 export const insertData = param => ({
   type: INSERT_DATA,
@@ -19,6 +21,11 @@ export const updateData = param => ({
 export const deleteData = param => ({
   type: DELETE_DATA,
   payload: "delete",
+  param
+});
+export const selectData = param => ({
+  type: SELECT_DATA,
+  payload: "get",
   param
 });
 
@@ -36,10 +43,20 @@ function* onAxiosData(action) {
   }
 }
 
+function* getAxiosData(action) {
+  try {
+    const res = yield axiosData(action.payload, param); // select한 데이터 넣어주기
+    yield put(getData(res.data));
+  } catch (error) {
+    yield put(axiosError());
+  }
+}
+
 function* axiosSaga() {
   yield takeEvery(INSERT_DATA, onAxiosData);
   yield takeEvery(UPDATE_DATA, onAxiosData);
   yield takeEvery(DELETE_DATA, onAxiosData);
+  yield takeEvery(SELECT_DATA, getAxiosData);
 }
 
 export function* rootSaga() {

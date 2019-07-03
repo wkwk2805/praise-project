@@ -1,118 +1,45 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "./Layout";
 import Link from "next/link";
-
-const lyrics = [
-  {
-    l_id: 1,
-    title: "title",
-    lyr_img: "no_img.gif",
-    code: "E",
-    tag: "",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩이에요"
-      }
-    ]
-  },
-  {
-    l_id: 2,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  },
-  {
-    l_id: 3,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  },
-  {
-    l_id: 4,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  },
-  {
-    l_id: 5,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  },
-  {
-    l_id: 6,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  },
-  {
-    l_id: 7,
-    title: "title2",
-    lyr_img: "no_img.gif",
-    contents: [
-      {
-        c_id: 1,
-        statement: "안녕하세요\n저는 박의2 입니다"
-      },
-      {
-        c_id: 2,
-        statement: "제 취미는요 코딩2이에요"
-      }
-    ]
-  }
-];
+import { useSelector, useDispatch } from "react-redux";
+import { selectData } from "../modules/sagas";
+import axios from "axios";
 
 const LyricsList = () => {
+  const select = useSelector(state => state.select);
+  const [lyrics, setLyrics] = useState([]);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    addEventListener("scroll", scrollHandler);
+    if (lyrics.length === 0) {
+      axios
+        .get("http://localhost:3001/api")
+        .then(res => {
+          setLyrics(res.data);
+        })
+        .catch(e => {
+          console.log(e);
+        });
+    } else {
+      select.map(e => setLyrics(lyrics.concat(e)));
+    }
+  }, [select]);
+  const scrollHandler = () => {
+    const { innerHeight } = window;
+    const { scrollHeight } = document.body;
+    // IE에서는 document.documentElement 를 사용.
+    const scrollTop =
+      (document.documentElement && document.documentElement.scrollTop) ||
+      document.body.scrollTop;
+    // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
+    if (scrollHeight - innerHeight - scrollTop < 100) {
+      const param = {
+        first: select[0].l_id,
+        last: select[select.length - 1].l_id
+      };
+      dispatch(selectData(param)); // 넣어준 값으로 다시 뿌려줄 준비하기
+    }
+  };
   return (
     <>
       <Layout title="가사목록페이지">
@@ -132,11 +59,12 @@ const LyricsList = () => {
               </button>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-9">
+          <div className="row">
+            <div className="col-sm-9">
               {lyrics.map(e => {
                 return (
                   <div
+                    key={e.l_id}
                     className="card"
                     style={{
                       width: "16rem",
@@ -145,7 +73,11 @@ const LyricsList = () => {
                     }}
                   >
                     <img
-                      src={`/static/${e.lyr_img}`}
+                      src={
+                        e.file
+                          ? `http://localhost:3001/uploads/${e.file}`
+                          : `./static/no_img.gif`
+                      }
                       className="card-img-top"
                     />
                     <div className="card-body">

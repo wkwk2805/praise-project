@@ -1,4 +1,4 @@
-webpackHotUpdate("static\\development\\pages\\_app.js",{
+webpackHotUpdate("static\\development\\pages\\lyrics_registration.js",{
 
 /***/ "./modules/sagas.js":
 /*!**************************!*\
@@ -66,46 +66,56 @@ var axiosData = function axiosData(payload, param) {
 
 
 function onAxiosData(action) {
-  var res;
+  var _action$param, title, contents, res;
+
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function onAxiosData$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
           _context.prev = 0;
+          _action$param = action.param, title = _action$param.title, contents = _action$param.contents;
 
-          if (!action.param.formData) {
+          if (!(!title || title === "" || !contents || contents === "")) {
             _context.next = 4;
             break;
           }
 
-          _context.next = 4;
-          return axiosData("post", action.param.formData);
+          throw new Error();
 
         case 4:
-          _context.next = 6;
+          if (!action.param.formData) {
+            _context.next = 7;
+            break;
+          }
+
+          _context.next = 7;
+          return axiosData("post", action.param.formData);
+
+        case 7:
+          _context.next = 9;
           return axiosData(action.payload, action.param);
 
-        case 6:
+        case 9:
           res = _context.sent;
-          _context.next = 9;
+          _context.next = 12;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
-        case 9:
-          _context.next = 15;
+        case 12:
+          _context.next = 18;
           break;
 
-        case 11:
-          _context.prev = 11;
+        case 14:
+          _context.prev = 14;
           _context.t0 = _context["catch"](0);
-          _context.next = 15;
+          _context.next = 18;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
-        case 15:
+        case 18:
         case "end":
           return _context.stop();
       }
     }
-  }, _marked, null, [[0, 11]]);
+  }, _marked, null, [[0, 14]]);
 }
 
 function axiosSaga() {
@@ -152,4 +162,4 @@ function rootSaga() {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.cd145a254b9cd175b73a.hot-update.js.map
+//# sourceMappingURL=lyrics_registration.js.9d0a42274e6656f974c2.hot-update.js.map

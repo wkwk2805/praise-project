@@ -24,7 +24,7 @@ const async = (state = initialState, action) => {
 // functions
 const onAxiosResult = res => res;
 
-const onAxiosError = () => "에러가 발생하였습니다.";
+const onAxiosError = () => ({ data: { message: "에러가 발생하였습니다." } });
 
 // export
 export default async;

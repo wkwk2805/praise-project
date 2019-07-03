@@ -13,7 +13,6 @@ const Registration = () => {
   useEffect(() => {
     if (async.data) {
       alert(async.data.message);
-      window.location.href = "/lyrics_list";
     }
   }, [async]);
 
@@ -33,7 +32,12 @@ const Registration = () => {
   };
 
   const _onSubmit = () => {
-    dispatch(insertData(lyrics));
+    const { title, contents } = lyrics;
+    if (!title || title.trim() === "" || !contents || contents.trim() === "") {
+      alert("제목과 가사를 모두 입력해주세요");
+    } else {
+      dispatch(insertData(lyrics));
+    }
   };
 
   return (

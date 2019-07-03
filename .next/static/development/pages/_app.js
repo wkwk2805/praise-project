@@ -51,7 +51,11 @@ var onAxiosResult = function onAxiosResult(res) {
 };
 
 var onAxiosError = function onAxiosError() {
-  return "에러가 발생하였습니다.";
+  return {
+    data: {
+      message: "에러가 발생하였습니다."
+    }
+  };
 }; // export
 
 

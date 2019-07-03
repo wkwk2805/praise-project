@@ -66,46 +66,49 @@ var axiosData = function axiosData(payload, param) {
 
 
 function onAxiosData(action) {
-  var res;
+  var _action$param, title, contents, res;
+
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function onAxiosData$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
           _context.prev = 0;
-          _context.next = 3;
-          return axiosData(action.payload, action.param);
-
-        case 3:
-          res = _context.sent;
+          _action$param = action.param, title = _action$param.title, contents = _action$param.contents;
+          (!title || title === "" || !contents || contents === "") && new Error();
 
           if (!action.param.formData) {
-            _context.next = 7;
+            _context.next = 6;
             break;
           }
 
-          _context.next = 7;
+          _context.next = 6;
           return axiosData("post", action.param.formData);
 
-        case 7:
-          _context.next = 9;
+        case 6:
+          _context.next = 8;
+          return axiosData(action.payload, action.param);
+
+        case 8:
+          res = _context.sent;
+          _context.next = 11;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
-        case 9:
-          _context.next = 15;
+        case 11:
+          _context.next = 17;
           break;
 
-        case 11:
-          _context.prev = 11;
+        case 13:
+          _context.prev = 13;
           _context.t0 = _context["catch"](0);
-          _context.next = 15;
+          _context.next = 17;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosError"])());
 
-        case 15:
+        case 17:
         case "end":
           return _context.stop();
       }
     }
-  }, _marked, null, [[0, 11]]);
+  }, _marked, null, [[0, 13]]);
 }
 
 function axiosSaga() {
@@ -152,4 +155,4 @@ function rootSaga() {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.a981ad831bc0934af4e5.hot-update.js.map
+//# sourceMappingURL=_app.js.a4dfda4cc05ca58a2935.hot-update.js.map

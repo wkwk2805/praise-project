@@ -100,7 +100,6 @@ var Registration = function Registration() {
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     if (async.data) {
       alert(async.data.message);
-      window.location.href = "/lyrics_list";
     }
   }, [async]); // 나중에 능력 될때 처리하자
 
@@ -120,28 +119,35 @@ var Registration = function Registration() {
   };
 
   var _onSubmit = function _onSubmit() {
-    dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["insertData"])(lyrics));
+    var title = lyrics.title,
+        contents = lyrics.contents;
+
+    if (!title || title.trim() === "" || !contents || contents.trim() === "") {
+      alert("제목과 가사를 모두 입력해주세요");
+    } else {
+      dispatch(Object(_modules_sagas__WEBPACK_IMPORTED_MODULE_5__["insertData"])(lyrics));
+    }
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "\uAC00\uC0AC\uB4F1\uB85D \uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
@@ -151,7 +157,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 47
     },
     __self: this
   }, "\uAC00\uC0AC\uB97C \uCD94\uAC00\uD574 \uC8FC\uC138\uC694"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -165,7 +171,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 50
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
@@ -174,69 +180,69 @@ var Registration = function Registration() {
     name: "code",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 63
     },
     __self: this
   }, "\uC545\uBCF4\uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "C",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 64
     },
     __self: this
   }, "C \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "D",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 65
     },
     __self: this
   }, "D \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "E",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 66
     },
     __self: this
   }, "E \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "F",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 67
     },
     __self: this
   }, "F \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "G",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 68
     },
     __self: this
   }, "G \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "A",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 69
     },
     __self: this
   }, "A \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "B",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 70
     },
     __self: this
   }, "B \uCF54\uB4DC")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 72
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", (_React$createElement = {
@@ -248,12 +254,12 @@ var Registration = function Registration() {
     className: "form-control"
   }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "name", "contents"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "onChange", onChangeHandler), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__source", {
     fileName: _jsxFileName,
-    lineNumber: 69
+    lineNumber: 73
   }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__self", this), _React$createElement))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -265,7 +271,7 @@ var Registration = function Registration() {
     onChange: onChangeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 85
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -279,14 +285,14 @@ var Registration = function Registration() {
     accept: "image/jpeg,image/gif,image/png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 94
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
@@ -297,7 +303,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
@@ -308,7 +314,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 107
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -317,7 +323,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 111
     },
     __self: this
   }, "upload"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -327,7 +333,7 @@ var Registration = function Registration() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -341,14 +347,14 @@ var Registration = function Registration() {
     ref: fileNameRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 115
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 124
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -356,20 +362,20 @@ var Registration = function Registration() {
     onClick: _onSubmit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 126
     },
     __self: this
   }, "\uB4F1\uB85D"), " ", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fas fa-plus-circle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 127
     },
     __self: this
   })))));
@@ -430,7 +436,11 @@ var onAxiosResult = function onAxiosResult(res) {
 };
 
 var onAxiosError = function onAxiosError() {
-  return "에러가 발생하였습니다.";
+  return {
+    data: {
+      message: "에러가 발생하였습니다."
+    }
+  };
 }; // export
 
 

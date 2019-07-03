@@ -1,4 +1,4 @@
-webpackHotUpdate("static\\development\\pages\\lyrics_registration.js",{
+webpackHotUpdate("static\\development\\pages\\_app.js",{
 
 /***/ "./modules/sagas.js":
 /*!**************************!*\
@@ -72,21 +72,21 @@ function onAxiosData(action) {
       switch (_context.prev = _context.next) {
         case 0:
           _context.prev = 0;
-          _context.next = 3;
-          return axiosData(action.payload, action.param);
-
-        case 3:
-          res = _context.sent;
 
           if (!action.param.formData) {
-            _context.next = 7;
+            _context.next = 4;
             break;
           }
 
-          _context.next = 7;
+          _context.next = 4;
           return axiosData("post", action.param.formData);
 
-        case 7:
+        case 4:
+          _context.next = 6;
+          return axiosData(action.payload, action.param);
+
+        case 6:
+          res = _context.sent;
           _context.next = 9;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_async__WEBPACK_IMPORTED_MODULE_3__["axiosResult"])(res));
 
@@ -152,4 +152,4 @@ function rootSaga() {
 /***/ })
 
 })
-//# sourceMappingURL=lyrics_registration.js.a981ad831bc0934af4e5.hot-update.js.map
+//# sourceMappingURL=_app.js.0f06ece643e0609a727f.hot-update.js.map

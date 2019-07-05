@@ -182,9 +182,4 @@ const LyricsList = ({ data }) => {
   );
 };
 
-LyricsList.getInitialProps = ({ req }) => {
-  console.log(req);
-  return { a: "b" };
-};
-
 export default LyricsList;

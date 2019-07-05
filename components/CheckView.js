@@ -3,6 +3,20 @@ import Layout from "./Layout";
 import Link from "next/link";
 
 const CheckView = ({ data }) => {
+  const contentsHandler = data => {
+    let result = [];
+    const contents = data.map(e => e.contents);
+    const title = data.map(e => e.title);
+    contents.forEach((item, i) => {
+      item.forEach(item2 => {
+        item2.title = title[i];
+      });
+    });
+    contents.forEach(item => {
+      result = result.concat(item);
+    });
+    return result;
+  };
   const open_view = () => {
     open(
       "./lyrics_view",

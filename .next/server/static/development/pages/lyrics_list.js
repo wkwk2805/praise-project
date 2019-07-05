@@ -173,8 +173,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _modules_sagas__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/sagas */ "./modules/sagas.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_6__);
 
 var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\LyricsList.js";
 
@@ -183,13 +181,13 @@ var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Lyric
 
 
 
-
-var LyricsList = function LyricsList() {
+var LyricsList = function LyricsList(_ref) {
+  var data = _ref.data;
   var select = Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["useSelector"])(function (state) {
     return state.select;
   });
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(data),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
       lyrics = _useState2[0],
       setLyrics = _useState2[1];
@@ -203,23 +201,10 @@ var LyricsList = function LyricsList() {
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     addEventListener("scroll", scrollHandler);
-    getInitData();
-  }, [select]); // init data
-
-  var getInitData = function getInitData() {
-    if (lyrics.length === 0) {
-      axios__WEBPACK_IMPORTED_MODULE_6___default.a.get("http://localhost:3001/api").then(function (res) {
-        setLyrics(res.data);
-      }).catch(function (e) {
-        console.log(e);
-      });
-    } else {
-      select.map(function (e) {
-        return setLyrics(lyrics.concat(e));
-      });
-    }
-  }; // scroll event
-
+    select.forEach(function (e) {
+      setLyrics(lyrics.concat(e));
+    });
+  }, [select]); // scroll event
 
   var scrollHandler = function scrollHandler() {
     var _window = window,
@@ -261,14 +246,14 @@ var LyricsList = function LyricsList() {
     title: "\uAC00\uC0AC\uBAA9\uB85D\uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -278,7 +263,7 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -287,42 +272,42 @@ var LyricsList = function LyricsList() {
     placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 62
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "input-group-append",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 67
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "input-group-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fas fa-search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 69
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col-sm-9",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 74
     },
     __self: this
   }, lyrics.map(function (e) {
@@ -336,7 +321,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91
+        lineNumber: 77
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -344,27 +329,27 @@ var LyricsList = function LyricsList() {
       className: "card-img-top",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 100
+        lineNumber: 86
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 108
+        lineNumber: 94
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 109
+        lineNumber: 95
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 110
+        lineNumber: 96
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -378,7 +363,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111
+        lineNumber: 97
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
@@ -388,14 +373,14 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 118
+        lineNumber: 104
       },
       __self: this
     }, e.title + " " + (e.code ? "(".concat(e.code, ")") : "")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 126
+        lineNumber: 112
       },
       __self: this
     }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -405,7 +390,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128
+        lineNumber: 114
       },
       __self: this
     }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
@@ -415,37 +400,37 @@ var LyricsList = function LyricsList() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "col-sm-2 position-fixed border",
+    className: "col-sm-3 position-fixed border",
     style: {
       padding: "15px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 130
     },
     __self: this
   }, "\uAC00\uC0AC \uC81C\uBAA9"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 131
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "list-group list-group-flush",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 132
     },
     __self: this
   }, checked.map(function (el, i) {
@@ -457,7 +442,7 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150
+        lineNumber: 136
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -465,14 +450,14 @@ var LyricsList = function LyricsList() {
       id: "check",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 155
+        lineNumber: 141
       },
       __self: this
     }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
       htmlFor: "check",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 157
+        lineNumber: 143
       },
       __self: this
     }, el.title + " " + el.code), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
@@ -488,58 +473,71 @@ var LyricsList = function LyricsList() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 160
+        lineNumber: 146
       },
       __self: this
     }));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 161
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/lyrics_check_view",
+    href: {
+      pathname: "/lyrics_check_view",
+      query: {
+        id: [1, 2, 3]
+      }
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 163
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 169
     },
     __self: this
   }, "PPT \uC0DD\uC131")), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-danger",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 172
     },
     __self: this
   }, "PPT \uC81C\uAC70"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 173
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 174
     },
     __self: this
   }, "\uC545\uBCF4\uB2E4\uC6B4\uB85C\uB4DC"))))))));
+};
+
+LyricsList.getInitialProps = function (_ref2) {
+  var req = _ref2.req;
+  console.log(req);
+  return {
+    a: "b"
+  };
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (LyricsList);
@@ -931,6 +929,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/library/fn/promise");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
@@ -1034,6 +1043,58 @@ __webpack_require__.r(__webpack_exports__);
 
 function _arrayWithHoles(arr) {
   if (_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default()(arr)) return arr;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
 }
 
 /***/ }),
@@ -1548,23 +1609,60 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_LyricsList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/LyricsList */ "./components/LyricsList.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+
+
 var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_list.js";
 
 
 
-var lyrics_list = function lyrics_list() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_LyricsList__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+var lyrics_list = function lyrics_list(_ref) {
+  var data = _ref.data;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_LyricsList__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    data: data,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   });
-};
+}; // init
 
+
+lyrics_list["getInitialProps"] =
+/*#__PURE__*/
+Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+/*#__PURE__*/
+_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  var res;
+  return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get("http://localhost:3001/api");
+
+        case 2:
+          res = _context.sent;
+          return _context.abrupt("return", {
+            data: res.data
+          });
+
+        case 4:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _callee);
+}));
 /* harmony default export */ __webpack_exports__["default"] = (lyrics_list);
 
 /***/ }),
@@ -1666,6 +1764,17 @@ module.exports = require("core-js/library/fn/object/get-prototype-of");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/set-prototype-of");
+
+/***/ }),
+
+/***/ "core-js/library/fn/promise":
+/*!*********************************************!*\
+  !*** external "core-js/library/fn/promise" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/promise");
 
 /***/ }),
 

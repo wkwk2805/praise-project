@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
 
-const CheckView = () => {
+const CheckView = ({ data }) => {
   const open_view = () => {
     open(
       "./lyrics_view",

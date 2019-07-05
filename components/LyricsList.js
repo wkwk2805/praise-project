@@ -3,33 +3,19 @@ import Layout from "./Layout";
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
-import axios from "axios";
 
-const LyricsList = () => {
+const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
-  const [lyrics, setLyrics] = useState([]);
+  const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
   const dispatch = useDispatch();
   // init
   useEffect(() => {
     addEventListener("scroll", scrollHandler);
-    getInitData();
+    select.forEach(e => {
+      setLyrics(lyrics.concat(e));
+    });
   }, [select]);
-  // init data
-  const getInitData = () => {
-    if (lyrics.length === 0) {
-      axios
-        .get("http://localhost:3001/api")
-        .then(res => {
-          setLyrics(res.data);
-        })
-        .catch(e => {
-          console.log(e);
-        });
-    } else {
-      select.map(e => setLyrics(lyrics.concat(e)));
-    }
-  };
   // scroll event
   const scrollHandler = () => {
     const { innerHeight } = window;
@@ -138,7 +124,7 @@ const LyricsList = () => {
             </div>
             <div style={{ overflow: "auto" }}>
               <div
-                className="col-sm-2 position-fixed border"
+                className="col-sm-3 position-fixed border"
                 style={{ padding: "15px" }}
               >
                 <h4 className="text-center">가사 제목</h4>
@@ -174,7 +160,12 @@ const LyricsList = () => {
                 </ul>
                 <p />
                 <div className="text-center">
-                  <Link href="/lyrics_check_view">
+                  <Link
+                    href={{
+                      pathname: "/lyrics_check_view",
+                      query: { id: [1, 2, 3] }
+                    }}
+                  >
                     <button className="btn btn-success">PPT 생성</button>
                   </Link>
                   {` `}
@@ -189,6 +180,11 @@ const LyricsList = () => {
       </Layout>
     </>
   );
+};
+
+LyricsList.getInitialProps = ({ req }) => {
+  console.log(req);
+  return { a: "b" };
 };
 
 export default LyricsList;

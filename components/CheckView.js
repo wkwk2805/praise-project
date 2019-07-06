@@ -4,18 +4,32 @@ import Link from "next/link";
 
 const CheckView = ({ data }) => {
   const contentsHandler = data => {
-    let result = [];
-    const contents = data.map(e => e.contents);
-    const title = data.map(e => e.title);
+    let title = data.map(e => e.title);
+    let contents = data.map(e => e.contents);
+    let arrayFinal = [];
     contents.forEach((item, i) => {
-      item.forEach(item2 => {
-        item2.title = title[i];
+      let array = [];
+      let statementArr = item.map(e => e.statement);
+      statementArr.forEach((item2, i2) => {
+        let arr = [];
+        let str = "";
+        let splitArr = item2.split("\n");
+        splitArr.forEach((item3, i3) => {
+          str += item3 + "\n";
+          if (i3 % 2 !== 0) {
+            arr.push(str.substring(0, str.length - 1));
+            str = "";
+          }
+        });
+        array.push(arr);
+        arr = [];
       });
+      console.log(array);
+      let obj = { title: title[i], contents: array };
+      arrayFinal.push(obj);
     });
-    contents.forEach(item => {
-      result = result.concat(item);
-    });
-    return result;
+    console.log(arrayFinal);
+    return arrayFinal;
   };
   const open_view = () => {
     open(

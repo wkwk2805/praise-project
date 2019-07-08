@@ -14,6 +14,10 @@
     "/lyrics_check_view": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/lyrics_list": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

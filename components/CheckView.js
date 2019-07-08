@@ -24,13 +24,19 @@ const CheckView = ({ data }) => {
         array.push(arr);
         arr = [];
       });
-      console.log(array);
       let obj = { title: title[i], contents: array };
       arrayFinal.push(obj);
     });
-    console.log(arrayFinal);
+    arrayFinal.forEach(item => {
+      let arr = [];
+      item.contents.forEach(item2 => {
+        arr = arr.concat(item2);
+      });
+      item.contents = arr;
+    });
     return arrayFinal;
   };
+
   const open_view = () => {
     open(
       "./lyrics_view",
@@ -62,65 +68,52 @@ const CheckView = ({ data }) => {
             <i className="fas fa-download" />
           </button>
         </div>
-        <div className="row">
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
-          <div className="col-sm">
-            <div className="lyr-title">Hello</div>
-            <div>world</div>
-          </div>
+        <div className="table-container">
+          {contentsHandler(data).map(e => {
+            {
+              return e.contents.map((item, i) => {
+                return (
+                  <div className="col" key={i}>
+                    <div className="lyr-title" key={i}>
+                      {e.title}
+                    </div>
+                    <div>
+                      {item.split("\n").map((it, i2) => (
+                        <span key={i2}>
+                          {it}
+                          <br />
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                );
+              });
+            }
+          })}
         </div>
       </div>
       <style jsx>
         {`
-          .col-sm {
+          .table-container {
+            text-align: center;
+            width: 100%;
+          }
+          .col {
             background: black;
             color: white;
             text-align: center;
             margin: 10px 10px 0px 0px;
-            width: 100px;
+            width: 20em;
             height: 300px;
             cursor: pointer;
+            float: left;
           }
           .lyr-title {
             text-align: left;
-            margin: 10px 0px 0px 5px;
+            margin: 10px 0px 10px 5px;
+            font-size: 10px;
           }
-          .col-sm:hover {
+          .col:hover {
             border: solid 5px yellow;
           }
         `}

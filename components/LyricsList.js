@@ -16,6 +16,9 @@ const LyricsList = ({ data }) => {
       setLyrics(lyrics.concat(e));
     });
   }, [select]);
+  useEffect(() => {
+    console.log(checkedList());
+  }, [checked]);
   // scroll event
   const scrollHandler = () => {
     const { innerHeight } = window;
@@ -50,6 +53,10 @@ const LyricsList = ({ data }) => {
     const el = document.getElementById(id);
     el.checked = false;
     e.target.parentElement && (e.target.parentElement.outerHTML = "");
+  };
+  const checkedList = () => {
+    const id = checked.map(e => e.id.split("title_")[1] * 1);
+    return id;
   };
   return (
     <>
@@ -163,7 +170,7 @@ const LyricsList = ({ data }) => {
                   <Link
                     href={{
                       pathname: "/lyrics_check_view",
-                      query: { id: [1, 2, 3] }
+                      query: { id: checkedList() }
                     }}
                   >
                     <button className="btn btn-success">PPT 생성</button>

@@ -61,7 +61,7 @@ const LyricsList = ({ data }) => {
   return (
     <>
       <Layout title="가사목록페이지">
-        <div className="container">
+        <div className="container ">
           <div
             className="input-group mb-3"
             style={{ margin: "20px 0px 0px 0px" }}

@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
 
-const CheckView = ({ data }) => {
+const CheckView = ({ data, id }) => {
   const contentsHandler = data => {
     let title = data.map(e => e.title);
     let contents = data.map(e => e.contents);
@@ -39,7 +39,7 @@ const CheckView = ({ data }) => {
 
   const open_view = () => {
     open(
-      "./lyrics_view",
+      "./lyrics_view?id="+JSON.stringify(id),
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );

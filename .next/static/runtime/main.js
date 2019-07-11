@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\wkwk2\\OneDrive\\바탕 화면\\react\\praise-project\\.next");
+      source_map_support_1.rewriteStacktrace(error, "C:\\React\\praise-project\\.next");
       return error;
     }
   };

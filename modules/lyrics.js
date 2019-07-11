@@ -1,13 +1,10 @@
-//import
-import PptxGenJS from "pptxgenjs";
-
 // action
-const DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
 const CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
+const CHANGE_DATA = "lyrics/CHANGE_DATA";
 
 //action creator
-export const downloadPPT = () => ({ type: DOWNLOAD_PPT });
 export const changeHandler = e => ({ type: CHANGE_HANDLER, e });
+export const changeData = e => ({ type: CHANGE_DATA, e });
 
 // initialState
 const initialState = {};
@@ -15,29 +12,16 @@ const initialState = {};
 //Reducers
 const lyrics = (state = initialState, action) => {
   switch (action.type) {
-    case DOWNLOAD_PPT:
-      return onDownloadPpt(state);
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
+    case CHANGE_DATA:
+      return onChangeData(action.e);
     default:
       return state;
   }
 };
 
 // create functions
-
-// PPT 다운로드 함수
-const onDownloadPpt = state => {
-  let pptx = new PptxGenJS();
-  pptx.setTitle("Hello world Title");
-  pptx.setLayout({ name: "A3", width: 16.5, height: 11.7 });
-  let slide = pptx.addNewSlide("MASTER");
-  slide.back = "000000";
-  slide.color = "FFFFFF";
-  pptx.save(`가사모음_20190619`);
-  return "다운로드 성공";
-};
-
 // 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
 const onChangeHandler = (state, e) => {
   e.target && (state = { ...state, [e.target.name]: e.target.value });
@@ -50,6 +34,16 @@ const onChangeHandler = (state, e) => {
     state = { ...state, formData };
   }
   return state;
+};
+
+const onChangeData = e => {
+  const obj = {};
+  if (e.target.id) {
+    const data = e.target.id.split("#");
+    obj["main"] = data[0];
+    obj["sub"] = data[1];
+  }
+  return obj;
 };
 
 export default lyrics;

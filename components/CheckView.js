@@ -1,49 +1,41 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "./Layout";
 import Link from "next/link";
+import { contentsHandler } from "../util/handler";
+import { useDispatch, useSelector } from "react-redux";
+import { changeData } from "../modules/lyrics";
 
 const CheckView = ({ data, id }) => {
-  const contentsHandler = data => {
-    let title = data.map(e => e.title);
-    let contents = data.map(e => e.contents);
-    let arrayFinal = [];
-    contents.forEach((item, i) => {
-      let array = [];
-      let statementArr = item.map(e => e.statement);
-      statementArr.forEach((item2, i2) => {
-        let arr = [];
-        let str = "";
-        let splitArr = item2.split("\n");
-        splitArr.forEach((item3, i3) => {
-          str += item3 + "\n";
-          if (i3 % 2 !== 0) {
-            arr.push(str.substring(0, str.length - 1));
-            str = "";
-          }
-        });
-        array.push(arr);
-        arr = [];
-      });
-      let obj = { title: title[i], contents: array };
-      arrayFinal.push(obj);
-    });
-    arrayFinal.forEach(item => {
-      let arr = [];
-      item.contents.forEach(item2 => {
-        arr = arr.concat(item2);
-      });
-      item.contents = arr;
-    });
-    return arrayFinal;
-  };
-
+  let openView;
+  const lyricsData = useSelector(state => state.lyrics);
   const open_view = () => {
-    open(
-      "./lyrics_view?id="+JSON.stringify(id),
+    openView = open(
+      "./lyrics_view?id=" + JSON.stringify(id),
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );
   };
+  const change_data = e => {
+    if (
+      openView &&
+      openView.document &&
+      openView.document.getElementById("data")
+    ) {
+      openView.document.getElementById("data").value = e.target.id;
+    }
+  };
+  useEffect(() => {
+    let list = document.getElementsByClassName("col");
+    for (let item of list) {
+      item.classList.remove("active");
+    }
+    let cube = document.getElementById(
+      lyricsData["main"] + "#" + lyricsData["sub"]
+    );
+    if (cube) {
+      cube.className += " active";
+    }
+  }, [lyricsData]);
   return (
     <Layout title="Check View Page">
       <div className="container">
@@ -69,17 +61,22 @@ const CheckView = ({ data, id }) => {
           </button>
         </div>
         <div className="table-container">
-          {contentsHandler(data).map(e => {
+          {contentsHandler(data).map((e, idx) => {
             {
               return e.contents.map((item, i) => {
                 return (
-                  <div className="col" key={i}>
-                    <div className="lyr-title" key={i}>
+                  <div
+                    className="col"
+                    key={i}
+                    id={idx + "#" + i}
+                    onClick={change_data}
+                  >
+                    <div className="lyr-title" key={i} id={idx + "#" + i}>
                       {e.title}
                     </div>
-                    <div>
+                    <div id={idx + "#" + i}>
                       {item.split("\n").map((it, i2) => (
-                        <span key={i2}>
+                        <span key={i2} id={idx + "#" + i}>
                           {it}
                           <br />
                         </span>
@@ -114,6 +111,9 @@ const CheckView = ({ data, id }) => {
             font-size: 10px;
           }
           .col:hover {
+            border: solid 5px yellow;
+          }
+          .active {
             border: solid 5px yellow;
           }
         `}

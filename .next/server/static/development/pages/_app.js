@@ -187,33 +187,30 @@ var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
 /*!***************************!*\
   !*** ./modules/lyrics.js ***!
   \***************************/
-/*! exports provided: downloadPPT, changeHandler, default */
+/*! exports provided: changeHandler, changeData, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "downloadPPT", function() { return downloadPPT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeData", function() { return changeData; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
-/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_2__);
 
 
-//import
- // action
+// action
+var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
+var CHANGE_DATA = "lyrics/CHANGE_DATA"; //action creator
 
-var DOWNLOAD_PPT = "lyrics/DOWNLOAD_PPT";
-var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER"; //action creator
-
-var downloadPPT = function downloadPPT() {
-  return {
-    type: DOWNLOAD_PPT
-  };
-};
 var changeHandler = function changeHandler(e) {
   return {
     type: CHANGE_HANDLER,
+    e: e
+  };
+};
+var changeData = function changeData(e) {
+  return {
+    type: CHANGE_DATA,
     e: e
   };
 }; // initialState
@@ -225,33 +222,17 @@ var lyrics = function lyrics() {
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
   switch (action.type) {
-    case DOWNLOAD_PPT:
-      return onDownloadPpt(state);
-
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
+
+    case CHANGE_DATA:
+      return onChangeData(action.e);
 
     default:
       return state;
   }
 }; // create functions
-// PPT 다운로드 함수
-
-
-var onDownloadPpt = function onDownloadPpt(state) {
-  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_2___default.a();
-  pptx.setTitle("Hello world Title");
-  pptx.setLayout({
-    name: "A3",
-    width: 16.5,
-    height: 11.7
-  });
-  var slide = pptx.addNewSlide("MASTER");
-  slide.back = "000000";
-  slide.color = "FFFFFF";
-  pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
-  return "다운로드 성공";
-}; // 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
+// 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
 
 
 var onChangeHandler = function onChangeHandler(state, e) {
@@ -270,6 +251,18 @@ var onChangeHandler = function onChangeHandler(state, e) {
   }
 
   return state;
+};
+
+var onChangeData = function onChangeData(e) {
+  var obj = {};
+
+  if (e.target.id) {
+    var data = e.target.id.split("#");
+    obj["main"] = data[0];
+    obj["sub"] = data[1];
+  }
+
+  return obj;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);
@@ -1502,7 +1495,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\React\\praise-project\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\_app.js";
 
 
 
@@ -1771,17 +1764,6 @@ module.exports = require("next-server/dist/lib/utils");
 /***/ (function(module, exports) {
 
 module.exports = require("next/router");
-
-/***/ }),
-
-/***/ "pptxgenjs":
-/*!****************************!*\
-  !*** external "pptxgenjs" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("pptxgenjs");
 
 /***/ }),
 

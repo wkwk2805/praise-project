@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\React\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
 
 
 
@@ -168,8 +168,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
+/* harmony import */ var _util_handler__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/handler */ "./util/handler.js");
 
-var _jsxFileName = "C:\\React\\praise-project\\components\\View.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\View.js";
+
 
 
 var styleSheet = {
@@ -184,72 +186,52 @@ var styleSheet = {
 };
 
 var View = function View(_ref) {
-  var data = _ref.data;
+  var data = _ref.data,
+      change = _ref.change;
 
-  var contentsHandler = function contentsHandler(data) {
-    var title = data.map(function (e) {
-      return e.title;
-    });
-    var contents = data.map(function (e) {
-      return e.contents;
-    });
-    var arrayFinal = [];
-    contents.forEach(function (item, i) {
-      var array = [];
-      var statementArr = item.map(function (e) {
-        return e.statement;
-      });
-      statementArr.forEach(function (item2, i2) {
-        var arr = [];
-        var str = "";
-        var splitArr = item2.split("\n");
-        splitArr.forEach(function (item3, i3) {
-          str += item3 + "\n";
-
-          if (i3 % 2 !== 0) {
-            arr.push(str.substring(0, str.length - 1));
-            str = "";
-          }
-        });
-        array.push(arr);
-        arr = [];
-      });
-      var obj = {
-        title: title[i],
-        contents: array
-      };
-      arrayFinal.push(obj);
-    });
-    arrayFinal.forEach(function (item) {
-      var arr = [];
-      item.contents.forEach(function (item2) {
-        arr = arr.concat(item2);
-      });
-      item.contents = arr;
-    });
-    return arrayFinal;
-  };
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(contentsHandler(data)),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["contentsHandler"])(data)),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
       lyrics = _useState2[0],
       setLyrics = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])("a\nb"),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      list = _useState4[0],
+      setList = _useState4[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    console.log(change);
+  }, []);
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "View",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: styleSheet.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 23
     },
     __self: this
-  }, "View"));
+  }, list.split("\n").map(function (it, i) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, it, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (View);
@@ -463,28 +445,52 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
 /* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_View__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/View */ "./components/View.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_View__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/View */ "./components/View.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_5__);
 
 
-var _jsxFileName = "C:\\React\\praise-project\\pages\\lyrics_view.js";
+
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_view.js";
 
 
 
 
 var lyrics_view = function lyrics_view(_ref) {
   var data = _ref.data;
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_View__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    data: data,
+  var inputRef = Object(react__WEBPACK_IMPORTED_MODULE_3__["useRef"])();
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(""),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState, 2),
+      change = _useState2[0],
+      setChange = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    var val = inputRef.current.value;
+    setChange(val);
+  }, []);
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
+    type: "hidden",
+    id: "data",
+    value: "",
+    ref: inputRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 14
     },
     __self: this
-  });
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_View__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    data: data,
+    change: change,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }));
 }; // 들어온 쿼리 id를 가지고 데이터를 부분적으로 불러와서 component에 넘겨주기
 
 
@@ -500,7 +506,7 @@ function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get("http://localhost:3001/api/choice?id=" + req.query.id);
+            return axios__WEBPACK_IMPORTED_MODULE_5___default.a.get("http://localhost:3001/api/choice?id=" + req.query.id);
 
           case 2:
             res = _context.sent;
@@ -525,6 +531,82 @@ function () {
 
 /***/ }),
 
+/***/ "./util/handler.js":
+/*!*************************!*\
+  !*** ./util/handler.js ***!
+  \*************************/
+/*! exports provided: contentsHandler, onDownloadPpt */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentsHandler", function() { return contentsHandler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onDownloadPpt", function() { return onDownloadPpt; });
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_0__);
+//import
+
+var contentsHandler = function contentsHandler(data) {
+  var title = data.map(function (e) {
+    return e.title;
+  });
+  var contents = data.map(function (e) {
+    return e.contents;
+  });
+  var arrayFinal = [];
+  contents.forEach(function (item, i) {
+    var array = [];
+    var statementArr = item.map(function (e) {
+      return e.statement;
+    });
+    statementArr.forEach(function (item2, i2) {
+      var arr = [];
+      var str = "";
+      var splitArr = item2.split("\n");
+      splitArr.forEach(function (item3, i3) {
+        str += item3 + "\n";
+
+        if (i3 % 2 !== 0) {
+          arr.push(str.substring(0, str.length - 1));
+          str = "";
+        }
+      });
+      array.push(arr);
+      arr = [];
+    });
+    var obj = {
+      title: title[i],
+      contents: array
+    };
+    arrayFinal.push(obj);
+  });
+  arrayFinal.forEach(function (item) {
+    var arr = [];
+    item.contents.forEach(function (item2) {
+      arr = arr.concat(item2);
+    });
+    item.contents = arr;
+  });
+  return arrayFinal;
+}; // PPT 다운로드 함수
+
+var onDownloadPpt = function onDownloadPpt() {
+  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default.a();
+  pptx.setTitle("Hello world Title");
+  pptx.setLayout({
+    name: "A3",
+    width: 16.5,
+    height: 11.7
+  });
+  var slide = pptx.addNewSlide("MASTER");
+  slide.back = "000000";
+  slide.color = "FFFFFF";
+  pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
+  return "다운로드 성공";
+};
+
+/***/ }),
+
 /***/ 3:
 /*!************************************!*\
   !*** multi ./pages/lyrics_view.js ***!
@@ -532,7 +614,7 @@ function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\React\praise-project\pages\lyrics_view.js */"./pages/lyrics_view.js");
+module.exports = __webpack_require__(/*! C:\Users\wkwk2\OneDrive\바탕 화면\react\praise-project\pages\lyrics_view.js */"./pages/lyrics_view.js");
 
 
 /***/ }),
@@ -589,6 +671,17 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "pptxgenjs":
+/*!****************************!*\
+  !*** external "pptxgenjs" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("pptxgenjs");
 
 /***/ }),
 

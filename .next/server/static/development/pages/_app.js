@@ -187,30 +187,22 @@ var rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
 /*!***************************!*\
   !*** ./modules/lyrics.js ***!
   \***************************/
-/*! exports provided: changeHandler, changeData, default */
+/*! exports provided: changeHandler, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeData", function() { return changeData; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
 
 
 // action
-var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-var CHANGE_DATA = "lyrics/CHANGE_DATA"; //action creator
+var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER"; //action creator
 
 var changeHandler = function changeHandler(e) {
   return {
     type: CHANGE_HANDLER,
-    e: e
-  };
-};
-var changeData = function changeData(e) {
-  return {
-    type: CHANGE_DATA,
     e: e
   };
 }; // initialState
@@ -224,9 +216,6 @@ var lyrics = function lyrics() {
   switch (action.type) {
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
-
-    case CHANGE_DATA:
-      return onChangeData(action.e);
 
     default:
       return state;
@@ -251,18 +240,6 @@ var onChangeHandler = function onChangeHandler(state, e) {
   }
 
   return state;
-};
-
-var onChangeData = function onChangeData(e) {
-  var obj = {};
-
-  if (e.target.id) {
-    var data = e.target.id.split("#");
-    obj["main"] = data[0];
-    obj["sub"] = data[1];
-  }
-
-  return obj;
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (lyrics);

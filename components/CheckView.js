@@ -9,29 +9,37 @@ import io from "socket.io-client";
 const socket = io("http://localhost:3001");
 
 const CheckView = ({ data, id }) => {
-  const lyricsData = useSelector(state => state.lyrics);
+  socket.on("lyrics_info1", data => {
+    let choiceItem = document.getElementById(
+      data["main"] + "#" + data["sub"] + "#" + data["id"]
+    );
+    choiceItem.classList.add("active");
+  });
   const open_view = () => {
-    openView = open(
+    open(
       "./lyrics_view?id=" + JSON.stringify(id),
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );
   };
   const change_data = e => {
+    let obj = {};
+    let id = e.target.id;
+    if (id.indexOf("#") > -1) {
+      let idArr = id.split("#");
+      obj["main"] = idArr[0];
+      obj["sub"] = idArr[1];
+      obj["id"] = idArr[2];
+    }
     // socket 통신을 활용해서 만들어야 겠다
-  };
-  useEffect(() => {
-    let list = document.getElementsByClassName("col");
-    for (let item of list) {
+    socket.emit("lyrics_info", obj);
+    let cols = document.getElementsByClassName("col");
+    for (let item of cols) {
       item.classList.remove("active");
     }
-    let cube = document.getElementById(
-      lyricsData["main"] + "#" + lyricsData["sub"]
-    );
-    if (cube) {
-      cube.className += " active";
-    }
-  }, [lyricsData]);
+    document.getElementById(e.target.id).classList.add("active");
+  };
+
   return (
     <Layout title="Check View Page">
       <div className="container">
@@ -62,17 +70,21 @@ const CheckView = ({ data, id }) => {
               return e.contents.map((item, i) => {
                 return (
                   <div
-                    className="col"
+                    className={idx === 0 && i === 0 ? "col active" : "col"}
                     key={i}
-                    id={idx + "#" + i}
+                    id={idx + "#" + i + "#" + e.id}
                     onClick={change_data}
                   >
-                    <div className="lyr-title" key={i} id={idx + "#" + i}>
+                    <div
+                      className="lyr-title"
+                      key={i}
+                      id={idx + "#" + i + "#" + e.id}
+                    >
                       {e.title}
                     </div>
-                    <div id={idx + "#" + i}>
+                    <div id={idx + "#" + i + "#" + e.id}>
                       {item.split("\n").map((it, i2) => (
-                        <span key={i2} id={idx + "#" + i}>
+                        <span key={i2} id={idx + "#" + i + "#" + e.id}>
                           {it}
                           <br />
                         </span>

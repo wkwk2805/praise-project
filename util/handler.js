@@ -2,6 +2,7 @@
 import PptxGenJS from "pptxgenjs";
 
 export const contentsHandler = data => {
+  let l_id = data.map(e => e.l_id);
   let title = data.map(e => e.title);
   let contents = data.map(e => e.contents);
   let arrayFinal = [];
@@ -22,7 +23,7 @@ export const contentsHandler = data => {
       array.push(arr);
       arr = [];
     });
-    let obj = { title: title[i], contents: array };
+    let obj = { id: l_id[i], title: title[i], contents: array };
     arrayFinal.push(obj);
   });
   arrayFinal.forEach(item => {
@@ -45,4 +46,20 @@ export const onDownloadPpt = () => {
   slide.color = "FFFFFF";
   pptx.save(`가사모음_20190619`);
   return "다운로드 성공";
+};
+
+export const arrayHandler = lyrics => {
+  let arr = [];
+  lyrics.forEach((item, i) => {
+    let arr2 = item.contents;
+    arr2.forEach((item2, i2) => {
+      let obj = {
+        title: item.title,
+        id: i + "#" + i2 + "#" + item.id,
+        contents: item2
+      };
+      arr.push(obj);
+    });
+  });
+  return arr;
 };

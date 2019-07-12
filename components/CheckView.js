@@ -4,9 +4,11 @@ import Link from "next/link";
 import { contentsHandler } from "../util/handler";
 import { useDispatch, useSelector } from "react-redux";
 import { changeData } from "../modules/lyrics";
+import io from "socket.io-client";
+
+const socket = io("http://localhost:3001");
 
 const CheckView = ({ data, id }) => {
-  let openView;
   const lyricsData = useSelector(state => state.lyrics);
   const open_view = () => {
     openView = open(
@@ -16,13 +18,7 @@ const CheckView = ({ data, id }) => {
     );
   };
   const change_data = e => {
-    if (
-      openView &&
-      openView.document &&
-      openView.document.getElementById("data")
-    ) {
-      openView.document.getElementById("data").value = e.target.id;
-    }
+    // socket 통신을 활용해서 만들어야 겠다
   };
   useEffect(() => {
     let list = document.getElementsByClassName("col");

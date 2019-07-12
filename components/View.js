@@ -12,12 +12,9 @@ const styleSheet = {
     fontSize: "4em"
   }
 };
-const View = ({ data, change }) => {
+const View = ({ data }) => {
   const [lyrics, setLyrics] = useState(contentsHandler(data));
   const [list, setList] = useState("a\nb");
-  useEffect(() => {
-    console.log(change);
-  }, []);
   return (
     <Layout title="View">
       <div style={styleSheet.container}>

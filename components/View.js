@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Layout from "./Layout";
 import { contentsHandler, arrayHandler } from "../util/handler";
-import io from "socket.io-client";
 
 const styleSheet = {
   container: {
@@ -15,25 +14,20 @@ const styleSheet = {
 };
 
 const View = ({ data }) => {
-  const socket = io("http://localhost:3001");
   const [lyrics, setLyrics] = useState(contentsHandler(data));
-  const [mainNum, setMainNum] = useState(0);
-  const [subNum, setSubNum] = useState(0);
   const [list, setList] = useState({});
-  socket.on("lyrics_info", info => {
-    if (lyrics[info.main * 1].id * 1 === info.id * 1) {
-    }
-  });
   useEffect(() => {
     setList(arrayHandler(lyrics)[0]);
-    test();
+    keyDownHandler();
+    window.comunity = function(id) {
+      let ls = arrayHandler(lyrics);
+      setList(ls.filter(e => e.id === id)[0]);
+    };
   }, []);
-
-  const test = () => {
+  const keyDownHandler = () => {
     window.addEventListener("keydown", e => {
       switch (e.keyCode) {
         case 38: // 위
-          setList(lyrics[0].contents[1]);
           break;
         case 40: // 아래
           break;

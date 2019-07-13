@@ -4,40 +4,27 @@ import Link from "next/link";
 import { contentsHandler } from "../util/handler";
 import { useDispatch, useSelector } from "react-redux";
 import { changeData } from "../modules/lyrics";
-import io from "socket.io-client";
-
-const socket = io("http://localhost:3001");
 
 const CheckView = ({ data, id }) => {
-  socket.on("lyrics_info1", data => {
-    let choiceItem = document.getElementById(
-      data["main"] + "#" + data["sub"] + "#" + data["id"]
-    );
-    choiceItem.classList.add("active");
-  });
+  let openView;
   const open_view = () => {
-    open(
+    openView = open(
       "./lyrics_view?id=" + JSON.stringify(id),
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );
   };
   const change_data = e => {
-    let obj = {};
     let id = e.target.id;
-    if (id.indexOf("#") > -1) {
-      let idArr = id.split("#");
-      obj["main"] = idArr[0];
-      obj["sub"] = idArr[1];
-      obj["id"] = idArr[2];
-    }
-    // socket 통신을 활용해서 만들어야 겠다
-    socket.emit("lyrics_info", obj);
+    // class에서 active 제거 후 다시 넣어주기
     let cols = document.getElementsByClassName("col");
     for (let item of cols) {
       item.classList.remove("active");
     }
     document.getElementById(e.target.id).classList.add("active");
+    if (openView && openView.document) {
+      openView.comunity(id);
+    }
   };
 
   return (

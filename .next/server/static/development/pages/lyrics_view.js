@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -169,11 +169,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
 /* harmony import */ var _util_handler__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/handler */ "./util/handler.js");
-/* harmony import */ var socket_io_client__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! socket.io-client */ "socket.io-client");
-/* harmony import */ var socket_io_client__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(socket_io_client__WEBPACK_IMPORTED_MODULE_4__);
 
 var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\View.js";
-
 
 
 
@@ -190,42 +187,34 @@ var styleSheet = {
 
 var View = function View(_ref) {
   var data = _ref.data;
-  var socket = socket_io_client__WEBPACK_IMPORTED_MODULE_4___default()("http://localhost:3001");
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["contentsHandler"])(data)),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
       lyrics = _useState2[0],
       setLyrics = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
       _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
-      mainNum = _useState4[0],
-      setMainNum = _useState4[1];
+      list = _useState4[0],
+      setList = _useState4[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(0),
-      _useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState5, 2),
-      subNum = _useState6[0],
-      setSubNum = _useState6[1];
-
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
-      _useState8 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState7, 2),
-      list = _useState8[0],
-      setList = _useState8[1];
-
-  socket.on("lyrics_info", function (info) {
-    if (lyrics[info.main * 1].id * 1 === info.id * 1) {}
-  });
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     setList(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["arrayHandler"])(lyrics)[0]);
-    test();
+    keyDownHandler();
+
+    window.comunity = function (id) {
+      var ls = Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["arrayHandler"])(lyrics);
+      setList(ls.filter(function (e) {
+        return e.id === id;
+      })[0]);
+    };
   }, []);
 
-  var test = function test() {
+  var keyDownHandler = function keyDownHandler() {
     window.addEventListener("keydown", function (e) {
       switch (e.keyCode) {
         case 38:
           // 위
-          setList(lyrics[0].contents[1]);
           break;
 
         case 40:
@@ -262,14 +251,14 @@ var View = function View(_ref) {
     title: "View",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: styleSheet.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 51
     },
     __self: this
   }, (list.contents + "").split("\n").map(function (it, i) {
@@ -277,13 +266,13 @@ var View = function View(_ref) {
       key: i,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 54
       },
       __self: this
     }, it, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 56
       },
       __self: this
     }));
@@ -513,10 +502,9 @@ var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react
 
 
 
-var lyrics_view = function lyrics_view(_ref) {
-  var data = _ref.data;
+var lyrics_view = function lyrics_view(props) {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_View__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    data: data,
+    data: props.data,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -529,7 +517,7 @@ var lyrics_view = function lyrics_view(_ref) {
 lyrics_view["getInitialProps"] =
 /*#__PURE__*/
 function () {
-  var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
   /*#__PURE__*/
   _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(req) {
     var res;
@@ -555,7 +543,7 @@ function () {
   }));
 
   return function (_x) {
-    return _ref2.apply(this, arguments);
+    return _ref.apply(this, arguments);
   };
 }();
 
@@ -659,7 +647,7 @@ var arrayHandler = function arrayHandler(lyrics) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!************************************!*\
   !*** multi ./pages/lyrics_view.js ***!
   \************************************/
@@ -756,17 +744,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("regenerator-runtime");
-
-/***/ }),
-
-/***/ "socket.io-client":
-/*!***********************************!*\
-  !*** external "socket.io-client" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("socket.io-client");
 
 /***/ })
 

@@ -37,14 +37,16 @@ export const contentsHandler = data => {
 };
 
 // PPT 다운로드 함수
-export const onDownloadPpt = () => {
+export const onDownloadPpt = data => {
+  // data 모양새는 [{id:'0#0#0', title:'요게뱃의 노래', contents:"동그란 눈으로\n엄말 보고 있는"},{},{}]
+  console.log(data);
   let pptx = new PptxGenJS();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({ name: "A3", width: 16.5, height: 11.7 });
   let slide = pptx.addNewSlide("MASTER");
   slide.back = "000000";
   slide.color = "FFFFFF";
-  pptx.save(`가사모음_20190619`);
+  pptx.save(`가사모음` + new Date());
   return "다운로드 성공";
 };
 

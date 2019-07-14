@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -180,30 +180,40 @@ var styleSheet = {
     height: "1000px",
     color: "white",
     textAlign: "center",
-    paddingTop: "30px",
     fontSize: "4em"
+  },
+  title: {
+    fontSize: "1em",
+    textAlign: "left",
+    background: "black",
+    color: "white",
+    paddingTop: "15px",
+    paddingLeft: "15px"
   }
 };
 
 var View = function View(_ref) {
-  var data = _ref.data;
+  var data = _ref.data,
+      initData = _ref.initData;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["contentsHandler"])(data)),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
       lyrics = _useState2[0],
       setLyrics = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
+  var ls = Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["arrayHandler"])(lyrics);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(ls.filter(function (e) {
+    return e.id === initData;
+  })[0]),
       _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
       list = _useState4[0],
       setList = _useState4[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    setList(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["arrayHandler"])(lyrics)[0]);
     keyDownHandler();
 
     window.comunity = function (id) {
-      var ls = Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["arrayHandler"])(lyrics);
       setList(ls.filter(function (e) {
         return e.id === id;
       })[0]);
@@ -251,14 +261,21 @@ var View = function View(_ref) {
     title: "View",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    style: styleSheet.title,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, list.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: styleSheet.container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 58
     },
     __self: this
   }, (list.contents + "").split("\n").map(function (it, i) {
@@ -266,13 +283,13 @@ var View = function View(_ref) {
       key: i,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 61
       },
       __self: this
     }, it, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 63
       },
       __self: this
     }));
@@ -505,6 +522,7 @@ var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react
 var lyrics_view = function lyrics_view(props) {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_View__WEBPACK_IMPORTED_MODULE_3__["default"], {
     data: props.data,
+    initData: props.initData,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -520,7 +538,7 @@ function () {
   var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
   /*#__PURE__*/
   _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(req) {
-    var res;
+    var res, initData;
     return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -530,11 +548,13 @@ function () {
 
           case 2:
             res = _context.sent;
+            initData = req.query.init.replace(/%23/g, "#");
             return _context.abrupt("return", {
-              data: res.data
+              data: res.data,
+              initData: initData
             });
 
-          case 4:
+          case 5:
           case "end":
             return _context.stop();
         }
@@ -615,7 +635,9 @@ var contentsHandler = function contentsHandler(data) {
   return arrayFinal;
 }; // PPT 다운로드 함수
 
-var onDownloadPpt = function onDownloadPpt() {
+var onDownloadPpt = function onDownloadPpt(data) {
+  // data 모양새는 [{id:'0#0#0', title:'요게뱃의 노래', contents:"동그란 눈으로\n엄말 보고 있는"},{},{}]
+  console.log(data);
   var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default.a();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({
@@ -626,7 +648,7 @@ var onDownloadPpt = function onDownloadPpt() {
   var slide = pptx.addNewSlide("MASTER");
   slide.back = "000000";
   slide.color = "FFFFFF";
-  pptx.save("\uAC00\uC0AC\uBAA8\uC74C_20190619");
+  pptx.save("\uAC00\uC0AC\uBAA8\uC74C" + new Date());
   return "다운로드 성공";
 };
 var arrayHandler = function arrayHandler(lyrics) {
@@ -647,7 +669,7 @@ var arrayHandler = function arrayHandler(lyrics) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /*!************************************!*\
   !*** multi ./pages/lyrics_view.js ***!
   \************************************/

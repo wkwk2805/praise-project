@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "./Layout";
 import { contentsHandler, arrayHandler } from "../util/handler";
 
@@ -8,19 +8,25 @@ const styleSheet = {
     height: "1000px",
     color: "white",
     textAlign: "center",
-    paddingTop: "30px",
     fontSize: "4em"
+  },
+  title: {
+    fontSize: "1em",
+    textAlign: "left",
+    background: "black",
+    color: "white",
+    paddingTop: "15px",
+    paddingLeft: "15px"
   }
 };
 
-const View = ({ data }) => {
+const View = ({ data, initData }) => {
   const [lyrics, setLyrics] = useState(contentsHandler(data));
-  const [list, setList] = useState({});
+  const ls = arrayHandler(lyrics);
+  const [list, setList] = useState(ls.filter(e => e.id === initData)[0]);
   useEffect(() => {
-    setList(arrayHandler(lyrics)[0]);
     keyDownHandler();
     window.comunity = function(id) {
-      let ls = arrayHandler(lyrics);
       setList(ls.filter(e => e.id === id)[0]);
     };
   }, []);
@@ -48,6 +54,7 @@ const View = ({ data }) => {
   };
   return (
     <Layout title="View">
+      <div style={styleSheet.title}>{list.title}</div>
       <div style={styleSheet.container}>
         {(list.contents + "").split("\n").map((it, i) => {
           return (

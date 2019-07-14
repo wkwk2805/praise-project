@@ -1,15 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import Layout from "./Layout";
 import Link from "next/link";
-import { contentsHandler } from "../util/handler";
-import { useDispatch, useSelector } from "react-redux";
-import { changeData } from "../modules/lyrics";
+import { contentsHandler, onDownloadPpt, arrayHandler } from "../util/handler";
 
 const CheckView = ({ data, id }) => {
+  const [lists, setLists] = useState(contentsHandler(data));
   let openView;
   const open_view = () => {
+    if (openView) openView.close();
     openView = open(
-      "./lyrics_view?id=" + JSON.stringify(id),
+      "./lyrics_view?id=" +
+        JSON.stringify(id) +
+        "&init=" +
+        document.getElementsByClassName("active")[0].id.replace(/#/g, "%23"),
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );
@@ -22,11 +25,13 @@ const CheckView = ({ data, id }) => {
       item.classList.remove("active");
     }
     document.getElementById(e.target.id).classList.add("active");
-    if (openView && openView.document) {
+    if (openView && openView.comunity) {
       openView.comunity(id);
     }
   };
-
+  const downloadPpt = () => {
+    onDownloadPpt(arrayHandler(lists));
+  };
   return (
     <Layout title="Check View Page">
       <div className="container">
@@ -45,14 +50,14 @@ const CheckView = ({ data, id }) => {
             <i className="fas fa-search-plus" />
           </button>
           {` `}
-          <button className="btn btn-danger">
+          <button className="btn btn-danger" onClick={downloadPpt}>
             <span>DOWNLOAD PPT</span>
             {` `}
             <i className="fas fa-download" />
           </button>
         </div>
         <div className="table-container">
-          {contentsHandler(data).map((e, idx) => {
+          {lists.map((e, idx) => {
             {
               return e.contents.map((item, i) => {
                 return (

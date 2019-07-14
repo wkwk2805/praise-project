@@ -16,9 +16,6 @@ const LyricsList = ({ data }) => {
       setLyrics(lyrics.concat(e));
     });
   }, [select]);
-  useEffect(() => {
-    console.log(checkedList());
-  }, [checked]);
   // scroll event
   const scrollHandler = () => {
     const { innerHeight } = window;

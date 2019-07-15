@@ -16,17 +16,23 @@ const CheckView = ({ data, id }) => {
       "_blank",
       "toolbar=yes,scrollbars=yes,resizable=yes,width=1080,height=800"
     );
+    window.communityMove = function(idx) {
+      let cols = document.getElementsByClassName("col");
+      for (let item of cols) {
+        item.classList.remove("active");
+      }
+      document.getElementById(idx).classList.add("active");
+    };
   };
   const change_data = e => {
-    let id = e.target.id;
     // class에서 active 제거 후 다시 넣어주기
     let cols = document.getElementsByClassName("col");
     for (let item of cols) {
       item.classList.remove("active");
     }
     document.getElementById(e.target.id).classList.add("active");
-    if (openView && openView.comunity) {
-      openView.comunity(id);
+    if (openView && openView.community) {
+      openView.community(e.target.id);
     }
   };
   const downloadPpt = () => {

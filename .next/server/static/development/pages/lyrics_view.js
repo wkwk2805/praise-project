@@ -195,6 +195,7 @@ var styleSheet = {
 var View = function View(_ref) {
   var data = _ref.data,
       initData = _ref.initData;
+  var targetRef = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(Object(_util_handler__WEBPACK_IMPORTED_MODULE_3__["contentsHandler"])(data)),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
@@ -213,7 +214,7 @@ var View = function View(_ref) {
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     keyDownHandler();
 
-    window.comunity = function (id) {
+    window.community = function (id) {
       setList(ls.filter(function (e) {
         return e.id === id;
       })[0]);
@@ -222,33 +223,42 @@ var View = function View(_ref) {
 
   var keyDownHandler = function keyDownHandler() {
     window.addEventListener("keydown", function (e) {
+      e.keyCode !== 122 && e.preventDefault();
+
       switch (e.keyCode) {
         case 38:
           // 위
+          backMove();
           break;
 
         case 40:
           // 아래
+          frontMove();
           break;
 
         case 37:
           // 왼
+          backMove();
           break;
 
         case 39:
           // 오
+          frontMove();
           break;
 
         case 13:
           //엔터
+          frontMove();
           break;
 
         case 32:
           //스페이스
+          frontMove();
           break;
 
         case 27:
           // esc
+          window.close();
           break;
 
         default:
@@ -257,25 +267,65 @@ var View = function View(_ref) {
     });
   };
 
+  var frontMove = function frontMove() {
+    var idxs = ls.map(function (e, i) {
+      if (e.id === targetRef.current.id) {
+        return i;
+      }
+    });
+    var idx = idxs.filter(function (e) {
+      return e !== undefined;
+    })[0];
+
+    if (list && list.title && list.id && idx + 1 !== ls.length) {
+      var li = ls[idx + 1];
+      setList(li);
+      window.opener.communityMove(li.id);
+    } else {
+      alert("마지막 페이지 입니다.");
+    }
+  };
+
+  var backMove = function backMove() {
+    var idxs = ls.map(function (e, i) {
+      if (e.id === targetRef.current.id) {
+        return i;
+      }
+    });
+    var idx = idxs.filter(function (e) {
+      return e !== undefined;
+    })[0];
+
+    if (list && list.title && list.id && idx - 1 !== -1) {
+      var li = ls[idx - 1];
+      setList(li);
+      window.opener.communityMove(li.id);
+    } else {
+      alert("처음 페이지 입니다.");
+    }
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "View",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: styleSheet.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 96
     },
     __self: this
   }, list.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: styleSheet.container,
+    id: list.id,
+    ref: targetRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 97
     },
     __self: this
   }, (list.contents + "").split("\n").map(function (it, i) {
@@ -283,13 +333,13 @@ var View = function View(_ref) {
       key: i,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 100
       },
       __self: this
     }, it, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 102
       },
       __self: this
     }));
@@ -583,8 +633,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "contentsHandler", function() { return contentsHandler; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onDownloadPpt", function() { return onDownloadPpt; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "arrayHandler", function() { return arrayHandler; });
-/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
-/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/get-iterator */ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pptxgenjs */ "pptxgenjs");
+/* harmony import */ var pptxgenjs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pptxgenjs__WEBPACK_IMPORTED_MODULE_1__);
+
 //import
 
 var contentsHandler = function contentsHandler(data) {
@@ -613,6 +666,8 @@ var contentsHandler = function contentsHandler(data) {
         if (i3 % 2 !== 0) {
           arr.push(str.substring(0, str.length - 1));
           str = "";
+        } else if (i3 === splitArr.length - 1 && (splitArr.length - 1) % 2 === 0) {
+          arr.push(str.substring(0, str.length - 1));
         }
       });
       array.push(arr);
@@ -637,17 +692,52 @@ var contentsHandler = function contentsHandler(data) {
 
 var onDownloadPpt = function onDownloadPpt(data) {
   // data 모양새는 [{id:'0#0#0', title:'요게뱃의 노래', contents:"동그란 눈으로\n엄말 보고 있는"},{},{}]
-  console.log(data);
-  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_0___default.a();
+  var pptx = new pptxgenjs__WEBPACK_IMPORTED_MODULE_1___default.a();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({
     name: "A3",
     width: 16.5,
     height: 11.7
   });
-  var slide = pptx.addNewSlide("MASTER");
-  slide.back = "000000";
-  slide.color = "FFFFFF";
+  var _iteratorNormalCompletion = true;
+  var _didIteratorError = false;
+  var _iteratorError = undefined;
+
+  try {
+    for (var _iterator = _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default()(data), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+      var item = _step.value;
+      var slide = pptx.addNewSlide("MASTER");
+      slide.back = "000000";
+      slide.color = "FFFFFF";
+      slide.addText(item.title, {
+        fontSize: 15,
+        h: 0.5
+      });
+      slide.addText(item.contents, {
+        fontSize: 65,
+        align: "center",
+        valign: "top",
+        w: "80%",
+        h: 2,
+        y: 1,
+        x: 1.5
+      });
+    }
+  } catch (err) {
+    _didIteratorError = true;
+    _iteratorError = err;
+  } finally {
+    try {
+      if (!_iteratorNormalCompletion && _iterator.return != null) {
+        _iterator.return();
+      }
+    } finally {
+      if (_didIteratorError) {
+        throw _iteratorError;
+      }
+    }
+  }
+
   pptx.save("\uAC00\uC0AC\uBAA8\uC74C" + new Date());
   return "다운로드 성공";
 };

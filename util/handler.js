@@ -18,6 +18,11 @@ export const contentsHandler = data => {
         if (i3 % 2 !== 0) {
           arr.push(str.substring(0, str.length - 1));
           str = "";
+        } else if (
+          i3 === splitArr.length - 1 &&
+          (splitArr.length - 1) % 2 === 0
+        ) {
+          arr.push(str.substring(0, str.length - 1));
         }
       });
       array.push(arr);
@@ -39,13 +44,24 @@ export const contentsHandler = data => {
 // PPT 다운로드 함수
 export const onDownloadPpt = data => {
   // data 모양새는 [{id:'0#0#0', title:'요게뱃의 노래', contents:"동그란 눈으로\n엄말 보고 있는"},{},{}]
-  console.log(data);
   let pptx = new PptxGenJS();
   pptx.setTitle("Hello world Title");
   pptx.setLayout({ name: "A3", width: 16.5, height: 11.7 });
-  let slide = pptx.addNewSlide("MASTER");
-  slide.back = "000000";
-  slide.color = "FFFFFF";
+  for (let item of data) {
+    let slide = pptx.addNewSlide("MASTER");
+    slide.back = "000000";
+    slide.color = "FFFFFF";
+    slide.addText(item.title, { fontSize: 15, h: 0.5 });
+    slide.addText(item.contents, {
+      fontSize: 65,
+      align: "center",
+      valign: "top",
+      w: "80%",
+      h: 2,
+      y: 1,
+      x: 1.5
+    });
+  }
   pptx.save(`가사모음` + new Date());
   return "다운로드 성공";
 };

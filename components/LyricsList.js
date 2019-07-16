@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
+import axios from "axios";
 
 const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
@@ -54,6 +55,20 @@ const LyricsList = ({ data }) => {
   const checkedList = () => {
     const id = checked.map(e => e.id.split("title_")[1] * 1);
     return id;
+  };
+  const downloadFile = async name => {
+    axios({
+      url: `http://localhost:3001/uploads/${name}`,
+      method: "GET",
+      responseType: "blob" // important
+    }).then(response => {
+      const url = window.URL.createObjectURL(new Blob([response.data]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", name);
+      document.body.appendChild(link);
+      link.click();
+    });
   };
   return (
     <>
@@ -118,6 +133,7 @@ const LyricsList = ({ data }) => {
                       <button
                         className="btn btn-primary"
                         style={{ float: "left" }}
+                        onClick={() => downloadFile(e.file)}
                       >
                         악보 다운로드
                       </button>

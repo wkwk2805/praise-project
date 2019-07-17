@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
+import JSZip from "jszip";
+import { saveAs } from "file-saver";
 
 const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
@@ -35,11 +37,13 @@ const LyricsList = ({ data }) => {
     if (e.target.checked) {
       const val = e.target.value.split("#");
       const id = e.target.id;
+      console.log(e.target);
       setChecked(
         checked.concat({
           id: id,
           title: val[0],
-          code: val[1] !== "undefined" ? `(${val[1]})` : ``
+          code: val[1] !== "undefined" ? `(${val[1]})` : ``,
+          file: val[2] !== "undefined" ? val[2] : ``
         })
       );
     } else {
@@ -56,7 +60,7 @@ const LyricsList = ({ data }) => {
     const id = checked.map(e => e.id.split("title_")[1] * 1);
     return id;
   };
-  const downloadFile = async name => {
+  const downloadFile = name => {
     axios({
       url: `http://localhost:3001/uploads/${name}`,
       method: "GET",
@@ -70,6 +74,8 @@ const LyricsList = ({ data }) => {
       link.click();
     });
   };
+
+  const downloadFiles = () => {};
   return (
     <>
       <Layout title="가사목록페이지">
@@ -116,7 +122,7 @@ const LyricsList = ({ data }) => {
                           <input
                             type="checkbox"
                             id={`title_${e.l_id}`}
-                            value={e.title + "#" + e.code}
+                            value={e.title + "#" + e.code + "#" + e.file}
                             onChange={checkboxHandler}
                             style={{ width: "20px", cursor: "pointer" }}
                           />
@@ -188,10 +194,10 @@ const LyricsList = ({ data }) => {
                   >
                     <button className="btn btn-success">PPT 생성</button>
                   </Link>
-                  {` `}
-                  <button className="btn btn-danger">PPT 제거</button>
                   <p />
-                  <button className="btn btn-primary">악보다운로드</button>
+                  <button className="btn btn-primary" onClick={downloadFiles}>
+                    악보다운로드
+                  </button>
                 </div>
               </div>
             </div>

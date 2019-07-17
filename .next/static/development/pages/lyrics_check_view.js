@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\CheckView.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\CheckView.js";
 
 
 
@@ -272,7 +272,7 @@ var CheckView = function CheckView(_ref) {
   }))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_3___default.a, {
     id: "3371871912",
     __self: this
-  }, ".table-container.jsx-3371871912{text-align:center;width:100%;}.col.jsx-3371871912{background:black;color:white;text-align:center;margin:10px 10px 0px 0px;width:20em;height:300px;cursor:pointer;float:left;}.lyr-title.jsx-3371871912{text-align:left;margin:10px 0px 10px 5px;font-size:10px;}.col.jsx-3371871912:hover{border:solid 5px yellow;}.active.jsx-3371871912{border:solid 5px yellow;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcd2t3azJcXE9uZURyaXZlXFzrsJTtg5Ug7ZmU66m0XFxyZWFjdFxccHJhaXNlLXByb2plY3RcXGNvbXBvbmVudHNcXENoZWNrVmlldy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrR1MsQUFHK0IsQUFJRCxBQVVELEFBS1EsQUFHQSxnQkFQQyxDQVZiLENBSkQsTUFtQmIsQUFHQSxLQXJCQSxBQUlvQixZQVVILE1BVFUsU0FVM0IsZ0JBVGEsV0FDRSxhQUNFLGVBQ0osV0FDYiIsImZpbGUiOiJDOlxcVXNlcnNcXHdrd2syXFxPbmVEcml2ZVxc67CU7YOVIO2ZlOuptFxccmVhY3RcXHByYWlzZS1wcm9qZWN0XFxjb21wb25lbnRzXFxDaGVja1ZpZXcuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IExheW91dCBmcm9tIFwiLi9MYXlvdXRcIjtcclxuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xyXG5pbXBvcnQgeyBjb250ZW50c0hhbmRsZXIsIG9uRG93bmxvYWRQcHQsIGFycmF5SGFuZGxlciB9IGZyb20gXCIuLi91dGlsL2hhbmRsZXJcIjtcclxuXHJcbmNvbnN0IENoZWNrVmlldyA9ICh7IGRhdGEsIGlkIH0pID0+IHtcclxuICBjb25zdCBbbGlzdHMsIHNldExpc3RzXSA9IHVzZVN0YXRlKGNvbnRlbnRzSGFuZGxlcihkYXRhKSk7XHJcbiAgbGV0IG9wZW5WaWV3O1xyXG4gIGNvbnN0IG9wZW5fdmlldyA9ICgpID0+IHtcclxuICAgIGlmIChvcGVuVmlldykgb3BlblZpZXcuY2xvc2UoKTtcclxuICAgIG9wZW5WaWV3ID0gb3BlbihcclxuICAgICAgXCIuL2x5cmljc192aWV3P2lkPVwiICtcclxuICAgICAgICBKU09OLnN0cmluZ2lmeShpZCkgK1xyXG4gICAgICAgIFwiJmluaXQ9XCIgK1xyXG4gICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJhY3RpdmVcIilbMF0uaWQucmVwbGFjZSgvIy9nLCBcIiUyM1wiKSxcclxuICAgICAgXCJfYmxhbmtcIixcclxuICAgICAgXCJ0b29sYmFyPXllcyxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzLHdpZHRoPTEwODAsaGVpZ2h0PTgwMFwiXHJcbiAgICApO1xyXG4gICAgd2luZG93LmNvbW11bml0eU1vdmUgPSBmdW5jdGlvbihpZHgpIHtcclxuICAgICAgbGV0IGNvbHMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKFwiY29sXCIpO1xyXG4gICAgICBmb3IgKGxldCBpdGVtIG9mIGNvbHMpIHtcclxuICAgICAgICBpdGVtLmNsYXNzTGlzdC5yZW1vdmUoXCJhY3RpdmVcIik7XHJcbiAgICAgIH1cclxuICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWR4KS5jbGFzc0xpc3QuYWRkKFwiYWN0aXZlXCIpO1xyXG4gICAgfTtcclxuICB9O1xyXG4gIGNvbnN0IGNoYW5nZV9kYXRhID0gZSA9PiB7XHJcbiAgICAvLyBjbGFzc+yXkOyEnCBhY3RpdmUg7KCc6rGwIO2bhCDri6Tsi5wg64Sj7Ja07KO86riwXHJcbiAgICBsZXQgY29scyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJjb2xcIik7XHJcbiAgICBmb3IgKGxldCBpdGVtIG9mIGNvbHMpIHtcclxuICAgICAgaXRlbS5jbGFzc0xpc3QucmVtb3ZlKFwiYWN0aXZlXCIpO1xyXG4gICAgfVxyXG4gICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoZS50YXJnZXQuaWQpLmNsYXNzTGlzdC5hZGQoXCJhY3RpdmVcIik7XHJcbiAgICBpZiAob3BlblZpZXcgJiYgb3BlblZpZXcuY29tbXVuaXR5KSB7XHJcbiAgICAgIG9wZW5WaWV3LmNvbW11bml0eShlLnRhcmdldC5pZCk7XHJcbiAgICB9XHJcbiAgfTtcclxuICBjb25zdCBkb3dubG9hZFBwdCA9ICgpID0+IHtcclxuICAgIG9uRG93bmxvYWRQcHQoYXJyYXlIYW5kbGVyKGxpc3RzKSk7XHJcbiAgfTtcclxuICByZXR1cm4gKFxyXG4gICAgPExheW91dCB0aXRsZT1cIkNoZWNrIFZpZXcgUGFnZVwiPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1yaWdodFwiIHN0eWxlPXt7IG1hcmdpblRvcDogXCIxMHB4XCIgfX0+XHJcbiAgICAgICAgICA8TGluayBocmVmPVwiL2x5cmljc19saXN0XCI+XHJcbiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiYnRuIGJ0bi1pbmZvXCI+XHJcbiAgICAgICAgICAgICAgPHNwYW4+SE9NRTwvc3Bhbj5cclxuICAgICAgICAgICAgICB7YCBgfVxyXG4gICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhcyBmYS1ob21lXCIgLz5cclxuICAgICAgICAgICAgPC9idXR0b24+XHJcbiAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgICB7YCBgfVxyXG4gICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG4gYnRuLXN1Y2Nlc3NcIiBvbkNsaWNrPXtvcGVuX3ZpZXd9PlxyXG4gICAgICAgICAgICA8c3Bhbj5TSE9XIFZJRVc8L3NwYW4+XHJcbiAgICAgICAgICAgIHtgIGB9XHJcbiAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhcyBmYS1zZWFyY2gtcGx1c1wiIC8+XHJcbiAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgIHtgIGB9XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0biBidG4tZGFuZ2VyXCIgb25DbGljaz17ZG93bmxvYWRQcHR9PlxyXG4gICAgICAgICAgICA8c3Bhbj5ET1dOTE9BRCBQUFQ8L3NwYW4+XHJcbiAgICAgICAgICAgIHtgIGB9XHJcbiAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhcyBmYS1kb3dubG9hZFwiIC8+XHJcbiAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRhYmxlLWNvbnRhaW5lclwiPlxyXG4gICAgICAgICAge2xpc3RzLm1hcCgoZSwgaWR4KSA9PiB7XHJcbiAgICAgICAgICAgIHtcclxuICAgICAgICAgICAgICByZXR1cm4gZS5jb250ZW50cy5tYXAoKGl0ZW0sIGkpID0+IHtcclxuICAgICAgICAgICAgICAgIHJldHVybiAoXHJcbiAgICAgICAgICAgICAgICAgIDxkaXZcclxuICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2lkeCA9PT0gMCAmJiBpID09PSAwID8gXCJjb2wgYWN0aXZlXCIgOiBcImNvbFwifVxyXG4gICAgICAgICAgICAgICAgICAgIGtleT17aX1cclxuICAgICAgICAgICAgICAgICAgICBpZD17aWR4ICsgXCIjXCIgKyBpICsgXCIjXCIgKyBlLmlkfVxyXG4gICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2NoYW5nZV9kYXRhfVxyXG4gICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdlxyXG4gICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwibHlyLXRpdGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgIGtleT17aX1cclxuICAgICAgICAgICAgICAgICAgICAgIGlkPXtpZHggKyBcIiNcIiArIGkgKyBcIiNcIiArIGUuaWR9XHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAge2UudGl0bGV9XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD17aWR4ICsgXCIjXCIgKyBpICsgXCIjXCIgKyBlLmlkfT5cclxuICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLnNwbGl0KFwiXFxuXCIpLm1hcCgoaXQsIGkyKSA9PiAoXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGtleT17aTJ9IGlkPXtpZHggKyBcIiNcIiArIGkgKyBcIiNcIiArIGUuaWR9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtpdH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICA8YnIgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPlxyXG4gICAgICAgICAgICAgICAgICAgICAgKSl9XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICB9KTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgfSl9XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgIHtgXHJcbiAgICAgICAgICAudGFibGUtY29udGFpbmVyIHtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5jb2wge1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiBibGFjaztcclxuICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMTBweCAxMHB4IDBweCAwcHg7XHJcbiAgICAgICAgICAgIHdpZHRoOiAyMGVtO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDMwMHB4O1xyXG4gICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgIGZsb2F0OiBsZWZ0O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLmx5ci10aXRsZSB7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgICAgIG1hcmdpbjogMTBweCAwcHggMTBweCA1cHg7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTBweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5jb2w6aG92ZXIge1xyXG4gICAgICAgICAgICBib3JkZXI6IHNvbGlkIDVweCB5ZWxsb3c7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAuYWN0aXZlIHtcclxuICAgICAgICAgICAgYm9yZGVyOiBzb2xpZCA1cHggeWVsbG93O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIGB9XHJcbiAgICAgIDwvc3R5bGU+XHJcbiAgICA8L0xheW91dD5cclxuICApO1xyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ2hlY2tWaWV3O1xyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\CheckView.js */"));
+  }, ".table-container.jsx-3371871912{text-align:center;width:100%;}.col.jsx-3371871912{background:black;color:white;text-align:center;margin:10px 10px 0px 0px;width:20em;height:300px;cursor:pointer;float:left;}.lyr-title.jsx-3371871912{text-align:left;margin:10px 0px 10px 5px;font-size:10px;}.col.jsx-3371871912:hover{border:solid 5px yellow;}.active.jsx-3371871912{border:solid 5px yellow;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSZWFjdFxccmVhY3QtdHV0b3JpYWxcXHByYWlzZS1wcm9qZWN0XFxjb21wb25lbnRzXFxDaGVja1ZpZXcuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0dTLEFBRytCLEFBSUQsQUFVRCxBQUtRLEFBR0EsZ0JBUEMsQ0FWYixDQUpELE1BbUJiLEFBR0EsS0FyQkEsQUFJb0IsWUFVSCxNQVRVLFNBVTNCLGdCQVRhLFdBQ0UsYUFDRSxlQUNKLFdBQ2IiLCJmaWxlIjoiQzpcXFJlYWN0XFxyZWFjdC10dXRvcmlhbFxccHJhaXNlLXByb2plY3RcXGNvbXBvbmVudHNcXENoZWNrVmlldy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gXCIuL0xheW91dFwiO1xyXG5pbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XHJcbmltcG9ydCB7IGNvbnRlbnRzSGFuZGxlciwgb25Eb3dubG9hZFBwdCwgYXJyYXlIYW5kbGVyIH0gZnJvbSBcIi4uL3V0aWwvaGFuZGxlclwiO1xyXG5cclxuY29uc3QgQ2hlY2tWaWV3ID0gKHsgZGF0YSwgaWQgfSkgPT4ge1xyXG4gIGNvbnN0IFtsaXN0cywgc2V0TGlzdHNdID0gdXNlU3RhdGUoY29udGVudHNIYW5kbGVyKGRhdGEpKTtcclxuICBsZXQgb3BlblZpZXc7XHJcbiAgY29uc3Qgb3Blbl92aWV3ID0gKCkgPT4ge1xyXG4gICAgaWYgKG9wZW5WaWV3KSBvcGVuVmlldy5jbG9zZSgpO1xyXG4gICAgb3BlblZpZXcgPSBvcGVuKFxyXG4gICAgICBcIi4vbHlyaWNzX3ZpZXc/aWQ9XCIgK1xyXG4gICAgICAgIEpTT04uc3RyaW5naWZ5KGlkKSArXHJcbiAgICAgICAgXCImaW5pdD1cIiArXHJcbiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImFjdGl2ZVwiKVswXS5pZC5yZXBsYWNlKC8jL2csIFwiJTIzXCIpLFxyXG4gICAgICBcIl9ibGFua1wiLFxyXG4gICAgICBcInRvb2xiYXI9eWVzLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMsd2lkdGg9MTA4MCxoZWlnaHQ9ODAwXCJcclxuICAgICk7XHJcbiAgICB3aW5kb3cuY29tbXVuaXR5TW92ZSA9IGZ1bmN0aW9uKGlkeCkge1xyXG4gICAgICBsZXQgY29scyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJjb2xcIik7XHJcbiAgICAgIGZvciAobGV0IGl0ZW0gb2YgY29scykge1xyXG4gICAgICAgIGl0ZW0uY2xhc3NMaXN0LnJlbW92ZShcImFjdGl2ZVwiKTtcclxuICAgICAgfVxyXG4gICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZHgpLmNsYXNzTGlzdC5hZGQoXCJhY3RpdmVcIik7XHJcbiAgICB9O1xyXG4gIH07XHJcbiAgY29uc3QgY2hhbmdlX2RhdGEgPSBlID0+IHtcclxuICAgIC8vIGNsYXNz7JeQ7IScIGFjdGl2ZSDsoJzqsbAg7ZuEIOuLpOyLnCDrhKPslrTso7zquLBcclxuICAgIGxldCBjb2xzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcImNvbFwiKTtcclxuICAgIGZvciAobGV0IGl0ZW0gb2YgY29scykge1xyXG4gICAgICBpdGVtLmNsYXNzTGlzdC5yZW1vdmUoXCJhY3RpdmVcIik7XHJcbiAgICB9XHJcbiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChlLnRhcmdldC5pZCkuY2xhc3NMaXN0LmFkZChcImFjdGl2ZVwiKTtcclxuICAgIGlmIChvcGVuVmlldyAmJiBvcGVuVmlldy5jb21tdW5pdHkpIHtcclxuICAgICAgb3BlblZpZXcuY29tbXVuaXR5KGUudGFyZ2V0LmlkKTtcclxuICAgIH1cclxuICB9O1xyXG4gIGNvbnN0IGRvd25sb2FkUHB0ID0gKCkgPT4ge1xyXG4gICAgb25Eb3dubG9hZFBwdChhcnJheUhhbmRsZXIobGlzdHMpKTtcclxuICB9O1xyXG4gIHJldHVybiAoXHJcbiAgICA8TGF5b3V0IHRpdGxlPVwiQ2hlY2sgVmlldyBQYWdlXCI+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LXJpZ2h0XCIgc3R5bGU9e3sgbWFyZ2luVG9wOiBcIjEwcHhcIiB9fT5cclxuICAgICAgICAgIDxMaW5rIGhyZWY9XCIvbHlyaWNzX2xpc3RcIj5cclxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG4gYnRuLWluZm9cIj5cclxuICAgICAgICAgICAgICA8c3Bhbj5IT01FPC9zcGFuPlxyXG4gICAgICAgICAgICAgIHtgIGB9XHJcbiAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmFzIGZhLWhvbWVcIiAvPlxyXG4gICAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICAgIHtgIGB9XHJcbiAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0biBidG4tc3VjY2Vzc1wiIG9uQ2xpY2s9e29wZW5fdmlld30+XHJcbiAgICAgICAgICAgIDxzcGFuPlNIT1cgVklFVzwvc3Bhbj5cclxuICAgICAgICAgICAge2AgYH1cclxuICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmFzIGZhLXNlYXJjaC1wbHVzXCIgLz5cclxuICAgICAgICAgIDwvYnV0dG9uPlxyXG4gICAgICAgICAge2AgYH1cclxuICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiYnRuIGJ0bi1kYW5nZXJcIiBvbkNsaWNrPXtkb3dubG9hZFBwdH0+XHJcbiAgICAgICAgICAgIDxzcGFuPkRPV05MT0FEIFBQVDwvc3Bhbj5cclxuICAgICAgICAgICAge2AgYH1cclxuICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmFzIGZhLWRvd25sb2FkXCIgLz5cclxuICAgICAgICAgIDwvYnV0dG9uPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGFibGUtY29udGFpbmVyXCI+XHJcbiAgICAgICAgICB7bGlzdHMubWFwKChlLCBpZHgpID0+IHtcclxuICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgIHJldHVybiBlLmNvbnRlbnRzLm1hcCgoaXRlbSwgaSkgPT4ge1xyXG4gICAgICAgICAgICAgICAgcmV0dXJuIChcclxuICAgICAgICAgICAgICAgICAgPGRpdlxyXG4gICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17aWR4ID09PSAwICYmIGkgPT09IDAgPyBcImNvbCBhY3RpdmVcIiA6IFwiY29sXCJ9XHJcbiAgICAgICAgICAgICAgICAgICAga2V5PXtpfVxyXG4gICAgICAgICAgICAgICAgICAgIGlkPXtpZHggKyBcIiNcIiArIGkgKyBcIiNcIiArIGUuaWR9XHJcbiAgICAgICAgICAgICAgICAgICAgb25DbGljaz17Y2hhbmdlX2RhdGF9XHJcbiAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2XHJcbiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJseXItdGl0bGVcIlxyXG4gICAgICAgICAgICAgICAgICAgICAga2V5PXtpfVxyXG4gICAgICAgICAgICAgICAgICAgICAgaWQ9e2lkeCArIFwiI1wiICsgaSArIFwiI1wiICsgZS5pZH1cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICB7ZS50aXRsZX1cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPXtpZHggKyBcIiNcIiArIGkgKyBcIiNcIiArIGUuaWR9PlxyXG4gICAgICAgICAgICAgICAgICAgICAge2l0ZW0uc3BsaXQoXCJcXG5cIikubWFwKChpdCwgaTIpID0+IChcclxuICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4ga2V5PXtpMn0gaWQ9e2lkeCArIFwiI1wiICsgaSArIFwiI1wiICsgZS5pZH0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAge2l0fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+XHJcbiAgICAgICAgICAgICAgICAgICAgICApKX1cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgIH0pO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICB9KX1cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgIDxzdHlsZSBqc3g+XHJcbiAgICAgICAge2BcclxuICAgICAgICAgIC50YWJsZS1jb250YWluZXIge1xyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLmNvbCB7XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQ6IGJsYWNrO1xyXG4gICAgICAgICAgICBjb2xvcjogd2hpdGU7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgbWFyZ2luOiAxMHB4IDEwcHggMHB4IDBweDtcclxuICAgICAgICAgICAgd2lkdGg6IDIwZW07XHJcbiAgICAgICAgICAgIGhlaWdodDogMzAwcHg7XHJcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICAgICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgICAubHlyLXRpdGxlIHtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgICAgICAgbWFyZ2luOiAxMHB4IDBweCAxMHB4IDVweDtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxMHB4O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLmNvbDpob3ZlciB7XHJcbiAgICAgICAgICAgIGJvcmRlcjogc29saWQgNXB4IHllbGxvdztcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIC5hY3RpdmUge1xyXG4gICAgICAgICAgICBib3JkZXI6IHNvbGlkIDVweCB5ZWxsb3c7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgYH1cclxuICAgICAgPC9zdHlsZT5cclxuICAgIDwvTGF5b3V0PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDaGVja1ZpZXc7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\React\\react-tutorial\\praise-project\\components\\CheckView.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (CheckView);
@@ -292,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\Layout.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
 
 
 
@@ -20272,4550 +20272,6 @@ return jQuery;
 
 /***/ }),
 
-/***/ "./node_modules/jszip/lib/base64.js":
-/*!******************************************!*\
-  !*** ./node_modules/jszip/lib/base64.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-// private property
-var _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
-
-
-// public method for encoding
-exports.encode = function(input) {
-    var output = [];
-    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
-    var i = 0, len = input.length, remainingBytes = len;
-
-    var isArray = utils.getTypeOf(input) !== "string";
-    while (i < input.length) {
-        remainingBytes = len - i;
-
-        if (!isArray) {
-            chr1 = input.charCodeAt(i++);
-            chr2 = i < len ? input.charCodeAt(i++) : 0;
-            chr3 = i < len ? input.charCodeAt(i++) : 0;
-        } else {
-            chr1 = input[i++];
-            chr2 = i < len ? input[i++] : 0;
-            chr3 = i < len ? input[i++] : 0;
-        }
-
-        enc1 = chr1 >> 2;
-        enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
-        enc3 = remainingBytes > 1 ? (((chr2 & 15) << 2) | (chr3 >> 6)) : 64;
-        enc4 = remainingBytes > 2 ? (chr3 & 63) : 64;
-
-        output.push(_keyStr.charAt(enc1) + _keyStr.charAt(enc2) + _keyStr.charAt(enc3) + _keyStr.charAt(enc4));
-
-    }
-
-    return output.join("");
-};
-
-// public method for decoding
-exports.decode = function(input) {
-    var chr1, chr2, chr3;
-    var enc1, enc2, enc3, enc4;
-    var i = 0, resultIndex = 0;
-
-    var dataUrlPrefix = "data:";
-
-    if (input.substr(0, dataUrlPrefix.length) === dataUrlPrefix) {
-        // This is a common error: people give a data url
-        // (data:image/png;base64,iVBOR...) with a {base64: true} and
-        // wonders why things don't work.
-        // We can detect that the string input looks like a data url but we
-        // *can't* be sure it is one: removing everything up to the comma would
-        // be too dangerous.
-        throw new Error("Invalid base64 input, it looks like a data url.");
-    }
-
-    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
-
-    var totalLength = input.length * 3 / 4;
-    if(input.charAt(input.length - 1) === _keyStr.charAt(64)) {
-        totalLength--;
-    }
-    if(input.charAt(input.length - 2) === _keyStr.charAt(64)) {
-        totalLength--;
-    }
-    if (totalLength % 1 !== 0) {
-        // totalLength is not an integer, the length does not match a valid
-        // base64 content. That can happen if:
-        // - the input is not a base64 content
-        // - the input is *almost* a base64 content, with a extra chars at the
-        //   beginning or at the end
-        // - the input uses a base64 variant (base64url for example)
-        throw new Error("Invalid base64 input, bad content length.");
-    }
-    var output;
-    if (support.uint8array) {
-        output = new Uint8Array(totalLength|0);
-    } else {
-        output = new Array(totalLength|0);
-    }
-
-    while (i < input.length) {
-
-        enc1 = _keyStr.indexOf(input.charAt(i++));
-        enc2 = _keyStr.indexOf(input.charAt(i++));
-        enc3 = _keyStr.indexOf(input.charAt(i++));
-        enc4 = _keyStr.indexOf(input.charAt(i++));
-
-        chr1 = (enc1 << 2) | (enc2 >> 4);
-        chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
-        chr3 = ((enc3 & 3) << 6) | enc4;
-
-        output[resultIndex++] = chr1;
-
-        if (enc3 !== 64) {
-            output[resultIndex++] = chr2;
-        }
-        if (enc4 !== 64) {
-            output[resultIndex++] = chr3;
-        }
-
-    }
-
-    return output;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/compressedObject.js":
-/*!****************************************************!*\
-  !*** ./node_modules/jszip/lib/compressedObject.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var external = __webpack_require__(/*! ./external */ "./node_modules/jszip/lib/external.js");
-var DataWorker = __webpack_require__(/*! ./stream/DataWorker */ "./node_modules/jszip/lib/stream/DataWorker.js");
-var DataLengthProbe = __webpack_require__(/*! ./stream/DataLengthProbe */ "./node_modules/jszip/lib/stream/DataLengthProbe.js");
-var Crc32Probe = __webpack_require__(/*! ./stream/Crc32Probe */ "./node_modules/jszip/lib/stream/Crc32Probe.js");
-var DataLengthProbe = __webpack_require__(/*! ./stream/DataLengthProbe */ "./node_modules/jszip/lib/stream/DataLengthProbe.js");
-
-/**
- * Represent a compressed object, with everything needed to decompress it.
- * @constructor
- * @param {number} compressedSize the size of the data compressed.
- * @param {number} uncompressedSize the size of the data after decompression.
- * @param {number} crc32 the crc32 of the decompressed file.
- * @param {object} compression the type of compression, see lib/compressions.js.
- * @param {String|ArrayBuffer|Uint8Array|Buffer} data the compressed data.
- */
-function CompressedObject(compressedSize, uncompressedSize, crc32, compression, data) {
-    this.compressedSize = compressedSize;
-    this.uncompressedSize = uncompressedSize;
-    this.crc32 = crc32;
-    this.compression = compression;
-    this.compressedContent = data;
-}
-
-CompressedObject.prototype = {
-    /**
-     * Create a worker to get the uncompressed content.
-     * @return {GenericWorker} the worker.
-     */
-    getContentWorker : function () {
-        var worker = new DataWorker(external.Promise.resolve(this.compressedContent))
-        .pipe(this.compression.uncompressWorker())
-        .pipe(new DataLengthProbe("data_length"));
-
-        var that = this;
-        worker.on("end", function () {
-            if(this.streamInfo['data_length'] !== that.uncompressedSize) {
-                throw new Error("Bug : uncompressed data size mismatch");
-            }
-        });
-        return worker;
-    },
-    /**
-     * Create a worker to get the compressed content.
-     * @return {GenericWorker} the worker.
-     */
-    getCompressedWorker : function () {
-        return new DataWorker(external.Promise.resolve(this.compressedContent))
-        .withStreamInfo("compressedSize", this.compressedSize)
-        .withStreamInfo("uncompressedSize", this.uncompressedSize)
-        .withStreamInfo("crc32", this.crc32)
-        .withStreamInfo("compression", this.compression)
-        ;
-    }
-};
-
-/**
- * Chain the given worker with other workers to compress the content with the
- * given compresion.
- * @param {GenericWorker} uncompressedWorker the worker to pipe.
- * @param {Object} compression the compression object.
- * @param {Object} compressionOptions the options to use when compressing.
- * @return {GenericWorker} the new worker compressing the content.
- */
-CompressedObject.createWorkerFrom = function (uncompressedWorker, compression, compressionOptions) {
-    return uncompressedWorker
-    .pipe(new Crc32Probe())
-    .pipe(new DataLengthProbe("uncompressedSize"))
-    .pipe(compression.compressWorker(compressionOptions))
-    .pipe(new DataLengthProbe("compressedSize"))
-    .withStreamInfo("compression", compression);
-};
-
-module.exports = CompressedObject;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/compressions.js":
-/*!************************************************!*\
-  !*** ./node_modules/jszip/lib/compressions.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-exports.STORE = {
-    magic: "\x00\x00",
-    compressWorker : function (compressionOptions) {
-        return new GenericWorker("STORE compression");
-    },
-    uncompressWorker : function () {
-        return new GenericWorker("STORE decompression");
-    }
-};
-exports.DEFLATE = __webpack_require__(/*! ./flate */ "./node_modules/jszip/lib/flate.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/crc32.js":
-/*!*****************************************!*\
-  !*** ./node_modules/jszip/lib/crc32.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-
-/**
- * The following functions come from pako, from pako/lib/zlib/crc32.js
- * released under the MIT license, see pako https://github.com/nodeca/pako/
- */
-
-// Use ordinary array, since untyped makes no boost here
-function makeTable() {
-    var c, table = [];
-
-    for(var n =0; n < 256; n++){
-        c = n;
-        for(var k =0; k < 8; k++){
-            c = ((c&1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1));
-        }
-        table[n] = c;
-    }
-
-    return table;
-}
-
-// Create table on load. Just 255 signed longs. Not a problem.
-var crcTable = makeTable();
-
-
-function crc32(crc, buf, len, pos) {
-    var t = crcTable, end = pos + len;
-
-    crc = crc ^ (-1);
-
-    for (var i = pos; i < end; i++ ) {
-        crc = (crc >>> 8) ^ t[(crc ^ buf[i]) & 0xFF];
-    }
-
-    return (crc ^ (-1)); // >>> 0;
-}
-
-// That's all for the pako functions.
-
-/**
- * Compute the crc32 of a string.
- * This is almost the same as the function crc32, but for strings. Using the
- * same function for the two use cases leads to horrible performances.
- * @param {Number} crc the starting value of the crc.
- * @param {String} str the string to use.
- * @param {Number} len the length of the string.
- * @param {Number} pos the starting position for the crc32 computation.
- * @return {Number} the computed crc32.
- */
-function crc32str(crc, str, len, pos) {
-    var t = crcTable, end = pos + len;
-
-    crc = crc ^ (-1);
-
-    for (var i = pos; i < end; i++ ) {
-        crc = (crc >>> 8) ^ t[(crc ^ str.charCodeAt(i)) & 0xFF];
-    }
-
-    return (crc ^ (-1)); // >>> 0;
-}
-
-module.exports = function crc32wrapper(input, crc) {
-    if (typeof input === "undefined" || !input.length) {
-        return 0;
-    }
-
-    var isArray = utils.getTypeOf(input) !== "string";
-
-    if(isArray) {
-        return crc32(crc|0, input, input.length, 0);
-    } else {
-        return crc32str(crc|0, input, input.length, 0);
-    }
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/defaults.js":
-/*!********************************************!*\
-  !*** ./node_modules/jszip/lib/defaults.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-exports.base64 = false;
-exports.binary = false;
-exports.dir = false;
-exports.createFolders = true;
-exports.date = null;
-exports.compression = null;
-exports.compressionOptions = null;
-exports.comment = null;
-exports.unixPermissions = null;
-exports.dosPermissions = null;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/external.js":
-/*!********************************************!*\
-  !*** ./node_modules/jszip/lib/external.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* global Promise */
-
-
-// load the global object first:
-// - it should be better integrated in the system (unhandledRejection in node)
-// - the environment may have a custom Promise implementation (see zone.js)
-var ES6Promise = null;
-if (typeof Promise !== "undefined") {
-    ES6Promise = Promise;
-} else {
-    ES6Promise = __webpack_require__(/*! lie */ "./node_modules/lie/lib/browser.js");
-}
-
-/**
- * Let the user use/change some implementations.
- */
-module.exports = {
-    Promise: ES6Promise
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/flate.js":
-/*!*****************************************!*\
-  !*** ./node_modules/jszip/lib/flate.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var USE_TYPEDARRAY = (typeof Uint8Array !== 'undefined') && (typeof Uint16Array !== 'undefined') && (typeof Uint32Array !== 'undefined');
-
-var pako = __webpack_require__(/*! pako */ "./node_modules/pako/index.js");
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-var ARRAY_TYPE = USE_TYPEDARRAY ? "uint8array" : "array";
-
-exports.magic = "\x08\x00";
-
-/**
- * Create a worker that uses pako to inflate/deflate.
- * @constructor
- * @param {String} action the name of the pako function to call : either "Deflate" or "Inflate".
- * @param {Object} options the options to use when (de)compressing.
- */
-function FlateWorker(action, options) {
-    GenericWorker.call(this, "FlateWorker/" + action);
-
-    this._pako = null;
-    this._pakoAction = action;
-    this._pakoOptions = options;
-    // the `meta` object from the last chunk received
-    // this allow this worker to pass around metadata
-    this.meta = {};
-}
-
-utils.inherits(FlateWorker, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-FlateWorker.prototype.processChunk = function (chunk) {
-    this.meta = chunk.meta;
-    if (this._pako === null) {
-        this._createPako();
-    }
-    this._pako.push(utils.transformTo(ARRAY_TYPE, chunk.data), false);
-};
-
-/**
- * @see GenericWorker.flush
- */
-FlateWorker.prototype.flush = function () {
-    GenericWorker.prototype.flush.call(this);
-    if (this._pako === null) {
-        this._createPako();
-    }
-    this._pako.push([], true);
-};
-/**
- * @see GenericWorker.cleanUp
- */
-FlateWorker.prototype.cleanUp = function () {
-    GenericWorker.prototype.cleanUp.call(this);
-    this._pako = null;
-};
-
-/**
- * Create the _pako object.
- * TODO: lazy-loading this object isn't the best solution but it's the
- * quickest. The best solution is to lazy-load the worker list. See also the
- * issue #446.
- */
-FlateWorker.prototype._createPako = function () {
-    this._pako = new pako[this._pakoAction]({
-        raw: true,
-        level: this._pakoOptions.level || -1 // default compression
-    });
-    var self = this;
-    this._pako.onData = function(data) {
-        self.push({
-            data : data,
-            meta : self.meta
-        });
-    };
-};
-
-exports.compressWorker = function (compressionOptions) {
-    return new FlateWorker("Deflate", compressionOptions);
-};
-exports.uncompressWorker = function () {
-    return new FlateWorker("Inflate", {});
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/generate/ZipFileWorker.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/jszip/lib/generate/ZipFileWorker.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ../stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-var utf8 = __webpack_require__(/*! ../utf8 */ "./node_modules/jszip/lib/utf8.js");
-var crc32 = __webpack_require__(/*! ../crc32 */ "./node_modules/jszip/lib/crc32.js");
-var signature = __webpack_require__(/*! ../signature */ "./node_modules/jszip/lib/signature.js");
-
-/**
- * Transform an integer into a string in hexadecimal.
- * @private
- * @param {number} dec the number to convert.
- * @param {number} bytes the number of bytes to generate.
- * @returns {string} the result.
- */
-var decToHex = function(dec, bytes) {
-    var hex = "", i;
-    for (i = 0; i < bytes; i++) {
-        hex += String.fromCharCode(dec & 0xff);
-        dec = dec >>> 8;
-    }
-    return hex;
-};
-
-/**
- * Generate the UNIX part of the external file attributes.
- * @param {Object} unixPermissions the unix permissions or null.
- * @param {Boolean} isDir true if the entry is a directory, false otherwise.
- * @return {Number} a 32 bit integer.
- *
- * adapted from http://unix.stackexchange.com/questions/14705/the-zip-formats-external-file-attribute :
- *
- * TTTTsstrwxrwxrwx0000000000ADVSHR
- * ^^^^____________________________ file type, see zipinfo.c (UNX_*)
- *     ^^^_________________________ setuid, setgid, sticky
- *        ^^^^^^^^^________________ permissions
- *                 ^^^^^^^^^^______ not used ?
- *                           ^^^^^^ DOS attribute bits : Archive, Directory, Volume label, System file, Hidden, Read only
- */
-var generateUnixExternalFileAttr = function (unixPermissions, isDir) {
-
-    var result = unixPermissions;
-    if (!unixPermissions) {
-        // I can't use octal values in strict mode, hence the hexa.
-        //  040775 => 0x41fd
-        // 0100664 => 0x81b4
-        result = isDir ? 0x41fd : 0x81b4;
-    }
-    return (result & 0xFFFF) << 16;
-};
-
-/**
- * Generate the DOS part of the external file attributes.
- * @param {Object} dosPermissions the dos permissions or null.
- * @param {Boolean} isDir true if the entry is a directory, false otherwise.
- * @return {Number} a 32 bit integer.
- *
- * Bit 0     Read-Only
- * Bit 1     Hidden
- * Bit 2     System
- * Bit 3     Volume Label
- * Bit 4     Directory
- * Bit 5     Archive
- */
-var generateDosExternalFileAttr = function (dosPermissions, isDir) {
-
-    // the dir flag is already set for compatibility
-    return (dosPermissions || 0)  & 0x3F;
-};
-
-/**
- * Generate the various parts used in the construction of the final zip file.
- * @param {Object} streamInfo the hash with informations about the compressed file.
- * @param {Boolean} streamedContent is the content streamed ?
- * @param {Boolean} streamingEnded is the stream finished ?
- * @param {number} offset the current offset from the start of the zip file.
- * @param {String} platform let's pretend we are this platform (change platform dependents fields)
- * @param {Function} encodeFileName the function to encode the file name / comment.
- * @return {Object} the zip parts.
- */
-var generateZipParts = function(streamInfo, streamedContent, streamingEnded, offset, platform, encodeFileName) {
-    var file = streamInfo['file'],
-    compression = streamInfo['compression'],
-    useCustomEncoding = encodeFileName !== utf8.utf8encode,
-    encodedFileName = utils.transformTo("string", encodeFileName(file.name)),
-    utfEncodedFileName = utils.transformTo("string", utf8.utf8encode(file.name)),
-    comment = file.comment,
-    encodedComment = utils.transformTo("string", encodeFileName(comment)),
-    utfEncodedComment = utils.transformTo("string", utf8.utf8encode(comment)),
-    useUTF8ForFileName = utfEncodedFileName.length !== file.name.length,
-    useUTF8ForComment = utfEncodedComment.length !== comment.length,
-    dosTime,
-    dosDate,
-    extraFields = "",
-    unicodePathExtraField = "",
-    unicodeCommentExtraField = "",
-    dir = file.dir,
-    date = file.date;
-
-
-    var dataInfo = {
-        crc32 : 0,
-        compressedSize : 0,
-        uncompressedSize : 0
-    };
-
-    // if the content is streamed, the sizes/crc32 are only available AFTER
-    // the end of the stream.
-    if (!streamedContent || streamingEnded) {
-        dataInfo.crc32 = streamInfo['crc32'];
-        dataInfo.compressedSize = streamInfo['compressedSize'];
-        dataInfo.uncompressedSize = streamInfo['uncompressedSize'];
-    }
-
-    var bitflag = 0;
-    if (streamedContent) {
-        // Bit 3: the sizes/crc32 are set to zero in the local header.
-        // The correct values are put in the data descriptor immediately
-        // following the compressed data.
-        bitflag |= 0x0008;
-    }
-    if (!useCustomEncoding && (useUTF8ForFileName || useUTF8ForComment)) {
-        // Bit 11: Language encoding flag (EFS).
-        bitflag |= 0x0800;
-    }
-
-
-    var extFileAttr = 0;
-    var versionMadeBy = 0;
-    if (dir) {
-        // dos or unix, we set the dos dir flag
-        extFileAttr |= 0x00010;
-    }
-    if(platform === "UNIX") {
-        versionMadeBy = 0x031E; // UNIX, version 3.0
-        extFileAttr |= generateUnixExternalFileAttr(file.unixPermissions, dir);
-    } else { // DOS or other, fallback to DOS
-        versionMadeBy = 0x0014; // DOS, version 2.0
-        extFileAttr |= generateDosExternalFileAttr(file.dosPermissions, dir);
-    }
-
-    // date
-    // @see http://www.delorie.com/djgpp/doc/rbinter/it/52/13.html
-    // @see http://www.delorie.com/djgpp/doc/rbinter/it/65/16.html
-    // @see http://www.delorie.com/djgpp/doc/rbinter/it/66/16.html
-
-    dosTime = date.getUTCHours();
-    dosTime = dosTime << 6;
-    dosTime = dosTime | date.getUTCMinutes();
-    dosTime = dosTime << 5;
-    dosTime = dosTime | date.getUTCSeconds() / 2;
-
-    dosDate = date.getUTCFullYear() - 1980;
-    dosDate = dosDate << 4;
-    dosDate = dosDate | (date.getUTCMonth() + 1);
-    dosDate = dosDate << 5;
-    dosDate = dosDate | date.getUTCDate();
-
-    if (useUTF8ForFileName) {
-        // set the unicode path extra field. unzip needs at least one extra
-        // field to correctly handle unicode path, so using the path is as good
-        // as any other information. This could improve the situation with
-        // other archive managers too.
-        // This field is usually used without the utf8 flag, with a non
-        // unicode path in the header (winrar, winzip). This helps (a bit)
-        // with the messy Windows' default compressed folders feature but
-        // breaks on p7zip which doesn't seek the unicode path extra field.
-        // So for now, UTF-8 everywhere !
-        unicodePathExtraField =
-            // Version
-            decToHex(1, 1) +
-            // NameCRC32
-            decToHex(crc32(encodedFileName), 4) +
-            // UnicodeName
-            utfEncodedFileName;
-
-        extraFields +=
-            // Info-ZIP Unicode Path Extra Field
-            "\x75\x70" +
-            // size
-            decToHex(unicodePathExtraField.length, 2) +
-            // content
-            unicodePathExtraField;
-    }
-
-    if(useUTF8ForComment) {
-
-        unicodeCommentExtraField =
-            // Version
-            decToHex(1, 1) +
-            // CommentCRC32
-            decToHex(crc32(encodedComment), 4) +
-            // UnicodeName
-            utfEncodedComment;
-
-        extraFields +=
-            // Info-ZIP Unicode Path Extra Field
-            "\x75\x63" +
-            // size
-            decToHex(unicodeCommentExtraField.length, 2) +
-            // content
-            unicodeCommentExtraField;
-    }
-
-    var header = "";
-
-    // version needed to extract
-    header += "\x0A\x00";
-    // general purpose bit flag
-    header += decToHex(bitflag, 2);
-    // compression method
-    header += compression.magic;
-    // last mod file time
-    header += decToHex(dosTime, 2);
-    // last mod file date
-    header += decToHex(dosDate, 2);
-    // crc-32
-    header += decToHex(dataInfo.crc32, 4);
-    // compressed size
-    header += decToHex(dataInfo.compressedSize, 4);
-    // uncompressed size
-    header += decToHex(dataInfo.uncompressedSize, 4);
-    // file name length
-    header += decToHex(encodedFileName.length, 2);
-    // extra field length
-    header += decToHex(extraFields.length, 2);
-
-
-    var fileRecord = signature.LOCAL_FILE_HEADER + header + encodedFileName + extraFields;
-
-    var dirRecord = signature.CENTRAL_FILE_HEADER +
-        // version made by (00: DOS)
-        decToHex(versionMadeBy, 2) +
-        // file header (common to file and central directory)
-        header +
-        // file comment length
-        decToHex(encodedComment.length, 2) +
-        // disk number start
-        "\x00\x00" +
-        // internal file attributes TODO
-        "\x00\x00" +
-        // external file attributes
-        decToHex(extFileAttr, 4) +
-        // relative offset of local header
-        decToHex(offset, 4) +
-        // file name
-        encodedFileName +
-        // extra field
-        extraFields +
-        // file comment
-        encodedComment;
-
-    return {
-        fileRecord: fileRecord,
-        dirRecord: dirRecord
-    };
-};
-
-/**
- * Generate the EOCD record.
- * @param {Number} entriesCount the number of entries in the zip file.
- * @param {Number} centralDirLength the length (in bytes) of the central dir.
- * @param {Number} localDirLength the length (in bytes) of the local dir.
- * @param {String} comment the zip file comment as a binary string.
- * @param {Function} encodeFileName the function to encode the comment.
- * @return {String} the EOCD record.
- */
-var generateCentralDirectoryEnd = function (entriesCount, centralDirLength, localDirLength, comment, encodeFileName) {
-    var dirEnd = "";
-    var encodedComment = utils.transformTo("string", encodeFileName(comment));
-
-    // end of central dir signature
-    dirEnd = signature.CENTRAL_DIRECTORY_END +
-        // number of this disk
-        "\x00\x00" +
-        // number of the disk with the start of the central directory
-        "\x00\x00" +
-        // total number of entries in the central directory on this disk
-        decToHex(entriesCount, 2) +
-        // total number of entries in the central directory
-        decToHex(entriesCount, 2) +
-        // size of the central directory   4 bytes
-        decToHex(centralDirLength, 4) +
-        // offset of start of central directory with respect to the starting disk number
-        decToHex(localDirLength, 4) +
-        // .ZIP file comment length
-        decToHex(encodedComment.length, 2) +
-        // .ZIP file comment
-        encodedComment;
-
-    return dirEnd;
-};
-
-/**
- * Generate data descriptors for a file entry.
- * @param {Object} streamInfo the hash generated by a worker, containing informations
- * on the file entry.
- * @return {String} the data descriptors.
- */
-var generateDataDescriptors = function (streamInfo) {
-    var descriptor = "";
-    descriptor = signature.DATA_DESCRIPTOR +
-        // crc-32                          4 bytes
-        decToHex(streamInfo['crc32'], 4) +
-        // compressed size                 4 bytes
-        decToHex(streamInfo['compressedSize'], 4) +
-        // uncompressed size               4 bytes
-        decToHex(streamInfo['uncompressedSize'], 4);
-
-    return descriptor;
-};
-
-
-/**
- * A worker to concatenate other workers to create a zip file.
- * @param {Boolean} streamFiles `true` to stream the content of the files,
- * `false` to accumulate it.
- * @param {String} comment the comment to use.
- * @param {String} platform the platform to use, "UNIX" or "DOS".
- * @param {Function} encodeFileName the function to encode file names and comments.
- */
-function ZipFileWorker(streamFiles, comment, platform, encodeFileName) {
-    GenericWorker.call(this, "ZipFileWorker");
-    // The number of bytes written so far. This doesn't count accumulated chunks.
-    this.bytesWritten = 0;
-    // The comment of the zip file
-    this.zipComment = comment;
-    // The platform "generating" the zip file.
-    this.zipPlatform = platform;
-    // the function to encode file names and comments.
-    this.encodeFileName = encodeFileName;
-    // Should we stream the content of the files ?
-    this.streamFiles = streamFiles;
-    // If `streamFiles` is false, we will need to accumulate the content of the
-    // files to calculate sizes / crc32 (and write them *before* the content).
-    // This boolean indicates if we are accumulating chunks (it will change a lot
-    // during the lifetime of this worker).
-    this.accumulate = false;
-    // The buffer receiving chunks when accumulating content.
-    this.contentBuffer = [];
-    // The list of generated directory records.
-    this.dirRecords = [];
-    // The offset (in bytes) from the beginning of the zip file for the current source.
-    this.currentSourceOffset = 0;
-    // The total number of entries in this zip file.
-    this.entriesCount = 0;
-    // the name of the file currently being added, null when handling the end of the zip file.
-    // Used for the emited metadata.
-    this.currentFile = null;
-
-
-
-    this._sources = [];
-}
-utils.inherits(ZipFileWorker, GenericWorker);
-
-/**
- * @see GenericWorker.push
- */
-ZipFileWorker.prototype.push = function (chunk) {
-
-    var currentFilePercent = chunk.meta.percent || 0;
-    var entriesCount = this.entriesCount;
-    var remainingFiles = this._sources.length;
-
-    if(this.accumulate) {
-        this.contentBuffer.push(chunk);
-    } else {
-        this.bytesWritten += chunk.data.length;
-
-        GenericWorker.prototype.push.call(this, {
-            data : chunk.data,
-            meta : {
-                currentFile : this.currentFile,
-                percent : entriesCount ? (currentFilePercent + 100 * (entriesCount - remainingFiles - 1)) / entriesCount : 100
-            }
-        });
-    }
-};
-
-/**
- * The worker started a new source (an other worker).
- * @param {Object} streamInfo the streamInfo object from the new source.
- */
-ZipFileWorker.prototype.openedSource = function (streamInfo) {
-    this.currentSourceOffset = this.bytesWritten;
-    this.currentFile = streamInfo['file'].name;
-
-    var streamedContent = this.streamFiles && !streamInfo['file'].dir;
-
-    // don't stream folders (because they don't have any content)
-    if(streamedContent) {
-        var record = generateZipParts(streamInfo, streamedContent, false, this.currentSourceOffset, this.zipPlatform, this.encodeFileName);
-        this.push({
-            data : record.fileRecord,
-            meta : {percent:0}
-        });
-    } else {
-        // we need to wait for the whole file before pushing anything
-        this.accumulate = true;
-    }
-};
-
-/**
- * The worker finished a source (an other worker).
- * @param {Object} streamInfo the streamInfo object from the finished source.
- */
-ZipFileWorker.prototype.closedSource = function (streamInfo) {
-    this.accumulate = false;
-    var streamedContent = this.streamFiles && !streamInfo['file'].dir;
-    var record = generateZipParts(streamInfo, streamedContent, true, this.currentSourceOffset, this.zipPlatform, this.encodeFileName);
-
-    this.dirRecords.push(record.dirRecord);
-    if(streamedContent) {
-        // after the streamed file, we put data descriptors
-        this.push({
-            data : generateDataDescriptors(streamInfo),
-            meta : {percent:100}
-        });
-    } else {
-        // the content wasn't streamed, we need to push everything now
-        // first the file record, then the content
-        this.push({
-            data : record.fileRecord,
-            meta : {percent:0}
-        });
-        while(this.contentBuffer.length) {
-            this.push(this.contentBuffer.shift());
-        }
-    }
-    this.currentFile = null;
-};
-
-/**
- * @see GenericWorker.flush
- */
-ZipFileWorker.prototype.flush = function () {
-
-    var localDirLength = this.bytesWritten;
-    for(var i = 0; i < this.dirRecords.length; i++) {
-        this.push({
-            data : this.dirRecords[i],
-            meta : {percent:100}
-        });
-    }
-    var centralDirLength = this.bytesWritten - localDirLength;
-
-    var dirEnd = generateCentralDirectoryEnd(this.dirRecords.length, centralDirLength, localDirLength, this.zipComment, this.encodeFileName);
-
-    this.push({
-        data : dirEnd,
-        meta : {percent:100}
-    });
-};
-
-/**
- * Prepare the next source to be read.
- */
-ZipFileWorker.prototype.prepareNextSource = function () {
-    this.previous = this._sources.shift();
-    this.openedSource(this.previous.streamInfo);
-    if (this.isPaused) {
-        this.previous.pause();
-    } else {
-        this.previous.resume();
-    }
-};
-
-/**
- * @see GenericWorker.registerPrevious
- */
-ZipFileWorker.prototype.registerPrevious = function (previous) {
-    this._sources.push(previous);
-    var self = this;
-
-    previous.on('data', function (chunk) {
-        self.processChunk(chunk);
-    });
-    previous.on('end', function () {
-        self.closedSource(self.previous.streamInfo);
-        if(self._sources.length) {
-            self.prepareNextSource();
-        } else {
-            self.end();
-        }
-    });
-    previous.on('error', function (e) {
-        self.error(e);
-    });
-    return this;
-};
-
-/**
- * @see GenericWorker.resume
- */
-ZipFileWorker.prototype.resume = function () {
-    if(!GenericWorker.prototype.resume.call(this)) {
-        return false;
-    }
-
-    if (!this.previous && this._sources.length) {
-        this.prepareNextSource();
-        return true;
-    }
-    if (!this.previous && !this._sources.length && !this.generatedError) {
-        this.end();
-        return true;
-    }
-};
-
-/**
- * @see GenericWorker.error
- */
-ZipFileWorker.prototype.error = function (e) {
-    var sources = this._sources;
-    if(!GenericWorker.prototype.error.call(this, e)) {
-        return false;
-    }
-    for(var i = 0; i < sources.length; i++) {
-        try {
-            sources[i].error(e);
-        } catch(e) {
-            // the `error` exploded, nothing to do
-        }
-    }
-    return true;
-};
-
-/**
- * @see GenericWorker.lock
- */
-ZipFileWorker.prototype.lock = function () {
-    GenericWorker.prototype.lock.call(this);
-    var sources = this._sources;
-    for(var i = 0; i < sources.length; i++) {
-        sources[i].lock();
-    }
-};
-
-module.exports = ZipFileWorker;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/generate/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/jszip/lib/generate/index.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var compressions = __webpack_require__(/*! ../compressions */ "./node_modules/jszip/lib/compressions.js");
-var ZipFileWorker = __webpack_require__(/*! ./ZipFileWorker */ "./node_modules/jszip/lib/generate/ZipFileWorker.js");
-
-/**
- * Find the compression to use.
- * @param {String} fileCompression the compression defined at the file level, if any.
- * @param {String} zipCompression the compression defined at the load() level.
- * @return {Object} the compression object to use.
- */
-var getCompression = function (fileCompression, zipCompression) {
-
-    var compressionName = fileCompression || zipCompression;
-    var compression = compressions[compressionName];
-    if (!compression) {
-        throw new Error(compressionName + " is not a valid compression method !");
-    }
-    return compression;
-};
-
-/**
- * Create a worker to generate a zip file.
- * @param {JSZip} zip the JSZip instance at the right root level.
- * @param {Object} options to generate the zip file.
- * @param {String} comment the comment to use.
- */
-exports.generateWorker = function (zip, options, comment) {
-
-    var zipFileWorker = new ZipFileWorker(options.streamFiles, comment, options.platform, options.encodeFileName);
-    var entriesCount = 0;
-    try {
-
-        zip.forEach(function (relativePath, file) {
-            entriesCount++;
-            var compression = getCompression(file.options.compression, options.compression);
-            var compressionOptions = file.options.compressionOptions || options.compressionOptions || {};
-            var dir = file.dir, date = file.date;
-
-            file._compressWorker(compression, compressionOptions)
-            .withStreamInfo("file", {
-                name : relativePath,
-                dir : dir,
-                date : date,
-                comment : file.comment || "",
-                unixPermissions : file.unixPermissions,
-                dosPermissions : file.dosPermissions
-            })
-            .pipe(zipFileWorker);
-        });
-        zipFileWorker.entriesCount = entriesCount;
-    } catch (e) {
-        zipFileWorker.error(e);
-    }
-
-    return zipFileWorker;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/index.js":
-/*!*****************************************!*\
-  !*** ./node_modules/jszip/lib/index.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Representation a of zip file in js
- * @constructor
- */
-function JSZip() {
-    // if this constructor is used without `new`, it adds `new` before itself:
-    if(!(this instanceof JSZip)) {
-        return new JSZip();
-    }
-
-    if(arguments.length) {
-        throw new Error("The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.");
-    }
-
-    // object containing the files :
-    // {
-    //   "folder/" : {...},
-    //   "folder/data.txt" : {...}
-    // }
-    this.files = {};
-
-    this.comment = null;
-
-    // Where we are in the hierarchy
-    this.root = "";
-    this.clone = function() {
-        var newObj = new JSZip();
-        for (var i in this) {
-            if (typeof this[i] !== "function") {
-                newObj[i] = this[i];
-            }
-        }
-        return newObj;
-    };
-}
-JSZip.prototype = __webpack_require__(/*! ./object */ "./node_modules/jszip/lib/object.js");
-JSZip.prototype.loadAsync = __webpack_require__(/*! ./load */ "./node_modules/jszip/lib/load.js");
-JSZip.support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-JSZip.defaults = __webpack_require__(/*! ./defaults */ "./node_modules/jszip/lib/defaults.js");
-
-// TODO find a better way to handle this version,
-// a require('package.json').version doesn't work with webpack, see #327
-JSZip.version = "3.2.0";
-
-JSZip.loadAsync = function (content, options) {
-    return new JSZip().loadAsync(content, options);
-};
-
-JSZip.external = __webpack_require__(/*! ./external */ "./node_modules/jszip/lib/external.js");
-module.exports = JSZip;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/load.js":
-/*!****************************************!*\
-  !*** ./node_modules/jszip/lib/load.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var external = __webpack_require__(/*! ./external */ "./node_modules/jszip/lib/external.js");
-var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/jszip/lib/utf8.js");
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var ZipEntries = __webpack_require__(/*! ./zipEntries */ "./node_modules/jszip/lib/zipEntries.js");
-var Crc32Probe = __webpack_require__(/*! ./stream/Crc32Probe */ "./node_modules/jszip/lib/stream/Crc32Probe.js");
-var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/jszip/lib/nodejsUtils.js");
-
-/**
- * Check the CRC32 of an entry.
- * @param {ZipEntry} zipEntry the zip entry to check.
- * @return {Promise} the result.
- */
-function checkEntryCRC32(zipEntry) {
-    return new external.Promise(function (resolve, reject) {
-        var worker = zipEntry.decompressed.getContentWorker().pipe(new Crc32Probe());
-        worker.on("error", function (e) {
-            reject(e);
-        })
-        .on("end", function () {
-            if (worker.streamInfo.crc32 !== zipEntry.decompressed.crc32) {
-                reject(new Error("Corrupted zip : CRC32 mismatch"));
-            } else {
-                resolve();
-            }
-        })
-        .resume();
-    });
-}
-
-module.exports = function(data, options) {
-    var zip = this;
-    options = utils.extend(options || {}, {
-        base64: false,
-        checkCRC32: false,
-        optimizedBinaryString: false,
-        createFolders: false,
-        decodeFileName: utf8.utf8decode
-    });
-
-    if (nodejsUtils.isNode && nodejsUtils.isStream(data)) {
-        return external.Promise.reject(new Error("JSZip can't accept a stream when loading a zip file."));
-    }
-
-    return utils.prepareContent("the loaded zip file", data, true, options.optimizedBinaryString, options.base64)
-    .then(function(data) {
-        var zipEntries = new ZipEntries(options);
-        zipEntries.load(data);
-        return zipEntries;
-    }).then(function checkCRC32(zipEntries) {
-        var promises = [external.Promise.resolve(zipEntries)];
-        var files = zipEntries.files;
-        if (options.checkCRC32) {
-            for (var i = 0; i < files.length; i++) {
-                promises.push(checkEntryCRC32(files[i]));
-            }
-        }
-        return external.Promise.all(promises);
-    }).then(function addFiles(results) {
-        var zipEntries = results.shift();
-        var files = zipEntries.files;
-        for (var i = 0; i < files.length; i++) {
-            var input = files[i];
-            zip.file(input.fileNameStr, input.decompressed, {
-                binary: true,
-                optimizedBinaryString: true,
-                date: input.date,
-                dir: input.dir,
-                comment : input.fileCommentStr.length ? input.fileCommentStr : null,
-                unixPermissions : input.unixPermissions,
-                dosPermissions : input.dosPermissions,
-                createFolders: options.createFolders
-            });
-        }
-        if (zipEntries.zipComment.length) {
-            zip.comment = zipEntries.zipComment;
-        }
-
-        return zip;
-    });
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ../stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-/**
- * A worker that use a nodejs stream as source.
- * @constructor
- * @param {String} filename the name of the file entry for this stream.
- * @param {Readable} stream the nodejs stream.
- */
-function NodejsStreamInputAdapter(filename, stream) {
-    GenericWorker.call(this, "Nodejs stream input adapter for " + filename);
-    this._upstreamEnded = false;
-    this._bindStream(stream);
-}
-
-utils.inherits(NodejsStreamInputAdapter, GenericWorker);
-
-/**
- * Prepare the stream and bind the callbacks on it.
- * Do this ASAP on node 0.10 ! A lazy binding doesn't always work.
- * @param {Stream} stream the nodejs stream to use.
- */
-NodejsStreamInputAdapter.prototype._bindStream = function (stream) {
-    var self = this;
-    this._stream = stream;
-    stream.pause();
-    stream
-    .on("data", function (chunk) {
-        self.push({
-            data: chunk,
-            meta : {
-                percent : 0
-            }
-        });
-    })
-    .on("error", function (e) {
-        if(self.isPaused) {
-            this.generatedError = e;
-        } else {
-            self.error(e);
-        }
-    })
-    .on("end", function () {
-        if(self.isPaused) {
-            self._upstreamEnded = true;
-        } else {
-            self.end();
-        }
-    });
-};
-NodejsStreamInputAdapter.prototype.pause = function () {
-    if(!GenericWorker.prototype.pause.call(this)) {
-        return false;
-    }
-    this._stream.pause();
-    return true;
-};
-NodejsStreamInputAdapter.prototype.resume = function () {
-    if(!GenericWorker.prototype.resume.call(this)) {
-        return false;
-    }
-
-    if(this._upstreamEnded) {
-        this.end();
-    } else {
-        this._stream.resume();
-    }
-
-    return true;
-};
-
-module.exports = NodejsStreamInputAdapter;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var Readable = __webpack_require__(/*! readable-stream */ "./node_modules/jszip/lib/readable-stream-browser.js").Readable;
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-utils.inherits(NodejsStreamOutputAdapter, Readable);
-
-/**
-* A nodejs stream using a worker as source.
-* @see the SourceWrapper in http://nodejs.org/api/stream.html
-* @constructor
-* @param {StreamHelper} helper the helper wrapping the worker
-* @param {Object} options the nodejs stream options
-* @param {Function} updateCb the update callback.
-*/
-function NodejsStreamOutputAdapter(helper, options, updateCb) {
-    Readable.call(this, options);
-    this._helper = helper;
-
-    var self = this;
-    helper.on("data", function (data, meta) {
-        if (!self.push(data)) {
-            self._helper.pause();
-        }
-        if(updateCb) {
-            updateCb(meta);
-        }
-    })
-    .on("error", function(e) {
-        self.emit('error', e);
-    })
-    .on("end", function () {
-        self.push(null);
-    });
-}
-
-
-NodejsStreamOutputAdapter.prototype._read = function() {
-    this._helper.resume();
-};
-
-module.exports = NodejsStreamOutputAdapter;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/nodejsUtils.js":
-/*!***********************************************!*\
-  !*** ./node_modules/jszip/lib/nodejsUtils.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(Buffer) {
-
-module.exports = {
-    /**
-     * True if this is running in Nodejs, will be undefined in a browser.
-     * In a browser, browserify won't include this file and the whole module
-     * will be resolved an empty object.
-     */
-    isNode : typeof Buffer !== "undefined",
-    /**
-     * Create a new nodejs Buffer from an existing content.
-     * @param {Object} data the data to pass to the constructor.
-     * @param {String} encoding the encoding to use.
-     * @return {Buffer} a new Buffer.
-     */
-    newBufferFrom: function(data, encoding) {
-        if (Buffer.from && Buffer.from !== Uint8Array.from) {
-            return Buffer.from(data, encoding);
-        } else {
-            if (typeof data === "number") {
-                // Safeguard for old Node.js versions. On newer versions,
-                // Buffer.from(number) / Buffer(number, encoding) already throw.
-                throw new Error("The \"data\" argument must not be a number");
-            }
-            return new Buffer(data, encoding);
-        }
-    },
-    /**
-     * Create a new nodejs Buffer with the specified size.
-     * @param {Integer} size the size of the buffer.
-     * @return {Buffer} a new Buffer.
-     */
-    allocBuffer: function (size) {
-        if (Buffer.alloc) {
-            return Buffer.alloc(size);
-        } else {
-            var buf = new Buffer(size);
-            buf.fill(0);
-            return buf;
-        }
-    },
-    /**
-     * Find out if an object is a Buffer.
-     * @param {Object} b the object to test.
-     * @return {Boolean} true if the object is a Buffer, false otherwise.
-     */
-    isBuffer : function(b){
-        return Buffer.isBuffer(b);
-    },
-
-    isStream : function (obj) {
-        return obj &&
-            typeof obj.on === "function" &&
-            typeof obj.pause === "function" &&
-            typeof obj.resume === "function";
-    }
-};
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/object.js":
-/*!******************************************!*\
-  !*** ./node_modules/jszip/lib/object.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/jszip/lib/utf8.js");
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-var StreamHelper = __webpack_require__(/*! ./stream/StreamHelper */ "./node_modules/jszip/lib/stream/StreamHelper.js");
-var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/jszip/lib/defaults.js");
-var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/jszip/lib/compressedObject.js");
-var ZipObject = __webpack_require__(/*! ./zipObject */ "./node_modules/jszip/lib/zipObject.js");
-var generate = __webpack_require__(/*! ./generate */ "./node_modules/jszip/lib/generate/index.js");
-var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/jszip/lib/nodejsUtils.js");
-var NodejsStreamInputAdapter = __webpack_require__(/*! ./nodejs/NodejsStreamInputAdapter */ "./node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js");
-
-
-/**
- * Add a file in the current folder.
- * @private
- * @param {string} name the name of the file
- * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data of the file
- * @param {Object} originalOptions the options of the file
- * @return {Object} the new file.
- */
-var fileAdd = function(name, data, originalOptions) {
-    // be sure sub folders exist
-    var dataType = utils.getTypeOf(data),
-        parent;
-
-
-    /*
-     * Correct options.
-     */
-
-    var o = utils.extend(originalOptions || {}, defaults);
-    o.date = o.date || new Date();
-    if (o.compression !== null) {
-        o.compression = o.compression.toUpperCase();
-    }
-
-    if (typeof o.unixPermissions === "string") {
-        o.unixPermissions = parseInt(o.unixPermissions, 8);
-    }
-
-    // UNX_IFDIR  0040000 see zipinfo.c
-    if (o.unixPermissions && (o.unixPermissions & 0x4000)) {
-        o.dir = true;
-    }
-    // Bit 4    Directory
-    if (o.dosPermissions && (o.dosPermissions & 0x0010)) {
-        o.dir = true;
-    }
-
-    if (o.dir) {
-        name = forceTrailingSlash(name);
-    }
-    if (o.createFolders && (parent = parentFolder(name))) {
-        folderAdd.call(this, parent, true);
-    }
-
-    var isUnicodeString = dataType === "string" && o.binary === false && o.base64 === false;
-    if (!originalOptions || typeof originalOptions.binary === "undefined") {
-        o.binary = !isUnicodeString;
-    }
-
-
-    var isCompressedEmpty = (data instanceof CompressedObject) && data.uncompressedSize === 0;
-
-    if (isCompressedEmpty || o.dir || !data || data.length === 0) {
-        o.base64 = false;
-        o.binary = true;
-        data = "";
-        o.compression = "STORE";
-        dataType = "string";
-    }
-
-    /*
-     * Convert content to fit.
-     */
-
-    var zipObjectContent = null;
-    if (data instanceof CompressedObject || data instanceof GenericWorker) {
-        zipObjectContent = data;
-    } else if (nodejsUtils.isNode && nodejsUtils.isStream(data)) {
-        zipObjectContent = new NodejsStreamInputAdapter(name, data);
-    } else {
-        zipObjectContent = utils.prepareContent(name, data, o.binary, o.optimizedBinaryString, o.base64);
-    }
-
-    var object = new ZipObject(name, zipObjectContent, o);
-    this.files[name] = object;
-    /*
-    TODO: we can't throw an exception because we have async promises
-    (we can have a promise of a Date() for example) but returning a
-    promise is useless because file(name, data) returns the JSZip
-    object for chaining. Should we break that to allow the user
-    to catch the error ?
-
-    return external.Promise.resolve(zipObjectContent)
-    .then(function () {
-        return object;
-    });
-    */
-};
-
-/**
- * Find the parent folder of the path.
- * @private
- * @param {string} path the path to use
- * @return {string} the parent folder, or ""
- */
-var parentFolder = function (path) {
-    if (path.slice(-1) === '/') {
-        path = path.substring(0, path.length - 1);
-    }
-    var lastSlash = path.lastIndexOf('/');
-    return (lastSlash > 0) ? path.substring(0, lastSlash) : "";
-};
-
-/**
- * Returns the path with a slash at the end.
- * @private
- * @param {String} path the path to check.
- * @return {String} the path with a trailing slash.
- */
-var forceTrailingSlash = function(path) {
-    // Check the name ends with a /
-    if (path.slice(-1) !== "/") {
-        path += "/"; // IE doesn't like substr(-1)
-    }
-    return path;
-};
-
-/**
- * Add a (sub) folder in the current folder.
- * @private
- * @param {string} name the folder's name
- * @param {boolean=} [createFolders] If true, automatically create sub
- *  folders. Defaults to false.
- * @return {Object} the new folder.
- */
-var folderAdd = function(name, createFolders) {
-    createFolders = (typeof createFolders !== 'undefined') ? createFolders : defaults.createFolders;
-
-    name = forceTrailingSlash(name);
-
-    // Does this folder already exist?
-    if (!this.files[name]) {
-        fileAdd.call(this, name, null, {
-            dir: true,
-            createFolders: createFolders
-        });
-    }
-    return this.files[name];
-};
-
-/**
-* Cross-window, cross-Node-context regular expression detection
-* @param  {Object}  object Anything
-* @return {Boolean}        true if the object is a regular expression,
-* false otherwise
-*/
-function isRegExp(object) {
-    return Object.prototype.toString.call(object) === "[object RegExp]";
-}
-
-// return the actual prototype of JSZip
-var out = {
-    /**
-     * @see loadAsync
-     */
-    load: function() {
-        throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
-    },
-
-
-    /**
-     * Call a callback function for each entry at this folder level.
-     * @param {Function} cb the callback function:
-     * function (relativePath, file) {...}
-     * It takes 2 arguments : the relative path and the file.
-     */
-    forEach: function(cb) {
-        var filename, relativePath, file;
-        for (filename in this.files) {
-            if (!this.files.hasOwnProperty(filename)) {
-                continue;
-            }
-            file = this.files[filename];
-            relativePath = filename.slice(this.root.length, filename.length);
-            if (relativePath && filename.slice(0, this.root.length) === this.root) { // the file is in the current root
-                cb(relativePath, file); // TODO reverse the parameters ? need to be clean AND consistent with the filter search fn...
-            }
-        }
-    },
-
-    /**
-     * Filter nested files/folders with the specified function.
-     * @param {Function} search the predicate to use :
-     * function (relativePath, file) {...}
-     * It takes 2 arguments : the relative path and the file.
-     * @return {Array} An array of matching elements.
-     */
-    filter: function(search) {
-        var result = [];
-        this.forEach(function (relativePath, entry) {
-            if (search(relativePath, entry)) { // the file matches the function
-                result.push(entry);
-            }
-
-        });
-        return result;
-    },
-
-    /**
-     * Add a file to the zip file, or search a file.
-     * @param   {string|RegExp} name The name of the file to add (if data is defined),
-     * the name of the file to find (if no data) or a regex to match files.
-     * @param   {String|ArrayBuffer|Uint8Array|Buffer} data  The file data, either raw or base64 encoded
-     * @param   {Object} o     File options
-     * @return  {JSZip|Object|Array} this JSZip object (when adding a file),
-     * a file (when searching by string) or an array of files (when searching by regex).
-     */
-    file: function(name, data, o) {
-        if (arguments.length === 1) {
-            if (isRegExp(name)) {
-                var regexp = name;
-                return this.filter(function(relativePath, file) {
-                    return !file.dir && regexp.test(relativePath);
-                });
-            }
-            else { // text
-                var obj = this.files[this.root + name];
-                if (obj && !obj.dir) {
-                    return obj;
-                } else {
-                    return null;
-                }
-            }
-        }
-        else { // more than one argument : we have data !
-            name = this.root + name;
-            fileAdd.call(this, name, data, o);
-        }
-        return this;
-    },
-
-    /**
-     * Add a directory to the zip file, or search.
-     * @param   {String|RegExp} arg The name of the directory to add, or a regex to search folders.
-     * @return  {JSZip} an object with the new directory as the root, or an array containing matching folders.
-     */
-    folder: function(arg) {
-        if (!arg) {
-            return this;
-        }
-
-        if (isRegExp(arg)) {
-            return this.filter(function(relativePath, file) {
-                return file.dir && arg.test(relativePath);
-            });
-        }
-
-        // else, name is a new folder
-        var name = this.root + arg;
-        var newFolder = folderAdd.call(this, name);
-
-        // Allow chaining by returning a new object with this folder as the root
-        var ret = this.clone();
-        ret.root = newFolder.name;
-        return ret;
-    },
-
-    /**
-     * Delete a file, or a directory and all sub-files, from the zip
-     * @param {string} name the name of the file to delete
-     * @return {JSZip} this JSZip object
-     */
-    remove: function(name) {
-        name = this.root + name;
-        var file = this.files[name];
-        if (!file) {
-            // Look for any folders
-            if (name.slice(-1) !== "/") {
-                name += "/";
-            }
-            file = this.files[name];
-        }
-
-        if (file && !file.dir) {
-            // file
-            delete this.files[name];
-        } else {
-            // maybe a folder, delete recursively
-            var kids = this.filter(function(relativePath, file) {
-                return file.name.slice(0, name.length) === name;
-            });
-            for (var i = 0; i < kids.length; i++) {
-                delete this.files[kids[i].name];
-            }
-        }
-
-        return this;
-    },
-
-    /**
-     * Generate the complete zip file
-     * @param {Object} options the options to generate the zip file :
-     * - compression, "STORE" by default.
-     * - type, "base64" by default. Values are : string, base64, uint8array, arraybuffer, blob.
-     * @return {String|Uint8Array|ArrayBuffer|Buffer|Blob} the zip file
-     */
-    generate: function(options) {
-        throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
-    },
-
-    /**
-     * Generate the complete zip file as an internal stream.
-     * @param {Object} options the options to generate the zip file :
-     * - compression, "STORE" by default.
-     * - type, "base64" by default. Values are : string, base64, uint8array, arraybuffer, blob.
-     * @return {StreamHelper} the streamed zip file.
-     */
-    generateInternalStream: function(options) {
-      var worker, opts = {};
-      try {
-          opts = utils.extend(options || {}, {
-              streamFiles: false,
-              compression: "STORE",
-              compressionOptions : null,
-              type: "",
-              platform: "DOS",
-              comment: null,
-              mimeType: 'application/zip',
-              encodeFileName: utf8.utf8encode
-          });
-
-          opts.type = opts.type.toLowerCase();
-          opts.compression = opts.compression.toUpperCase();
-
-          // "binarystring" is prefered but the internals use "string".
-          if(opts.type === "binarystring") {
-            opts.type = "string";
-          }
-
-          if (!opts.type) {
-            throw new Error("No output type specified.");
-          }
-
-          utils.checkSupport(opts.type);
-
-          // accept nodejs `process.platform`
-          if(
-              opts.platform === 'darwin' ||
-              opts.platform === 'freebsd' ||
-              opts.platform === 'linux' ||
-              opts.platform === 'sunos'
-          ) {
-              opts.platform = "UNIX";
-          }
-          if (opts.platform === 'win32') {
-              opts.platform = "DOS";
-          }
-
-          var comment = opts.comment || this.comment || "";
-          worker = generate.generateWorker(this, opts, comment);
-      } catch (e) {
-        worker = new GenericWorker("error");
-        worker.error(e);
-      }
-      return new StreamHelper(worker, opts.type || "string", opts.mimeType);
-    },
-    /**
-     * Generate the complete zip file asynchronously.
-     * @see generateInternalStream
-     */
-    generateAsync: function(options, onUpdate) {
-        return this.generateInternalStream(options).accumulate(onUpdate);
-    },
-    /**
-     * Generate the complete zip file asynchronously.
-     * @see generateInternalStream
-     */
-    generateNodeStream: function(options, onUpdate) {
-        options = options || {};
-        if (!options.type) {
-            options.type = "nodebuffer";
-        }
-        return this.generateInternalStream(options).toNodejsStream(onUpdate);
-    }
-};
-module.exports = out;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/readable-stream-browser.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/jszip/lib/readable-stream-browser.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
- * This file is used by module bundlers (browserify/webpack/etc) when
- * including a stream implementation. We use "readable-stream" to get a
- * consistent behavior between nodejs versions but bundlers often have a shim
- * for "stream". Using this shim greatly improve the compatibility and greatly
- * reduce the final size of the bundle (only one stream implementation, not
- * two).
- */
-module.exports = __webpack_require__(/*! stream */ "./node_modules/stream-browserify/index.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/ArrayReader.js":
-/*!******************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/ArrayReader.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var DataReader = __webpack_require__(/*! ./DataReader */ "./node_modules/jszip/lib/reader/DataReader.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-function ArrayReader(data) {
-    DataReader.call(this, data);
-	for(var i = 0; i < this.data.length; i++) {
-		data[i] = data[i] & 0xFF;
-	}
-}
-utils.inherits(ArrayReader, DataReader);
-/**
- * @see DataReader.byteAt
- */
-ArrayReader.prototype.byteAt = function(i) {
-    return this.data[this.zero + i];
-};
-/**
- * @see DataReader.lastIndexOfSignature
- */
-ArrayReader.prototype.lastIndexOfSignature = function(sig) {
-    var sig0 = sig.charCodeAt(0),
-        sig1 = sig.charCodeAt(1),
-        sig2 = sig.charCodeAt(2),
-        sig3 = sig.charCodeAt(3);
-    for (var i = this.length - 4; i >= 0; --i) {
-        if (this.data[i] === sig0 && this.data[i + 1] === sig1 && this.data[i + 2] === sig2 && this.data[i + 3] === sig3) {
-            return i - this.zero;
-        }
-    }
-
-    return -1;
-};
-/**
- * @see DataReader.readAndCheckSignature
- */
-ArrayReader.prototype.readAndCheckSignature = function (sig) {
-    var sig0 = sig.charCodeAt(0),
-        sig1 = sig.charCodeAt(1),
-        sig2 = sig.charCodeAt(2),
-        sig3 = sig.charCodeAt(3),
-        data = this.readData(4);
-    return sig0 === data[0] && sig1 === data[1] && sig2 === data[2] && sig3 === data[3];
-};
-/**
- * @see DataReader.readData
- */
-ArrayReader.prototype.readData = function(size) {
-    this.checkOffset(size);
-    if(size === 0) {
-        return [];
-    }
-    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
-    this.index += size;
-    return result;
-};
-module.exports = ArrayReader;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/DataReader.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/DataReader.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-function DataReader(data) {
-    this.data = data; // type : see implementation
-    this.length = data.length;
-    this.index = 0;
-    this.zero = 0;
-}
-DataReader.prototype = {
-    /**
-     * Check that the offset will not go too far.
-     * @param {string} offset the additional offset to check.
-     * @throws {Error} an Error if the offset is out of bounds.
-     */
-    checkOffset: function(offset) {
-        this.checkIndex(this.index + offset);
-    },
-    /**
-     * Check that the specified index will not be too far.
-     * @param {string} newIndex the index to check.
-     * @throws {Error} an Error if the index is out of bounds.
-     */
-    checkIndex: function(newIndex) {
-        if (this.length < this.zero + newIndex || newIndex < 0) {
-            throw new Error("End of data reached (data length = " + this.length + ", asked index = " + (newIndex) + "). Corrupted zip ?");
-        }
-    },
-    /**
-     * Change the index.
-     * @param {number} newIndex The new index.
-     * @throws {Error} if the new index is out of the data.
-     */
-    setIndex: function(newIndex) {
-        this.checkIndex(newIndex);
-        this.index = newIndex;
-    },
-    /**
-     * Skip the next n bytes.
-     * @param {number} n the number of bytes to skip.
-     * @throws {Error} if the new index is out of the data.
-     */
-    skip: function(n) {
-        this.setIndex(this.index + n);
-    },
-    /**
-     * Get the byte at the specified index.
-     * @param {number} i the index to use.
-     * @return {number} a byte.
-     */
-    byteAt: function(i) {
-        // see implementations
-    },
-    /**
-     * Get the next number with a given byte size.
-     * @param {number} size the number of bytes to read.
-     * @return {number} the corresponding number.
-     */
-    readInt: function(size) {
-        var result = 0,
-            i;
-        this.checkOffset(size);
-        for (i = this.index + size - 1; i >= this.index; i--) {
-            result = (result << 8) + this.byteAt(i);
-        }
-        this.index += size;
-        return result;
-    },
-    /**
-     * Get the next string with a given byte size.
-     * @param {number} size the number of bytes to read.
-     * @return {string} the corresponding string.
-     */
-    readString: function(size) {
-        return utils.transformTo("string", this.readData(size));
-    },
-    /**
-     * Get raw data without conversion, <size> bytes.
-     * @param {number} size the number of bytes to read.
-     * @return {Object} the raw data, implementation specific.
-     */
-    readData: function(size) {
-        // see implementations
-    },
-    /**
-     * Find the last occurence of a zip signature (4 bytes).
-     * @param {string} sig the signature to find.
-     * @return {number} the index of the last occurence, -1 if not found.
-     */
-    lastIndexOfSignature: function(sig) {
-        // see implementations
-    },
-    /**
-     * Read the signature (4 bytes) at the current position and compare it with sig.
-     * @param {string} sig the expected signature
-     * @return {boolean} true if the signature matches, false otherwise.
-     */
-    readAndCheckSignature: function(sig) {
-        // see implementations
-    },
-    /**
-     * Get the next date.
-     * @return {Date} the date.
-     */
-    readDate: function() {
-        var dostime = this.readInt(4);
-        return new Date(Date.UTC(
-        ((dostime >> 25) & 0x7f) + 1980, // year
-        ((dostime >> 21) & 0x0f) - 1, // month
-        (dostime >> 16) & 0x1f, // day
-        (dostime >> 11) & 0x1f, // hour
-        (dostime >> 5) & 0x3f, // minute
-        (dostime & 0x1f) << 1)); // second
-    }
-};
-module.exports = DataReader;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/NodeBufferReader.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/NodeBufferReader.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Uint8ArrayReader = __webpack_require__(/*! ./Uint8ArrayReader */ "./node_modules/jszip/lib/reader/Uint8ArrayReader.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-function NodeBufferReader(data) {
-    Uint8ArrayReader.call(this, data);
-}
-utils.inherits(NodeBufferReader, Uint8ArrayReader);
-
-/**
- * @see DataReader.readData
- */
-NodeBufferReader.prototype.readData = function(size) {
-    this.checkOffset(size);
-    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
-    this.index += size;
-    return result;
-};
-module.exports = NodeBufferReader;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/StringReader.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/StringReader.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var DataReader = __webpack_require__(/*! ./DataReader */ "./node_modules/jszip/lib/reader/DataReader.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-function StringReader(data) {
-    DataReader.call(this, data);
-}
-utils.inherits(StringReader, DataReader);
-/**
- * @see DataReader.byteAt
- */
-StringReader.prototype.byteAt = function(i) {
-    return this.data.charCodeAt(this.zero + i);
-};
-/**
- * @see DataReader.lastIndexOfSignature
- */
-StringReader.prototype.lastIndexOfSignature = function(sig) {
-    return this.data.lastIndexOf(sig) - this.zero;
-};
-/**
- * @see DataReader.readAndCheckSignature
- */
-StringReader.prototype.readAndCheckSignature = function (sig) {
-    var data = this.readData(4);
-    return sig === data;
-};
-/**
- * @see DataReader.readData
- */
-StringReader.prototype.readData = function(size) {
-    this.checkOffset(size);
-    // this will work because the constructor applied the "& 0xff" mask.
-    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
-    this.index += size;
-    return result;
-};
-module.exports = StringReader;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/Uint8ArrayReader.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/Uint8ArrayReader.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ArrayReader = __webpack_require__(/*! ./ArrayReader */ "./node_modules/jszip/lib/reader/ArrayReader.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-function Uint8ArrayReader(data) {
-    ArrayReader.call(this, data);
-}
-utils.inherits(Uint8ArrayReader, ArrayReader);
-/**
- * @see DataReader.readData
- */
-Uint8ArrayReader.prototype.readData = function(size) {
-    this.checkOffset(size);
-    if(size === 0) {
-        // in IE10, when using subarray(idx, idx), we get the array [0x00] instead of [].
-        return new Uint8Array(0);
-    }
-    var result = this.data.subarray(this.zero + this.index, this.zero + this.index + size);
-    this.index += size;
-    return result;
-};
-module.exports = Uint8ArrayReader;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/reader/readerFor.js":
-/*!****************************************************!*\
-  !*** ./node_modules/jszip/lib/reader/readerFor.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var support = __webpack_require__(/*! ../support */ "./node_modules/jszip/lib/support.js");
-var ArrayReader = __webpack_require__(/*! ./ArrayReader */ "./node_modules/jszip/lib/reader/ArrayReader.js");
-var StringReader = __webpack_require__(/*! ./StringReader */ "./node_modules/jszip/lib/reader/StringReader.js");
-var NodeBufferReader = __webpack_require__(/*! ./NodeBufferReader */ "./node_modules/jszip/lib/reader/NodeBufferReader.js");
-var Uint8ArrayReader = __webpack_require__(/*! ./Uint8ArrayReader */ "./node_modules/jszip/lib/reader/Uint8ArrayReader.js");
-
-/**
- * Create a reader adapted to the data.
- * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data to read.
- * @return {DataReader} the data reader.
- */
-module.exports = function (data) {
-    var type = utils.getTypeOf(data);
-    utils.checkSupport(type);
-    if (type === "string" && !support.uint8array) {
-        return new StringReader(data);
-    }
-    if (type === "nodebuffer") {
-        return new NodeBufferReader(data);
-    }
-    if (support.uint8array) {
-        return new Uint8ArrayReader(utils.transformTo("uint8array", data));
-    }
-    return new ArrayReader(utils.transformTo("array", data));
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/signature.js":
-/*!*********************************************!*\
-  !*** ./node_modules/jszip/lib/signature.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-exports.LOCAL_FILE_HEADER = "PK\x03\x04";
-exports.CENTRAL_FILE_HEADER = "PK\x01\x02";
-exports.CENTRAL_DIRECTORY_END = "PK\x05\x06";
-exports.ZIP64_CENTRAL_DIRECTORY_LOCATOR = "PK\x06\x07";
-exports.ZIP64_CENTRAL_DIRECTORY_END = "PK\x06\x06";
-exports.DATA_DESCRIPTOR = "PK\x07\x08";
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/ConvertWorker.js":
-/*!********************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/ConvertWorker.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-/**
- * A worker which convert chunks to a specified type.
- * @constructor
- * @param {String} destType the destination type.
- */
-function ConvertWorker(destType) {
-    GenericWorker.call(this, "ConvertWorker to " + destType);
-    this.destType = destType;
-}
-utils.inherits(ConvertWorker, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-ConvertWorker.prototype.processChunk = function (chunk) {
-    this.push({
-        data : utils.transformTo(this.destType, chunk.data),
-        meta : chunk.meta
-    });
-};
-module.exports = ConvertWorker;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/Crc32Probe.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/Crc32Probe.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-var crc32 = __webpack_require__(/*! ../crc32 */ "./node_modules/jszip/lib/crc32.js");
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-
-/**
- * A worker which calculate the crc32 of the data flowing through.
- * @constructor
- */
-function Crc32Probe() {
-    GenericWorker.call(this, "Crc32Probe");
-    this.withStreamInfo("crc32", 0);
-}
-utils.inherits(Crc32Probe, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-Crc32Probe.prototype.processChunk = function (chunk) {
-    this.streamInfo.crc32 = crc32(chunk.data, this.streamInfo.crc32 || 0);
-    this.push(chunk);
-};
-module.exports = Crc32Probe;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/DataLengthProbe.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/DataLengthProbe.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-/**
- * A worker which calculate the total length of the data flowing through.
- * @constructor
- * @param {String} propName the name used to expose the length
- */
-function DataLengthProbe(propName) {
-    GenericWorker.call(this, "DataLengthProbe for " + propName);
-    this.propName = propName;
-    this.withStreamInfo(propName, 0);
-}
-utils.inherits(DataLengthProbe, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-DataLengthProbe.prototype.processChunk = function (chunk) {
-    if(chunk) {
-        var length = this.streamInfo[this.propName] || 0;
-        this.streamInfo[this.propName] = length + chunk.data.length;
-    }
-    GenericWorker.prototype.processChunk.call(this, chunk);
-};
-module.exports = DataLengthProbe;
-
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/DataWorker.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/DataWorker.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-// the size of the generated chunks
-// TODO expose this as a public variable
-var DEFAULT_BLOCK_SIZE = 16 * 1024;
-
-/**
- * A worker that reads a content and emits chunks.
- * @constructor
- * @param {Promise} dataP the promise of the data to split
- */
-function DataWorker(dataP) {
-    GenericWorker.call(this, "DataWorker");
-    var self = this;
-    this.dataIsReady = false;
-    this.index = 0;
-    this.max = 0;
-    this.data = null;
-    this.type = "";
-
-    this._tickScheduled = false;
-
-    dataP.then(function (data) {
-        self.dataIsReady = true;
-        self.data = data;
-        self.max = data && data.length || 0;
-        self.type = utils.getTypeOf(data);
-        if(!self.isPaused) {
-            self._tickAndRepeat();
-        }
-    }, function (e) {
-        self.error(e);
-    });
-}
-
-utils.inherits(DataWorker, GenericWorker);
-
-/**
- * @see GenericWorker.cleanUp
- */
-DataWorker.prototype.cleanUp = function () {
-    GenericWorker.prototype.cleanUp.call(this);
-    this.data = null;
-};
-
-/**
- * @see GenericWorker.resume
- */
-DataWorker.prototype.resume = function () {
-    if(!GenericWorker.prototype.resume.call(this)) {
-        return false;
-    }
-
-    if (!this._tickScheduled && this.dataIsReady) {
-        this._tickScheduled = true;
-        utils.delay(this._tickAndRepeat, [], this);
-    }
-    return true;
-};
-
-/**
- * Trigger a tick a schedule an other call to this function.
- */
-DataWorker.prototype._tickAndRepeat = function() {
-    this._tickScheduled = false;
-    if(this.isPaused || this.isFinished) {
-        return;
-    }
-    this._tick();
-    if(!this.isFinished) {
-        utils.delay(this._tickAndRepeat, [], this);
-        this._tickScheduled = true;
-    }
-};
-
-/**
- * Read and push a chunk.
- */
-DataWorker.prototype._tick = function() {
-
-    if(this.isPaused || this.isFinished) {
-        return false;
-    }
-
-    var size = DEFAULT_BLOCK_SIZE;
-    var data = null, nextIndex = Math.min(this.max, this.index + size);
-    if (this.index >= this.max) {
-        // EOF
-        return this.end();
-    } else {
-        switch(this.type) {
-            case "string":
-                data = this.data.substring(this.index, nextIndex);
-            break;
-            case "uint8array":
-                data = this.data.subarray(this.index, nextIndex);
-            break;
-            case "array":
-            case "nodebuffer":
-                data = this.data.slice(this.index, nextIndex);
-            break;
-        }
-        this.index = nextIndex;
-        return this.push({
-            data : data,
-            meta : {
-                percent : this.max ? this.index / this.max * 100 : 0
-            }
-        });
-    }
-};
-
-module.exports = DataWorker;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/GenericWorker.js":
-/*!********************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/GenericWorker.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * A worker that does nothing but passing chunks to the next one. This is like
- * a nodejs stream but with some differences. On the good side :
- * - it works on IE 6-9 without any issue / polyfill
- * - it weights less than the full dependencies bundled with browserify
- * - it forwards errors (no need to declare an error handler EVERYWHERE)
- *
- * A chunk is an object with 2 attributes : `meta` and `data`. The former is an
- * object containing anything (`percent` for example), see each worker for more
- * details. The latter is the real data (String, Uint8Array, etc).
- *
- * @constructor
- * @param {String} name the name of the stream (mainly used for debugging purposes)
- */
-function GenericWorker(name) {
-    // the name of the worker
-    this.name = name || "default";
-    // an object containing metadata about the workers chain
-    this.streamInfo = {};
-    // an error which happened when the worker was paused
-    this.generatedError = null;
-    // an object containing metadata to be merged by this worker into the general metadata
-    this.extraStreamInfo = {};
-    // true if the stream is paused (and should not do anything), false otherwise
-    this.isPaused = true;
-    // true if the stream is finished (and should not do anything), false otherwise
-    this.isFinished = false;
-    // true if the stream is locked to prevent further structure updates (pipe), false otherwise
-    this.isLocked = false;
-    // the event listeners
-    this._listeners = {
-        'data':[],
-        'end':[],
-        'error':[]
-    };
-    // the previous worker, if any
-    this.previous = null;
-}
-
-GenericWorker.prototype = {
-    /**
-     * Push a chunk to the next workers.
-     * @param {Object} chunk the chunk to push
-     */
-    push : function (chunk) {
-        this.emit("data", chunk);
-    },
-    /**
-     * End the stream.
-     * @return {Boolean} true if this call ended the worker, false otherwise.
-     */
-    end : function () {
-        if (this.isFinished) {
-            return false;
-        }
-
-        this.flush();
-        try {
-            this.emit("end");
-            this.cleanUp();
-            this.isFinished = true;
-        } catch (e) {
-            this.emit("error", e);
-        }
-        return true;
-    },
-    /**
-     * End the stream with an error.
-     * @param {Error} e the error which caused the premature end.
-     * @return {Boolean} true if this call ended the worker with an error, false otherwise.
-     */
-    error : function (e) {
-        if (this.isFinished) {
-            return false;
-        }
-
-        if(this.isPaused) {
-            this.generatedError = e;
-        } else {
-            this.isFinished = true;
-
-            this.emit("error", e);
-
-            // in the workers chain exploded in the middle of the chain,
-            // the error event will go downward but we also need to notify
-            // workers upward that there has been an error.
-            if(this.previous) {
-                this.previous.error(e);
-            }
-
-            this.cleanUp();
-        }
-        return true;
-    },
-    /**
-     * Add a callback on an event.
-     * @param {String} name the name of the event (data, end, error)
-     * @param {Function} listener the function to call when the event is triggered
-     * @return {GenericWorker} the current object for chainability
-     */
-    on : function (name, listener) {
-        this._listeners[name].push(listener);
-        return this;
-    },
-    /**
-     * Clean any references when a worker is ending.
-     */
-    cleanUp : function () {
-        this.streamInfo = this.generatedError = this.extraStreamInfo = null;
-        this._listeners = [];
-    },
-    /**
-     * Trigger an event. This will call registered callback with the provided arg.
-     * @param {String} name the name of the event (data, end, error)
-     * @param {Object} arg the argument to call the callback with.
-     */
-    emit : function (name, arg) {
-        if (this._listeners[name]) {
-            for(var i = 0; i < this._listeners[name].length; i++) {
-                this._listeners[name][i].call(this, arg);
-            }
-        }
-    },
-    /**
-     * Chain a worker with an other.
-     * @param {Worker} next the worker receiving events from the current one.
-     * @return {worker} the next worker for chainability
-     */
-    pipe : function (next) {
-        return next.registerPrevious(this);
-    },
-    /**
-     * Same as `pipe` in the other direction.
-     * Using an API with `pipe(next)` is very easy.
-     * Implementing the API with the point of view of the next one registering
-     * a source is easier, see the ZipFileWorker.
-     * @param {Worker} previous the previous worker, sending events to this one
-     * @return {Worker} the current worker for chainability
-     */
-    registerPrevious : function (previous) {
-        if (this.isLocked) {
-            throw new Error("The stream '" + this + "' has already been used.");
-        }
-
-        // sharing the streamInfo...
-        this.streamInfo = previous.streamInfo;
-        // ... and adding our own bits
-        this.mergeStreamInfo();
-        this.previous =  previous;
-        var self = this;
-        previous.on('data', function (chunk) {
-            self.processChunk(chunk);
-        });
-        previous.on('end', function () {
-            self.end();
-        });
-        previous.on('error', function (e) {
-            self.error(e);
-        });
-        return this;
-    },
-    /**
-     * Pause the stream so it doesn't send events anymore.
-     * @return {Boolean} true if this call paused the worker, false otherwise.
-     */
-    pause : function () {
-        if(this.isPaused || this.isFinished) {
-            return false;
-        }
-        this.isPaused = true;
-
-        if(this.previous) {
-            this.previous.pause();
-        }
-        return true;
-    },
-    /**
-     * Resume a paused stream.
-     * @return {Boolean} true if this call resumed the worker, false otherwise.
-     */
-    resume : function () {
-        if(!this.isPaused || this.isFinished) {
-            return false;
-        }
-        this.isPaused = false;
-
-        // if true, the worker tried to resume but failed
-        var withError = false;
-        if(this.generatedError) {
-            this.error(this.generatedError);
-            withError = true;
-        }
-        if(this.previous) {
-            this.previous.resume();
-        }
-
-        return !withError;
-    },
-    /**
-     * Flush any remaining bytes as the stream is ending.
-     */
-    flush : function () {},
-    /**
-     * Process a chunk. This is usually the method overridden.
-     * @param {Object} chunk the chunk to process.
-     */
-    processChunk : function(chunk) {
-        this.push(chunk);
-    },
-    /**
-     * Add a key/value to be added in the workers chain streamInfo once activated.
-     * @param {String} key the key to use
-     * @param {Object} value the associated value
-     * @return {Worker} the current worker for chainability
-     */
-    withStreamInfo : function (key, value) {
-        this.extraStreamInfo[key] = value;
-        this.mergeStreamInfo();
-        return this;
-    },
-    /**
-     * Merge this worker's streamInfo into the chain's streamInfo.
-     */
-    mergeStreamInfo : function () {
-        for(var key in this.extraStreamInfo) {
-            if (!this.extraStreamInfo.hasOwnProperty(key)) {
-                continue;
-            }
-            this.streamInfo[key] = this.extraStreamInfo[key];
-        }
-    },
-
-    /**
-     * Lock the stream to prevent further updates on the workers chain.
-     * After calling this method, all calls to pipe will fail.
-     */
-    lock: function () {
-        if (this.isLocked) {
-            throw new Error("The stream '" + this + "' has already been used.");
-        }
-        this.isLocked = true;
-        if (this.previous) {
-            this.previous.lock();
-        }
-    },
-
-    /**
-     *
-     * Pretty print the workers chain.
-     */
-    toString : function () {
-        var me = "Worker " + this.name;
-        if (this.previous) {
-            return this.previous + " -> " + me;
-        } else {
-            return me;
-        }
-    }
-};
-
-module.exports = GenericWorker;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/stream/StreamHelper.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/jszip/lib/stream/StreamHelper.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(Buffer) {
-
-var utils = __webpack_require__(/*! ../utils */ "./node_modules/jszip/lib/utils.js");
-var ConvertWorker = __webpack_require__(/*! ./ConvertWorker */ "./node_modules/jszip/lib/stream/ConvertWorker.js");
-var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-var base64 = __webpack_require__(/*! ../base64 */ "./node_modules/jszip/lib/base64.js");
-var support = __webpack_require__(/*! ../support */ "./node_modules/jszip/lib/support.js");
-var external = __webpack_require__(/*! ../external */ "./node_modules/jszip/lib/external.js");
-
-var NodejsStreamOutputAdapter = null;
-if (support.nodestream) {
-    try {
-        NodejsStreamOutputAdapter = __webpack_require__(/*! ../nodejs/NodejsStreamOutputAdapter */ "./node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js");
-    } catch(e) {}
-}
-
-/**
- * Apply the final transformation of the data. If the user wants a Blob for
- * example, it's easier to work with an U8intArray and finally do the
- * ArrayBuffer/Blob conversion.
- * @param {String} type the name of the final type
- * @param {String|Uint8Array|Buffer} content the content to transform
- * @param {String} mimeType the mime type of the content, if applicable.
- * @return {String|Uint8Array|ArrayBuffer|Buffer|Blob} the content in the right format.
- */
-function transformZipOutput(type, content, mimeType) {
-    switch(type) {
-        case "blob" :
-            return utils.newBlob(utils.transformTo("arraybuffer", content), mimeType);
-        case "base64" :
-            return base64.encode(content);
-        default :
-            return utils.transformTo(type, content);
-    }
-}
-
-/**
- * Concatenate an array of data of the given type.
- * @param {String} type the type of the data in the given array.
- * @param {Array} dataArray the array containing the data chunks to concatenate
- * @return {String|Uint8Array|Buffer} the concatenated data
- * @throws Error if the asked type is unsupported
- */
-function concat (type, dataArray) {
-    var i, index = 0, res = null, totalLength = 0;
-    for(i = 0; i < dataArray.length; i++) {
-        totalLength += dataArray[i].length;
-    }
-    switch(type) {
-        case "string":
-            return dataArray.join("");
-          case "array":
-            return Array.prototype.concat.apply([], dataArray);
-        case "uint8array":
-            res = new Uint8Array(totalLength);
-            for(i = 0; i < dataArray.length; i++) {
-                res.set(dataArray[i], index);
-                index += dataArray[i].length;
-            }
-            return res;
-        case "nodebuffer":
-            return Buffer.concat(dataArray);
-        default:
-            throw new Error("concat : unsupported type '"  + type + "'");
-    }
-}
-
-/**
- * Listen a StreamHelper, accumulate its content and concatenate it into a
- * complete block.
- * @param {StreamHelper} helper the helper to use.
- * @param {Function} updateCallback a callback called on each update. Called
- * with one arg :
- * - the metadata linked to the update received.
- * @return Promise the promise for the accumulation.
- */
-function accumulate(helper, updateCallback) {
-    return new external.Promise(function (resolve, reject){
-        var dataArray = [];
-        var chunkType = helper._internalType,
-            resultType = helper._outputType,
-            mimeType = helper._mimeType;
-        helper
-        .on('data', function (data, meta) {
-            dataArray.push(data);
-            if(updateCallback) {
-                updateCallback(meta);
-            }
-        })
-        .on('error', function(err) {
-            dataArray = [];
-            reject(err);
-        })
-        .on('end', function (){
-            try {
-                var result = transformZipOutput(resultType, concat(chunkType, dataArray), mimeType);
-                resolve(result);
-            } catch (e) {
-                reject(e);
-            }
-            dataArray = [];
-        })
-        .resume();
-    });
-}
-
-/**
- * An helper to easily use workers outside of JSZip.
- * @constructor
- * @param {Worker} worker the worker to wrap
- * @param {String} outputType the type of data expected by the use
- * @param {String} mimeType the mime type of the content, if applicable.
- */
-function StreamHelper(worker, outputType, mimeType) {
-    var internalType = outputType;
-    switch(outputType) {
-        case "blob":
-        case "arraybuffer":
-            internalType = "uint8array";
-        break;
-        case "base64":
-            internalType = "string";
-        break;
-    }
-
-    try {
-        // the type used internally
-        this._internalType = internalType;
-        // the type used to output results
-        this._outputType = outputType;
-        // the mime type
-        this._mimeType = mimeType;
-        utils.checkSupport(internalType);
-        this._worker = worker.pipe(new ConvertWorker(internalType));
-        // the last workers can be rewired without issues but we need to
-        // prevent any updates on previous workers.
-        worker.lock();
-    } catch(e) {
-        this._worker = new GenericWorker("error");
-        this._worker.error(e);
-    }
-}
-
-StreamHelper.prototype = {
-    /**
-     * Listen a StreamHelper, accumulate its content and concatenate it into a
-     * complete block.
-     * @param {Function} updateCb the update callback.
-     * @return Promise the promise for the accumulation.
-     */
-    accumulate : function (updateCb) {
-        return accumulate(this, updateCb);
-    },
-    /**
-     * Add a listener on an event triggered on a stream.
-     * @param {String} evt the name of the event
-     * @param {Function} fn the listener
-     * @return {StreamHelper} the current helper.
-     */
-    on : function (evt, fn) {
-        var self = this;
-
-        if(evt === "data") {
-            this._worker.on(evt, function (chunk) {
-                fn.call(self, chunk.data, chunk.meta);
-            });
-        } else {
-            this._worker.on(evt, function () {
-                utils.delay(fn, arguments, self);
-            });
-        }
-        return this;
-    },
-    /**
-     * Resume the flow of chunks.
-     * @return {StreamHelper} the current helper.
-     */
-    resume : function () {
-        utils.delay(this._worker.resume, [], this._worker);
-        return this;
-    },
-    /**
-     * Pause the flow of chunks.
-     * @return {StreamHelper} the current helper.
-     */
-    pause : function () {
-        this._worker.pause();
-        return this;
-    },
-    /**
-     * Return a nodejs stream for this helper.
-     * @param {Function} updateCb the update callback.
-     * @return {NodejsStreamOutputAdapter} the nodejs stream.
-     */
-    toNodejsStream : function (updateCb) {
-        utils.checkSupport("nodestream");
-        if (this._outputType !== "nodebuffer") {
-            // an object stream containing blob/arraybuffer/uint8array/string
-            // is strange and I don't know if it would be useful.
-            // I you find this comment and have a good usecase, please open a
-            // bug report !
-            throw new Error(this._outputType + " is not supported by this method");
-        }
-
-        return new NodejsStreamOutputAdapter(this, {
-            objectMode : this._outputType !== "nodebuffer"
-        }, updateCb);
-    }
-};
-
-
-module.exports = StreamHelper;
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/support.js":
-/*!*******************************************!*\
-  !*** ./node_modules/jszip/lib/support.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(Buffer) {
-
-exports.base64 = true;
-exports.array = true;
-exports.string = true;
-exports.arraybuffer = typeof ArrayBuffer !== "undefined" && typeof Uint8Array !== "undefined";
-exports.nodebuffer = typeof Buffer !== "undefined";
-// contains true if JSZip can read/generate Uint8Array, false otherwise.
-exports.uint8array = typeof Uint8Array !== "undefined";
-
-if (typeof ArrayBuffer === "undefined") {
-    exports.blob = false;
-}
-else {
-    var buffer = new ArrayBuffer(0);
-    try {
-        exports.blob = new Blob([buffer], {
-            type: "application/zip"
-        }).size === 0;
-    }
-    catch (e) {
-        try {
-            var Builder = self.BlobBuilder || self.WebKitBlobBuilder || self.MozBlobBuilder || self.MSBlobBuilder;
-            var builder = new Builder();
-            builder.append(buffer);
-            exports.blob = builder.getBlob('application/zip').size === 0;
-        }
-        catch (e) {
-            exports.blob = false;
-        }
-    }
-}
-
-try {
-    exports.nodestream = !!__webpack_require__(/*! readable-stream */ "./node_modules/jszip/lib/readable-stream-browser.js").Readable;
-} catch(e) {
-    exports.nodestream = false;
-}
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/utf8.js":
-/*!****************************************!*\
-  !*** ./node_modules/jszip/lib/utf8.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/jszip/lib/nodejsUtils.js");
-var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-/**
- * The following functions come from pako, from pako/lib/utils/strings
- * released under the MIT license, see pako https://github.com/nodeca/pako/
- */
-
-// Table with utf8 lengths (calculated by first byte of sequence)
-// Note, that 5 & 6-byte values and some 4-byte values can not be represented in JS,
-// because max possible codepoint is 0x10ffff
-var _utf8len = new Array(256);
-for (var i=0; i<256; i++) {
-  _utf8len[i] = (i >= 252 ? 6 : i >= 248 ? 5 : i >= 240 ? 4 : i >= 224 ? 3 : i >= 192 ? 2 : 1);
-}
-_utf8len[254]=_utf8len[254]=1; // Invalid sequence start
-
-// convert string to array (typed, when possible)
-var string2buf = function (str) {
-    var buf, c, c2, m_pos, i, str_len = str.length, buf_len = 0;
-
-    // count binary size
-    for (m_pos = 0; m_pos < str_len; m_pos++) {
-        c = str.charCodeAt(m_pos);
-        if ((c & 0xfc00) === 0xd800 && (m_pos+1 < str_len)) {
-            c2 = str.charCodeAt(m_pos+1);
-            if ((c2 & 0xfc00) === 0xdc00) {
-                c = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
-                m_pos++;
-            }
-        }
-        buf_len += c < 0x80 ? 1 : c < 0x800 ? 2 : c < 0x10000 ? 3 : 4;
-    }
-
-    // allocate buffer
-    if (support.uint8array) {
-        buf = new Uint8Array(buf_len);
-    } else {
-        buf = new Array(buf_len);
-    }
-
-    // convert
-    for (i=0, m_pos = 0; i < buf_len; m_pos++) {
-        c = str.charCodeAt(m_pos);
-        if ((c & 0xfc00) === 0xd800 && (m_pos+1 < str_len)) {
-            c2 = str.charCodeAt(m_pos+1);
-            if ((c2 & 0xfc00) === 0xdc00) {
-                c = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
-                m_pos++;
-            }
-        }
-        if (c < 0x80) {
-            /* one byte */
-            buf[i++] = c;
-        } else if (c < 0x800) {
-            /* two bytes */
-            buf[i++] = 0xC0 | (c >>> 6);
-            buf[i++] = 0x80 | (c & 0x3f);
-        } else if (c < 0x10000) {
-            /* three bytes */
-            buf[i++] = 0xE0 | (c >>> 12);
-            buf[i++] = 0x80 | (c >>> 6 & 0x3f);
-            buf[i++] = 0x80 | (c & 0x3f);
-        } else {
-            /* four bytes */
-            buf[i++] = 0xf0 | (c >>> 18);
-            buf[i++] = 0x80 | (c >>> 12 & 0x3f);
-            buf[i++] = 0x80 | (c >>> 6 & 0x3f);
-            buf[i++] = 0x80 | (c & 0x3f);
-        }
-    }
-
-    return buf;
-};
-
-// Calculate max possible position in utf8 buffer,
-// that will not break sequence. If that's not possible
-// - (very small limits) return max size as is.
-//
-// buf[] - utf8 bytes array
-// max   - length limit (mandatory);
-var utf8border = function(buf, max) {
-    var pos;
-
-    max = max || buf.length;
-    if (max > buf.length) { max = buf.length; }
-
-    // go back from last position, until start of sequence found
-    pos = max-1;
-    while (pos >= 0 && (buf[pos] & 0xC0) === 0x80) { pos--; }
-
-    // Fuckup - very small and broken sequence,
-    // return max, because we should return something anyway.
-    if (pos < 0) { return max; }
-
-    // If we came to start of buffer - that means vuffer is too small,
-    // return max too.
-    if (pos === 0) { return max; }
-
-    return (pos + _utf8len[buf[pos]] > max) ? pos : max;
-};
-
-// convert array to string
-var buf2string = function (buf) {
-    var str, i, out, c, c_len;
-    var len = buf.length;
-
-    // Reserve max possible length (2 words per char)
-    // NB: by unknown reasons, Array is significantly faster for
-    //     String.fromCharCode.apply than Uint16Array.
-    var utf16buf = new Array(len*2);
-
-    for (out=0, i=0; i<len;) {
-        c = buf[i++];
-        // quick process ascii
-        if (c < 0x80) { utf16buf[out++] = c; continue; }
-
-        c_len = _utf8len[c];
-        // skip 5 & 6 byte codes
-        if (c_len > 4) { utf16buf[out++] = 0xfffd; i += c_len-1; continue; }
-
-        // apply mask on first byte
-        c &= c_len === 2 ? 0x1f : c_len === 3 ? 0x0f : 0x07;
-        // join the rest
-        while (c_len > 1 && i < len) {
-            c = (c << 6) | (buf[i++] & 0x3f);
-            c_len--;
-        }
-
-        // terminated by end of string?
-        if (c_len > 1) { utf16buf[out++] = 0xfffd; continue; }
-
-        if (c < 0x10000) {
-            utf16buf[out++] = c;
-        } else {
-            c -= 0x10000;
-            utf16buf[out++] = 0xd800 | ((c >> 10) & 0x3ff);
-            utf16buf[out++] = 0xdc00 | (c & 0x3ff);
-        }
-    }
-
-    // shrinkBuf(utf16buf, out)
-    if (utf16buf.length !== out) {
-        if(utf16buf.subarray) {
-            utf16buf = utf16buf.subarray(0, out);
-        } else {
-            utf16buf.length = out;
-        }
-    }
-
-    // return String.fromCharCode.apply(null, utf16buf);
-    return utils.applyFromCharCode(utf16buf);
-};
-
-
-// That's all for the pako functions.
-
-
-/**
- * Transform a javascript string into an array (typed if possible) of bytes,
- * UTF-8 encoded.
- * @param {String} str the string to encode
- * @return {Array|Uint8Array|Buffer} the UTF-8 encoded string.
- */
-exports.utf8encode = function utf8encode(str) {
-    if (support.nodebuffer) {
-        return nodejsUtils.newBufferFrom(str, "utf-8");
-    }
-
-    return string2buf(str);
-};
-
-
-/**
- * Transform a bytes array (or a representation) representing an UTF-8 encoded
- * string into a javascript string.
- * @param {Array|Uint8Array|Buffer} buf the data de decode
- * @return {String} the decoded string.
- */
-exports.utf8decode = function utf8decode(buf) {
-    if (support.nodebuffer) {
-        return utils.transformTo("nodebuffer", buf).toString("utf-8");
-    }
-
-    buf = utils.transformTo(support.uint8array ? "uint8array" : "array", buf);
-
-    return buf2string(buf);
-};
-
-/**
- * A worker to decode utf8 encoded binary chunks into string chunks.
- * @constructor
- */
-function Utf8DecodeWorker() {
-    GenericWorker.call(this, "utf-8 decode");
-    // the last bytes if a chunk didn't end with a complete codepoint.
-    this.leftOver = null;
-}
-utils.inherits(Utf8DecodeWorker, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-Utf8DecodeWorker.prototype.processChunk = function (chunk) {
-
-    var data = utils.transformTo(support.uint8array ? "uint8array" : "array", chunk.data);
-
-    // 1st step, re-use what's left of the previous chunk
-    if (this.leftOver && this.leftOver.length) {
-        if(support.uint8array) {
-            var previousData = data;
-            data = new Uint8Array(previousData.length + this.leftOver.length);
-            data.set(this.leftOver, 0);
-            data.set(previousData, this.leftOver.length);
-        } else {
-            data = this.leftOver.concat(data);
-        }
-        this.leftOver = null;
-    }
-
-    var nextBoundary = utf8border(data);
-    var usableData = data;
-    if (nextBoundary !== data.length) {
-        if (support.uint8array) {
-            usableData = data.subarray(0, nextBoundary);
-            this.leftOver = data.subarray(nextBoundary, data.length);
-        } else {
-            usableData = data.slice(0, nextBoundary);
-            this.leftOver = data.slice(nextBoundary, data.length);
-        }
-    }
-
-    this.push({
-        data : exports.utf8decode(usableData),
-        meta : chunk.meta
-    });
-};
-
-/**
- * @see GenericWorker.flush
- */
-Utf8DecodeWorker.prototype.flush = function () {
-    if(this.leftOver && this.leftOver.length) {
-        this.push({
-            data : exports.utf8decode(this.leftOver),
-            meta : {}
-        });
-        this.leftOver = null;
-    }
-};
-exports.Utf8DecodeWorker = Utf8DecodeWorker;
-
-/**
- * A worker to endcode string chunks into utf8 encoded binary chunks.
- * @constructor
- */
-function Utf8EncodeWorker() {
-    GenericWorker.call(this, "utf-8 encode");
-}
-utils.inherits(Utf8EncodeWorker, GenericWorker);
-
-/**
- * @see GenericWorker.processChunk
- */
-Utf8EncodeWorker.prototype.processChunk = function (chunk) {
-    this.push({
-        data : exports.utf8encode(chunk.data),
-        meta : chunk.meta
-    });
-};
-exports.Utf8EncodeWorker = Utf8EncodeWorker;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/utils.js":
-/*!*****************************************!*\
-  !*** ./node_modules/jszip/lib/utils.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-var base64 = __webpack_require__(/*! ./base64 */ "./node_modules/jszip/lib/base64.js");
-var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/jszip/lib/nodejsUtils.js");
-var setImmediate = __webpack_require__(/*! set-immediate-shim */ "./node_modules/set-immediate-shim/index.js");
-var external = __webpack_require__(/*! ./external */ "./node_modules/jszip/lib/external.js");
-
-
-/**
- * Convert a string that pass as a "binary string": it should represent a byte
- * array but may have > 255 char codes. Be sure to take only the first byte
- * and returns the byte array.
- * @param {String} str the string to transform.
- * @return {Array|Uint8Array} the string in a binary format.
- */
-function string2binary(str) {
-    var result = null;
-    if (support.uint8array) {
-      result = new Uint8Array(str.length);
-    } else {
-      result = new Array(str.length);
-    }
-    return stringToArrayLike(str, result);
-}
-
-/**
- * Create a new blob with the given content and the given type.
- * @param {String|ArrayBuffer} part the content to put in the blob. DO NOT use
- * an Uint8Array because the stock browser of android 4 won't accept it (it
- * will be silently converted to a string, "[object Uint8Array]").
- *
- * Use only ONE part to build the blob to avoid a memory leak in IE11 / Edge:
- * when a large amount of Array is used to create the Blob, the amount of
- * memory consumed is nearly 100 times the original data amount.
- *
- * @param {String} type the mime type of the blob.
- * @return {Blob} the created blob.
- */
-exports.newBlob = function(part, type) {
-    exports.checkSupport("blob");
-
-    try {
-        // Blob constructor
-        return new Blob([part], {
-            type: type
-        });
-    }
-    catch (e) {
-
-        try {
-            // deprecated, browser only, old way
-            var Builder = self.BlobBuilder || self.WebKitBlobBuilder || self.MozBlobBuilder || self.MSBlobBuilder;
-            var builder = new Builder();
-            builder.append(part);
-            return builder.getBlob(type);
-        }
-        catch (e) {
-
-            // well, fuck ?!
-            throw new Error("Bug : can't construct the Blob.");
-        }
-    }
-
-
-};
-/**
- * The identity function.
- * @param {Object} input the input.
- * @return {Object} the same input.
- */
-function identity(input) {
-    return input;
-}
-
-/**
- * Fill in an array with a string.
- * @param {String} str the string to use.
- * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to fill in (will be mutated).
- * @return {Array|ArrayBuffer|Uint8Array|Buffer} the updated array.
- */
-function stringToArrayLike(str, array) {
-    for (var i = 0; i < str.length; ++i) {
-        array[i] = str.charCodeAt(i) & 0xFF;
-    }
-    return array;
-}
-
-/**
- * An helper for the function arrayLikeToString.
- * This contains static informations and functions that
- * can be optimized by the browser JIT compiler.
- */
-var arrayToStringHelper = {
-    /**
-     * Transform an array of int into a string, chunk by chunk.
-     * See the performances notes on arrayLikeToString.
-     * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
-     * @param {String} type the type of the array.
-     * @param {Integer} chunk the chunk size.
-     * @return {String} the resulting string.
-     * @throws Error if the chunk is too big for the stack.
-     */
-    stringifyByChunk: function(array, type, chunk) {
-        var result = [], k = 0, len = array.length;
-        // shortcut
-        if (len <= chunk) {
-            return String.fromCharCode.apply(null, array);
-        }
-        while (k < len) {
-            if (type === "array" || type === "nodebuffer") {
-                result.push(String.fromCharCode.apply(null, array.slice(k, Math.min(k + chunk, len))));
-            }
-            else {
-                result.push(String.fromCharCode.apply(null, array.subarray(k, Math.min(k + chunk, len))));
-            }
-            k += chunk;
-        }
-        return result.join("");
-    },
-    /**
-     * Call String.fromCharCode on every item in the array.
-     * This is the naive implementation, which generate A LOT of intermediate string.
-     * This should be used when everything else fail.
-     * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
-     * @return {String} the result.
-     */
-    stringifyByChar: function(array){
-        var resultStr = "";
-        for(var i = 0; i < array.length; i++) {
-            resultStr += String.fromCharCode(array[i]);
-        }
-        return resultStr;
-    },
-    applyCanBeUsed : {
-        /**
-         * true if the browser accepts to use String.fromCharCode on Uint8Array
-         */
-        uint8array : (function () {
-            try {
-                return support.uint8array && String.fromCharCode.apply(null, new Uint8Array(1)).length === 1;
-            } catch (e) {
-                return false;
-            }
-        })(),
-        /**
-         * true if the browser accepts to use String.fromCharCode on nodejs Buffer.
-         */
-        nodebuffer : (function () {
-            try {
-                return support.nodebuffer && String.fromCharCode.apply(null, nodejsUtils.allocBuffer(1)).length === 1;
-            } catch (e) {
-                return false;
-            }
-        })()
-    }
-};
-
-/**
- * Transform an array-like object to a string.
- * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
- * @return {String} the result.
- */
-function arrayLikeToString(array) {
-    // Performances notes :
-    // --------------------
-    // String.fromCharCode.apply(null, array) is the fastest, see
-    // see http://jsperf.com/converting-a-uint8array-to-a-string/2
-    // but the stack is limited (and we can get huge arrays !).
-    //
-    // result += String.fromCharCode(array[i]); generate too many strings !
-    //
-    // This code is inspired by http://jsperf.com/arraybuffer-to-string-apply-performance/2
-    // TODO : we now have workers that split the work. Do we still need that ?
-    var chunk = 65536,
-        type = exports.getTypeOf(array),
-        canUseApply = true;
-    if (type === "uint8array") {
-        canUseApply = arrayToStringHelper.applyCanBeUsed.uint8array;
-    } else if (type === "nodebuffer") {
-        canUseApply = arrayToStringHelper.applyCanBeUsed.nodebuffer;
-    }
-
-    if (canUseApply) {
-        while (chunk > 1) {
-            try {
-                return arrayToStringHelper.stringifyByChunk(array, type, chunk);
-            } catch (e) {
-                chunk = Math.floor(chunk / 2);
-            }
-        }
-    }
-
-    // no apply or chunk error : slow and painful algorithm
-    // default browser on android 4.*
-    return arrayToStringHelper.stringifyByChar(array);
-}
-
-exports.applyFromCharCode = arrayLikeToString;
-
-
-/**
- * Copy the data from an array-like to an other array-like.
- * @param {Array|ArrayBuffer|Uint8Array|Buffer} arrayFrom the origin array.
- * @param {Array|ArrayBuffer|Uint8Array|Buffer} arrayTo the destination array which will be mutated.
- * @return {Array|ArrayBuffer|Uint8Array|Buffer} the updated destination array.
- */
-function arrayLikeToArrayLike(arrayFrom, arrayTo) {
-    for (var i = 0; i < arrayFrom.length; i++) {
-        arrayTo[i] = arrayFrom[i];
-    }
-    return arrayTo;
-}
-
-// a matrix containing functions to transform everything into everything.
-var transform = {};
-
-// string to ?
-transform["string"] = {
-    "string": identity,
-    "array": function(input) {
-        return stringToArrayLike(input, new Array(input.length));
-    },
-    "arraybuffer": function(input) {
-        return transform["string"]["uint8array"](input).buffer;
-    },
-    "uint8array": function(input) {
-        return stringToArrayLike(input, new Uint8Array(input.length));
-    },
-    "nodebuffer": function(input) {
-        return stringToArrayLike(input, nodejsUtils.allocBuffer(input.length));
-    }
-};
-
-// array to ?
-transform["array"] = {
-    "string": arrayLikeToString,
-    "array": identity,
-    "arraybuffer": function(input) {
-        return (new Uint8Array(input)).buffer;
-    },
-    "uint8array": function(input) {
-        return new Uint8Array(input);
-    },
-    "nodebuffer": function(input) {
-        return nodejsUtils.newBufferFrom(input);
-    }
-};
-
-// arraybuffer to ?
-transform["arraybuffer"] = {
-    "string": function(input) {
-        return arrayLikeToString(new Uint8Array(input));
-    },
-    "array": function(input) {
-        return arrayLikeToArrayLike(new Uint8Array(input), new Array(input.byteLength));
-    },
-    "arraybuffer": identity,
-    "uint8array": function(input) {
-        return new Uint8Array(input);
-    },
-    "nodebuffer": function(input) {
-        return nodejsUtils.newBufferFrom(new Uint8Array(input));
-    }
-};
-
-// uint8array to ?
-transform["uint8array"] = {
-    "string": arrayLikeToString,
-    "array": function(input) {
-        return arrayLikeToArrayLike(input, new Array(input.length));
-    },
-    "arraybuffer": function(input) {
-        return input.buffer;
-    },
-    "uint8array": identity,
-    "nodebuffer": function(input) {
-        return nodejsUtils.newBufferFrom(input);
-    }
-};
-
-// nodebuffer to ?
-transform["nodebuffer"] = {
-    "string": arrayLikeToString,
-    "array": function(input) {
-        return arrayLikeToArrayLike(input, new Array(input.length));
-    },
-    "arraybuffer": function(input) {
-        return transform["nodebuffer"]["uint8array"](input).buffer;
-    },
-    "uint8array": function(input) {
-        return arrayLikeToArrayLike(input, new Uint8Array(input.length));
-    },
-    "nodebuffer": identity
-};
-
-/**
- * Transform an input into any type.
- * The supported output type are : string, array, uint8array, arraybuffer, nodebuffer.
- * If no output type is specified, the unmodified input will be returned.
- * @param {String} outputType the output type.
- * @param {String|Array|ArrayBuffer|Uint8Array|Buffer} input the input to convert.
- * @throws {Error} an Error if the browser doesn't support the requested output type.
- */
-exports.transformTo = function(outputType, input) {
-    if (!input) {
-        // undefined, null, etc
-        // an empty string won't harm.
-        input = "";
-    }
-    if (!outputType) {
-        return input;
-    }
-    exports.checkSupport(outputType);
-    var inputType = exports.getTypeOf(input);
-    var result = transform[inputType][outputType](input);
-    return result;
-};
-
-/**
- * Return the type of the input.
- * The type will be in a format valid for JSZip.utils.transformTo : string, array, uint8array, arraybuffer.
- * @param {Object} input the input to identify.
- * @return {String} the (lowercase) type of the input.
- */
-exports.getTypeOf = function(input) {
-    if (typeof input === "string") {
-        return "string";
-    }
-    if (Object.prototype.toString.call(input) === "[object Array]") {
-        return "array";
-    }
-    if (support.nodebuffer && nodejsUtils.isBuffer(input)) {
-        return "nodebuffer";
-    }
-    if (support.uint8array && input instanceof Uint8Array) {
-        return "uint8array";
-    }
-    if (support.arraybuffer && input instanceof ArrayBuffer) {
-        return "arraybuffer";
-    }
-};
-
-/**
- * Throw an exception if the type is not supported.
- * @param {String} type the type to check.
- * @throws {Error} an Error if the browser doesn't support the requested type.
- */
-exports.checkSupport = function(type) {
-    var supported = support[type.toLowerCase()];
-    if (!supported) {
-        throw new Error(type + " is not supported by this platform");
-    }
-};
-
-exports.MAX_VALUE_16BITS = 65535;
-exports.MAX_VALUE_32BITS = -1; // well, "\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF" is parsed as -1
-
-/**
- * Prettify a string read as binary.
- * @param {string} str the string to prettify.
- * @return {string} a pretty string.
- */
-exports.pretty = function(str) {
-    var res = '',
-        code, i;
-    for (i = 0; i < (str || "").length; i++) {
-        code = str.charCodeAt(i);
-        res += '\\x' + (code < 16 ? "0" : "") + code.toString(16).toUpperCase();
-    }
-    return res;
-};
-
-/**
- * Defer the call of a function.
- * @param {Function} callback the function to call asynchronously.
- * @param {Array} args the arguments to give to the callback.
- */
-exports.delay = function(callback, args, self) {
-    setImmediate(function () {
-        callback.apply(self || null, args || []);
-    });
-};
-
-/**
- * Extends a prototype with an other, without calling a constructor with
- * side effects. Inspired by nodejs' `utils.inherits`
- * @param {Function} ctor the constructor to augment
- * @param {Function} superCtor the parent constructor to use
- */
-exports.inherits = function (ctor, superCtor) {
-    var Obj = function() {};
-    Obj.prototype = superCtor.prototype;
-    ctor.prototype = new Obj();
-};
-
-/**
- * Merge the objects passed as parameters into a new one.
- * @private
- * @param {...Object} var_args All objects to merge.
- * @return {Object} a new object with the data of the others.
- */
-exports.extend = function() {
-    var result = {}, i, attr;
-    for (i = 0; i < arguments.length; i++) { // arguments is not enumerable in some browsers
-        for (attr in arguments[i]) {
-            if (arguments[i].hasOwnProperty(attr) && typeof result[attr] === "undefined") {
-                result[attr] = arguments[i][attr];
-            }
-        }
-    }
-    return result;
-};
-
-/**
- * Transform arbitrary content into a Promise.
- * @param {String} name a name for the content being processed.
- * @param {Object} inputData the content to process.
- * @param {Boolean} isBinary true if the content is not an unicode string
- * @param {Boolean} isOptimizedBinaryString true if the string content only has one byte per character.
- * @param {Boolean} isBase64 true if the string content is encoded with base64.
- * @return {Promise} a promise in a format usable by JSZip.
- */
-exports.prepareContent = function(name, inputData, isBinary, isOptimizedBinaryString, isBase64) {
-
-    // if inputData is already a promise, this flatten it.
-    var promise = external.Promise.resolve(inputData).then(function(data) {
-        
-        
-        var isBlob = support.blob && (data instanceof Blob || ['[object File]', '[object Blob]'].indexOf(Object.prototype.toString.call(data)) !== -1);
-
-        if (isBlob && typeof FileReader !== "undefined") {
-            return new external.Promise(function (resolve, reject) {
-                var reader = new FileReader();
-
-                reader.onload = function(e) {
-                    resolve(e.target.result);
-                };
-                reader.onerror = function(e) {
-                    reject(e.target.error);
-                };
-                reader.readAsArrayBuffer(data);
-            });
-        } else {
-            return data;
-        }
-    });
-
-    return promise.then(function(data) {
-        var dataType = exports.getTypeOf(data);
-
-        if (!dataType) {
-            return external.Promise.reject(
-                new Error("Can't read the data of '" + name + "'. Is it " +
-                          "in a supported JavaScript type (String, Blob, ArrayBuffer, etc) ?")
-            );
-        }
-        // special case : it's way easier to work with Uint8Array than with ArrayBuffer
-        if (dataType === "arraybuffer") {
-            data = exports.transformTo("uint8array", data);
-        } else if (dataType === "string") {
-            if (isBase64) {
-                data = base64.decode(data);
-            }
-            else if (isBinary) {
-                // optimizedBinaryString === true means that the file has already been filtered with a 0xFF mask
-                if (isOptimizedBinaryString !== true) {
-                    // this is a string, not in a base64 format.
-                    // Be sure that this is a correct "binary string"
-                    data = string2binary(data);
-                }
-            }
-        }
-        return data;
-    });
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/zipEntries.js":
-/*!**********************************************!*\
-  !*** ./node_modules/jszip/lib/zipEntries.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var readerFor = __webpack_require__(/*! ./reader/readerFor */ "./node_modules/jszip/lib/reader/readerFor.js");
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var sig = __webpack_require__(/*! ./signature */ "./node_modules/jszip/lib/signature.js");
-var ZipEntry = __webpack_require__(/*! ./zipEntry */ "./node_modules/jszip/lib/zipEntry.js");
-var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/jszip/lib/utf8.js");
-var support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-//  class ZipEntries {{{
-/**
- * All the entries in the zip file.
- * @constructor
- * @param {Object} loadOptions Options for loading the stream.
- */
-function ZipEntries(loadOptions) {
-    this.files = [];
-    this.loadOptions = loadOptions;
-}
-ZipEntries.prototype = {
-    /**
-     * Check that the reader is on the specified signature.
-     * @param {string} expectedSignature the expected signature.
-     * @throws {Error} if it is an other signature.
-     */
-    checkSignature: function(expectedSignature) {
-        if (!this.reader.readAndCheckSignature(expectedSignature)) {
-            this.reader.index -= 4;
-            var signature = this.reader.readString(4);
-            throw new Error("Corrupted zip or bug: unexpected signature " + "(" + utils.pretty(signature) + ", expected " + utils.pretty(expectedSignature) + ")");
-        }
-    },
-    /**
-     * Check if the given signature is at the given index.
-     * @param {number} askedIndex the index to check.
-     * @param {string} expectedSignature the signature to expect.
-     * @return {boolean} true if the signature is here, false otherwise.
-     */
-    isSignature: function(askedIndex, expectedSignature) {
-        var currentIndex = this.reader.index;
-        this.reader.setIndex(askedIndex);
-        var signature = this.reader.readString(4);
-        var result = signature === expectedSignature;
-        this.reader.setIndex(currentIndex);
-        return result;
-    },
-    /**
-     * Read the end of the central directory.
-     */
-    readBlockEndOfCentral: function() {
-        this.diskNumber = this.reader.readInt(2);
-        this.diskWithCentralDirStart = this.reader.readInt(2);
-        this.centralDirRecordsOnThisDisk = this.reader.readInt(2);
-        this.centralDirRecords = this.reader.readInt(2);
-        this.centralDirSize = this.reader.readInt(4);
-        this.centralDirOffset = this.reader.readInt(4);
-
-        this.zipCommentLength = this.reader.readInt(2);
-        // warning : the encoding depends of the system locale
-        // On a linux machine with LANG=en_US.utf8, this field is utf8 encoded.
-        // On a windows machine, this field is encoded with the localized windows code page.
-        var zipComment = this.reader.readData(this.zipCommentLength);
-        var decodeParamType = support.uint8array ? "uint8array" : "array";
-        // To get consistent behavior with the generation part, we will assume that
-        // this is utf8 encoded unless specified otherwise.
-        var decodeContent = utils.transformTo(decodeParamType, zipComment);
-        this.zipComment = this.loadOptions.decodeFileName(decodeContent);
-    },
-    /**
-     * Read the end of the Zip 64 central directory.
-     * Not merged with the method readEndOfCentral :
-     * The end of central can coexist with its Zip64 brother,
-     * I don't want to read the wrong number of bytes !
-     */
-    readBlockZip64EndOfCentral: function() {
-        this.zip64EndOfCentralSize = this.reader.readInt(8);
-        this.reader.skip(4);
-        // this.versionMadeBy = this.reader.readString(2);
-        // this.versionNeeded = this.reader.readInt(2);
-        this.diskNumber = this.reader.readInt(4);
-        this.diskWithCentralDirStart = this.reader.readInt(4);
-        this.centralDirRecordsOnThisDisk = this.reader.readInt(8);
-        this.centralDirRecords = this.reader.readInt(8);
-        this.centralDirSize = this.reader.readInt(8);
-        this.centralDirOffset = this.reader.readInt(8);
-
-        this.zip64ExtensibleData = {};
-        var extraDataSize = this.zip64EndOfCentralSize - 44,
-            index = 0,
-            extraFieldId,
-            extraFieldLength,
-            extraFieldValue;
-        while (index < extraDataSize) {
-            extraFieldId = this.reader.readInt(2);
-            extraFieldLength = this.reader.readInt(4);
-            extraFieldValue = this.reader.readData(extraFieldLength);
-            this.zip64ExtensibleData[extraFieldId] = {
-                id: extraFieldId,
-                length: extraFieldLength,
-                value: extraFieldValue
-            };
-        }
-    },
-    /**
-     * Read the end of the Zip 64 central directory locator.
-     */
-    readBlockZip64EndOfCentralLocator: function() {
-        this.diskWithZip64CentralDirStart = this.reader.readInt(4);
-        this.relativeOffsetEndOfZip64CentralDir = this.reader.readInt(8);
-        this.disksCount = this.reader.readInt(4);
-        if (this.disksCount > 1) {
-            throw new Error("Multi-volumes zip are not supported");
-        }
-    },
-    /**
-     * Read the local files, based on the offset read in the central part.
-     */
-    readLocalFiles: function() {
-        var i, file;
-        for (i = 0; i < this.files.length; i++) {
-            file = this.files[i];
-            this.reader.setIndex(file.localHeaderOffset);
-            this.checkSignature(sig.LOCAL_FILE_HEADER);
-            file.readLocalPart(this.reader);
-            file.handleUTF8();
-            file.processAttributes();
-        }
-    },
-    /**
-     * Read the central directory.
-     */
-    readCentralDir: function() {
-        var file;
-
-        this.reader.setIndex(this.centralDirOffset);
-        while (this.reader.readAndCheckSignature(sig.CENTRAL_FILE_HEADER)) {
-            file = new ZipEntry({
-                zip64: this.zip64
-            }, this.loadOptions);
-            file.readCentralPart(this.reader);
-            this.files.push(file);
-        }
-
-        if (this.centralDirRecords !== this.files.length) {
-            if (this.centralDirRecords !== 0 && this.files.length === 0) {
-                // We expected some records but couldn't find ANY.
-                // This is really suspicious, as if something went wrong.
-                throw new Error("Corrupted zip or bug: expected " + this.centralDirRecords + " records in central dir, got " + this.files.length);
-            } else {
-                // We found some records but not all.
-                // Something is wrong but we got something for the user: no error here.
-                // console.warn("expected", this.centralDirRecords, "records in central dir, got", this.files.length);
-            }
-        }
-    },
-    /**
-     * Read the end of central directory.
-     */
-    readEndOfCentral: function() {
-        var offset = this.reader.lastIndexOfSignature(sig.CENTRAL_DIRECTORY_END);
-        if (offset < 0) {
-            // Check if the content is a truncated zip or complete garbage.
-            // A "LOCAL_FILE_HEADER" is not required at the beginning (auto
-            // extractible zip for example) but it can give a good hint.
-            // If an ajax request was used without responseType, we will also
-            // get unreadable data.
-            var isGarbage = !this.isSignature(0, sig.LOCAL_FILE_HEADER);
-
-            if (isGarbage) {
-                throw new Error("Can't find end of central directory : is this a zip file ? " +
-                                "If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html");
-            } else {
-                throw new Error("Corrupted zip: can't find end of central directory");
-            }
-
-        }
-        this.reader.setIndex(offset);
-        var endOfCentralDirOffset = offset;
-        this.checkSignature(sig.CENTRAL_DIRECTORY_END);
-        this.readBlockEndOfCentral();
-
-
-        /* extract from the zip spec :
-            4)  If one of the fields in the end of central directory
-                record is too small to hold required data, the field
-                should be set to -1 (0xFFFF or 0xFFFFFFFF) and the
-                ZIP64 format record should be created.
-            5)  The end of central directory record and the
-                Zip64 end of central directory locator record must
-                reside on the same disk when splitting or spanning
-                an archive.
-         */
-        if (this.diskNumber === utils.MAX_VALUE_16BITS || this.diskWithCentralDirStart === utils.MAX_VALUE_16BITS || this.centralDirRecordsOnThisDisk === utils.MAX_VALUE_16BITS || this.centralDirRecords === utils.MAX_VALUE_16BITS || this.centralDirSize === utils.MAX_VALUE_32BITS || this.centralDirOffset === utils.MAX_VALUE_32BITS) {
-            this.zip64 = true;
-
-            /*
-            Warning : the zip64 extension is supported, but ONLY if the 64bits integer read from
-            the zip file can fit into a 32bits integer. This cannot be solved : JavaScript represents
-            all numbers as 64-bit double precision IEEE 754 floating point numbers.
-            So, we have 53bits for integers and bitwise operations treat everything as 32bits.
-            see https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators
-            and http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf section 8.5
-            */
-
-            // should look for a zip64 EOCD locator
-            offset = this.reader.lastIndexOfSignature(sig.ZIP64_CENTRAL_DIRECTORY_LOCATOR);
-            if (offset < 0) {
-                throw new Error("Corrupted zip: can't find the ZIP64 end of central directory locator");
-            }
-            this.reader.setIndex(offset);
-            this.checkSignature(sig.ZIP64_CENTRAL_DIRECTORY_LOCATOR);
-            this.readBlockZip64EndOfCentralLocator();
-
-            // now the zip64 EOCD record
-            if (!this.isSignature(this.relativeOffsetEndOfZip64CentralDir, sig.ZIP64_CENTRAL_DIRECTORY_END)) {
-                // console.warn("ZIP64 end of central directory not where expected.");
-                this.relativeOffsetEndOfZip64CentralDir = this.reader.lastIndexOfSignature(sig.ZIP64_CENTRAL_DIRECTORY_END);
-                if (this.relativeOffsetEndOfZip64CentralDir < 0) {
-                    throw new Error("Corrupted zip: can't find the ZIP64 end of central directory");
-                }
-            }
-            this.reader.setIndex(this.relativeOffsetEndOfZip64CentralDir);
-            this.checkSignature(sig.ZIP64_CENTRAL_DIRECTORY_END);
-            this.readBlockZip64EndOfCentral();
-        }
-
-        var expectedEndOfCentralDirOffset = this.centralDirOffset + this.centralDirSize;
-        if (this.zip64) {
-            expectedEndOfCentralDirOffset += 20; // end of central dir 64 locator
-            expectedEndOfCentralDirOffset += 12 /* should not include the leading 12 bytes */ + this.zip64EndOfCentralSize;
-        }
-
-        var extraBytes = endOfCentralDirOffset - expectedEndOfCentralDirOffset;
-
-        if (extraBytes > 0) {
-            // console.warn(extraBytes, "extra bytes at beginning or within zipfile");
-            if (this.isSignature(endOfCentralDirOffset, sig.CENTRAL_FILE_HEADER)) {
-                // The offsets seem wrong, but we have something at the specified offset.
-                // So… we keep it.
-            } else {
-                // the offset is wrong, update the "zero" of the reader
-                // this happens if data has been prepended (crx files for example)
-                this.reader.zero = extraBytes;
-            }
-        } else if (extraBytes < 0) {
-            throw new Error("Corrupted zip: missing " + Math.abs(extraBytes) + " bytes.");
-        }
-    },
-    prepareReader: function(data) {
-        this.reader = readerFor(data);
-    },
-    /**
-     * Read a zip file and create ZipEntries.
-     * @param {String|ArrayBuffer|Uint8Array|Buffer} data the binary string representing a zip file.
-     */
-    load: function(data) {
-        this.prepareReader(data);
-        this.readEndOfCentral();
-        this.readCentralDir();
-        this.readLocalFiles();
-    }
-};
-// }}} end of ZipEntries
-module.exports = ZipEntries;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/zipEntry.js":
-/*!********************************************!*\
-  !*** ./node_modules/jszip/lib/zipEntry.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var readerFor = __webpack_require__(/*! ./reader/readerFor */ "./node_modules/jszip/lib/reader/readerFor.js");
-var utils = __webpack_require__(/*! ./utils */ "./node_modules/jszip/lib/utils.js");
-var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/jszip/lib/compressedObject.js");
-var crc32fn = __webpack_require__(/*! ./crc32 */ "./node_modules/jszip/lib/crc32.js");
-var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/jszip/lib/utf8.js");
-var compressions = __webpack_require__(/*! ./compressions */ "./node_modules/jszip/lib/compressions.js");
-var support = __webpack_require__(/*! ./support */ "./node_modules/jszip/lib/support.js");
-
-var MADE_BY_DOS = 0x00;
-var MADE_BY_UNIX = 0x03;
-
-/**
- * Find a compression registered in JSZip.
- * @param {string} compressionMethod the method magic to find.
- * @return {Object|null} the JSZip compression object, null if none found.
- */
-var findCompression = function(compressionMethod) {
-    for (var method in compressions) {
-        if (!compressions.hasOwnProperty(method)) {
-            continue;
-        }
-        if (compressions[method].magic === compressionMethod) {
-            return compressions[method];
-        }
-    }
-    return null;
-};
-
-// class ZipEntry {{{
-/**
- * An entry in the zip file.
- * @constructor
- * @param {Object} options Options of the current file.
- * @param {Object} loadOptions Options for loading the stream.
- */
-function ZipEntry(options, loadOptions) {
-    this.options = options;
-    this.loadOptions = loadOptions;
-}
-ZipEntry.prototype = {
-    /**
-     * say if the file is encrypted.
-     * @return {boolean} true if the file is encrypted, false otherwise.
-     */
-    isEncrypted: function() {
-        // bit 1 is set
-        return (this.bitFlag & 0x0001) === 0x0001;
-    },
-    /**
-     * say if the file has utf-8 filename/comment.
-     * @return {boolean} true if the filename/comment is in utf-8, false otherwise.
-     */
-    useUTF8: function() {
-        // bit 11 is set
-        return (this.bitFlag & 0x0800) === 0x0800;
-    },
-    /**
-     * Read the local part of a zip file and add the info in this object.
-     * @param {DataReader} reader the reader to use.
-     */
-    readLocalPart: function(reader) {
-        var compression, localExtraFieldsLength;
-
-        // we already know everything from the central dir !
-        // If the central dir data are false, we are doomed.
-        // On the bright side, the local part is scary  : zip64, data descriptors, both, etc.
-        // The less data we get here, the more reliable this should be.
-        // Let's skip the whole header and dash to the data !
-        reader.skip(22);
-        // in some zip created on windows, the filename stored in the central dir contains \ instead of /.
-        // Strangely, the filename here is OK.
-        // I would love to treat these zip files as corrupted (see http://www.info-zip.org/FAQ.html#backslashes
-        // or APPNOTE#4.4.17.1, "All slashes MUST be forward slashes '/'") but there are a lot of bad zip generators...
-        // Search "unzip mismatching "local" filename continuing with "central" filename version" on
-        // the internet.
-        //
-        // I think I see the logic here : the central directory is used to display
-        // content and the local directory is used to extract the files. Mixing / and \
-        // may be used to display \ to windows users and use / when extracting the files.
-        // Unfortunately, this lead also to some issues : http://seclists.org/fulldisclosure/2009/Sep/394
-        this.fileNameLength = reader.readInt(2);
-        localExtraFieldsLength = reader.readInt(2); // can't be sure this will be the same as the central dir
-        // the fileName is stored as binary data, the handleUTF8 method will take care of the encoding.
-        this.fileName = reader.readData(this.fileNameLength);
-        reader.skip(localExtraFieldsLength);
-
-        if (this.compressedSize === -1 || this.uncompressedSize === -1) {
-            throw new Error("Bug or corrupted zip : didn't get enough informations from the central directory " + "(compressedSize === -1 || uncompressedSize === -1)");
-        }
-
-        compression = findCompression(this.compressionMethod);
-        if (compression === null) { // no compression found
-            throw new Error("Corrupted zip : compression " + utils.pretty(this.compressionMethod) + " unknown (inner file : " + utils.transformTo("string", this.fileName) + ")");
-        }
-        this.decompressed = new CompressedObject(this.compressedSize, this.uncompressedSize, this.crc32, compression, reader.readData(this.compressedSize));
-    },
-
-    /**
-     * Read the central part of a zip file and add the info in this object.
-     * @param {DataReader} reader the reader to use.
-     */
-    readCentralPart: function(reader) {
-        this.versionMadeBy = reader.readInt(2);
-        reader.skip(2);
-        // this.versionNeeded = reader.readInt(2);
-        this.bitFlag = reader.readInt(2);
-        this.compressionMethod = reader.readString(2);
-        this.date = reader.readDate();
-        this.crc32 = reader.readInt(4);
-        this.compressedSize = reader.readInt(4);
-        this.uncompressedSize = reader.readInt(4);
-        var fileNameLength = reader.readInt(2);
-        this.extraFieldsLength = reader.readInt(2);
-        this.fileCommentLength = reader.readInt(2);
-        this.diskNumberStart = reader.readInt(2);
-        this.internalFileAttributes = reader.readInt(2);
-        this.externalFileAttributes = reader.readInt(4);
-        this.localHeaderOffset = reader.readInt(4);
-
-        if (this.isEncrypted()) {
-            throw new Error("Encrypted zip are not supported");
-        }
-
-        // will be read in the local part, see the comments there
-        reader.skip(fileNameLength);
-        this.readExtraFields(reader);
-        this.parseZIP64ExtraField(reader);
-        this.fileComment = reader.readData(this.fileCommentLength);
-    },
-
-    /**
-     * Parse the external file attributes and get the unix/dos permissions.
-     */
-    processAttributes: function () {
-        this.unixPermissions = null;
-        this.dosPermissions = null;
-        var madeBy = this.versionMadeBy >> 8;
-
-        // Check if we have the DOS directory flag set.
-        // We look for it in the DOS and UNIX permissions
-        // but some unknown platform could set it as a compatibility flag.
-        this.dir = this.externalFileAttributes & 0x0010 ? true : false;
-
-        if(madeBy === MADE_BY_DOS) {
-            // first 6 bits (0 to 5)
-            this.dosPermissions = this.externalFileAttributes & 0x3F;
-        }
-
-        if(madeBy === MADE_BY_UNIX) {
-            this.unixPermissions = (this.externalFileAttributes >> 16) & 0xFFFF;
-            // the octal permissions are in (this.unixPermissions & 0x01FF).toString(8);
-        }
-
-        // fail safe : if the name ends with a / it probably means a folder
-        if (!this.dir && this.fileNameStr.slice(-1) === '/') {
-            this.dir = true;
-        }
-    },
-
-    /**
-     * Parse the ZIP64 extra field and merge the info in the current ZipEntry.
-     * @param {DataReader} reader the reader to use.
-     */
-    parseZIP64ExtraField: function(reader) {
-
-        if (!this.extraFields[0x0001]) {
-            return;
-        }
-
-        // should be something, preparing the extra reader
-        var extraReader = readerFor(this.extraFields[0x0001].value);
-
-        // I really hope that these 64bits integer can fit in 32 bits integer, because js
-        // won't let us have more.
-        if (this.uncompressedSize === utils.MAX_VALUE_32BITS) {
-            this.uncompressedSize = extraReader.readInt(8);
-        }
-        if (this.compressedSize === utils.MAX_VALUE_32BITS) {
-            this.compressedSize = extraReader.readInt(8);
-        }
-        if (this.localHeaderOffset === utils.MAX_VALUE_32BITS) {
-            this.localHeaderOffset = extraReader.readInt(8);
-        }
-        if (this.diskNumberStart === utils.MAX_VALUE_32BITS) {
-            this.diskNumberStart = extraReader.readInt(4);
-        }
-    },
-    /**
-     * Read the central part of a zip file and add the info in this object.
-     * @param {DataReader} reader the reader to use.
-     */
-    readExtraFields: function(reader) {
-        var end = reader.index + this.extraFieldsLength,
-            extraFieldId,
-            extraFieldLength,
-            extraFieldValue;
-
-        if (!this.extraFields) {
-            this.extraFields = {};
-        }
-
-        while (reader.index < end) {
-            extraFieldId = reader.readInt(2);
-            extraFieldLength = reader.readInt(2);
-            extraFieldValue = reader.readData(extraFieldLength);
-
-            this.extraFields[extraFieldId] = {
-                id: extraFieldId,
-                length: extraFieldLength,
-                value: extraFieldValue
-            };
-        }
-    },
-    /**
-     * Apply an UTF8 transformation if needed.
-     */
-    handleUTF8: function() {
-        var decodeParamType = support.uint8array ? "uint8array" : "array";
-        if (this.useUTF8()) {
-            this.fileNameStr = utf8.utf8decode(this.fileName);
-            this.fileCommentStr = utf8.utf8decode(this.fileComment);
-        } else {
-            var upath = this.findExtraFieldUnicodePath();
-            if (upath !== null) {
-                this.fileNameStr = upath;
-            } else {
-                // ASCII text or unsupported code page
-                var fileNameByteArray =  utils.transformTo(decodeParamType, this.fileName);
-                this.fileNameStr = this.loadOptions.decodeFileName(fileNameByteArray);
-            }
-
-            var ucomment = this.findExtraFieldUnicodeComment();
-            if (ucomment !== null) {
-                this.fileCommentStr = ucomment;
-            } else {
-                // ASCII text or unsupported code page
-                var commentByteArray =  utils.transformTo(decodeParamType, this.fileComment);
-                this.fileCommentStr = this.loadOptions.decodeFileName(commentByteArray);
-            }
-        }
-    },
-
-    /**
-     * Find the unicode path declared in the extra field, if any.
-     * @return {String} the unicode path, null otherwise.
-     */
-    findExtraFieldUnicodePath: function() {
-        var upathField = this.extraFields[0x7075];
-        if (upathField) {
-            var extraReader = readerFor(upathField.value);
-
-            // wrong version
-            if (extraReader.readInt(1) !== 1) {
-                return null;
-            }
-
-            // the crc of the filename changed, this field is out of date.
-            if (crc32fn(this.fileName) !== extraReader.readInt(4)) {
-                return null;
-            }
-
-            return utf8.utf8decode(extraReader.readData(upathField.length - 5));
-        }
-        return null;
-    },
-
-    /**
-     * Find the unicode comment declared in the extra field, if any.
-     * @return {String} the unicode comment, null otherwise.
-     */
-    findExtraFieldUnicodeComment: function() {
-        var ucommentField = this.extraFields[0x6375];
-        if (ucommentField) {
-            var extraReader = readerFor(ucommentField.value);
-
-            // wrong version
-            if (extraReader.readInt(1) !== 1) {
-                return null;
-            }
-
-            // the crc of the comment changed, this field is out of date.
-            if (crc32fn(this.fileComment) !== extraReader.readInt(4)) {
-                return null;
-            }
-
-            return utf8.utf8decode(extraReader.readData(ucommentField.length - 5));
-        }
-        return null;
-    }
-};
-module.exports = ZipEntry;
-
-
-/***/ }),
-
-/***/ "./node_modules/jszip/lib/zipObject.js":
-/*!*********************************************!*\
-  !*** ./node_modules/jszip/lib/zipObject.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var StreamHelper = __webpack_require__(/*! ./stream/StreamHelper */ "./node_modules/jszip/lib/stream/StreamHelper.js");
-var DataWorker = __webpack_require__(/*! ./stream/DataWorker */ "./node_modules/jszip/lib/stream/DataWorker.js");
-var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/jszip/lib/utf8.js");
-var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/jszip/lib/compressedObject.js");
-var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/jszip/lib/stream/GenericWorker.js");
-
-/**
- * A simple object representing a file in the zip file.
- * @constructor
- * @param {string} name the name of the file
- * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data
- * @param {Object} options the options of the file
- */
-var ZipObject = function(name, data, options) {
-    this.name = name;
-    this.dir = options.dir;
-    this.date = options.date;
-    this.comment = options.comment;
-    this.unixPermissions = options.unixPermissions;
-    this.dosPermissions = options.dosPermissions;
-
-    this._data = data;
-    this._dataBinary = options.binary;
-    // keep only the compression
-    this.options = {
-        compression : options.compression,
-        compressionOptions : options.compressionOptions
-    };
-};
-
-ZipObject.prototype = {
-    /**
-     * Create an internal stream for the content of this object.
-     * @param {String} type the type of each chunk.
-     * @return StreamHelper the stream.
-     */
-    internalStream: function (type) {
-        var result = null, outputType = "string";
-        try {
-            if (!type) {
-                throw new Error("No output type specified.");
-            }
-            outputType = type.toLowerCase();
-            var askUnicodeString = outputType === "string" || outputType === "text";
-            if (outputType === "binarystring" || outputType === "text") {
-                outputType = "string";
-            }
-            result = this._decompressWorker();
-
-            var isUnicodeString = !this._dataBinary;
-
-            if (isUnicodeString && !askUnicodeString) {
-                result = result.pipe(new utf8.Utf8EncodeWorker());
-            }
-            if (!isUnicodeString && askUnicodeString) {
-                result = result.pipe(new utf8.Utf8DecodeWorker());
-            }
-        } catch (e) {
-            result = new GenericWorker("error");
-            result.error(e);
-        }
-
-        return new StreamHelper(result, outputType, "");
-    },
-
-    /**
-     * Prepare the content in the asked type.
-     * @param {String} type the type of the result.
-     * @param {Function} onUpdate a function to call on each internal update.
-     * @return Promise the promise of the result.
-     */
-    async: function (type, onUpdate) {
-        return this.internalStream(type).accumulate(onUpdate);
-    },
-
-    /**
-     * Prepare the content as a nodejs stream.
-     * @param {String} type the type of each chunk.
-     * @param {Function} onUpdate a function to call on each internal update.
-     * @return Stream the stream.
-     */
-    nodeStream: function (type, onUpdate) {
-        return this.internalStream(type || "nodebuffer").toNodejsStream(onUpdate);
-    },
-
-    /**
-     * Return a worker for the compressed content.
-     * @private
-     * @param {Object} compression the compression object to use.
-     * @param {Object} compressionOptions the options to use when compressing.
-     * @return Worker the worker.
-     */
-    _compressWorker: function (compression, compressionOptions) {
-        if (
-            this._data instanceof CompressedObject &&
-            this._data.compression.magic === compression.magic
-        ) {
-            return this._data.getCompressedWorker();
-        } else {
-            var result = this._decompressWorker();
-            if(!this._dataBinary) {
-                result = result.pipe(new utf8.Utf8EncodeWorker());
-            }
-            return CompressedObject.createWorkerFrom(result, compression, compressionOptions);
-        }
-    },
-    /**
-     * Return a worker for the decompressed content.
-     * @private
-     * @return Worker the worker.
-     */
-    _decompressWorker : function () {
-        if (this._data instanceof CompressedObject) {
-            return this._data.getContentWorker();
-        } else if (this._data instanceof GenericWorker) {
-            return this._data;
-        } else {
-            return new DataWorker(this._data);
-        }
-    }
-};
-
-var removedMethods = ["asText", "asBinary", "asNodeBuffer", "asUint8Array", "asArrayBuffer"];
-var removedFn = function () {
-    throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
-};
-
-for(var i = 0; i < removedMethods.length; i++) {
-    ZipObject.prototype[removedMethods[i]] = removedFn;
-}
-module.exports = ZipObject;
-
-
-/***/ }),
-
 /***/ "./node_modules/lie/lib/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/lie/lib/browser.js ***!
@@ -26503,10 +21959,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_check_view.js!./":
-/*!***************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_check_view.js ***!
-  \***************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_check_view.js!./":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_check_view.js ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28314,6 +23770,313 @@ module.exports = ReactPropTypesSecret;
 }(this));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/node-libs-browser/node_modules/string_decoder/lib/string_decoder.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/node-libs-browser/node_modules/string_decoder/lib/string_decoder.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+/*<replacement>*/
+
+var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
+/*</replacement>*/
+
+var isEncoding = Buffer.isEncoding || function (encoding) {
+  encoding = '' + encoding;
+  switch (encoding && encoding.toLowerCase()) {
+    case 'hex':case 'utf8':case 'utf-8':case 'ascii':case 'binary':case 'base64':case 'ucs2':case 'ucs-2':case 'utf16le':case 'utf-16le':case 'raw':
+      return true;
+    default:
+      return false;
+  }
+};
+
+function _normalizeEncoding(enc) {
+  if (!enc) return 'utf8';
+  var retried;
+  while (true) {
+    switch (enc) {
+      case 'utf8':
+      case 'utf-8':
+        return 'utf8';
+      case 'ucs2':
+      case 'ucs-2':
+      case 'utf16le':
+      case 'utf-16le':
+        return 'utf16le';
+      case 'latin1':
+      case 'binary':
+        return 'latin1';
+      case 'base64':
+      case 'ascii':
+      case 'hex':
+        return enc;
+      default:
+        if (retried) return; // undefined
+        enc = ('' + enc).toLowerCase();
+        retried = true;
+    }
+  }
+};
+
+// Do not cache `Buffer.isEncoding` when checking encoding names as some
+// modules monkey-patch it to support additional encodings
+function normalizeEncoding(enc) {
+  var nenc = _normalizeEncoding(enc);
+  if (typeof nenc !== 'string' && (Buffer.isEncoding === isEncoding || !isEncoding(enc))) throw new Error('Unknown encoding: ' + enc);
+  return nenc || enc;
+}
+
+// StringDecoder provides an interface for efficiently splitting a series of
+// buffers into a series of JS strings without breaking apart multi-byte
+// characters.
+exports.StringDecoder = StringDecoder;
+function StringDecoder(encoding) {
+  this.encoding = normalizeEncoding(encoding);
+  var nb;
+  switch (this.encoding) {
+    case 'utf16le':
+      this.text = utf16Text;
+      this.end = utf16End;
+      nb = 4;
+      break;
+    case 'utf8':
+      this.fillLast = utf8FillLast;
+      nb = 4;
+      break;
+    case 'base64':
+      this.text = base64Text;
+      this.end = base64End;
+      nb = 3;
+      break;
+    default:
+      this.write = simpleWrite;
+      this.end = simpleEnd;
+      return;
+  }
+  this.lastNeed = 0;
+  this.lastTotal = 0;
+  this.lastChar = Buffer.allocUnsafe(nb);
+}
+
+StringDecoder.prototype.write = function (buf) {
+  if (buf.length === 0) return '';
+  var r;
+  var i;
+  if (this.lastNeed) {
+    r = this.fillLast(buf);
+    if (r === undefined) return '';
+    i = this.lastNeed;
+    this.lastNeed = 0;
+  } else {
+    i = 0;
+  }
+  if (i < buf.length) return r ? r + this.text(buf, i) : this.text(buf, i);
+  return r || '';
+};
+
+StringDecoder.prototype.end = utf8End;
+
+// Returns only complete characters in a Buffer
+StringDecoder.prototype.text = utf8Text;
+
+// Attempts to complete a partial non-UTF-8 character using bytes from a Buffer
+StringDecoder.prototype.fillLast = function (buf) {
+  if (this.lastNeed <= buf.length) {
+    buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, this.lastNeed);
+    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
+  }
+  buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, buf.length);
+  this.lastNeed -= buf.length;
+};
+
+// Checks the type of a UTF-8 byte, whether it's ASCII, a leading byte, or a
+// continuation byte. If an invalid byte is detected, -2 is returned.
+function utf8CheckByte(byte) {
+  if (byte <= 0x7F) return 0;else if (byte >> 5 === 0x06) return 2;else if (byte >> 4 === 0x0E) return 3;else if (byte >> 3 === 0x1E) return 4;
+  return byte >> 6 === 0x02 ? -1 : -2;
+}
+
+// Checks at most 3 bytes at the end of a Buffer in order to detect an
+// incomplete multi-byte UTF-8 character. The total number of bytes (2, 3, or 4)
+// needed to complete the UTF-8 character (if applicable) are returned.
+function utf8CheckIncomplete(self, buf, i) {
+  var j = buf.length - 1;
+  if (j < i) return 0;
+  var nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) self.lastNeed = nb - 1;
+    return nb;
+  }
+  if (--j < i || nb === -2) return 0;
+  nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) self.lastNeed = nb - 2;
+    return nb;
+  }
+  if (--j < i || nb === -2) return 0;
+  nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) {
+      if (nb === 2) nb = 0;else self.lastNeed = nb - 3;
+    }
+    return nb;
+  }
+  return 0;
+}
+
+// Validates as many continuation bytes for a multi-byte UTF-8 character as
+// needed or are available. If we see a non-continuation byte where we expect
+// one, we "replace" the validated continuation bytes we've seen so far with
+// a single UTF-8 replacement character ('\ufffd'), to match v8's UTF-8 decoding
+// behavior. The continuation byte check is included three times in the case
+// where all of the continuation bytes for a character exist in the same buffer.
+// It is also done this way as a slight performance increase instead of using a
+// loop.
+function utf8CheckExtraBytes(self, buf, p) {
+  if ((buf[0] & 0xC0) !== 0x80) {
+    self.lastNeed = 0;
+    return '\ufffd';
+  }
+  if (self.lastNeed > 1 && buf.length > 1) {
+    if ((buf[1] & 0xC0) !== 0x80) {
+      self.lastNeed = 1;
+      return '\ufffd';
+    }
+    if (self.lastNeed > 2 && buf.length > 2) {
+      if ((buf[2] & 0xC0) !== 0x80) {
+        self.lastNeed = 2;
+        return '\ufffd';
+      }
+    }
+  }
+}
+
+// Attempts to complete a multi-byte UTF-8 character using bytes from a Buffer.
+function utf8FillLast(buf) {
+  var p = this.lastTotal - this.lastNeed;
+  var r = utf8CheckExtraBytes(this, buf, p);
+  if (r !== undefined) return r;
+  if (this.lastNeed <= buf.length) {
+    buf.copy(this.lastChar, p, 0, this.lastNeed);
+    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
+  }
+  buf.copy(this.lastChar, p, 0, buf.length);
+  this.lastNeed -= buf.length;
+}
+
+// Returns all complete UTF-8 characters in a Buffer. If the Buffer ended on a
+// partial character, the character's bytes are buffered until the required
+// number of bytes are available.
+function utf8Text(buf, i) {
+  var total = utf8CheckIncomplete(this, buf, i);
+  if (!this.lastNeed) return buf.toString('utf8', i);
+  this.lastTotal = total;
+  var end = buf.length - (total - this.lastNeed);
+  buf.copy(this.lastChar, 0, end);
+  return buf.toString('utf8', i, end);
+}
+
+// For UTF-8, a replacement character is added when ending on a partial
+// character.
+function utf8End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) return r + '\ufffd';
+  return r;
+}
+
+// UTF-16LE typically needs two bytes per character, but even if we have an even
+// number of bytes available, we need to check if we end on a leading/high
+// surrogate. In that case, we need to wait for the next two bytes in order to
+// decode the last character properly.
+function utf16Text(buf, i) {
+  if ((buf.length - i) % 2 === 0) {
+    var r = buf.toString('utf16le', i);
+    if (r) {
+      var c = r.charCodeAt(r.length - 1);
+      if (c >= 0xD800 && c <= 0xDBFF) {
+        this.lastNeed = 2;
+        this.lastTotal = 4;
+        this.lastChar[0] = buf[buf.length - 2];
+        this.lastChar[1] = buf[buf.length - 1];
+        return r.slice(0, -1);
+      }
+    }
+    return r;
+  }
+  this.lastNeed = 1;
+  this.lastTotal = 2;
+  this.lastChar[0] = buf[buf.length - 1];
+  return buf.toString('utf16le', i, buf.length - 1);
+}
+
+// For UTF-16LE we do not explicitly append special replacement characters if we
+// end on a partial character, we simply let v8 handle that.
+function utf16End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) {
+    var end = this.lastTotal - this.lastNeed;
+    return r + this.lastChar.toString('utf16le', 0, end);
+  }
+  return r;
+}
+
+function base64Text(buf, i) {
+  var n = (buf.length - i) % 3;
+  if (n === 0) return buf.toString('base64', i);
+  this.lastNeed = 3 - n;
+  this.lastTotal = 3;
+  if (n === 1) {
+    this.lastChar[0] = buf[buf.length - 1];
+  } else {
+    this.lastChar[0] = buf[buf.length - 2];
+    this.lastChar[1] = buf[buf.length - 1];
+  }
+  return buf.toString('base64', i, buf.length - n);
+}
+
+function base64End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) return r + this.lastChar.toString('base64', 0, 3 - this.lastNeed);
+  return r;
+}
+
+// Pass bytes on through for single-byte encodings (e.g. ascii, latin1, hex)
+function simpleWrite(buf) {
+  return buf.toString(this.encoding);
+}
+
+function simpleEnd(buf) {
+  return buf && buf.length ? this.write(buf) : '';
+}
 
 /***/ }),
 
@@ -35746,7 +31509,7 @@ if (  true && module.exports ) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(Buffer) {/* PptxGenJS 2.5.0-20190208 */
-Number.isInteger=Number.isInteger||function(e){return"number"==typeof e&&isFinite(e)&&Math.floor(e)===e};var NODEJS=!1,APPJS=!1;if( true&&module.exports&&"function"=="function"&&"undefined"==typeof window)try{/*require.resolve*/(/*! fs */ 3),NODEJS=!0}catch(e){NODEJS=!1}else true&&module.exports&&"function"=="function"&&"undefined"!=typeof window&&(APPJS=!0);if(NODEJS||APPJS)var gObjPptxColors=__webpack_require__(/*! ../dist/pptxgen.colors.js */ "./node_modules/pptxgenjs/dist/pptxgen.colors.js"),gObjPptxShapes=__webpack_require__(/*! ../dist/pptxgen.shapes.js */ "./node_modules/pptxgenjs/dist/pptxgen.shapes.js");var PptxGenJS=function(){var o={chart:{name:"chart"},image:{name:"image"},line:{name:"line"},rect:{name:"rect"},text:{name:"text"},placeholder:{name:"placeholder"}},a={LAYOUT_4x3:{name:"screen4x3",width:9144e3,height:6858e3},LAYOUT_16x9:{name:"screen16x9",width:9144e3,height:5143500},LAYOUT_16x10:{name:"screen16x10",width:9144e3,height:5715e3},LAYOUT_WIDE:{name:"custom",width:12192e3,height:6858e3},LAYOUT_USER:{name:"custom",width:12192e3,height:6858e3}},l={title:{name:"title"},body:{name:"body"},image:{name:"pic"},chart:{name:"chart"},table:{name:"tbl"},media:{name:"media"}},c={DEFAULT:"&#x2022;",CHECK:"&#x2713;",STAR:"&#x2605;",TRIANGLE:"&#x25B6;"},n={AREA:{displayName:"Area Chart",name:"area"},BAR:{displayName:"Bar Chart",name:"bar"},BAR3D:{displayName:"3D Bar Chart",name:"bar3D"},BUBBLE:{displayName:"Bubble Chart",name:"bubble"},DOUGHNUT:{displayName:"Doughnut Chart",name:"doughnut"},LINE:{displayName:"Line Chart",name:"line"},PIE:{displayName:"Pie Chart",name:"pie"},RADAR:{displayName:"Radar Chart",name:"radar"},SCATTER:{displayName:"Scatter Chart",name:"scatter"}},d=["5DA5DA","FAA43A","60BD68","F17CB0","B2912F","B276B2","DECF3F","F15854","A7A7A7","5DA5DA","FAA43A","60BD68","F17CB0","B2912F","B276B2","DECF3F","F15854","A7A7A7"],m=["C0504D","4F81BD","9BBB59","8064A2","4BACC6","F79646","628FC6","C86360","C0504D","4F81BD","9BBB59","8064A2","4BACC6","F79646","628FC6","C86360"],s="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB3CAYAAAD1oOVhAAAGAUlEQVR4Xu2dT0xcRRzHf7tAYSsc0EBSIq2xEg8mtTGebVzEqOVIolz0siRE4gGTStqKwdpWsXoyGhMuyAVJOHBgqyvLNgonDkabeCBYW/8kTUr0wsJC+Wfm0bfuvn37Znbem9mR9303mJnf/Pb7ed95M7PDI5JIJPYJV5EC7e3t1N/fT62trdqViQCIu+bVgpIHEo/Hqbe3V/sdYVKHyWSSZmZm8ilVA0oeyNjYmEnaVC2Xvr6+qg5fAOJAz4DU1dURGzFSqZRVqtMpAFIGyMjICC0vL9PExIRWKADiAYTNshYWFrRCARAOEFZcCKWtrY0GBgaUTYkBRACIE4rKZwqACALR5RQAqQCIDqcASIVAVDsFQCSAqHQKgEgCUeUUAPEBRIVTAMQnEBvK5OQkbW9vk991CoAEAMQJxc86BUACAhKUUwAkQCBBOAVAAgbi1ykAogCIH6cAiCIgsk4BEIVAZJwCIIqBVLqiBxANQFgXS0tLND4+zl08AogmIG5OSSQS1gGKwgtANAIRcQqAaAbCe6YASBWA2E6xDyeyDUl7+AKQMkDYYevm5mZHabA/Li4uUiaTsYLau8QA4gLE/hU7wajyYtv1hReDAiAOxQcHBymbzark4BkbQKom/X8dp9Npmpqasn4BIAYAYSnYp+4BBEAMUcCwNOCQsAKZnp62NtQOw8WmwT09PUo+ijaHsOMx7GppaaH6+nolH0Z10K2tLVpdXbW6UfV3mNqBdHd3U1NTk2rtlMRfW1uj2dlZAFGirkRQAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAGHqrm8caPzQ0WC1logbeiC7X3xJm0PvUmRzh45cuki1588FAmVn9BO6P3yF9utrqGH0MtW82S8UN9RA9v/4k7InjhcJFTs/TLVXLwmJV67S7vD7tHF5pKi46fYdosdOcOOGG8j1OcqefbFEJD9Q3GCwDhqT31HklS4A8VRgfYM2Op6k3bt/BQJl58J7lPvwg5JYNccepaMry0LPqFA7hCm39+NNyp2J0172b19QysGINj5CsRtpij57musOViH0QPJQXn6J9u7dlYJSFkbrMYolrwvDAJAC+WWdEpQz7FTgECeUCpzi6YxvvqXoM6eEhqnCSgDikEzUKUE7Aw7xuHctKB5OYU3dZlNR9syQdAaAcAYTC0pXF+39c09o2Ik+3EqxVKqiB7hbYAxZkk4pbBaEM+AQofv+wTrFwylBOQNABIGwavdfe4O2pg5elO+86l99nY58/VUF0byrYsjiSFluNlXYrOHcBar7+EogUADEQ0YRGHbzoKAASBkg2+9cpM1rV0tK2QOcXW7bLEFAARAXIF4w2DrDWoeUWaf4hQIgDiA8GPZ2iNfi0Q8UACkAIgrDbrJ385eDxaPLLrEsFAB5oG6lMPJQPLZZZKAACBGVhcG2Q+bmuLu2nk55e4jqPv1IeEoceiBeX7s2zCa5MAqdstl91vfXwaEGsv/rb5TtOFk6tWXOuJGh6KmnhO9sayrMninPx103JBtXblHkice58cINZP4Hyr5wpkgkdiChEmc4FWazLzenNKa/p0jncwDiqcD6BuWePk07t1asatZGoYQzSqA4nFJ7soNiP/+EUyfc25GI2GG53dHPrKo1g/1Cw4pIXLrzO+1c+/wg7tBbFDle/EbQcjFCPWQJCau5EoBoFpzXHYDwFNJcDiCaBed1ByA8hTSXA4hmwXndAQhPIc3lAKJZcF53AMJTSHM5gGgWnNcdgPAU0lwOIJoF53UHIDyFNJcfSiCdnZ0Ui8U0SxlMd7lcjubn561gh+Y1scFIU/0o/3sgeLO12E2k7UXKYumgFoAYdg8ACIAYpoBh6cAhAGKYAoalA4cAiGEKGJYOHAIghilgWDpwCIAYpoBh6cAhAGKYAoalA4cAiGEKGJYOHAIghilgWDpwCIAYpoBh6ZQ4JB6PKzviYthnNy4d9h+1M5mMlVckkUjsG5dhiBMCEMPg/wuOfrZZ/RSywQAAAABJRU5ErkJggg==",A="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAHCCAYAAAAXY63IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAFRdJREFUeNrs3WFz2lbagOEnkiVLxsYQsP//z9uZZmMswJIlS3k/tPb23U3TOAUM6Lpm8qkzbXM4A7p1dI4+/etf//oWAAAAB3ARETGdTo0EAACwV1VVRWIYAACAQxEgAACAAAEAAAQIAACAAAEAAAQIAACAAAEAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAAAAAECAAAgQAAAAAECAAAgQAAAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAIAAAQAAECAAAIAAAQAAECAAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAECAAAgAABAAAECAAAgAABAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAACAAAEAABAgAACAAAEAABAgAACAAAEAAAQIAACAAAEAAAQIAACAAAEAAAQIAAAgQAAAAPbnwhAA8CuGYYiXl5fv/7hcXESSuMcFgAAB4G90XRffvn2L5+fniIho2zYiIvq+j77vf+nfmaZppGkaERF5nkdExOXlZXz69CmyLDPoAAIEgDFo2zaen5/j5eUl+r6Pruv28t/5c7y8Bs1ms3n751mWRZqmcXFxEZeXl2+RAoAAAeBEDcMQbdu+/dlXbPyKruve/n9ewyTLssjz/O2PR7oABAgAR67v+2iaJpqmeVt5OBWvUbLdbiPi90e3iqKIoijeHucCQIAAcATRsd1uo2maX96zcYxeV26qqoo0TaMoiphMJmIEQIAAcGjDMERd11HX9VE9WrXvyNput5FlWZRlGWVZekwLQIAAsE+vjyjVdT3qMei6LqqqirIsYzKZOFkLQIAAsEt1XcfT09PJ7es4xLjUdR15nsfV1VWUZWlQAAQIAP/kAnu9Xp/V3o59eN0vsl6v4+bmRogACBAAhMf+9X0fq9VKiAAIEAB+RtM0UVWV8NhhiEyn0yiKwqAACBAAXr1uqrbHY/ch8vDwEHmex3Q6tVkdQIAAjNswDLHZbN5evsd+tG0bX758iclkEtfX147vBRAgAOPTNE08Pj7GMAwG40BejzC+vb31WBaAAAEYh9f9CR63+hjDMLw9ljWfz62GAOyZb1mAD9Q0TXz58kV8HIG2beO3336LpmkMBsAeWQEB+ADDMERVVaN+g/mxfi4PDw9RlmVMp1OrIQACBOD0dV0XDw8PjtY9YnVdR9u2MZ/PnZQFsGNu7QAc+ML269ev4uME9H0fX79+tUoFsGNWQAAOZLVauZg9McMwxGq1iufn55jNZgYEQIAAnMZF7MPDg43mJ6yu6+j73ilZADvgWxRgj7qui69fv4qPM9C2rcfnAAQIwPHHR9d1BuOMPtMvX774TAEECMBxxoe3mp+fYRiEJYAAATgeryddiY/zjxAvLQQQIAAfHh+r1Up8jCRCHh4enGwGIEAAPkbTNLFarQzEyKxWKyshAAIE4LC6rovHx0cDMVKPj4/2hAAIEIDDxYc9H+NmYzqAAAEQH4gQAAECcF4XnI+Pj+IDcwJAgADs38PDg7vd/I+u6+Lh4cFAAAgQgN1ZrVbRtq2B4LvatnUiGoAAAdiNuq69+wHzBECAAOxf13VRVZWB4KdUVeUxPQABAvBrXt98bYMx5gyAAAHYu6qqou97A8G79H1v1QxAgAC8T9M0nufnl9V1HU3TGAgAAQLw9/q+j8fHx5P6f86yLMqy9OEdEe8HARAgAD9ltVqd3IXjp0+fYjabxWKxiDzPfYhH4HU/CIAAAeAvNU1z0u/7yPM8FotFzGazSBJf+R+tbVuPYgECxBAAfN8wDCf36NVfKcsy7u7u4vr62gf7wTyKBQgQAL5rs9mc1YVikiRxc3MT9/f3URSFD/gDw3az2RgIQIAA8B9d18V2uz3Lv1uapjGfz2OxWESWZT7sD7Ddbr2gEBAgAPzHGN7bkOd5LJfLmE6n9oeYYwACBOCjnPrG8/eaTCZxd3cXk8nEh39ANqQDAgSAiBjnnekkSWI6ncb9/b1je801AAECcCh1XUff96P9+6dpGovFIhaLRaRpakLsWd/3Ude1gQAECMBYrddrgxC/7w+5v7+P6+tr+0PMOQABArAPY1/9+J6bm5u4u7uLsiwNxp5YBQEECMBIuRP9Fz8USRKz2SyWy6X9IeYegAAB2AWrH38vy7JYLBYxn8/tD9kxqyCAAAEYmaenJ4Pwk4qiiOVyaX+IOQggQAB+Rdd1o3rvx05+PJIkbm5uYrlc2h+yI23bejs6IEAAxmC73RqEX5Smacxms1gsFpFlmQExFwEECMCPDMPg2fsdyPM8lstlzGYzj2X9A3VdxzAMBgIQIADnfMHH7pRlGXd3d3F9fW0wzEkAAQLgYu8APyx/7A+5v7+PoigMiDkJIEAAIn4/+tSm3/1J0zTm83ksFgvH9r5D13WOhAYECMA5suH3MPI8j/v7+5hOp/aHmJsAAgQYr6ZpDMIBTSaTuLu7i8lkYjDMTUCAAIxL3/cec/mIH50kiel0Gvf395HnuQExPwEBAjAO7jB/rDRNY7FYxHw+tz/EHAUECICLOw6jKIq4v7+P6+tr+0PMUUCAAJynYRiibVsDcURubm7i7u4uyrI0GH9o29ZLCQEBAnAuF3Yc4Q9SksRsNovlcml/iLkKCBAAF3UcRpZlsVgsYjabjX5/iLkKnKMLQwC4qOMYlWUZl5eXsd1u4+npaZSPI5mrwDmyAgKMjrefn9CPVJLEzc1NLJfLUe4PMVcBAQJw4txRPk1pmsZsNovFYhFZlpmzAAIE4DQ8Pz8bhBOW53ksl8uYzWajObbXnAXOjT0gwKi8vLwYhDPw5/0hm83GnAU4IVZAgFHp+94gnMsP2B/7Q+7v78/62F5zFhAgACfMpt7zk6ZpLBaLWCwWZ3lsrzkLCBAAF3IcoTzP4/7+PqbT6dntDzF3AQECcIK+fftmEEZgMpnE3d1dTCYTcxdAgAB8HKcJjejHLUliOp3Gcrk8i/0h5i4gQADgBGRZFovFIubz+VnuDwE4RY7hBUbDC93GqyiKKIoi1ut1PD09xTAM5i7AB7ECAsBo3NzcxN3dXZRlaTAABAjAfnmfAhG/7w+ZzWaxWCxOZn+IuQsIEAABwonL8zwWi0XMZrOj3x9i7gLnxB4QAEatLMu4vLyM7XZ7kvtDAE6NFRAA/BgmSdzc3MRyuYyiKAwIgAAB+Gfc1eZnpGka8/k8FotFZFlmDgMIEIBf8/LyYhD4aXmex3K5jNlsFkmSmMMAO2QPCAD8hT/vD9lsNgYEYAesgADAj34o/9gfcn9/fzLH9gIIEAAAgPAIFgD80DAMsdlsYrvdGgwAAQIA+/O698MJVAACBOB9X3YXvu74eW3bRlVV0XWdOQwgQADe71iOUuW49X0fVVVF0zTmMIAAAYD9GIbBUbsAAgQA9q+u61iv19H3vcEAECAAu5OmqYtM3rRtG+v1Otq2PYm5CyBAAAQIJ6jv+1iv11HX9UnNXQABAgAnZr1ex9PTk2N1AQQIwP7leX4Sj9uwe03TRFVVJ7sClue5DxEQIABw7Lqui6qqhCeAAAE4vMvLS8esjsQwDLHZbGK73Z7N3AUQIAAn5tOnTwZhBF7f53FO+zzMXUCAAJygLMsMwhlr2zZWq9VZnnRm7gICBOCEL+S6rjMQZ6Tv+1itVme7z0N8AAIE4ISlaSpAzsQwDG+PW537nAUQIACn+qV34WvvHNR1HVVVjeJ9HuYsIEAATpiTsE5b27ZRVdWoVrGcgAUIEIBT/tJzN/kk9X0fVVVF0zSj+7t7CSEgQABOWJIkNqKfkNd9Hk9PT6N43Oq/2YAOCBCAM5DnuQA5AXVdx3q9Pstjdd8zVwEECMAZXNSdyxuyz1HXdVFV1dkeqytAAAEC4KKOIzAMQ1RVFXVdGwxzFRAgAOcjSZLI89wd9iOyXq9Hu8/jR/GRJImBAAQIwDkoikKAHIGmaaKqqlHv8/jRHAUQIABndHFXVZWB+CB938dqtRKBAgQQIADjkKZppGnqzvuBDcMQm83GIQA/OT8BBAjAGSmKwoXwAW2329hsNvZ5/OTcBBAgAGdmMpkIkANo2zZWq5XVpnfOTQABAnBm0jT1VvQ96vs+qqqKpmkMxjtkWebxK0CAAJyrsiwFyI4Nw/D2uBW/NicBBAjAGV/sOQ1rd+q6jqqq7PMQIAACBOB7kiSJsiy9ffsfats2qqqymrSD+PDyQUCAAJy5q6srAfKL+r6P9Xpt/HY4FwEECMCZy/M88jz3Urx3eN3n8fT05HGrHc9DAAECMAJXV1cC5CfVdR3r9dqxunuYgwACBGAkyrJ0Uf03uq6LqqqE2h6kaWrzOSBAAMbm5uYmVquVgfgvwzBEVVX2eex57gEIEICRsQryv9brtX0ee2b1AxAgACNmFeR3bdvGarUSYweacwACBGCkxr4K0vd9rFYr+zwOxOoHIEAAGOUqyDAMsdlsYrvdmgAHnmsAAgRg5MqyjKenp9GsAmy329hsNvZ5HFie51Y/gFFKDAHA/xrDnem2bePLly9RVZX4MMcADsYKCMB3vN6dPsejZ/u+j6qqomkaH/QHKcvSW88BAQLA/zedTuP5+flsVgeGYXh73IqPkyRJTKdTAwGM93vQEAD89YXi7e3tWfxd6rqO3377TXwcgdvb20gSP7/AeFkBAfiBoigiz/OT3ZDetm2s12vH6h6JPM+jKAoDAYyaWzAAf2M2m53cHetv377FarWKf//73+LjWH5wkyRms5mBAHwfGgKAH0vT9OQexeq67iw30J+y29vbSNPUQAACxBAA/L2iKDw6g/kDIEAADscdbH7FKa6gAQgQgGP4wkySmM/nBoJ3mc/nTr0CECAAvybLMhuJ+Wmz2SyyLDMQAAIE4NeVZRllWRoIzBMAAQJwGO5s8yNWygAECMDOff78WYTw3fj4/PmzgQAQIAA7/gJNkri9vbXBGHMCQIAAHMbr3W4XnCRJYlUMQIAAiBDEB4AAATjDCJlOpwZipKbTqfgAECAAh1WWpZOPRmg2mzluF+AdLgwBwG4jJCKiqqoYhsGAnLEkSWI6nYoPgPd+fxoCgN1HiD0h5x8fnz9/Fh8AAgTgONiYfv7xYc8HgAABOMoIcaHqMwVAgAC4YOVd8jz3WQIIEIAT+KJNklgul/YLnLCyLGOxWHikDkCAAJyO2WzmmF6fG8DoOYYX4IDKsoyLi4t4eHiIvu8NyBFL0zTm87lHrgB2zAoIwIFlWRbL5TKKojAYR6ooilgul+IDYA+sgAB8gCRJYj6fR9M08fj46KWFR/S53N7eikMAAQJwnoqiiCzLYrVaRdu2BuQD5Xkes9ks0jQ1GAACBOB8pWkai8XCasgHseoBIEAARqkoisjzPKqqirquDcgBlGUZ0+nU8boAAgRgnJIkidlsFldXV7Ferz2WtSd5nsd0OrXJHECAAPB6gbxYLKKu61iv147s3ZE0TWM6nXrcCkCAAPA9ZVlGWZZCZAfhcXNz4230AAIEACEiPAAECABHHyJPT0/2iPyFPM/j6upKeAAIEAB2GSJt28bT05NTs/40LpPJxOZyAAECwD7kef52olNd11HXdXRdN6oxyLLsLcgcpwsgQAA4gCRJYjKZxGQyib7vY7vdRtM0Z7tXJE3TKIoiJpOJN5cDCBAAPvrifDqdxnQ6jb7vo2maaJrm5PeL5HkeRVFEURSiA0CAAHCsMfK6MjIMQ7Rt+/bn2B/VyrLs7RGzPM89XgUgQAA4JUmSvK0gvGrbNp6fn+Pl5SX6vv+wKMmyLNI0jYuLi7i8vIw8z31gAAIEgHPzurrwZ13Xxbdv3+L5+fktUiIi+r7/5T0laZq+PTb1+t+7vLyMT58+ObEKQIAAMGavQfB3qxDDMMTLy8v3f1wuLjwyBYAAAWB3kiTxqBQA7//9MAQAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAECAAAgAABAAAECAAAgAABAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAACAAAEAABAgAACAAAEAABAgAACAAAEAAASIIQAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAAAAAECAAAgQAAAAAECAAAgQAAAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAIAAAQAAECAAAIAAAQAAECAAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAAdu0iIqKqKiMBAADs3f8NAFFjCf5mB+leAAAAAElFTkSuQmCC",g="\r\n",F=914400,T=12700,h=2147483649,f="ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""),u=["arraybuffer","base64","binarystring","blob","nodebuffer","uint8array"],i=/^[0-9a-fA-F]{6}$/,r="{F7021451-1387-4CA6-816F-3879F97B5CBC}",B="666666",I=[3,3,3,3],y="000000",v=12,x=18,b=[.5,.5,.5,.5],P={color:"888888",style:"solid",size:1},p={type:"outer",blur:3,offset:23e3/12700,angle:90,color:"000000",opacity:.35,rotateWithShape:!0},C="2094734552",S="2094734553",w="2094734554",L="2094734555",k="2094734556",R={author:"PptxGenJS",company:"PptxGenJS",revision:"1",subject:"PptxGenJS Presentation",title:"PptxGenJS Presentation",isBrowser:!1,fileName:"Presentation",fileExtn:".pptx"};R.pptLayout=a.LAYOUT_16x9,R.rtlMode=!1,R.saveCallback=null,R.masterSlide={slide:{},data:[],rels:[],slideNumberObj:null},R.chartCounter=0,R.imageCounter=0,R.slides=[],R.slideLayouts=[{name:"BLANK",slide:{},data:[],rels:[],margin:b,slideNumberObj:null}],this.charts=n,this.colors=void 0!==gObjPptxColors?gObjPptxColors:{},this.shapes=void 0!==gObjPptxShapes?gObjPptxShapes:{RECTANGLE:{displayName:"Rectangle",name:"rect",avLst:{}},LINE:{displayName:"Line",name:"line",avLst:{}}};var E=Object.keys(this.colors).map(function(e){return this.colors[e]}.bind(this));gObjPptxShapes=gObjPptxShapes||this.shapes;var D={addBackgroundDefinition:function(e,a){if("object"==typeof e&&(e.src||e.path||e.data)){e.src=e.src||e.path||null,e.src||(e.src="preencoded.png");var t=a.rels,r=e.src.split(".").pop()||"png";"jpg"==r&&(r="jpeg");var l=t.length+1;t.push({path:e.src,type:"image/"+r,extn:r,data:e.data||"",rId:l,Target:"../media/image"+ ++R.imageCounter+"."+r}),a.slide.bkgdImgRid=l}else e&&"string"==typeof e&&(a.slide.back=e)},addTextDefinition:function(e,a,t,r){a=a&&"object"==typeof a?a:{};var l={};e=e||"";return Array.isArray(e)&&0==e.length&&(e=""),a.placeholder||(a.color=a.color||t.slide.color||y),a.valign&&(a.valign=a.valign.toLowerCase().replace(/^c.*/i,"ctr").replace(/^m.*/i,"ctr").replace(/^t.*/i,"t").replace(/^b.*/i,"b")),a.align&&(a.align=a.align.toLowerCase().replace(/^c.*/i,"center").replace(/^m.*/i,"center").replace(/^l.*/i,"left").replace(/^r.*/i,"right")),J(a.shadow),l.type=r?"placeholder":"text",l.text=e,(l.options=a).shape&&"line"==a.shape.name&&(a.line=a.line||"333333",a.lineSize=a.lineSize||1),l.options.bodyProp={},l.options.bodyProp.autoFit=a.autoFit||!1,l.options.bodyProp.anchor=a.valign||(a.placeholder?null:"ctr"),l.options.bodyProp.rot=a.rotate||null,l.options.bodyProp.vert=a.vert||null,l.options.lineSpacing=a.lineSpacing&&!isNaN(a.lineSpacing)?a.lineSpacing:null,(a.inset&&!isNaN(Number(a.inset))||0==a.inset)&&(l.options.bodyProp.lIns=G(a.inset),l.options.bodyProp.rIns=G(a.inset),l.options.bodyProp.tIns=G(a.inset),l.options.bodyProp.bIns=G(a.inset)),t.data.push(l),q(e||"",t.rels),l},addNotesDefinition:function(e,a,t){var r={type:"notes"};return r.text=e,t.data.push(r),r},addPlaceholderDefinition:function(e,a,t){return D.addTextDefinition(e,a,t,!0)},addShapeDefinition:function(e,a,t){var r={},l="object"==typeof a?a:{};if(e&&"object"==typeof e)return r.type="text",(r.options=l).shape=e,l.x=l.x||(0==l.x?0:1),l.y=l.y||(0==l.y?0:1),l.w=l.w||(0==l.w?0:1),l.h=l.h||(0==l.h?0:1),l.line=l.line||("line"==e.name?"333333":null),l.lineSize=l.lineSize||("line"==e.name?1:null),["dash","dashDot","lgDash","lgDashDot","lgDashDotDot","solid","sysDash","sysDot"].indexOf(l.lineDash||"")<0&&(l.lineDash="solid"),t.data.push(r),r;console.error("Missing/Invalid shape parameter! Example: `addShape(pptx.shapes.LINE, {x:1, y:1, w:1, h:1});` ")},addImageDefinition:function(e,a){var t={},r=e.x||0,l=e.y||0,o=e.w||0,n=e.h||0,s=e.sizing||null,i=e.hyperlink||"",c=e.data||"",p=e.path||"",d=a.rels.length+1;if(!p&&!c)return console.error("ERROR: `addImage()` requires either 'data' or 'path' parameter!"),null;if(c&&-1==c.toLowerCase().indexOf("base64,"))return console.error("ERROR: Image `data` value lacks a base64 header! Ex: 'image/png;base64,NMP[...]')"),null;var m=p.split(".").pop().split("?")[0].split("#")[0]||"png";c&&/image\/(\w+)\;/.exec(c)&&0</image\/(\w+)\;/.exec(c).length?m=/image\/(\w+)\;/.exec(c)[1]:c&&-1<c.toLowerCase().indexOf("image/svg+xml")&&(m="svg"),t.type="image",t.image=p||"preencoded.png";var f=1,h=1;if(t.options={x:r||0,y:l||0,cx:o||f,cy:n||h,rounding:e.rounding||!1,sizing:s,placeholder:e.placeholder},"svg"==m?(a.rels.push({path:p||c+"png",type:"image/png",extn:"png",data:c||"",rId:d,Target:"../media/image"+ ++R.imageCounter+".png",isSvgPng:!0,svgSize:{w:t.options.cx,h:t.options.cy}}),t.imageRid=d,a.rels.push({path:p||c,type:"image/"+m,extn:m,data:c||"",rId:d+1,Target:"../media/image"+ ++R.imageCounter+"."+m}),t.imageRid=d+1):(a.rels.push({path:p||"preencoded."+m,type:"image/"+m,extn:m,data:c||"",rId:d,Target:"../media/image"+ ++R.imageCounter+"."+m}),t.imageRid=d),"object"==typeof i)if(i.url||i.slide){var A=d+1;a.rels.push({type:"hyperlink",data:i.slide?"slide":"dummy",rId:A,Target:i.url||i.slide}),i.rId=A,t.hyperlink=i}else console.log("ERROR: 'hyperlink requires either: `url` or `slide`'");return a.data.push(t),t},addChartDefinition:function(e,a,t,r){var l,o,n=r.rels,s=++R.chartCounter,i=r.rels.length+1,c={},p=[];return Array.isArray(e)?(e.forEach(function(e){p=p.concat(e.data)}),l=a||t):(p=a,l=t),p.forEach(function(e,a){e.index=a}),(o=l&&"object"==typeof l?l:{}).type=e,o.x=void 0===o.x||null==o.x||isNaN(o.x)?1:o.x,o.y=void 0===o.y||null==o.y||isNaN(o.y)?1:o.y,o.w=o.w||"50%",o.h=o.h||"50%",["bar","col"].indexOf(o.barDir||"")<0&&(o.barDir="col"),["bestFit","b","ctr","inBase","inEnd","l","outEnd","r","t"].indexOf(o.dataLabelPosition||"")<0&&(o.dataLabelPosition="pie"==o.type.name||"doughnut"==o.type.name?"bestFit":"ctr"),o.dataLabelBkgrdColors=(1==o.dataLabelBkgrdColors||0==o.dataLabelBkgrdColors)&&o.dataLabelBkgrdColors,["b","l","r","t","tr"].indexOf(o.legendPos||"")<0&&(o.legendPos="r"),["clustered","standard","stacked","percentStacked"].indexOf(o.barGrouping||"")<0&&(o.barGrouping="standard"),-1<o.barGrouping.indexOf("tacked")&&(o.dataLabelPosition="ctr",o.barGapWidthPct||(o.barGapWidthPct=50)),["cone","coneToMax","box","cylinder","pyramid","pyramidToMax"].indexOf(o.bar3DShape||"")<0&&(o.bar3DShape="box"),["circle","dash","diamond","dot","none","square","triangle"].indexOf(o.lineDataSymbol||"")<0&&(o.lineDataSymbol="circle"),["gap","span"].indexOf(o.displayBlanksAs||"")<0&&(o.displayBlanksAs="span"),["standard","marker","filled"].indexOf(o.radarStyle||"")<0&&(o.radarStyle="standard"),o.lineDataSymbolSize=o.lineDataSymbolSize&&!isNaN(o.lineDataSymbolSize)?o.lineDataSymbolSize:6,o.lineDataSymbolLineSize=o.lineDataSymbolLineSize&&!isNaN(o.lineDataSymbolLineSize)?o.lineDataSymbolLineSize*T:.75*T,o.layout&&["x","y","w","h"].forEach(function(e){var a=o.layout[e];(isNaN(Number(a))||a<0||1<a)&&(console.warn("Warning: chart.layout."+e+" can only be 0-1"),delete o.layout[e])}),o.catGridLine=o.catGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:"none"),o.valGridLine=o.valGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:{}),o.serGridLine=o.serGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:"none"),Z(o.catGridLine),Z(o.valGridLine),Z(o.serGridLine),J(o.shadow),o.showDataTable=(1==o.showDataTable||0==o.showDataTable)&&o.showDataTable,o.showDataTableHorzBorder=1!=o.showDataTableHorzBorder&&0!=o.showDataTableHorzBorder||o.showDataTableHorzBorder,o.showDataTableVertBorder=1!=o.showDataTableVertBorder&&0!=o.showDataTableVertBorder||o.showDataTableVertBorder,o.showDataTableOutline=1!=o.showDataTableOutline&&0!=o.showDataTableOutline||o.showDataTableOutline,o.showDataTableKeys=1!=o.showDataTableKeys&&0!=o.showDataTableKeys||o.showDataTableKeys,o.showLabel=(1==o.showLabel||0==o.showLabel)&&o.showLabel,o.showLegend=(1==o.showLegend||0==o.showLegend)&&o.showLegend,o.showPercent=1!=o.showPercent&&0!=o.showPercent||o.showPercent,o.showTitle=(1==o.showTitle||0==o.showTitle)&&o.showTitle,o.showValue=(1==o.showValue||0==o.showValue)&&o.showValue,o.catAxisLineShow=void 0===o.catAxisLineShow||o.catAxisLineShow,o.valAxisLineShow=void 0===o.valAxisLineShow||o.valAxisLineShow,o.serAxisLineShow=void 0===o.serAxisLineShow||o.serAxisLineShow,o.v3DRotX=!isNaN(o.v3DRotX)&&-90<=o.v3DRotX&&o.v3DRotX<=90?o.v3DRotX:30,o.v3DRotY=!isNaN(o.v3DRotY)&&0<=o.v3DRotY&&o.v3DRotY<=360?o.v3DRotY:30,o.v3DRAngAx=1!=o.v3DRAngAx&&0!=o.v3DRAngAx||o.v3DRAngAx,o.v3DPerspective=!isNaN(o.v3DPerspective)&&0<=o.v3DPerspective&&o.v3DPerspective<=240?o.v3DPerspective:30,o.barGapWidthPct=!isNaN(o.barGapWidthPct)&&0<=o.barGapWidthPct&&o.barGapWidthPct<=1e3?o.barGapWidthPct:150,o.barGapDepthPct=!isNaN(o.barGapDepthPct)&&0<=o.barGapDepthPct&&o.barGapDepthPct<=1e3?o.barGapDepthPct:150,o.chartColors=Array.isArray(o.chartColors)?o.chartColors:"pie"==o.type.name||"doughnut"==o.type.name?d:m,o.chartColorsOpacity=o.chartColorsOpacity&&!isNaN(o.chartColorsOpacity)?o.chartColorsOpacity:null,o.border=o.border&&"object"==typeof o.border?o.border:null,!o.border||o.border.pt&&!isNaN(o.border.pt)||(o.border.pt=1),!o.border||o.border.color&&"string"==typeof o.border.color&&6==o.border.color.length||(o.border.color="363636"),o.dataBorder=o.dataBorder&&"object"==typeof o.dataBorder?o.dataBorder:null,!o.dataBorder||o.dataBorder.pt&&!isNaN(o.dataBorder.pt)||(o.dataBorder.pt=.75),!o.dataBorder||o.dataBorder.color&&"string"==typeof o.dataBorder.color&&6==o.dataBorder.color.length||(o.dataBorder.color="F9F9F9"),o.dataLabelFormatCode||"scatter"!==o.type.name||(o.dataLabelFormatCode="General"),o.dataLabelFormatCode=o.dataLabelFormatCode&&"string"==typeof o.dataLabelFormatCode?o.dataLabelFormatCode:"pie"==o.type.name||"doughnut"==o.type.name?"0%":"#,##0",o.dataLabelFormatScatter||"scatter"!==o.type.name||(o.dataLabelFormatScatter="custom"),o.lineSize="number"==typeof o.lineSize?o.lineSize:2,o.valAxisMajorUnit="number"==typeof o.valAxisMajorUnit?o.valAxisMajorUnit:null,o.valAxisCrossesAt=o.valAxisCrossesAt||"autoZero",c.type="chart",c.options=o,n.push({rId:i,data:p,opts:o,type:"chart",globalId:s,fileName:"chart"+s+".xml",Target:"/ppt/charts/chart"+s+".xml"}),c.chartRid=i,r.data.push(c),c},createSlideObject:function(e,r){e.bkgd&&D.addBackgroundDefinition(e.bkgd,r),e.objects&&Array.isArray(e.objects)&&0<e.objects.length&&e.objects.forEach(function(e,a){var t=Object.keys(e)[0];o[t]&&"chart"==t?D.addChartDefinition(n[(e.chart.type||"").toUpperCase()],e.chart.data,e.chart.opts,r):o[t]&&"image"==t?D.addImageDefinition(e[t],r):o[t]&&"line"==t?D.addShapeDefinition(gObjPptxShapes.LINE,e[t],r):o[t]&&"rect"==t?D.addShapeDefinition(gObjPptxShapes.RECTANGLE,e[t],r):o[t]&&"text"==t?D.addTextDefinition(e[t].text,e[t].options,r,!1):o[t]&&"placeholder"==t&&(e[t].options.placeholderName=e[t].options.name,delete e[t].options.name,e[t].options.placeholderType=e[t].options.type,delete e[t].options.type,e[t].options.placeholderIdx=100+a,D.addPlaceholderDefinition(e[t].text,e[t].options,r))}),e.slideNumber&&"object"==typeof e.slideNumber&&(r.slideNumberObj=e.slideNumber)},slideObjectToXml:function(S){var w=S.name?'<p:cSld name="'+S.name+'">':"<p:cSld>",L=1;return S.slide.back&&(w+=ie(!1,S.slide.back)),S.slide.bkgdImgRid&&(w+='<p:bg><p:bgPr><a:blipFill dpi="0" rotWithShape="1"><a:blip r:embed="rId'+S.slide.bkgdImgRid+'"><a:lum/></a:blip><a:srcRect/><a:stretch><a:fillRect/></a:stretch></a:blipFill><a:effectLst/></p:bgPr></p:bg>'),w+="<p:spTree>",w+='<p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>',w+='<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/>',w+='<a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>',S.data.forEach(function(r,e){var a,t=0,l=0,o=Y("75%","X"),n=0,s="",i=null;switch(S.layoutObj&&S.layoutObj.data&&r.options&&r.options.placeholder&&(a=S.layoutObj.data.filter(function(e){return e.options.placeholderName==r.options.placeholder})[0]),r.options=r.options||{},(r.options.w||0==r.options.w)&&(r.options.cx=r.options.w),(r.options.h||0==r.options.h)&&(r.options.cy=r.options.h),(r.options.x||0==r.options.x)&&(t=Y(r.options.x,"X")),(r.options.y||0==r.options.y)&&(l=Y(r.options.y,"Y")),(r.options.cx||0==r.options.cx)&&(o=Y(r.options.cx,"X")),(r.options.cy||0==r.options.cy)&&(n=Y(r.options.cy,"Y")),a&&((a.options.x||0==a.options.x)&&(t=Y(a.options.x,"X")),(a.options.y||0==a.options.y)&&(l=Y(a.options.y,"Y")),(a.options.cx||0==a.options.cx)&&(o=Y(a.options.cx,"X")),(a.options.cy||0==a.options.cy)&&(n=Y(a.options.cy,"Y"))),r.options.shape&&(i=W(r.options.shape)),r.options.flipH&&(s+=' flipH="1"'),r.options.flipV&&(s+=' flipV="1"'),r.options.rotate&&(s+=' rot="'+re(r.options.rotate)+'"'),r.type){case"table":if(!r.arrTabRows||Array.isArray(r.arrTabRows)&&0==r.arrTabRows.length)break;var c={},p=r.arrTabRows,m=r.options,d=0,f=0;p[0].forEach(function(e,a){var t=e.options||e.opts||null;d+=t&&t.colspan?Number(t.colspan):1});var h='<p:graphicFrame>  <p:nvGraphicFramePr>    <p:cNvPr id="'+(L*S.numb+1)+'" name="Table '+L*S.numb+'"/>    <p:cNvGraphicFramePr><a:graphicFrameLocks noGrp="1"/></p:cNvGraphicFramePr>    <p:nvPr><p:extLst><p:ext uri="{D42A27DB-BD31-4B8C-83A1-F6EECF244321}"><p14:modId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1579011935"/></p:ext></p:extLst></p:nvPr>  </p:nvGraphicFramePr>  <p:xfrm>    <a:off  x="'+(t||(0==t?0:F))+'"  y="'+(l||(0==l?0:F))+'"/>    <a:ext cx="'+(o||(0==o?0:F))+'" cy="'+(n||(0==n?0:F))+'"/>  </p:xfrm>  <a:graphic>    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/table">      <a:tbl>        <a:tblPr/>';if(Array.isArray(m.colW)){h+="<a:tblGrid>";for(var A=0;A<d;A++)h+='  <a:gridCol w="'+Math.round(G(m.colW[A])||r.options.cx/d)+'"/>';h+="</a:tblGrid>"}else{f=m.colW?m.colW:F,r.options.cx&&!m.colW&&(f=Math.round(r.options.cx/d)),h+="<a:tblGrid>";for(A=0;A<d;A++)h+='<a:gridCol w="'+f+'"/>';h+="</a:tblGrid>"}jQuery.each(p,function(n,e){c[n]||(c[n]={}),jQuery(e).each(function(e,a){for(var t=0;e+t<d;t++){var r=e+t;if(!c[n][r]){if((c[n][r]=a)&&a.opts&&a.opts.colspan&&!isNaN(Number(a.opts.colspan)))for(var l=1;l<Number(a.opts.colspan);l++)c[n][r+l]={hmerge:!0,text:"hmerge"};else if(a&&a.opts&&a.opts.rowspan&&!isNaN(Number(a.opts.rowspan)))for(var o=1;o<Number(a.opts.rowspan);o++)c[n+o]||(c[n+o]={}),c[n+o][r]={vmerge:!0,text:"vmerge"};break}}})}),jQuery.each(c,function(e,a){var t=0;Array.isArray(m.rowH)&&m.rowH[e]?t=G(Number(m.rowH[e])):m.rowH&&!isNaN(Number(m.rowH))?t=G(Number(m.rowH)):(r.options.cy||r.options.h)&&(t=(r.options.h?G(r.options.h):r.options.cy)/p.length),h+='<a:tr h="'+t+'">',jQuery.each(a,function(e,a){if(!a.hmerge){var l=a.options||a.opts||{};"number"!=typeof a&&"string"!=typeof a||(a={text:a.toString()}),l.isTableCell=!0,a.options=l,["align","bold","border","color","fill","fontFace","fontSize","margin","underline","valign"].forEach(function(e,a){m[e]&&!l[e]&&0!=l[e]&&(l[e]=m[e])});var t=l.valign?' anchor="'+l.valign.replace(/^c$/i,"ctr").replace(/^m$/i,"ctr").replace("center","ctr").replace("middle","ctr").replace("top","t").replace("btm","b").replace("bottom","b")+'"':"",r=l.colspan?' gridSpan="'+l.colspan+'"':"",o=l.rowspan?' rowSpan="'+l.rowspan+'"':"",n=a.optImp&&a.optImp.fill||l.fill?' <a:solidFill><a:srgbClr val="'+(a.optImp&&a.optImp.fill||l.fill.replace("#",""))+'"/></a:solidFill>':"",s=0==l.margin||l.margin?l.margin:I;if(Array.isArray(s)||"number"!=typeof s||(s=[s,s,s,s]),s=' marL="'+s[3]*T+'" marR="'+s[1]*T+'" marT="'+s[0]*T+'" marB="'+s[2]*T+'"',a.vmerge)h+='<a:tc vMerge="1"><a:tcPr/></a:tc>';else{if(h+="<a:tc"+r+o+">"+oe(a)+"<a:tcPr"+s+t+">",l.border&&"string"==typeof l.border&&"none"==l.border.toLowerCase())h+='  <a:lnL w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnL>',h+='  <a:lnR w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnR>',h+='  <a:lnT w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnT>',h+='  <a:lnB w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnB>';else if(l.border&&"string"==typeof l.border)h+='  <a:lnL w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnL>',h+='  <a:lnR w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnR>',h+='  <a:lnT w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnT>',h+='  <a:lnB w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnB>';else if(l.border&&Array.isArray(l.border))jQuery.each([{idx:3,name:"lnL"},{idx:1,name:"lnR"},{idx:0,name:"lnT"},{idx:2,name:"lnB"}],function(e,a){if(l.border[a.idx]){var t='<a:solidFill><a:srgbClr val="'+(l.border[a.idx].color?l.border[a.idx].color:B)+'"/></a:solidFill>',r=l.border[a.idx]&&(l.border[a.idx].pt||0==l.border[a.idx].pt)?T*Number(l.border[a.idx].pt):T;h+="<a:"+a.name+' w="'+r+'" cap="flat" cmpd="sng" algn="ctr">'+t+"</a:"+a.name+">"}else h+="<a:"+a.name+' w="0"><a:miter lim="400000" /></a:'+a.name+">"});else if(l.border&&"object"==typeof l.border){var i=l.border&&(l.border.pt||0==l.border.pt)?T*Number(l.border.pt):T,c='<a:solidFill><a:srgbClr val="'+(l.border.color?l.border.color.replace("#",""):B)+'"/></a:solidFill>',p='<a:prstDash val="';p+=l.border.type&&-1<l.border.type.toLowerCase().indexOf("dash")?"sysDash":"solid",h+='<a:lnL w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+(p+='"/><a:round/><a:headEnd type="none" w="med" len="med"/><a:tailEnd type="none" w="med" len="med"/>')+"</a:lnL>",h+='<a:lnR w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnR>",h+='<a:lnT w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnT>",h+='<a:lnB w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnB>"}if(h+=n,h+="  </a:tcPr>",h+=" </a:tc>",l.colspan)for(var d=1;d<Number(l.colspan);d++)h+='<a:tc hMerge="1"><a:tcPr/></a:tc>'}}}),h+="</a:tr>"}),h+="      </a:tbl>",h+="    </a:graphicData>",h+="  </a:graphic>",w+=h+="</p:graphicFrame>",L++;break;case"text":case"placeholder":r.options.line||0!=n||(n=.3*F),r.options.margin&&Array.isArray(r.options.margin)?(r.options.bodyProp.lIns=r.options.margin[0]*T||0,r.options.bodyProp.rIns=r.options.margin[1]*T||0,r.options.bodyProp.bIns=r.options.margin[2]*T||0,r.options.bodyProp.tIns=r.options.margin[3]*T||0):(r.options.margin||0==r.options.margin)&&Number.isInteger(r.options.margin)&&(r.options.bodyProp.lIns=r.options.margin*T,r.options.bodyProp.rIns=r.options.margin*T,r.options.bodyProp.bIns=r.options.margin*T,r.options.bodyProp.tIns=r.options.margin*T);null==i&&(i=W(null)),w+="<p:sp>",w+='<p:nvSpPr><p:cNvPr id="'+(e+2)+'" name="Object '+(e+1)+'"/>',w+="<p:cNvSpPr"+(r.options&&r.options.isTextBox?' txBox="1"/>':"/>"),w+="<p:nvPr>",w+="placeholder"===r.type?ce(r):ce(a),w+="</p:nvPr>",w+="</p:nvSpPr><p:spPr>",w+="<a:xfrm"+s+">",w+='<a:off x="'+t+'" y="'+l+'"/>',w+='<a:ext cx="'+o+'" cy="'+n+'"/></a:xfrm>',w+='<a:prstGeom prst="'+i.name+'"><a:avLst>'+(r.options.rectRadius?'<a:gd name="adj" fmla="val '+Math.round(r.options.rectRadius*F*1e5/Math.min(o,n))+'" />':"")+"</a:avLst></a:prstGeom>",w+=r.options.fill?ie(r.options.fill):"<a:noFill/>",r.options.line&&(w+="<a:ln"+(r.options.lineSize?' w="'+r.options.lineSize*T+'"':"")+">",w+=ie(r.options.line),r.options.lineDash&&(w+='<a:prstDash val="'+r.options.lineDash+'"/>'),r.options.lineHead&&(w+='<a:headEnd type="'+r.options.lineHead+'"/>'),r.options.lineTail&&(w+='<a:tailEnd type="'+r.options.lineTail+'"/>'),w+="</a:ln>"),r.options.shadow&&(r.options.shadow.type=r.options.shadow.type||"outer",r.options.shadow.blur=(r.options.shadow.blur||8)*T,r.options.shadow.offset=(r.options.shadow.offset||4)*T,r.options.shadow.angle=6e4*(r.options.shadow.angle||270),r.options.shadow.color=r.options.shadow.color||"000000",r.options.shadow.opacity=1e5*(r.options.shadow.opacity||.75),w+="<a:effectLst>",w+="<a:"+r.options.shadow.type+'Shdw sx="100000" sy="100000" kx="0" ky="0" ',w+=' algn="bl" rotWithShape="0" blurRad="'+r.options.shadow.blur+'" ',w+=' dist="'+r.options.shadow.offset+'" dir="'+r.options.shadow.angle+'">',w+='<a:srgbClr val="'+r.options.shadow.color+'">',w+='<a:alpha val="'+r.options.shadow.opacity+'"/></a:srgbClr>',w+="</a:outerShdw>",w+="</a:effectLst>"),w+="</p:spPr>",w+=oe(r),w+="</p:sp>";break;case"image":var g=r.options.sizing,u=r.options.rounding,y=o,v=n;if(w+="<p:pic>",w+="  <p:nvPicPr>",w+='    <p:cNvPr id="'+(e+2)+'" name="Object '+(e+1)+'" descr="'+H(r.image)+'">',r.hyperlink&&r.hyperlink.url&&(w+='<a:hlinkClick r:id="rId'+r.hyperlink.rId+'" tooltip="'+(r.hyperlink.tooltip?H(r.hyperlink.tooltip):"")+'" />'),r.hyperlink&&r.hyperlink.slide&&(w+='<a:hlinkClick r:id="rId'+r.hyperlink.rId+'" tooltip="'+(r.hyperlink.tooltip?H(r.hyperlink.tooltip):"")+'" action="ppaction://hlinksldjump" />'),w+="    </p:cNvPr>",w+='    <p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr>',w+="    <p:nvPr>"+ce(a)+"</p:nvPr>",w+="  </p:nvPicPr>",w+="<p:blipFill>","svg"==S.rels.filter(function(e){return e.rId==r.imageRid})[0].extn?(w+='<a:blip r:embed="rId'+(r.imageRid-1)+'"/>',w+="<a:extLst>",w+='  <a:ext uri="{96DAC541-7B7A-43D3-8B79-37D633B846F1}">',w+='    <asvg:svgBlip xmlns:asvg="http://schemas.microsoft.com/office/drawing/2016/SVG/main" r:embed="rId'+r.imageRid+'"/>',w+="  </a:ext>",w+="</a:extLst>"):w+='<a:blip r:embed="rId'+r.imageRid+'"/>',g&&g.type){var x=g.w?Y(g.w,"X"):o,b=g.h?Y(g.h,"Y"):n,P=Y(g.x||0,"X"),C=Y(g.y||0,"Y");w+=D.imageSizingXml[g.type]({w:y,h:v},{w:x,h:b,x:P,y:C}),y=x,v=b}else w+="  <a:stretch><a:fillRect/></a:stretch>";w+="</p:blipFill>",w+="<p:spPr>",w+=" <a:xfrm"+s+">",w+='  <a:off  x="'+t+'"  y="'+l+'"/>',w+='  <a:ext cx="'+y+'" cy="'+v+'"/>',w+=" </a:xfrm>",w+=' <a:prstGeom prst="'+(u?"ellipse":"rect")+'"><a:avLst/></a:prstGeom>',w+="</p:spPr>",w+="</p:pic>";break;case"media":"online"==r.mtype?(w+="<p:pic>",w+=" <p:nvPicPr>",w+=' <p:cNvPr id="'+(r.mediaRid+2)+'" name="Picture'+(e+1)+'"/>',w+=" <p:cNvPicPr/>",w+=" <p:nvPr>",w+='  <a:videoFile r:link="rId'+r.mediaRid+'"/>',w+=" </p:nvPr>",w+=" </p:nvPicPr>",w+=' <p:blipFill><a:blip r:embed="rId'+(r.mediaRid+1)+'"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>'):(w+="<p:pic>",w+=" <p:nvPicPr>",w+=' <p:cNvPr id="'+(r.mediaRid+2)+'" name="'+r.media.split("/").pop().split(".").shift()+'"><a:hlinkClick r:id="" action="ppaction://media"/></p:cNvPr>',w+=' <p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr>',w+=" <p:nvPr>",w+='  <a:videoFile r:link="rId'+r.mediaRid+'"/>',w+="  <p:extLst>",w+='   <p:ext uri="{DAA4B4D4-6D71-4841-9C94-3DE7FCFB9230}">',w+='    <p14:media xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" r:embed="rId'+(r.mediaRid+1)+'"/>',w+="   </p:ext>",w+="  </p:extLst>",w+=" </p:nvPr>",w+=" </p:nvPicPr>",w+=' <p:blipFill><a:blip r:embed="rId'+(r.mediaRid+2)+'"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>'),w+=" <p:spPr>",w+="  <a:xfrm"+s+">",w+='   <a:off x="'+t+'" y="'+l+'"/>',w+='   <a:ext cx="'+o+'" cy="'+n+'"/>',w+="  </a:xfrm>",w+='  <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>',w+=" </p:spPr>",w+="</p:pic>";break;case"chart":w+="<p:graphicFrame>",w+=" <p:nvGraphicFramePr>",w+='   <p:cNvPr id="'+(e+2)+'" name="Chart '+(e+1)+'"/>',w+="   <p:cNvGraphicFramePr/>",w+="   <p:nvPr>"+ce(a)+"</p:nvPr>",w+=" </p:nvGraphicFramePr>",w+=" <p:xfrm>",w+='  <a:off  x="'+t+'"  y="'+l+'"/>',w+='  <a:ext cx="'+o+'" cy="'+n+'"/>',w+=" </p:xfrm>",w+=' <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">',w+='  <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/chart">',w+='   <c:chart r:id="rId'+r.chartRid+'" xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart"/>',w+="  </a:graphicData>",w+=" </a:graphic>",w+="</p:graphicFrame>"}}),S.slideNumberObj&&(S.slideNumberObj||(S.slideNumberObj={x:.3,y:"90%"}),w+='<p:sp>  <p:nvSpPr>    <p:cNvPr id="25" name="Slide Number Placeholder 24"/>    <p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr>    <p:nvPr><p:ph type="sldNum" sz="quarter" idx="4294967295"/></p:nvPr>  </p:nvSpPr>  <p:spPr>    <a:xfrm>      <a:off x="'+Y(S.slideNumberObj.x,"X")+'" y="'+Y(S.slideNumberObj.y,"Y")+'"/>      <a:ext cx="'+(S.slideNumberObj.w?Y(S.slideNumberObj.w,"X"):8e5)+'" cy="'+(S.slideNumberObj.h?Y(S.slideNumberObj.h,"Y"):3e5)+'"/>    </a:xfrm>    <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>    <a:extLst><a:ext uri="{C572A759-6A51-4108-AA02-DFA0A04FC94B}"><ma14:wrappingTextBoxFlag val="0" xmlns:ma14="http://schemas.microsoft.com/office/mac/drawingml/2011/main"/></a:ext></a:extLst>  </p:spPr>',w+="<p:txBody>",w+="  <a:bodyPr/>",w+="  <a:lstStyle><a:lvl1pPr>",(S.slideNumberObj.fontFace||S.slideNumberObj.fontSize||S.slideNumberObj.color)&&(w+='<a:defRPr sz="'+(S.slideNumberObj.fontSize?Math.round(S.slideNumberObj.fontSize):"12")+'00">',S.slideNumberObj.color&&(w+=ie(S.slideNumberObj.color)),S.slideNumberObj.fontFace&&(w+='<a:latin typeface="'+S.slideNumberObj.fontFace+'"/><a:ea typeface="'+S.slideNumberObj.fontFace+'"/><a:cs typeface="'+S.slideNumberObj.fontFace+'"/>'),w+="</a:defRPr>"),w+="</a:lvl1pPr></a:lstStyle>",w+='<a:p><a:fld id="'+r+'" type="slidenum"><a:rPr lang="en-US" smtClean="0"/><a:t></a:t></a:fld><a:endParaRPr lang="en-US"/></a:p>',w+="</p:txBody></p:sp>"),w+="</p:spTree>",w+="</p:cSld>"},slideObjectRelationsToXml:function(e,a){var t=0,r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return r+='<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">',e.rels.forEach(function(e,a){t=Math.max(t,e.rId),-1<e.type.toLowerCase().indexOf("image")?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"/>':-1<e.type.toLowerCase().indexOf("chart")?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"/>':-1<e.type.toLowerCase().indexOf("audio")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/media"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/audio"/>':-1<e.type.toLowerCase().indexOf("video")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/media"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/video"/>':-1<e.type.toLowerCase().indexOf("online")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/image"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" TargetMode="External" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/video"/>':-1<e.type.toLowerCase().indexOf("hyperlink")?"slide"==e.data?r+='<Relationship Id="rId'+e.rId+'" Target="slide'+e.Target+'.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" TargetMode="External" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"/>':-1<res.type.toLowerCase().indexOf("notesSlide")&&(r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"/>')}),a.forEach(function(e,a){r+='<Relationship Id="rId'+(t+a+1)+'" Target="'+e.target+'" Type="'+e.type+'"/>'}),r+="</Relationships>"},imageSizingXml:{cover:function(e,a){var t=e.h/e.w,r=t<a.h/a.w,l=r?a.h/t:a.w,o=r?a.h:a.w*t,n=Math.round(5e4*(1-a.w/l)),s=Math.round(5e4*(1-a.h/o));return'<a:srcRect l="'+n+'" r="'+n+'" t="'+s+'" b="'+s+'" /><a:stretch/>'},contain:function(e,a){var t=e.h/e.w,r=t<a.h/a.w;return width=r?a.w:a.h/t,height=r?a.w*t:a.h,hzPerc=Math.round(5e4*(1-a.w/width)),vzPerc=Math.round(5e4*(1-a.h/height)),'<a:srcRect l="'+hzPerc+'" r="'+hzPerc+'" t="'+vzPerc+'" b="'+vzPerc+'" /><a:stretch/>'},crop:function(e,a){var t=a.x,r=e.w-(a.x+a.w),l=a.y,o=e.h-(a.y+a.h);return'<a:srcRect l="'+Math.round(t/e.w*1e5)+'" r="'+Math.round(r/e.w*1e5)+'" t="'+Math.round(l/e.h*1e5)+'" b="'+Math.round(o/e.h*1e5)+'" /><a:stretch/>'}},createExcelWorksheet:function(i,c){var p=i.data;return new Promise(function(a,t){var e=new JSZip,l=2*(p.length-1)+1;e.folder("_rels"),e.folder("docProps"),e.folder("xl/_rels"),e.folder("xl/tables"),e.folder("xl/theme"),e.folder("xl/worksheets"),e.folder("xl/worksheets/_rels"),e.file("[Content_Types].xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">  <Default Extension="xml" ContentType="application/xml"/>  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>  <Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>  <Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>  <Override PartName="/xl/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>  <Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>  <Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/>  <Override PartName="/xl/tables/table1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml"/>  <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>  <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>\n'),e.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>\n'),e.file("docProps/app.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>Microsoft Excel</Application><DocSecurity>0</DocSecurity><ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size="2" baseType="variant"><vt:variant><vt:lpstr>Worksheets</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant></vt:vector></HeadingPairs><TitlesOfParts><vt:vector size="1" baseType="lpstr"><vt:lpstr>Sheet1</vt:lpstr></vt:vector></TitlesOfParts></Properties>\n'),e.file("docProps/core.xml",'<?xml version="1.0" encoding="UTF-8"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Ely, Brent</cp:lastModifiedBy><dcterms:created xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+'</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:modified></cp:coreProperties>\n"),e.file("xl/_rels/workbook.xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/></Relationships>\n'),e.file("xl/styles.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><numFmts count="1"><numFmt numFmtId="0" formatCode="General"/></numFmts><fonts count="4"><font><sz val="9"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="9"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="10"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="18"/><color indexed="8"/><name val="Arial"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><dxfs count="0"/><tableStyles count="0"/><colors><indexedColors><rgbColor rgb="ff000000"/><rgbColor rgb="ffffffff"/><rgbColor rgb="ffff0000"/><rgbColor rgb="ff00ff00"/><rgbColor rgb="ff0000ff"/><rgbColor rgb="ffffff00"/><rgbColor rgb="ffff00ff"/><rgbColor rgb="ff00ffff"/><rgbColor rgb="ff000000"/><rgbColor rgb="ffffffff"/><rgbColor rgb="ff878787"/><rgbColor rgb="fff9f9f9"/></indexedColors></colors></styleSheet>\n'),e.file("xl/theme/theme1.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme"><a:themeElements><a:clrScheme name="Office"><a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1><a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1><a:dk2><a:srgbClr val="44546A"/></a:dk2><a:lt2><a:srgbClr val="E7E6E6"/></a:lt2><a:accent1><a:srgbClr val="4472C4"/></a:accent1><a:accent2><a:srgbClr val="ED7D31"/></a:accent2><a:accent3><a:srgbClr val="A5A5A5"/></a:accent3><a:accent4><a:srgbClr val="FFC000"/></a:accent4><a:accent5><a:srgbClr val="5B9BD5"/></a:accent5><a:accent6><a:srgbClr val="70AD47"/></a:accent6><a:hlink><a:srgbClr val="0563C1"/></a:hlink><a:folHlink><a:srgbClr val="954F72"/></a:folHlink></a:clrScheme><a:fontScheme name="Office"><a:majorFont><a:latin typeface="Calibri Light" panose="020F0302020204030204"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic Light"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian Light"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Times New Roman"/><a:font script="Hebr" typeface="Times New Roman"/><a:font script="Thai" typeface="Tahoma"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="MoolBoran"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Times New Roman"/><a:font script="Uigh" typeface="Microsoft Uighur"/><a:font script="Geor" typeface="Sylfaen"/></a:majorFont><a:minorFont><a:latin typeface="Calibri" panose="020F0502020204030204"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Arial"/><a:font script="Hebr" typeface="Arial"/><a:font script="Thai" typeface="Tahoma"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="DaunPenh"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Arial"/><a:font script="Uigh" typeface="Microsoft Uighur"/><a:font script="Geor" typeface="Sylfaen"/></a:minorFont></a:fontScheme><a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:lumMod val="110000"/><a:satMod val="105000"/><a:tint val="67000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:lumMod val="105000"/><a:satMod val="103000"/><a:tint val="73000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:lumMod val="105000"/><a:satMod val="109000"/><a:tint val="81000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:satMod val="103000"/><a:lumMod val="102000"/><a:tint val="94000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:satMod val="110000"/><a:lumMod val="100000"/><a:shade val="100000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:lumMod val="99000"/><a:satMod val="120000"/><a:shade val="78000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="6350" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln><a:ln w="12700" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln><a:ln w="19050" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst/></a:effectStyle><a:effectStyle><a:effectLst/></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="57150" dist="19050" dir="5400000" algn="ctr" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="63000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:solidFill><a:schemeClr val="phClr"><a:tint val="95000"/><a:satMod val="170000"/></a:schemeClr></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="93000"/><a:satMod val="150000"/><a:shade val="98000"/><a:lumMod val="102000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:tint val="98000"/><a:satMod val="130000"/><a:shade val="90000"/><a:lumMod val="103000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="63000"/><a:satMod val="120000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/><a:extLst><a:ext uri="{05A4C25C-085E-4340-85A3-A5531E510DB2}"><thm15:themeFamily xmlns:thm15="http://schemas.microsoft.com/office/thememl/2012/main" name="Office Theme" id="{62F939B6-93AF-4DB8-9C6B-D6C7DFDC589F}" vid="{4A3C46E8-61CC-4603-A589-7422A47A8E4A}"/></a:ext></a:extLst></a:theme>'),e.file("xl/workbook.xml",'<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x15" xmlns:x15="http://schemas.microsoft.com/office/spreadsheetml/2010/11/main"><fileVersion appName="xl" lastEdited="6" lowestEdited="6" rupBuild="14420"/><workbookPr /><bookViews><workbookView xWindow="0" yWindow="0" windowWidth="15960" windowHeight="18080"/></bookViews><sheets><sheet name="Sheet1" sheetId="1" r:id="rId1" /></sheets><calcPr calcId="171026" concurrentCalc="0"/></workbook>\n'),e.file("xl/worksheets/_rels/sheet1.xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/table" Target="../tables/table1.xml"/></Relationships>\n');var r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';"bubble"===i.opts.type.name?r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(l+1)+'" uniqueCount="'+(l+1)+'">':"scatter"===i.opts.type.name?r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(p.length+1)+'" uniqueCount="'+(p.length+1)+'">':(r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(p[0].labels.length+p.length+1)+'" uniqueCount="'+(p[0].labels.length+p.length+1)+'">',r+='<si><t xml:space="preserve"></t></si>'),"bubble"===i.opts.type.name?p.forEach(function(e,a){0==a?r+="<si><t>X-Axis</t></si>":(r+="<si><t>"+H(e.name||" ")+"</t></si>",r+="<si><t>"+H("Size "+a)+"</t></si>")}):p.forEach(function(e,a){r+="<si><t>"+H((e.name||" ").replace("X-Axis","X-Values"))+"</t></si>"}),"bubble"!=i.opts.type.name&&"scatter"!=i.opts.type.name&&p[0].labels.forEach(function(e,a){r+="<si><t>"+H(e)+"</t></si>"}),r+="</sst>\n",e.file("xl/sharedStrings.xml",r);var o='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';"bubble"==i.opts.type.name||("scatter"==i.opts.type.name?(o+='<table xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" id="1" name="Table1" displayName="Table1" ref="A1:'+f[p.length-1]+(p[0].values.length+1)+'" totalsRowShown="0">',o+='<tableColumns count="'+p.length+'">',p.forEach(function(e,a){o+='<tableColumn id="'+(a+1)+'" name="'+(0==a?"X-Values":"Y-Value "+a)+'" />'})):(o+='<table xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" id="1" name="Table1" displayName="Table1" ref="A1:'+f[p.length]+(p[0].labels.length+1)+'" totalsRowShown="0">',o+='<tableColumns count="'+(p.length+1)+'">',o+='<tableColumn id="1" name=" " />',p.forEach(function(e,a){o+='<tableColumn id="'+(a+2)+'" name="'+H(e.name)+'" />'}))),o+="</tableColumns>",o+='<tableStyleInfo showFirstColumn="0" showLastColumn="0" showRowStripes="1" showColumnStripes="0" />',o+="</table>",e.file("xl/tables/table1.xml",o);var n='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';if(n+='<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">',"bubble"===i.opts.type.name?n+='<dimension ref="A1:'+f[l-1]+(p[0].values.length+1)+'" />':"scatter"===i.opts.type.name?n+='<dimension ref="A1:'+f[p.length-1]+(p[0].values.length+1)+'" />':n+='<dimension ref="A1:'+f[p.length]+(p[0].labels.length+1)+'" />',n+='<sheetViews><sheetView tabSelected="1" workbookViewId="0"><selection activeCell="B1" sqref="B1" /></sheetView></sheetViews>',n+='<sheetFormatPr baseColWidth="10" defaultColWidth="11.5" defaultRowHeight="12" />',"bubble"==i.opts.type.name){n+="<cols>",n+='<col min="1" max="'+p.length+'" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+l+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(var s=1;s<l;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].values.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+l+'">',n+='<c r="A'+(a+2)+'"><v>'+e+"</v></c>";for(var t=1,r=1;r<p.length;r++)n+='<c r="'+(t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[r].values[a]||"")+"</v>",n+="</c>",n+='<c r="'+(++t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[r].sizes[a]||"")+"</v>",n+="</c>",t++;n+="</row>"})}else if("scatter"==i.opts.type.name){n+="<cols>",n+='<col min="1" max="'+p.length+'" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+p.length+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(s=1;s<p.length;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].values.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+p.length+'">',n+='<c r="A'+(a+2)+'"><v>'+e+"</v></c>";for(var t=1;t<p.length;t++)n+='<c r="'+(t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[t].values[a]||0==p[t].values[a]?p[t].values[a]:"")+"</v>",n+="</c>";n+="</row>"})}else{n+="<cols>",n+='<col min="1" max="1" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+(p.length+1)+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(s=1;s<=p.length;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].labels.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+(p.length+1)+'">',n+='<c r="A'+(a+2)+'" t="s">',n+="<v>"+(p.length+a+1)+"</v>",n+="</c>";for(var t=0;t<p.length;t++)n+='<c r="'+(t+1<26?f[t+1]:"A"+f[(t+1)%f.length])+(a+2)+'">',n+="<v>"+(p[t].values[a]||"")+"</v>",n+="</c>";n+="</row>"})}n+="</sheetData>",n+='<pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3" />',n+="</worksheet>\n",e.file("xl/worksheets/sheet1.xml",n),e.generateAsync({type:"base64"}).then(function(e){c.file("ppt/embeddings/Microsoft_Excel_Worksheet"+i.globalId+".xlsx",e,{base64:!0}),c.file("ppt/charts/_rels/"+i.fileName+".rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/package" Target="../embeddings/Microsoft_Excel_Worksheet'+i.globalId+'.xlsx"/></Relationships>'),c.file("ppt/charts/"+i.fileName,function(n){var s='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';s+='<c:chartSpace xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">',s+='<c:date1904 val="0"/>',s+="<c:chart>",n.opts.showTitle?(s+=le({title:n.opts.title||"Chart Title",fontSize:n.opts.titleFontSize||x,color:n.opts.titleColor,fontFace:n.opts.titleFontFace,rotate:n.opts.titleRotate,titleAlign:n.opts.titleAlign,titlePos:n.opts.titlePos}),s+='<c:autoTitleDeleted val="0"/>'):s+='<c:autoTitleDeleted val="1"/>';"bar3D"==n.opts.type.name&&(s+="<c:view3D>",s+=' <c:rotX val="'+n.opts.v3DRotX+'"/>',s+=' <c:rotY val="'+n.opts.v3DRotY+'"/>',s+=' <c:rAngAx val="'+(0==n.opts.v3DRAngAx?0:1)+'"/>',s+=' <c:perspective val="'+n.opts.v3DPerspective+'"/>',s+="</c:view3D>");s+="<c:plotArea>",n.opts.layout?(s+="<c:layout>",s+=" <c:manualLayout>",s+='  <c:layoutTarget val="inner" />',s+='  <c:xMode val="edge" />',s+='  <c:yMode val="edge" />',s+='  <c:x val="'+(n.opts.layout.x||0)+'" />',s+='  <c:y val="'+(n.opts.layout.y||0)+'" />',s+='  <c:w val="'+(n.opts.layout.w||1)+'" />',s+='  <c:h val="'+(n.opts.layout.h||1)+'" />',s+=" </c:manualLayout>",s+="</c:layout>"):s+="<c:layout/>";var i=!1;if(Array.isArray(n.opts.type))n.opts.type.forEach(function(e){var a=e.type.name,t=e.data,r=_(n.opts,e.options),l=r.secondaryValAxis?S:C,o=r.secondaryCatAxis?L:w;i=i||r.secondaryValAxis,s+=ee(a,t,r,l,o,!0)});else{var e=n.opts.type.name;s+=ee(e,n.data,n.opts,C,w,!1)}if("pie"!==n.opts.type.name&&"doughnut"!==n.opts.type.name){if(n.opts.valAxes&&!i)throw new Error("Secondary axis must be used by one of the multiple charts");if(n.opts.catAxes){if(!n.opts.valAxes||n.opts.valAxes.length!==n.opts.catAxes.length)throw new Error("There must be the same number of value and category axes.");s+=ae(_(n.opts,n.opts.catAxes[0]),w,C),n.opts.catAxes[1]&&(s+=ae(_(n.opts,n.opts.catAxes[1]),L,C))}else s+=ae(n.opts,w,C);n.opts.hasArea=function(e){if(Array.isArray(e))return a="area",e.some(function(e){return e.type.name===a});var a;return"area"===e.name}(n.opts.type),n.opts.valAxes?(s+=te(_(n.opts,n.opts.valAxes[0]),C),n.opts.valAxes[1]&&(s+=te(_(n.opts,n.opts.valAxes[1]),S))):(s+=te(n.opts,C),"bar3D"==n.opts.type.name&&(s+=function(t,e,a){var r="";r+="<c:serAx>",r+='  <c:axId val="'+e+'"/>',r+='  <c:scaling><c:orientation val="'+(t.serAxisOrientation||(t.barDir,"minMax"))+'"/></c:scaling>',r+='  <c:delete val="'+(t.serAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+("col"==t.barDir?"b":"l")+'"/>',r+="none"!==t.serGridLine?$(t.serGridLine,P):"",t.showSerAxisTitle&&(r+=le({color:t.serAxisTitleColor,fontFace:t.serAxisTitleFontFace,fontSize:t.serAxisTitleFontSize,rotate:t.serAxisTitleRotate,title:t.serAxisTitle||"Axis Title"}));r+='  <c:numFmt formatCode="'+(t.serLabelFormatCode||"General")+'" sourceLinked="0"/>',r+='  <c:majorTickMark val="out"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="'+(t.serAxisLabelPos||"col"==t.barDir?"low":"nextTo")+'"/>',r+="  <c:spPr>",r+='    <a:ln w="12700" cap="flat">',r+=0==t.serAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='      <a:prstDash val="solid"/>',r+="      <a:round/>",r+="    </a:ln>",r+="  </c:spPr>",r+="  <c:txPr>",r+="    <a:bodyPr/>",r+="    <a:lstStyle/>",r+="    <a:p>",r+="    <a:pPr>",r+='    <a:defRPr sz="'+(t.serAxisLabelFontSize||v)+'00" b="0" i="0" u="none" strike="noStrike">',r+='      <a:solidFill><a:srgbClr val="'+(t.serAxisLabelColor||y)+'"/></a:solidFill>',r+='      <a:latin typeface="'+(t.serAxisLabelFontFace||"Arial")+'"/>',r+="   </a:defRPr>",r+="  </a:pPr>",r+='  <a:endParaRPr lang="'+(t.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+a+'"/>',r+=' <c:crosses val="autoZero"/>',t.serAxisLabelFrequency&&(r+=' <c:tickLblSkip val="'+t.serAxisLabelFrequency+'"/>');t.serLabelFormatCode&&(["serAxisBaseTimeUnit","serAxisMajorTimeUnit","serAxisMinorTimeUnit"].forEach(function(e,a){!t[e]||"string"==typeof t[e]&&-1!=["days","months","years"].indexOf(e.toLowerCase())||(console.warn("`"+e+"` must be one of: 'days','months','years' !"),t[e]=null)}),t.serAxisBaseTimeUnit&&(r+=' <c:baseTimeUnit  val="'+t.serAxisBaseTimeUnit.toLowerCase()+'"/>'),t.serAxisMajorTimeUnit&&(r+=' <c:majorTimeUnit val="'+t.serAxisMajorTimeUnit.toLowerCase()+'"/>'),t.serAxisMinorTimeUnit&&(r+=' <c:minorTimeUnit val="'+t.serAxisMinorTimeUnit.toLowerCase()+'"/>'),t.serAxisMajorUnit&&(r+=' <c:majorUnit     val="'+t.serAxisMajorUnit+'"/>'),t.serAxisMinorUnit&&(r+=' <c:minorUnit     val="'+t.serAxisMinorUnit+'"/>'));return r+="</c:serAx>"}(n.opts,k,C)))}n.opts.showDataTable&&(s+="<c:dTable>",s+='  <c:showHorzBorder val="'+(0==n.opts.showDataTableHorzBorder?0:1)+'"/>',s+='  <c:showVertBorder val="'+(0==n.opts.showDataTableVertBorder?0:1)+'"/>',s+='  <c:showOutline    val="'+(0==n.opts.showDataTableOutline?0:1)+'"/>',s+='  <c:showKeys       val="'+(0==n.opts.showDataTableKeys?0:1)+'"/>',s+="  <c:spPr>",s+="    <a:noFill/>",s+='    <a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="tx1"><a:lumMod val="15000"/><a:lumOff val="85000"/></a:schemeClr></a:solidFill><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+='  <c:txPr>\t\t\t\t\t          <a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>\t\t\t\t\t          <a:lstStyle/>\t\t\t\t\t          <a:p>\t\t\t\t\t            <a:pPr rtl="0">\t\t\t\t\t              <a:defRPr sz="1197" b="0" i="0" u="none" strike="noStrike" kern="1200" baseline="0">\t\t\t\t\t                <a:solidFill><a:schemeClr val="tx1"><a:lumMod val="65000"/><a:lumOff val="35000"/></a:schemeClr></a:solidFill>\t\t\t\t\t                <a:latin typeface="+mn-lt"/>\t\t\t\t\t                <a:ea typeface="+mn-ea"/>\t\t\t\t\t                <a:cs typeface="+mn-cs"/>\t\t\t\t\t              </a:defRPr>\t\t\t\t\t            </a:pPr>\t\t\t\t\t            <a:endParaRPr lang="en-US"/>\t\t\t\t\t          </a:p>\t\t\t\t\t        </c:txPr>\t\t\t\t\t      </c:dTable>');s+="  <c:spPr>",s+=n.opts.fill?ie(n.opts.fill):"<a:noFill/>",s+=n.opts.border?'<a:ln w="'+n.opts.border.pt*T+'" cap="flat">'+ie(n.opts.border.color)+"</a:ln>":"<a:ln><a:noFill/></a:ln>",s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:plotArea>",n.opts.showLegend&&(s+="<c:legend>",s+='<c:legendPos val="'+n.opts.legendPos+'"/>',s+="<c:layout/>",s+='<c:overlay val="0"/>',(n.opts.legendFontFace||n.opts.legendFontSize||n.opts.legendColor)&&(s+="<c:txPr>",s+="  <a:bodyPr/>",s+="  <a:lstStyle/>",s+="  <a:p>",s+="    <a:pPr>",s+=n.opts.legendFontSize?'<a:defRPr sz="'+100*Number(n.opts.legendFontSize)+'">':"<a:defRPr>",n.opts.legendColor&&(s+=ie(n.opts.legendColor)),n.opts.legendFontFace&&(s+='<a:latin typeface="'+n.opts.legendFontFace+'"/>'),n.opts.legendFontFace&&(s+='<a:cs    typeface="'+n.opts.legendFontFace+'"/>'),s+="      </a:defRPr>",s+="    </a:pPr>",s+='    <a:endParaRPr lang="en-US"/>',s+="  </a:p>",s+="</c:txPr>"),s+="</c:legend>");s+='  <c:plotVisOnly val="1"/>',s+='  <c:dispBlanksAs val="'+n.opts.displayBlanksAs+'"/>',"scatter"===n.opts.type.name&&(s+='<c:showDLblsOverMax val="1"/>');return s+="</c:chart>",s+="<c:spPr>",s+="  <a:noFill/>",s+='  <a:ln w="12700" cap="flat"><a:noFill/><a:miter lim="400000"/></a:ln>',s+="  <a:effectLst/>",s+="</c:spPr>",s+='<c:externalData r:id="rId1"><c:autoUpdate val="0"/></c:externalData>',s+="</c:chartSpace>"}(i)),a()}).catch(function(e){t(e)})})}};function N(t){var r,l,e,a,o,n,s,i,c,p=[],d=0,m=new JSZip;m.folder("_rels"),m.folder("docProps"),m.folder("ppt").folder("_rels"),m.folder("ppt/charts").folder("_rels"),m.folder("ppt/embeddings"),m.folder("ppt/media"),m.folder("ppt/slideLayouts").folder("_rels"),m.folder("ppt/slideMasters").folder("_rels"),m.folder("ppt/slides").folder("_rels"),m.folder("ppt/theme"),m.folder("ppt/notesMasters").folder("_rels"),m.folder("ppt/notesSlides").folder("_rels"),m.file("[Content_Types].xml",(r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,r+='<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">',r+=' <Default Extension="xml" ContentType="application/xml"/>',r+=' <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>',r+=' <Default Extension="jpeg" ContentType="image/jpeg"/>',r+=' <Default Extension="jpg" ContentType="image/jpg"/>',r+=' <Default Extension="png" ContentType="image/png"/>',r+=' <Default Extension="gif" ContentType="image/gif"/>',r+=' <Default Extension="m4v" ContentType="video/mp4"/>',r+=' <Default Extension="mp4" ContentType="video/mp4"/>',R.slides.forEach(function(e,a){e.rels.forEach(function(e,a){"image"!=e.type&&"online"!=e.type&&"chart"!=e.type&&"m4v"!=e.extn&&-1==r.indexOf(e.type)&&(r+=' <Default Extension="'+e.extn+'" ContentType="'+e.type+'"/>')})}),r+=' <Default Extension="vml" ContentType="application/vnd.openxmlformats-officedocument.vmlDrawing"/>',r+=' <Default Extension="xlsx" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>',r+=' <Override PartName="/ppt/presentation.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml"/>',r+=' <Override PartName="/ppt/notesMasters/notesMaster1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml"/>',R.slides.forEach(function(e,a){r+='<Override PartName="/ppt/slideMasters/slideMaster'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml"/>',r+='<Override PartName="/ppt/slides/slide'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>',e.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>')})}),r+=' <Override PartName="/ppt/presProps.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presProps+xml"/>',r+=' <Override PartName="/ppt/viewProps.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml"/>',r+=' <Override PartName="/ppt/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>',r+=' <Override PartName="/ppt/tableStyles.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml"/>',R.slideLayouts.forEach(function(e,a){r+='<Override PartName="/ppt/slideLayouts/slideLayout'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml"/>',e.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>')})}),R.slides.forEach(function(e,a){r+=' <Override PartName="/ppt/notesSlides/notesSlide'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml"/>'}),R.masterSlide.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>'),"image"!=e.type&&"online"!=e.type&&"chart"!=e.type&&"m4v"!=e.extn&&-1==r.indexOf(e.type)&&(r+=' <Default Extension="'+e.extn+'" ContentType="'+e.type+'"/>')}),r+=' <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>',r+=' <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>',r+="</Types>")),m.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="ppt/presentation.xml"/></Relationships>'),m.file("docProps/app.xml",(l='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,l+='<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">',l+="<TotalTime>0</TotalTime>",l+="<Words>0</Words>",l+="<Application>Microsoft Office PowerPoint</Application>",l+="<PresentationFormat>On-screen Show</PresentationFormat>",l+="<Paragraphs>0</Paragraphs>",l+="<Slides>"+R.slides.length+"</Slides>",l+="<Notes>"+R.slides.length+"</Notes>",l+="<HiddenSlides>0</HiddenSlides>",l+="<MMClips>0</MMClips>",l+="<ScaleCrop>false</ScaleCrop>",l+="<HeadingPairs>",l+='  <vt:vector size="4" baseType="variant">',l+="    <vt:variant><vt:lpstr>Theme</vt:lpstr></vt:variant>",l+="    <vt:variant><vt:i4>1</vt:i4></vt:variant>",l+="    <vt:variant><vt:lpstr>Slide Titles</vt:lpstr></vt:variant>",l+="    <vt:variant><vt:i4>"+R.slides.length+"</vt:i4></vt:variant>",l+="  </vt:vector>",l+="</HeadingPairs>",l+="<TitlesOfParts>",l+='<vt:vector size="'+(R.slides.length+1)+'" baseType="lpstr">',l+="<vt:lpstr>Office Theme</vt:lpstr>",R.slides.forEach(function(e,a){l+="<vt:lpstr>Slide "+(a+1)+"</vt:lpstr>"}),l+="</vt:vector>",l+="</TitlesOfParts>",l+="<Company>"+R.company+"</Company>",l+="<LinksUpToDate>false</LinksUpToDate>",l+="<SharedDoc>false</SharedDoc>",l+="<HyperlinksChanged>false</HyperlinksChanged>",l+="<AppVersion>15.0000</AppVersion>",l+="</Properties>")),m.file("docProps/core.xml",(e='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,e+='<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">',e+="<dc:title>"+H(R.title)+"</dc:title>",e+="<dc:subject>"+H(R.subject)+"</dc:subject>",e+="<dc:creator>"+H(R.author)+"</dc:creator>",e+="<cp:lastModifiedBy>"+H(R.author)+"</cp:lastModifiedBy>",e+="<cp:revision>"+R.revision+"</cp:revision>",e+='<dcterms:created xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:created>",e+='<dcterms:modified xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:modified>",e+="</cp:coreProperties>")),m.file("ppt/_rels/presentation.xml.rels",function(){var e=0,a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;a+='<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">',a+='  <Relationship Id="rId1" Target="slideMasters/slideMaster1.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster"/>',e++;for(var t=1;t<=R.slides.length;t++)a+='  <Relationship Id="rId'+ ++e+'" Target="slides/slide'+t+'.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide"/>';return a+='  <Relationship Id="rId'+ ++e+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/presProps" Target="presProps.xml"/>  <Relationship Id="rId'+(e+1)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/viewProps" Target="viewProps.xml"/>  <Relationship Id="rId'+(e+2)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>  <Relationship Id="rId'+(e+3)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/tableStyles" Target="tableStyles.xml"/>  <Relationship Id="rId'+(e+4)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesMaster" Target="notesMasters/notesMaster1.xml"/></Relationships>'}()),m.file("ppt/theme/theme1.xml",(a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,a+='<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme">\t\t\t\t\t\t<a:themeElements>\t\t\t\t\t\t  <a:clrScheme name="Office"><a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1><a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1>\t\t\t\t\t\t  <a:dk2><a:srgbClr val="A7A7A7"/></a:dk2>\t\t\t\t\t\t  <a:lt2><a:srgbClr val="535353"/></a:lt2>\t\t\t\t\t\t  <a:accent1><a:srgbClr val="4F81BD"/></a:accent1><a:accent2><a:srgbClr val="C0504D"/></a:accent2><a:accent3><a:srgbClr val="9BBB59"/></a:accent3><a:accent4><a:srgbClr val="8064A2"/></a:accent4><a:accent5><a:srgbClr val="4BACC6"/></a:accent5>\t\t\t\t\t\t  <a:accent6><a:srgbClr val="F79646"/></a:accent6><a:hlink><a:srgbClr val="0000FF"/></a:hlink><a:folHlink><a:srgbClr val="800080"/></a:folHlink></a:clrScheme>\t\t\t\t\t\t  <a:fontScheme name="Office">\t\t\t\t\t\t  <a:majorFont><a:latin typeface="Arial"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic Light"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian Light"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Times New Roman"/><a:font script="Hebr" typeface="Times New Roman"/><a:font script="Thai" typeface="Angsana New"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="MoolBoran"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Times New Roman"/><a:font script="Uigh" typeface="Microsoft Uighur"/></a:majorFont>\t\t\t\t\t\t  <a:minorFont><a:latin typeface="Arial"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Arial"/><a:font script="Hebr" typeface="Arial"/><a:font script="Thai" typeface="Cordia New"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="DaunPenh"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Arial"/><a:font script="Uigh" typeface="Microsoft Uighur"/>\t\t\t\t\t\t  </a:minorFont></a:fontScheme>\t\t\t\t\t\t  <a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="50000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="35000"><a:schemeClr val="phClr"><a:tint val="37000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:tint val="15000"/><a:satMod val="350000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="1"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:shade val="51000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="80000"><a:schemeClr val="phClr"><a:shade val="93000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="94000"/><a:satMod val="135000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"><a:shade val="95000"/><a:satMod val="105000"/></a:schemeClr></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/>\t\t\t\t\t\t</a:theme>')),m.file("ppt/presentation.xml",function(){var e=0,a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:presentation xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" '+(R.rtlMode?'rtl="1"':"")+' saveSubsetFonts="1" autoCompressPictures="0">';a+='<p:sldMasterIdLst><p:sldMasterId id="2147483648" r:id="rId1"/></p:sldMasterIdLst>',a+="<p:sldIdLst>";for(var t=0;t<R.slides.length;t++)a+='<p:sldId id="'+(t+256)+'" r:id="rId'+(t+2)+'"/>';a+="</p:sldIdLst>",a+='<p:notesMasterIdLst><p:notesMasterId r:id="rId'+(R.slides.length+2+4)+'"/></p:notesMasterIdLst>',a+='<p:sldSz cx="'+R.pptLayout.width+'" cy="'+R.pptLayout.height+'" type="'+R.pptLayout.name+'"/><p:notesSz cx="'+R.pptLayout.height+'" cy="'+R.pptLayout.width+'"/><p:defaultTextStyle>';for(var t=1;t<10;t++)a+="  <a:lvl"+t+'pPr marL="'+e+'" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">    <a:defRPr sz="1800" kern="1200">      <a:solidFill><a:schemeClr val="tx1"/></a:solidFill>      <a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/>    </a:defRPr>  </a:lvl'+t+"pPr>",e+=457200;return a+="</p:defaultTextStyle>",a+="</p:presentation>"}()),m.file("ppt/presProps.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:presentationPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"/>'),m.file("ppt/tableStyles.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<a:tblStyleLst xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" def="{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}"/>'),m.file("ppt/viewProps.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:viewPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"><p:normalViewPr><p:restoredLeft sz="15610" /><p:restoredTop sz="94613" /></p:normalViewPr><p:slideViewPr>  <p:cSldViewPr snapToGrid="0" snapToObjects="1">    <p:cViewPr varScale="1"><p:scale><a:sx n="119" d="100" /><a:sy n="119" d="100" /></p:scale><p:origin x="312" y="184" /></p:cViewPr>    <p:guideLst />  </p:cSldViewPr></p:slideViewPr><p:notesTextViewPr>  <p:cViewPr><p:scale><a:sx n="1" d="1" /><a:sy n="1" d="1" /></p:scale><p:origin x="0" y="0" /></p:cViewPr></p:notesTextViewPr><p:gridSpacing cx="76200" cy="76200" /></p:viewPr>');for(var f=1;f<=R.slideLayouts.length;f++)m.file("ppt/slideLayouts/slideLayout"+f+".xml",me(R.slideLayouts[f-1])),m.file("ppt/slideLayouts/_rels/slideLayout"+f+".xml.rels",(o=f,D.slideObjectRelationsToXml(R.slideLayouts[o-1],[{target:"../slideMasters/slideMaster1.xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster"}])));for(f=0;f<R.slides.length;f++)d++,m.file("ppt/slides/slide"+d+".xml",pe(R.slides[f])),m.file("ppt/slides/_rels/slide"+d+".xml.rels",(n=d,D.slideObjectRelationsToXml(R.slides[n-1],[{target:"../slideLayouts/slideLayout"+function(e){for(var a=R.slides[e-1].layout,t=0;t<R.slideLayouts.length;t++)if(R.slideLayouts[t].name===a)return t+1;return 1}(n)+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"},{target:"../notesSlides/notesSlide"+n+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"}]))),m.file("ppt/notesSlides/notesSlide"+d+".xml",de(R.slides[f])),m.file("ppt/notesSlides/_rels/notesSlide"+d+".xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesMaster" Target="../notesMasters/notesMaster1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="../slides/slide'+d+'.xml"/></Relationships>');m.file("ppt/slideMasters/slideMaster1.xml",(s=R.masterSlide,i=R.slideLayouts.map(function(e,a){return'<p:sldLayoutId id="'+(h+a)+'" r:id="rId'+(s.rels.length+a+1)+'"/>'}),c='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,c+='<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">',c+=D.slideObjectToXml(s),c+='<p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>',c+="<p:sldLayoutIdLst>"+i.join("")+"</p:sldLayoutIdLst>",c+='<p:hf sldNum="0" hdr="0" ftr="0" dt="0"/>',c+='<p:txStyles> <p:titleStyle>  <a:lvl1pPr algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="0"/></a:spcBef><a:buNone/><a:defRPr sz="4400" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mj-lt"/><a:ea typeface="+mj-ea"/><a:cs typeface="+mj-cs"/></a:defRPr></a:lvl1pPr> </p:titleStyle> <p:bodyStyle>  <a:lvl1pPr marL="342900" indent="-342900" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="3200" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl1pPr>  <a:lvl2pPr marL="742950" indent="-285750" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="–"/><a:defRPr sz="2800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl2pPr>  <a:lvl3pPr marL="1143000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2400" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl3pPr>  <a:lvl4pPr marL="1600200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="–"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl4pPr>  <a:lvl5pPr marL="2057400" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="»"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl5pPr>  <a:lvl6pPr marL="2514600" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl6pPr>  <a:lvl7pPr marL="2971800" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl7pPr>  <a:lvl8pPr marL="3429000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl8pPr>  <a:lvl9pPr marL="3886200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl9pPr> </p:bodyStyle> <p:otherStyle>  <a:defPPr><a:defRPr lang="en-US"/></a:defPPr>  <a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl1pPr>  <a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl2pPr>  <a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl3pPr>  <a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl4pPr>  <a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl5pPr>  <a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl6pPr>  <a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl7pPr>  <a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl8pPr>  <a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl9pPr> </p:otherStyle></p:txStyles>',c+="</p:sldMaster>")),m.file("ppt/slideMasters/_rels/slideMaster1.xml.rels",function(e){e.rels.length;var a=R.slideLayouts.map(function(e,a){return{target:"../slideLayouts/slideLayout"+(a+1)+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"}});return a.push({target:"../theme/theme1.xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"}),D.slideObjectRelationsToXml(e,a)}(R.masterSlide)),m.file("ppt/notesMasters/notesMaster1.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:notesMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"><p:cSld><p:bg><p:bgRef idx="1001"><a:schemeClr val="bg1" /></p:bgRef></p:bg><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name="" /><p:cNvGrpSpPr /><p:nvPr /></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="0" cy="0" /><a:chOff x="0" y="0" /><a:chExt cx="0" cy="0" /></a:xfrm></p:grpSpPr><p:sp><p:nvSpPr><p:cNvPr id="2" name="Header Placeholder 1" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="hdr" sz="quarter" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="2971800" cy="458788" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle><a:lvl1pPr algn="l"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="3" name="Date Placeholder 2" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="dt" idx="1" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="3884613" y="0" /><a:ext cx="2971800" cy="458788" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle><a:lvl1pPr algn="r"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:fld id="{5282F153-3F37-0F45-9E97-73ACFA13230C}" type="datetimeFigureOut"><a:rPr lang="en-US" smtClean="0" /><a:t>6/20/18</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="4" name="Slide Image Placeholder 3" /><p:cNvSpPr><a:spLocks noGrp="1" noRot="1" noChangeAspect="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldImg" idx="2" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="685800" y="1143000" /><a:ext cx="5486400" cy="3086100" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom><a:noFill /><a:ln w="12700"><a:solidFill><a:prstClr val="black" /></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr" /><a:lstStyle /><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="5" name="Notes Placeholder 4" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="body" sz="quarter" idx="3" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="685800" y="4400550" /><a:ext cx="5486400" cy="3600450" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle /><a:p><a:pPr lvl="0" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Click to edit Master text styles</a:t></a:r></a:p><a:p><a:pPr lvl="1" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Second level</a:t></a:r></a:p><a:p><a:pPr lvl="2" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Third level</a:t></a:r></a:p><a:p><a:pPr lvl="3" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Fourth level</a:t></a:r></a:p><a:p><a:pPr lvl="4" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Fifth level</a:t></a:r><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="6" name="Footer Placeholder 5" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="ftr" sz="quarter" idx="4" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="8685213" /><a:ext cx="2971800" cy="458787" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="b" /><a:lstStyle><a:lvl1pPr algn="l"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="7" name="Slide Number Placeholder 6" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldNum" sz="quarter" idx="5" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="3884613" y="8685213" /><a:ext cx="2971800" cy="458787" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="b" /><a:lstStyle><a:lvl1pPr algn="r"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:fld id="{CE5E9CC1-C706-0F49-92D6-E571CC5EEA8F}" type="slidenum"><a:rPr lang="en-US" smtClean="0" /><a:t>‹#›</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp></p:spTree><p:extLst><p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}"><p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1024086991" /></p:ext></p:extLst></p:cSld><p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink" /><p:notesStyle><a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl1pPr><a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl2pPr><a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl3pPr><a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl4pPr><a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl5pPr><a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl6pPr><a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl7pPr><a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl8pPr><a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl9pPr></p:notesStyle></p:notesMaster>'),m.file("ppt/notesMasters/_rels/notesMaster1.xml.rels",'<?xml version="1.0" encoding="UTF-8"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="../theme/theme1.xml"/></Relationships>'),R.slideLayouts.forEach(function(e){M(e,m,p)}),R.slides.forEach(function(e){M(e,m,p)}),M(R.masterSlide,m,p),Promise.all(p).then(function(e){var a=-1<R.fileName.toLowerCase().indexOf(".ppt")?R.fileName:R.fileName+R.fileExtn;t&&0<=u.indexOf(t)?m.generateAsync({type:t}).then(R.saveCallback):NODEJS&&!R.isBrowser?R.saveCallback?0==a.indexOf("http")?m.generateAsync({type:"nodebuffer"}).then(function(e){R.saveCallback(e)}):m.generateAsync({type:"nodebuffer"}).then(function(e){fs.writeFile(a,e,function(){R.saveCallback(a)})}):m.generateAsync({type:"nodebuffer"}).then(function(e){fs.writeFile(a,e,function(){})}):m.generateAsync({type:"blob"}).then(function(e){!function(e,a){var t=document.createElement("a");if(document.body.appendChild(t),t.style="display: none",window.navigator.msSaveOrOpenBlob)blobObject=new Blob([a]),jQuery(t).click(function(){window.navigator.msSaveOrOpenBlob(blobObject,e)}),t.click(),document.body.removeChild(t),R.saveCallback&&R.saveCallback(e);else if(window.URL.createObjectURL){var r=new Blob([a],{type:"octet/stream"}),l=window.URL.createObjectURL(r);t.href=l,t.download=e,t.click(),setTimeout(function(){window.URL.revokeObjectURL(l),document.body.removeChild(t)},100),R.saveCallback&&R.saveCallback(e)}R.saveCallback=null}(a,e)})}).catch(function(e){console.error(e)})}function M(e,t,r){e.rels.forEach(function(e){if("chart"==e.type)r.push(D.createExcelWorksheet(e,t));else if("online"!=e.type&&"hyperlink"!=e.type){var a=e.data;-1==a.indexOf(",")&&-1==a.indexOf(";")?a="image/png;base64,"+a:-1==a.indexOf(",")?a="image/png;base64,"+a:-1==a.indexOf(";")&&(a="image/png;"+a),t.file(e.Target.replace("..","ppt"),a.split(",").pop(),{base64:!0})}})}function O(e){var a="";return e<=26?a=f[e]:(a+=f[Math.floor(e/f.length)-1],a+=f[e%f.length]),a}function j(e){var a=e.toString(16);return 1==a.length?"0"+a:a}function z(e,a){var t=i.test(e);t||-1!==E.indexOf(e)||(console.warn('"'+e+'" is not a valid scheme color or hexa RGB! "'+y+'" is used as a fallback. Pass 6-digit RGB or these `pptx.colors` values:\n'+E.join(", ")),e=y);var r=t?"srgbClr":"schemeClr",l=' val="'+e+'"';return a?"<a:"+r+l+">"+a+"</a:"+r+">":"<a:"+r+l+" />"}function Q(e,a,t){if(!Number.isInteger(e))try{console.warn("Integer expected!")}catch(e){}return(j(e)+j(a)+j(t)).toUpperCase()}function G(e){return 100<e?e:("string"==typeof e&&(e=Number(e.replace(/in*/gi,""))),Math.round(F*e))}function U(e,o){var n=0;return e.rels.forEach(function(a){if("online"==a.type||"chart"==a.type||a.data||-1!=o.indexOf(a.path))a.isSvgPng&&a.data&&-1<a.data.toLowerCase().indexOf("image/svg")&&(n++,V(a.data,a),o.push(a.path));else if(NODEJS&&0!=a.path.indexOf("http"))try{var e=fs.readFileSync(a.path);a.data=Buffer.from(e).toString("base64")}catch(e){console.error('ERROR....: Unable to read media: "'+a.path+'"'),console.error("DETAILS..: "+e),a.data=s}else NODEJS&&0==a.path.indexOf("http")?(n++,l=a,https.get(l.path,function(e){var a="";e.setEncoding("binary"),e.on("data",function(e){a+=e}),e.on("end",function(){var e=Buffer.from(a,"binary").toString("base64");V(e,l)}),e.on("error",function(e){reject(e)})})):(n++,t=a,(r=new XMLHttpRequest).onload=function(){var e=new FileReader;e.onloadend=function(){V(e.result,t)},e.readAsDataURL(r.response)},r.onerror=function(e){console.error('Unable to load image: "'+t.path),console.error(e||""),V(s,t)},r.open("GET",t.path),r.responseType="blob",r.send()),o.push(a.path);var t,r,l}),n}function V(a,t){if(t.isSvgPng&&-1<a.indexOf("image/svg"))return t.data=a,void(NODEJS?console.log("SVG is not supported in Node"):(r=t,(e=new Image).onload=function(){if(this.width+this.height!=0){var e=document.createElement("CANVAS"),a=e.getContext("2d");e.width=this.width,e.height=this.height,a.drawImage(this,0,0);try{V(e.toDataURL(r.type),r)}catch(e){return void this.onerror(e)}e=null}else this.onerror("h/w=0")},e.onerror=function(e){console.error(e||""),V(s,r)},e.src=r.data));var r,e,l=0,o=function(e){e.path==t.path&&(e.data=a),e.data||l++};R.slides.forEach(function(e){e.rels.forEach(o)}),R.slideLayouts.forEach(function(e){e.rels.forEach(o)}),R.masterSlide.rels.forEach(o),0==l&&N()}function W(a){if(!a)return gObjPptxShapes.RECTANGLE;if("object"==typeof a&&a.name&&a.displayName&&a.avLst)return a;if(gObjPptxShapes[a])return gObjPptxShapes[a];var e=gObjPptxShapes.filter(function(e){return e.name==a||e.displayName})[0];return void 0!==e&&null!=e?e:gObjPptxShapes.RECTANGLE}function Y(e,a){return"string"!=typeof e||isNaN(Number(e))||(e=Number(e)),"number"==typeof e&&e<100?G(e):"number"==typeof e&&100<=e?e:"string"==typeof e&&-1<e.indexOf("%")?a&&"X"==a?Math.round(parseFloat(e,10)/100*R.pptLayout.width):a&&"Y"==a?Math.round(parseFloat(e,10)/100*R.pptLayout.height):Math.round(parseFloat(e,10)/100*R.pptLayout.width):0}function H(e){return void 0===e||null==e?"":e.toString().replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/\'/g,"&apos;")}function q(e,l){var a=[];"string"!=typeof e&&"number"!=typeof e&&(Array.isArray(e)?a=e:"object"==typeof e&&(a=[e]),a.forEach(function(e,a){if(Array.isArray(e))q(e,l);else if(e&&"object"==typeof e&&e.options&&e.options.hyperlink&&!e.options.hyperlink.rId)if("object"!=typeof e.options.hyperlink)console.log("ERROR: text `hyperlink` option should be an object. Ex: `hyperlink: {url:'https://github.com'}` ");else if(e.options.hyperlink.url||e.options.hyperlink.slide){var t=0;R.slides.forEach(function(e,a){t+=e.rels.length});var r=t+1;l.push({type:"hyperlink",data:e.options.hyperlink.slide?"slide":"dummy",rId:r,Target:e.options.hyperlink.url||e.options.hyperlink.slide}),e.options.hyperlink.rId=r}else console.log("ERROR: 'hyperlink requires either: `url` or `slide`'")}))}function X(e,c){var a,l=b,p=[],d=[],m=[],f=0,h=1*F,A=(c=c||{}).arrObjTabHeadRows||"",r=0;if(c.debug&&console.log("------------------------------------"),c.debug&&console.log("opts.w ............. = "+(c.w||"").toString()),c.debug&&console.log("opts.colW .......... = "+(c.colW||"").toString()),c.debug&&console.log("opts.slideMargin ... = "+(c.slideMargin||"").toString()),c.slideMargin||0==c.slideMargin||(c.slideMargin=b[0]),c.slideMargin||0==c.slideMargin?Array.isArray(c.slideMargin)?l=c.slideMargin:isNaN(c.slideMargin)||(l=[c.slideMargin,c.slideMargin,c.slideMargin,c.slideMargin]):c&&c.master&&c.master.margin&&(Array.isArray(c.master.margin)?l=c.master.margin:isNaN(c.master.margin)||(l=[c.master.margin,c.master.margin,c.master.margin,c.master.margin])),e[0].forEach(function(e,a){e||(e={});var t=e.options||e.opts||null;r+=t&&t.colspan?t.colspan:1}),c.debug&&console.log("arrInchMargins ..... = "+l.toString()),c.debug&&console.log("numCols ............ = "+r),!c.w&&c.colW&&(Array.isArray(c.colW)?c.colW.forEach(function(e,a){c.w+=e}):c.w=c.colW*r),a=c.w?G(c.w):R.pptLayout.width-G((c.x||l[1])+l[3]),c.debug&&console.log("emuSlideTabW (in) ........ = "+(a/F).toFixed(1)),c.debug&&console.log("gObjPptx.pptLayout.h ..... = "+R.pptLayout.height/F),!c.colW||!Array.isArray(c.colW))if(c.colW&&!isNaN(Number(c.colW))){var t=[];e[0].forEach(function(e,a){t.push(c.colW)}),c.colW=[],t.forEach(function(e,a){c.colW.push(e)})}else{c.colW=[];for(var o=0;o<r;o++)c.colW.push(a/F/r)}return e.forEach(function(e,a){var o=[],n=[],s=0,i=0;0<p.length?(h=R.pptLayout.height-G((c.y/F<l[0]?c.y/F:l[0])+l[2]))<c.h&&(h=c.h):h=c.h?c.h:R.pptLayout.height-G((c.y/F||l[0])+l[2]),c.debug&&console.log("* Slide "+p.length+": emuSlideTabH (in) ........ = "+(h/F).toFixed(1)),e.forEach(function(e,a){e||(e={});if(isNaN(e)&&"string"!=typeof e){if("object"==typeof e){"number"==typeof e.text?e.text=e.text.toString():void 0!==e.text&&null!=e.text||(e.text="");var t=e.options||e.opts||{};e.opts=t}}else e={text:e.toString(),opts:c};e.opts.lineWeight=c.lineWeight,m.push({text:"",opts:e.opts});var r=function(e,a){var t=2.2+(e.opts&&e.opts.lineWeight?e.opts.lineWeight:0),r=a*F/((e.opts.fontSize||v)/t),l=[],o="";if(e.text&&""==e.text.trim())return[" "];var n=(e.text||"").toString().trim();return jQuery.each(n.split("\n"),function(e,a){jQuery.each(a.split(" "),function(e,a){o.length+a.length+1<r?o+=a+" ":(o&&l.push(o),o=a+" ")}),o&&l.push(jQuery.trim(o)+g),o=""}),l[l.length-1]=jQuery.trim(l[l.length-1]),l}(e,c.colW[a]/T);o.push(r),r.length>s&&(s=r.length,i=a);var l=G(1.9*(e.opts.fontSize||c.fontSize||v)/100);e.opts&&e.opts.rowspan&&(l=0),e.opts.margin&&(e.opts.margin[0]&&(l+=e.opts.margin[0]*T/s),e.opts.margin[2]&&(l+=e.opts.margin[2]*T/s)),n.push(Math.round(l))});for(var t=0;t<s;t++){for(var r=0;r<o.length;r++)f+n[i]>h&&(c.debug&&console.log("--------------- New Slide Created ---------------"),c.debug&&console.log(" (calc) "+(f/F).toFixed(1)+"+"+(n[i]/F).toFixed(1)+" > "+h/F.toFixed(1)),c.debug&&console.log("--------------- New Slide Created ---------------"),jQuery.each(m,function(e,a){if(0<a.text.length)return d.push(jQuery.extend(!0,[],m)),!1}),p.push(jQuery.extend(!0,[],d)),d.length=0,f=0,jQuery.each(m,function(e,a){a.text=""}),c.addHeaderToEach&&A&&(d=d.concat(A))),o[r][t]&&(m[r].text+=o[r][t]);f+=n[i]}c.debug&&console.log("-> "+a+" row done!"),c.debug&&console.log("-> emuTabCurrH (in) . = "+(f/F).toFixed(1)),m.length&&d.push(jQuery.extend(!0,[],m)),m.length=0}),p.push(jQuery.extend(!0,[],d)),c.debug&&(console.log("arrObjSlides count = "+p.length),console.log(p)),p}function K(e,a,t){if("none"===e)return"<a:effectLst/>";var r="<a:effectLst>",l=_(a,e),o=l.type||"outer",n=l.blur*T,s=l.offset*T,i=6e4*l.angle,c=l.color,p=1e5*l.opacity;return r+="<a:"+o+'Shdw sx="100000" sy="100000" kx="0" ky="0"  algn="bl" blurRad="'+n+'" ',r+='rotWithShape="'+ +(l.rotateWithShape?1:0)+'"',r+=' dist="'+s+'" dir="'+i+'">',r+='<a:srgbClr val="'+c+'">',r+='<a:alpha val="'+p+'"/></a:srgbClr>',r+="</a:"+o+"Shdw>",r+="</a:effectLst>"}function J(e){e&&"none"!==e&&("outer"!=e.type&&"inner"!=e.type&&(console.warn("Warning: shadow.type options are `outer` or `inner`."),e.type="outer"),e.angle&&((isNaN(Number(e.angle))||e.angle<0||359<e.angle)&&(console.warn("Warning: shadow.angle can only be 0-359"),e.angle=270),e.angle=Math.round(Number(e.angle))),e.opacity&&((isNaN(Number(e.opacity))||e.opacity<0||1<e.opacity)&&(console.warn("Warning: shadow.opacity can only be 0-1"),e.opacity=.75),e.opacity=Number(e.opacity)))}function Z(e){e&&"none"!==e&&(void 0!==e.size&&(isNaN(Number(e.size))||e.size<=0)&&(console.warn("Warning: chart.gridLine.size must be greater than 0."),delete e.size),e.style&&["solid","dash","dot"].indexOf(e.style)<0&&(console.warn("Warning: chart.gridLine.style options: `solid`, `dash`, `dot`."),delete e.style))}function $(e,a,t){var r="c:"+(t=t||"major")+"Gridlines";return strXml="<"+r+">",strXml+=" <c:spPr>",strXml+='  <a:ln w="'+Math.round((e.size||a.size)*T)+'" cap="flat">',strXml+='  <a:solidFill><a:srgbClr val="'+(e.color||a.color)+'"/></a:solidFill>',strXml+='   <a:prstDash val="'+(e.style||a.style)+'"/><a:round/>',strXml+="  </a:ln>",strXml+=" </c:spPr>",strXml+="</"+r+">",strXml}function _(e,a,t){for(var r={},l=0;l<=arguments.length;l++){var o=arguments[l];o&&Object.keys(o).forEach(function(e){r[e]=o[e]})}return r}function ee(l,o,n,e,a,t){var s="";switch(l){case"area":case"bar":case"bar3D":case"line":case"radar":s+="<c:"+l+"Chart>","bar"!=l&&"bar3D"!=l||(s+='<c:barDir val="'+n.barDir+'"/>',s+='<c:grouping val="'+n.barGrouping+'"/>'),"radar"==l&&(s+='<c:radarStyle val="'+n.radarStyle+'"/>'),s+='<c:varyColors val="0"/>';var i=-1;o.forEach(function(e){i++;var a=e.index;s+="<c:ser>",s+='  <c:idx val="'+a+'"/>',s+='  <c:order val="'+a+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+O(a+1)+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+H(e.name)+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+='  <c:invertIfNegative val="0"/>';var t=n.chartColors[i%n.chartColors.length];if(s+="  <c:spPr>","transparent"==t?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(t,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(t)+"</a:solidFill>","line"==l?0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(t)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'):n.dataBorder&&(s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>","radar"!=l&&(s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',n.dataLabelBkgrdColors&&(s+="    <c:spPr>",s+="       <a:solidFill>"+z(t)+"</a:solidFill>",s+="    </c:spPr>"),s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","area"!=l&&"bar3D"!=l&&(s+='<c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='    <c:showLeaderLines val="0"/>',s+="  </c:dLbls>"),"line"==l||"radar"==l){s+="<c:marker>",s+='  <c:symbol val="'+n.lineDataSymbol+'"/>',n.lineDataSymbolSize&&(s+='  <c:size val="'+n.lineDataSymbolSize+'"/>'),s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[a+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):a])+"</a:solidFill>";var r=n.lineDataSymbolLineColor||t;s+='    <a:ln w="'+n.lineDataSymbolLineSize+'" cap="flat"><a:solidFill>'+z(r)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:marker>"}"bar"!=l&&"bar3D"!=l||1!==o.length&&!n.valueBarColors||n.chartColors==m||e.values.forEach(function(e,a){var t=e<0?n.invertedColors||m:n.chartColors;s+="  <c:dPt>",s+='    <c:idx val="'+a+'"/>',s+='      <c:invertIfNegative val="'+(n.invertedColors?0:1)+'"/>',s+='    <c:bubble3D val="0"/>',s+="    <c:spPr>",0===n.lineSize?s+="<a:ln><a:noFill/></a:ln>":"bar"===l?(s+="<a:solidFill>",s+='  <a:srgbClr val="'+t[a%t.length]+'"/>',s+="</a:solidFill>"):(s+="<a:ln>",s+="  <a:solidFill>",s+='   <a:srgbClr val="'+t[a%t.length]+'"/>',s+="  </a:solidFill>",s+="</a:ln>"),s+=K(n.shadow,p),s+="    </c:spPr>",s+="  </c:dPt>"}),s+="<c:cat>",n.catLabelFormatCode?(s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(e.labels.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>"+n.catLabelFormatCode+"</c:formatCode>",s+='      <c:ptCount val="'+e.labels.length+'"/>',e.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>"):(s+="  <c:strRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(e.labels.length+1)+"</c:f>",s+="    <c:strCache>",s+='\t     <c:ptCount val="'+e.labels.length+'"/>',e.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:strCache>",s+="  </c:strRef>"),s+="</c:cat>",s+="  <c:val>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$"+O(a+1)+"$2:$"+O(a+1)+"$"+(e.labels.length+1)+"</c:f>",s+="      <c:numCache>",s+="        <c:formatCode>General</c:formatCode>",s+='\t       <c:ptCount val="'+e.labels.length+'"/>',e.values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:val>","line"==l&&(s+='<c:smooth val="'+(n.lineSmooth?"1":"0")+'"/>'),s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="'+(n.dataLabelFontBold?1:0)+'" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","area"==n.type.name||"radar"==n.type.name||t||(s+='<c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='    <c:showLeaderLines val="0"/>',s+="  </c:dLbls>","bar"==l?(s+='  <c:gapWidth val="'+n.barGapWidthPct+'"/>',s+='  <c:overlap val="'+(-1<n.barGrouping.indexOf("tacked")?100:0)+'"/>'):"bar3D"==l?(s+='  <c:gapWidth val="'+n.barGapWidthPct+'"/>',s+='  <c:gapDepth val="'+n.barGapDepthPct+'"/>',s+='  <c:shape val="'+n.bar3DShape+'"/>'):"line"==l&&(s+='  <c:marker val="1"/>'),s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+='  <c:axId val="'+k+'"/>',s+="</c:"+l+"Chart>";break;case"scatter":s+="<c:"+l+"Chart>",s+='<c:scatterStyle val="lineMarker"/>',s+='<c:varyColors val="0"/>';i=-1;o.filter(function(e,a){return 0<a}).forEach(function(t,e){i++,s+="<c:ser>",s+='  <c:idx val="'+e+'"/>',s+='  <c:order val="'+e+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+f[e+1]+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+t.name+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="  <c:spPr>";var a=n.chartColors[i%n.chartColors.length];"transparent"==a?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(a,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(a)+"</a:solidFill>",0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(a)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>",s+="<c:marker>",s+='  <c:symbol val="'+n.lineDataSymbol+'"/>',n.lineDataSymbolSize&&(s+='  <c:size val="'+n.lineDataSymbolSize+'"/>'),s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[e+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):e])+"</a:solidFill>";var r=n.lineDataSymbolLineColor||a;if(s+='    <a:ln w="'+n.lineDataSymbolLineSize+'" cap="flat"><a:solidFill>'+z(r)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:marker>",n.showLabel){var l=getUuid("-xxxx-xxxx-xxxx-xxxxxxxxxxxx");!t.labels||"custom"!=n.dataLabelFormatScatter&&"customXY"!=n.dataLabelFormatScatter||(s+="<c:dLbls>",t.labels.forEach(function(e,a){"custom"!=n.dataLabelFormatScatter&&"customXY"!=n.dataLabelFormatScatter||(s+="  <c:dLbl>",s+='    <c:idx val="'+a+'"/>',s+="    <c:tx>",s+="      <c:rich>",s+="\t\t\t<a:bodyPr>",s+="\t\t\t\t<a:spAutoFit/>",s+="\t\t\t</a:bodyPr>",s+="        \t<a:lstStyle/>",s+="        \t<a:p>",s+="\t\t\t\t<a:pPr>",s+="\t\t\t\t\t<a:defRPr/>",s+="\t\t\t\t</a:pPr>",s+="          \t<a:r>",s+='            \t\t<a:rPr lang="'+(n.lang||"en-US")+'" dirty="0"/>',s+="            \t\t<a:t>"+H(e)+"</a:t>",s+="          \t</a:r>","customXY"!=n.dataLabelFormatScatter||/^ *$/.test(e)||(s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t> (</a:t>",s+="          \t</a:r>",s+='          \t<a:fld id="{'+getUuid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")+'}" type="XVALUE">',s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0"/>',s+="          \t\t<a:pPr>",s+="          \t\t\t<a:defRPr/>",s+="          \t\t</a:pPr>",s+="          \t\t<a:t>["+H(t.name)+"</a:t>",s+="          \t</a:fld>",s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t>, </a:t>",s+="          \t</a:r>",s+='          \t<a:fld id="{'+getUuid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")+'}" type="YVALUE">',s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0"/>',s+="          \t\t<a:pPr>",s+="          \t\t\t<a:defRPr/>",s+="          \t\t</a:pPr>",s+="          \t\t<a:t>["+H(t.name)+"]</a:t>",s+="          \t</a:fld>",s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t>)</a:t>",s+="          \t</a:r>",s+='          \t<a:endParaRPr lang="'+(n.lang||"en-US")+'" dirty="0"/>'),s+="        \t</a:p>",s+="      </c:rich>",s+="    </c:tx>",s+="    <c:spPr>",s+="    \t<a:noFill/>",s+="    \t<a:ln>",s+="    \t\t<a:noFill/>",s+="    \t</a:ln>",s+="    \t<a:effectLst/>",s+="    </c:spPr>",s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="0"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='\t  <c:showLeaderLines val="1"/>',s+="    <c:extLst>",s+='      <c:ext uri="{CE6537A1-D6FC-4f65-9D91-7224C49458BB}" xmlns:c15="http://schemas.microsoft.com/office/drawing/2012/chart">',s+="\t\t\t<c15:dlblFieldTable/>",s+='\t\t\t<c15:showDataLabelsRange val="0"/>',s+="\t\t</c:ext>",s+='      <c:ext uri="{C3380CC4-5D6E-409C-BE32-E72D297353CC}" xmlns:c16="http://schemas.microsoft.com/office/drawing/2014/chart">',s+='\t\t\t<c16:uniqueId val="{'+"00000000".substring(0,8-(a+1).toString().length).toString()+(a+1)+l+'}"/>',s+="      </c:ext>",s+="\t\t</c:extLst>",s+="</c:dLbl>")}),s+="</c:dLbls>"),"XY"==n.dataLabelFormatScatter&&(s+="<c:dLbls>",s+="\t<c:spPr>",s+="\t\t<a:noFill/>",s+="\t\t<a:ln>",s+="\t\t\t<a:noFill/>",s+="\t\t</a:ln>",s+="\t  \t<a:effectLst/>",s+="\t</c:spPr>",s+="\t<c:txPr>",s+="\t\t<a:bodyPr>",s+="\t\t\t<a:spAutoFit/>",s+="\t\t</a:bodyPr>",s+="\t\t<a:lstStyle/>",s+="\t\t<a:p>",s+="\t    \t<a:pPr>",s+="        \t\t<a:defRPr/>",s+="\t    \t</a:pPr>",s+='\t    \t<a:endParaRPr lang="en-US"/>',s+="\t\t</a:p>",s+="\t</c:txPr>",s+='\t<c:showLegendKey val="0"/>',s+=(n.showLabel,"1"),s+=(n.showLabel,"1"),s+='\t<c:showSerName val="0"/>',s+='\t<c:showPercent val="0"/>',s+='\t<c:showBubbleSize val="0"/>',s+="\t<c:extLst>",s+='\t\t<c:ext uri="{CE6537A1-D6FC-4f65-9D91-7224C49458BB}" xmlns:c15="http://schemas.microsoft.com/office/drawing/2012/chart">',s+='\t\t\t<c15:showLeaderLines val="1"/>',s+="\t\t</c:ext>",s+="\t</c:extLst>",s+="</c:dLbls>")}1!==o.length&&!n.valueBarColors||n.chartColors==m||t.values.forEach(function(e,a){var t=e<0?n.invertedColors||m:n.chartColors;s+="  <c:dPt>",s+='    <c:idx val="'+a+'"/>',s+='      <c:invertIfNegative val="'+(n.invertedColors?0:1)+'"/>',s+='    <c:bubble3D val="0"/>',s+="    <c:spPr>",0===n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+="<a:solidFill>",s+=' <a:srgbClr val="'+t[a%t.length]+'"/>',s+="</a:solidFill>"),s+=K(n.shadow,p),s+="    </c:spPr>",s+="  </c:dPt>"}),s+="<c:xVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:xVal>",s+="<c:yVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$"+O(e+1)+"$2:$"+O(e+1)+"$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(t.values[a]||0==t.values[a]?t.values[a]:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:yVal>",s+='<c:smooth val="'+(n.lineSmooth?"1":"0")+'"/>',s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>",s+='    <c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>',s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbls>",s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+="</c:"+l+"Chart>";break;case"bubble":s+="<c:"+l+"Chart>",s+='<c:varyColors val="0"/>';i=-1;var r=1;o.filter(function(e,a){return 0<a}).forEach(function(t,e){i++,s+="<c:ser>",s+='  <c:idx val="'+e+'"/>',s+='  <c:order val="'+e+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+f[r]+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+t.name+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="<c:spPr>";var a=n.chartColors[i%n.chartColors.length];"transparent"==a?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(a,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(a)+"</a:solidFill>",0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":n.dataBorder?s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>':(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(a)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="</c:spPr>",s+="<c:xVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:xVal>",s+="<c:yVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$"+O(r)+"$2:$"+O(r)+"$"+(o[0].values.length+1)+"</c:f>",r++,s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(t.values[a]||0==t.values[a]?t.values[a]:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:yVal>",s+="  <c:bubbleSize>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$"+O(r)+"$2:$"+O(e+2)+"$"+(t.sizes.length+1)+"</c:f>",r++,s+="      <c:numCache>",s+="        <c:formatCode>General</c:formatCode>",s+='\t       <c:ptCount val="'+t.sizes.length+'"/>',t.sizes.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:bubbleSize>",s+='  <c:bubble3D val="0"/>',s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>",s+='    <c:dLblPos val="ctr"/>',s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbls>",s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+="</c:"+l+"Chart>";break;case"pie":case"doughnut":var c=o[0];s+="<c:"+l+"Chart>",s+='  <c:varyColors val="0"/>',s+="<c:ser>",s+='  <c:idx val="0"/>',s+='  <c:order val="0"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$B$1</c:f>",s+="      <c:strCache>",s+='        <c:ptCount val="1"/>',s+='        <c:pt idx="0"><c:v>'+H(c.name)+"</c:v></c:pt>",s+="      </c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="  <c:spPr>",s+='    <a:solidFill><a:schemeClr val="accent1"/></a:solidFill>',s+='    <a:ln w="9525" cap="flat"><a:solidFill><a:srgbClr val="F9F9F9"/></a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',n.dataNoEffects?s+="<a:effectLst/>":s+=K(n.shadow,p),s+="  </c:spPr>",s+='<c:explosion val="0"/>',c.labels.forEach(function(e,a){s+="<c:dPt>",s+='  <c:idx val="'+a+'"/>',s+='  <c:explosion val="0"/>',s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[a+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):a])+"</a:solidFill>",n.dataBorder&&(s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>",s+="</c:dPt>"}),s+="<c:dLbls>",c.labels.forEach(function(e,a){s+="<c:dLbl>",s+='  <c:idx val="'+a+'"/>',s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/><a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="'+(n.dataLabelFontBold?1:0)+'" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","pie"==l&&(s+='    <c:dLblPos val="'+(n.dataLabelPosition||"inEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="'+(n.showLabel?"1":"0")+'"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="'+(n.showPercent?"1":"0")+'"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbl>"}),s+='<c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>\t\t            <c:txPr>\t\t              <a:bodyPr/>\t\t              <a:lstStyle/>\t\t              <a:p>\t\t                <a:pPr>\t\t                  <a:defRPr b="0" i="0" strike="noStrike" sz="1800" u="none">\t\t                    <a:solidFill><a:srgbClr val="000000"/></a:solidFill><a:latin typeface="Arial"/>\t\t                  </a:defRPr>\t\t                </a:pPr>\t\t              </a:p>\t\t            </c:txPr>\t\t            '+("pie"==l?'<c:dLblPos val="ctr"/>':"")+'\t\t            <c:showLegendKey val="0"/>\t\t            <c:showVal val="0"/>\t\t            <c:showCatName val="1"/>\t\t            <c:showSerName val="0"/>\t\t            <c:showPercent val="1"/>\t\t            <c:showBubbleSize val="0"/>\t\t            <c:showLeaderLines val="0"/>',s+="</c:dLbls>",s+="<c:cat>",s+="  <c:strRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(c.labels.length+1)+"</c:f>",s+="    <c:strCache>",s+='\t     <c:ptCount val="'+c.labels.length+'"/>',c.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:strCache>",s+="  </c:strRef>",s+="</c:cat>",s+="  <c:val>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$B$2:$B$"+(c.labels.length+1)+"</c:f>",s+="      <c:numCache>",s+='\t       <c:ptCount val="'+c.labels.length+'"/>',c.values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:val>",s+="  </c:ser>",s+='  <c:firstSliceAng val="0"/>',"doughnut"==l&&(s+='  <c:holeSize val="'+(n.holeSize||50)+'"/>'),s+="</c:"+l+"Chart>"}return s}function ae(t,e,a){var r="";return"scatter"==t.type.name||"bubble"==t.type.name?r+="<c:valAx>":r+="<c:"+(t.catLabelFormatCode?"dateAx":"catAx")+">",r+='  <c:axId val="'+e+'"/>',r+="  <c:scaling>",r+='<c:orientation val="'+(t.catAxisOrientation||(t.barDir,"minMax"))+'"/>',(t.catAxisMaxVal||0==t.catAxisMaxVal)&&(r+='<c:max val="'+t.catAxisMaxVal+'"/>'),(t.catAxisMinVal||0==t.catAxisMinVal)&&(r+='<c:min val="'+t.catAxisMinVal+'"/>'),r+="</c:scaling>",r+='  <c:delete val="'+(t.catAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+("col"==t.barDir?"b":"l")+'"/>',r+="none"!==t.catGridLine?$(t.catGridLine,P):"",t.showCatAxisTitle&&(r+=le({color:t.catAxisTitleColor,fontFace:t.catAxisTitleFontFace,fontSize:t.catAxisTitleFontSize,rotate:t.catAxisTitleRotate,title:t.catAxisTitle||"Axis Title"})),"scatter"==t.type.name||"bubble"==t.type.name?r+='  <c:numFmt formatCode="'+(t.valAxisLabelFormatCode?t.valAxisLabelFormatCode:"General")+'" sourceLinked="0"/>':r+='  <c:numFmt formatCode="'+(t.catLabelFormatCode||"General")+'" sourceLinked="0"/>',"scatter"===t.type.name?(r+='  <c:majorTickMark val="none"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="nextTo"/>'):(r+='  <c:majorTickMark val="out"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="'+(t.catAxisLabelPos||"col"==t.barDir?"low":"nextTo")+'"/>'),r+="  <c:spPr>",r+='    <a:ln w="12700" cap="flat">',r+=0==t.catAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='      <a:prstDash val="solid"/>',r+="      <a:round/>",r+="    </a:ln>",r+="  </c:spPr>",r+="  <c:txPr>",r+="    <a:bodyPr "+(t.catAxisLabelRotate?'rot="'+re(t.catAxisLabelRotate)+'"':"")+"/>",r+="    <a:lstStyle/>",r+="    <a:p>",r+="    <a:pPr>",r+='    <a:defRPr sz="'+(t.catAxisLabelFontSize||v)+'00" b="'+(t.catAxisLabelFontBold?1:0)+'" i="0" u="none" strike="noStrike">',r+='      <a:solidFill><a:srgbClr val="'+(t.catAxisLabelColor||y)+'"/></a:solidFill>',r+='      <a:latin typeface="'+(t.catAxisLabelFontFace||"Arial")+'"/>',r+="   </a:defRPr>",r+="  </a:pPr>",r+='  <a:endParaRPr lang="'+(t.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+a+'"/>',r+=" <c:"+("number"==typeof t.valAxisCrossesAt?"crossesAt":"crosses")+' val="'+t.valAxisCrossesAt+'"/>',r+=' <c:auto val="1"/>',r+=' <c:lblAlgn val="ctr"/>',r+=' <c:noMultiLvlLbl val="1"/>',t.catAxisLabelFrequency&&(r+=' <c:tickLblSkip val="'+t.catAxisLabelFrequency+'"/>'),t.catLabelFormatCode&&(["catAxisBaseTimeUnit","catAxisMajorTimeUnit","catAxisMinorTimeUnit"].forEach(function(e,a){!t[e]||"string"==typeof t[e]&&-1!=["days","months","years"].indexOf(e.toLowerCase())||(console.warn("`"+e+"` must be one of: 'days','months','years' !"),t[e]=null)}),t.catAxisBaseTimeUnit&&(r+=' <c:baseTimeUnit  val="'+t.catAxisBaseTimeUnit.toLowerCase()+'"/>'),t.catAxisMajorTimeUnit&&(r+=' <c:majorTimeUnit val="'+t.catAxisMajorTimeUnit.toLowerCase()+'"/>'),t.catAxisMinorTimeUnit&&(r+=' <c:minorTimeUnit val="'+t.catAxisMinorTimeUnit.toLowerCase()+'"/>'),t.catAxisMajorUnit&&(r+=' <c:majorUnit     val="'+t.catAxisMajorUnit+'"/>'),t.catAxisMinorUnit&&(r+=' <c:minorUnit     val="'+t.catAxisMinorUnit+'"/>')),"scatter"==t.type.name||"bubble"==t.type.name?r+="</c:valAx>":r+="</c:"+(t.catLabelFormatCode?"dateAx":"catAx")+">",r}function te(e,a){var t=a===C?"col"==e.barDir?"l":"b":"col"==e.barDir?"r":"t",r="",l="r"===t||"t"===t?"max":"autoZero",o=a===C?w:L;return r+="<c:valAx>",r+='  <c:axId val="'+a+'"/>',r+="  <c:scaling>",r+='    <c:orientation val="'+(e.valAxisOrientation||(e.barDir,"minMax"))+'"/>',(e.valAxisMaxVal||0==e.valAxisMaxVal)&&(r+='<c:max val="'+e.valAxisMaxVal+'"/>'),(e.valAxisMinVal||0==e.valAxisMinVal)&&(r+='<c:min val="'+e.valAxisMinVal+'"/>'),r+="  </c:scaling>",r+='  <c:delete val="'+(e.valAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+t+'"/>',"none"!=e.valGridLine&&(r+=$(e.valGridLine,P)),e.showValAxisTitle&&(r+=le({color:e.valAxisTitleColor,fontFace:e.valAxisTitleFontFace,fontSize:e.valAxisTitleFontSize,rotate:e.valAxisTitleRotate,title:e.valAxisTitle||"Axis Title"})),r+=' <c:numFmt formatCode="'+(e.valAxisLabelFormatCode?e.valAxisLabelFormatCode:"General")+'" sourceLinked="0"/>',"scatter"===e.type.name?(r+='  <c:majorTickMark val="none"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="nextTo"/>'):(r+=' <c:majorTickMark val="out"/>',r+=' <c:minorTickMark val="none"/>',r+=' <c:tickLblPos val="'+(e.catAxisLabelPos||"col"==e.barDir?"nextTo":"low")+'"/>'),r+=" <c:spPr>",r+='   <a:ln w="12700" cap="flat">',r+=0==e.valAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='     <a:prstDash val="solid"/>',r+="     <a:round/>",r+="   </a:ln>",r+=" </c:spPr>",r+=" <c:txPr>",r+="  <a:bodyPr "+(e.valAxisLabelRotate?'rot="'+re(e.valAxisLabelRotate)+'"':"")+"/>",r+="  <a:lstStyle/>",r+="  <a:p>",r+="    <a:pPr>",r+='      <a:defRPr sz="'+(e.valAxisLabelFontSize||v)+'00" b="'+(e.valAxisLabelFontBold?1:0)+'" i="0" u="none" strike="noStrike">',r+='        <a:solidFill><a:srgbClr val="'+(e.valAxisLabelColor||y)+'"/></a:solidFill>',r+='        <a:latin typeface="'+(e.valAxisLabelFontFace||"Arial")+'"/>',r+="      </a:defRPr>",r+="    </a:pPr>",r+='  <a:endParaRPr lang="'+(e.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+o+'"/>',r+=' <c:crosses val="'+l+'"/>',r+=' <c:crossBetween val="'+("scatter"===e.type.name||e.hasArea?"midCat":"between")+'"/>',e.valAxisMajorUnit&&(r+=' <c:majorUnit val="'+e.valAxisMajorUnit+'"/>'),r+="</c:valAx>"}function re(e){return 6e4*(360<(e=e||0)?e-360:e)}function le(e){var a="left"==e.titleAlign?"l":"right"==e.titleAlign&&"r",t="";t+="<c:title>",t+=" <c:tx>",t+="  <c:rich>",e.rotate?t+='  <a:bodyPr rot="'+re(e.rotate)+'"/>':t+="  <a:bodyPr/>",t+="  <a:lstStyle/>",t+="  <a:p>",t+=a?'<a:pPr algn="'+a+'">':"<a:pPr>";var r="";return e.fontSize&&(r='sz="'+Math.round(e.fontSize)+'00"'),t+="      <a:defRPr "+r+' b="0" i="0" u="none" strike="noStrike">',t+='        <a:solidFill><a:srgbClr val="'+(e.color||y)+'"/></a:solidFill>',t+='        <a:latin typeface="'+(e.fontFace||"Arial")+'"/>',t+="      </a:defRPr>",t+="    </a:pPr>",t+="    <a:r>",t+="      <a:rPr "+r+' b="0" i="0" u="none" strike="noStrike">',t+='        <a:solidFill><a:srgbClr val="'+(e.color||y)+'"/></a:solidFill>',t+='        <a:latin typeface="'+(e.fontFace||"Arial")+'"/>',t+="      </a:rPr>",t+="      <a:t>"+(H(e.title)||"")+"</a:t>",t+="    </a:r>",t+="  </a:p>",t+="  </c:rich>",t+=" </c:tx>",e.titlePos&&e.titlePos.x&&e.titlePos.y?(t+="<c:layout>",t+="  <c:manualLayout>",t+='    <c:xMode val="edge"/>',t+='    <c:yMode val="edge"/>',t+='    <c:x val="'+e.titlePos.x+'"/>',t+='    <c:y val="'+e.titlePos.y+'"/>',t+="  </c:manualLayout>",t+="</c:layout>"):t+=" <c:layout/>",t+=' <c:overlay val="0"/>',t+="</c:title>"}function oe(r){if(!r.options.isTableCell&&(void 0===r.text||null==r.text))return"";r.options||(r.options={});var l=[],e=r.options.isTableCell?"<a:txBody>":"<p:txBody>",a=r.options.isTableCell?"</a:txBody>":"</p:txBody>",o=e;return"string"!=typeof r.text&&"number"!=typeof r.text||(r.text=[{text:r.text.toString(),options:r.options||{}}]),Array.isArray(r.text)&&r.text.forEach(function(t,e){t.options=t.options||r.options||{},0==e&&t.options&&!t.options.bullet&&r.options.bullet&&(t.options.bullet=r.options.bullet),"string"!=typeof t.text&&"number"!=typeof t.text||(t.text=t.text.toString().replace(/\r*\n/g,g),-1<t.text.indexOf(g)&&(t.options.breakLine=!0)),0<t.text.split(g).length?t.text.toString().split(g).forEach(function(e,a){e+=!t.options.breakLine||t.options.bullet||t.options.align?"":g,l.push({text:e,options:t.options})}):l.push(t)}),o+=function(e){var a="<a:bodyPr";e&&e.bodyProp?(e.bodyProp.wrap?a+=' wrap="'+e.bodyProp.wrap+'" rtlCol="0"':a+=' wrap="square" rtlCol="0"',e.bodyProp.anchor&&(a+=' anchor="'+e.bodyProp.anchor+'"'),e.bodyProp.vert&&(a+=' vert="'+e.bodyProp.vert+'"'),(e.bodyProp.bIns||0==e.bodyProp.bIns)&&(a+=' bIns="'+e.bodyProp.bIns+'"'),(e.bodyProp.lIns||0==e.bodyProp.lIns)&&(a+=' lIns="'+e.bodyProp.lIns+'"'),(e.bodyProp.rIns||0==e.bodyProp.rIns)&&(a+=' rIns="'+e.bodyProp.rIns+'"'),(e.bodyProp.tIns||0==e.bodyProp.tIns)&&(a+=' tIns="'+e.bodyProp.tIns+'"'),a+=">",e.shrinkText&&(a+='<a:normAutofit fontScale="85000" lnSpcReduction="20000" />'),a+=!1!==e.bodyProp.autoFit?"<a:spAutoFit/>":""):a+=' wrap="square" rtlCol="0">',a+="</a:bodyPr>";return e.isTableCell?"<a:bodyPr/>":a}(r.options),0==r.options.h&&r.options.line&&r.options.align?o+='<a:lstStyle><a:lvl1pPr algn="l"/></a:lstStyle>':"placeholder"===r.type?(o+="<a:lstStyle>",o+=ne(r,!0),o+="</a:lstStyle>"):o+="<a:lstStyle/>",l.forEach(function(t,e){t.options.rtlMode,strXmlBullet="",strXmlParaSpc="",t.options.lineIdx=e,t.options.align=t.options.align||r.options.align,t.options.lineSpacing=t.options.lineSpacing||r.options.lineSpacing,t.options.indentLevel=t.options.indentLevel||r.options.indentLevel,t.options.paraSpaceBefore=t.options.paraSpaceBefore||r.options.paraSpaceBefore,t.options.paraSpaceAfter=t.options.paraSpaceAfter||r.options.paraSpaceAfter,t.options.lineIdx=e;var a=ne(t,!1);0==e?o+="<a:p>"+a:0<e&&(void 0!==t.options.bullet||void 0!==t.options.align)&&(o+="</a:p><a:p>"+a),jQuery.each(r.options,function(e,a){"bullet"==e||t.options[e]||(t.options[e]=a)}),o+=function(e,a){var t,r="",l=se(e,!1);if(1<(t=a.split(g)).length){for(var o="",n=0,s=t.length;n<s;n++)o+="<a:r>"+l+"<a:t>"+H(t[n]),n+1<s&&(o+=(e.breakLine?g:"")+"</a:t></a:r>");r=o}else e.align&&e.lineIdx,r="<a:r>"+l+"<a:t>"+H(a);return r+"</a:t></a:r>"}(t.options,t.text)}),r.options.isTableCell&&(r.options.fontSize||r.options.fontFace)?(o+='<a:endParaRPr lang="'+(r.options.lang?r.options.lang:"en-US")+'" '+(r.options.fontSize?' sz="'+Math.round(r.options.fontSize)+'00"':"")+' dirty="0">',r.options.fontFace&&(o+='  <a:latin typeface="'+r.options.fontFace+'" charset="0" />',o+='  <a:ea    typeface="'+r.options.fontFace+'" charset="0" />',o+='  <a:cs    typeface="'+r.options.fontFace+'" charset="0" />'),o+="</a:endParaRPr>"):o+='<a:endParaRPr lang="'+(r.options.lang||"en-US")+'" dirty="0"/>',o+="</a:p>",o+=a}function ne(e,a){var t="",r="",l="",o=342900,n=a?"a:lvl1pPr":"a:pPr",s="<"+n+(e.options.rtlMode?' rtl="1" ':"");if(e.options.align)switch(e.options.align){case"l":case"left":s+=' algn="l"';break;case"r":case"right":s+=' algn="r"';break;case"c":case"ctr":case"center":s+=' algn="ctr"';break;case"justify":s+=' algn="just"'}if(e.options.lineSpacing&&(r='<a:lnSpc><a:spcPts val="'+e.options.lineSpacing+'00"/></a:lnSpc>'),e.options.indentLevel&&!isNaN(Number(e.options.indentLevel))&&0<e.options.indentLevel&&(s+=' lvl="'+e.options.indentLevel+'"'),e.options.paraSpaceBefore&&!isNaN(Number(e.options.paraSpaceBefore))&&0<e.options.paraSpaceBefore&&(l+='<a:spcBef><a:spcPts val="'+100*e.options.paraSpaceBefore+'"/></a:spcBef>'),e.options.paraSpaceAfter&&!isNaN(Number(e.options.paraSpaceAfter))&&0<e.options.paraSpaceAfter&&(l+='<a:spcAft><a:spcPts val="'+100*e.options.paraSpaceAfter+'"/></a:spcAft>'),paraPropXmlCore=s,"object"==typeof e.options.bullet){if(e.options.bullet.type)"number"==e.options.bullet.type.toString().toLowerCase()&&(s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buFont typeface="+mj-lt"/><a:buAutoNum type="arabicPeriod"/>');else if(e.options.bullet.code){var i="&#x"+e.options.bullet.code+";";0==/^[0-9A-Fa-f]{4}$/.test(e.options.bullet.code)&&(console.warn("Warning: `bullet.code should be a 4-digit hex code (ex: 22AB)`!"),i=c.DEFAULT),s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buChar char="'+i+'"/>'}}else 1==e.options.bullet?(s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buChar char="'+c.DEFAULT+'"/>'):t="<a:buNone/>";return s+=">"+r+l+t,a&&(s+=se(e.options,!0)),s+="</"+n+">"}function se(e,a){var t="",r=a?"a:defRPr":"a:rPr";return t+="<"+r+' lang="'+(e.lang?e.lang:"en-US")+'" '+(e.lang?' altLang="en-US"':""),t+=e.bold?' b="1"':"",t+=e.fontSize?' sz="'+Math.round(e.fontSize)+'00"':"",t+=e.italic?' i="1"':"",t+=e.strike?' strike="sngStrike"':"",t+=e.underline||e.hyperlink?' u="sng"':"",t+=e.subscript?' baseline="-40000"':e.superscript?' baseline="30000"':"",t+=e.charSpacing?' spc="'+100*e.charSpacing+'" kern="0"':"",t+=' dirty="0" smtClean="0">',(e.color||e.fontFace||e.outline)&&(e.outline&&"object"==typeof e.outline&&(t+='<a:ln w="'+Math.round((e.outline.size||.75)*T)+'">'+ie(e.outline.color||"FFFFFF")+"</a:ln>"),e.color&&(t+=ie(e.color)),e.fontFace&&(t+='<a:latin typeface="'+e.fontFace+'" pitchFamily="34" charset="0" /><a:ea typeface="'+e.fontFace+'" pitchFamily="34" charset="-122" /><a:cs typeface="'+e.fontFace+'" pitchFamily="34" charset="-120" />')),e.hyperlink&&("object"!=typeof e.hyperlink?console.log("ERROR: text `hyperlink` option should be an object. Ex: `hyperlink:{url:'https://github.com'}` "):e.hyperlink.url||e.hyperlink.slide?e.hyperlink.url?t+='<a:hlinkClick r:id="rId'+e.hyperlink.rId+'" invalidUrl="" action="" tgtFrame="" tooltip="'+(e.hyperlink.tooltip?H(e.hyperlink.tooltip):"")+'" history="1" highlightClick="0" endSnd="0" />':e.hyperlink.slide&&(t+='<a:hlinkClick r:id="rId'+e.hyperlink.rId+'" action="ppaction://hlinksldjump" tooltip="'+(e.hyperlink.tooltip?H(e.hyperlink.tooltip):"")+'" />'):console.log("ERROR: 'hyperlink requires either `url` or `slide`'")),t+="</"+r+">"}function ie(e,a){var t,r="solid",l="",o="";if(a&&"string"==typeof a&&(o+="<p:bg><p:bgPr>",o+=ie(a.replace("#",""),!1),o+="<a:effectLst/>",o+="</p:bgPr></p:bg>"),e)switch("string"==typeof e?t=e:(e.type&&(r=e.type),e.color&&(t=e.color),e.alpha&&(l+='<a:alpha val="'+(100-e.alpha)+'000"/>')),r){case"solid":o+="<a:solidFill>"+z(t,l)+"</a:solidFill>"}return o}function ce(e){var a="";if(e){var t=e.options&&e.options.placeholderIdx?e.options.placeholderIdx:"",r=e.options&&e.options.placeholderType?e.options.placeholderType:"";a+="<p:ph"+(t?' idx="'+t+'"':"")+(r&&l[r]?' type="'+l[r].name+'"':"")+(e.text&&0<e.text.length?' hasCustomPrompt="1"':"")+"/>"}return a}function pe(e){var a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return a+='<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"'+(e.slide.hidden?' show="0"':"")+">",a+=D.slideObjectToXml(e),a+="<p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>",a+="</p:sld>"}function de(e){var a,t='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return t+='<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">',t+='<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name="" /><p:cNvGrpSpPr /><p:nvPr /></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="0" cy="0" /><a:chOff x="0" y="0" /><a:chExt cx="0" cy="0" /></a:xfrm></p:grpSpPr><p:sp><p:nvSpPr><p:cNvPr id="2" name="Slide Image Placeholder 1" /><p:cNvSpPr><a:spLocks noGrp="1" noRot="1" noChangeAspect="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldImg" /></p:nvPr></p:nvSpPr><p:spPr /></p:sp><p:sp><p:nvSpPr><p:cNvPr id="3" name="Notes Placeholder 2" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="body" idx="1" /></p:nvPr></p:nvSpPr><p:spPr /><p:txBody><a:bodyPr /><a:lstStyle /><a:p><a:r><a:rPr lang="en-US" dirty="0" smtClean="0" /><a:t>'+H((a="",e.data.forEach(function(e){"notes"===e.type&&(a+=e.text)}),a.replace(/\r*\n/g,g)))+'</a:t></a:r><a:endParaRPr lang="en-US" dirty="0" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="4" name="Slide Number Placeholder 3" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldNum" sz="quarter" idx="10" /></p:nvPr></p:nvSpPr><p:spPr /><p:txBody><a:bodyPr /><a:lstStyle /><a:p><a:fld id="'+r+'" type="slidenum"><a:rPr lang="en-US" smtClean="0" /><a:t>'+e.numb+'</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp></p:spTree><p:extLst><p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}"><p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1024086991" /></p:ext></p:extLst></p:cSld><p:clrMapOvr><a:masterClrMapping /></p:clrMapOvr></p:notes>'}function me(e){var a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return a+='<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" preserve="1">',a+=D.slideObjectToXml(e),a+="<p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>",a+="</p:sldLayout>"}this.version="2.5.0.20190208",this.inch2Emu=G,this.rgbToHex=Q,this.getLayout=function(){return R.pptLayout},this.setRTL=function(e){"boolean"==typeof e&&(R.rtlMode=e)},this.setLayout=function(e){if("object"==typeof e&&e.width&&e.height)a.LAYOUT_USER.width=Math.round(Number(e.width)*F),a.LAYOUT_USER.height=Math.round(Number(e.height)*F),R.pptLayout=a.LAYOUT_USER;else if(-1<Object.keys(a).indexOf(e))R.pptLayout=a[e];else try{console.warn("UNKNOWN LAYOUT! Valid values = "+Object.keys(a))}catch(e){}},this.setTitle=function(e){R.title=e||"PptxGenJS Presentation"},this.setBrowser=function(e){R.isBrowser=e||!1},this.setAuthor=function(e){R.author=e||"PptxGenJS"},this.setRevision=function(e){R.revision=e||"1",R.revision=R.revision.replace(/[\.\,\-]+/gi,""),isNaN(R.revision)&&(R.revision="1")},this.setSubject=function(e){R.subject=e||"PptxGenJS Presentation"},this.setCompany=function(e){R.company=e||"PptxGenJS"},this.save=function(e,a,t){var r=0,l=[];R.slides.forEach(function(e,a){var t;e.layoutObj&&(t=e).layoutObj.data.forEach(function(a){a.type===o.placeholder.name&&0==t.data.filter(function(e){return e.options&&e.options.placeholder==a.options.placeholderName}).length&&D.addTextDefinition("",{placeholder:a.options.placeholderName},t,!1)})}),a&&(R.saveCallback=a),e&&(R.fileName=e),R.slides.forEach(function(e,a){r+=U(e,l)}),R.slideLayouts.forEach(function(e,a){r+=U(e,l)}),0==(r+=U(R.masterSlide,l))&&N(t)},this.addNewSlide=function i(c){var e={},h=R.slides.length,a=h+1,p=R.slideLayouts.filter(function(e){return e.name==c})[0];return R.slides[h]={slide:e,name:"Slide "+a,numb:a,data:[],rels:[],slideNumberObj:null,layout:c||"[ default ]",layoutObj:p},e.getPageNumber=function(){return a},e.slideNumber=function(e){if(!e||"object"!=typeof e)return R.slides[h].slideNumberObj;R.slides[h].slideNumberObj=e,R.masterSlide.slideNumberObj||(R.masterSlide.slideNumberObj=e),R.slideLayouts[0].slideNumberObj||(R.slideLayouts[0].slideNumberObj=e)},e.addChart=function(e,a,t){return D.addChartDefinition(e,a,t,R.slides[h]),this},e.addImage=function(e){return D.addImageDefinition(e,R.slides[h]),this},e.addMedia=function(e){var a,t=1,r=++R.imageCounter,l=e.x||0,o=e.y||0,n=e.w||2,s=e.h||2,i=e.data||"",c=e.link||"",p=e.path||"",d=e.type||"audio";if(!p&&!i&&"online"!=d)return console.error("ERROR: `addMedia()` requires either 'data' or 'path' values!"),null;if(i&&-1==i.toLowerCase().indexOf("base64,"))return console.error("ERROR: Media `data` value lacks a base64 header! Ex: 'video/mpeg;base64,NMP[...]')"),null;if("online"==d&&!c)return console.error("addMedia() error: online videos require `link` value"),null;var m=R.slides[h].data.length,f=R.slides[h].rels;return d=i?i.split(";")[0].split("/")[0]:d,a=i?i.split(";")[0].split("/")[1]:p.split(".").pop(),R.slides[h].data[m]={},R.slides[h].data[m].type="media",R.slides[h].data[m].mtype=d,R.slides[h].data[m].media=p||"preencoded.mov",R.slides[h].data[m].options={},R.slides[h].data[m].options.x=l,R.slides[h].data[m].options.y=o,R.slides[h].data[m].options.cx=n,R.slides[h].data[m].options.cy=s,R.slides.forEach(function(e){t+=e.rels.length}),"online"==d?(f.push({path:p||"preencoded"+a,data:"dummy",type:"online",extn:a,rId:t+1,Target:c}),R.slides[h].data[m].mediaRid=f[f.length-1].rId,f.push({path:"preencoded.png",data:A,type:"image/png",extn:"png",rId:t+2,Target:"../media/image"+t+".png"})):(f.push({path:p||"preencoded"+a,type:d+"/"+a,extn:a,data:i||"",rId:t+0,Target:"../media/media"+r+"."+a}),R.slides[h].data[m].mediaRid=f[f.length-1].rId,f.push({path:p||"preencoded"+a,type:d+"/"+a,extn:a,data:i||"",rId:t+1,Target:"../media/media"+r+"."+a}),f.push({data:A,path:"preencoded.png",type:"image/png",extn:"png",rId:t+2,Target:"../media/image"+r+".png"})),this},e.addNotes=function(e,a){return D.addNotesDefinition(e,a,R.slides[h]),this},e.addShape=function(e,a){return D.addShapeDefinition(e,a,R.slides[h]),this},e.addTable=function(e,a){var r=a&&"object"==typeof a?a:{};if(null==e||0==e.length||!Array.isArray(e)){try{console.warn("[warn] addTable: Array expected! USAGE: slide.addTable( [rows], {options} );")}catch(e){}return null}var t=e;Array.isArray(t[0])||(t=[e]),r.x=Y(r.x||(0==r.x?0:F/2),"X"),r.y=Y(r.y||(0==r.y?0:F),"Y"),r.cy=r.h||r.cy,r.cy&&(r.cy=Y(r.cy,"Y")),r.h=r.cy,r.autoPage=0!=r.autoPage,r.fontSize=r.fontSize||v,r.lineWeight=void 0===r.lineWeight||isNaN(Number(r.lineWeight))?0:Number(r.lineWeight),r.margin=0==r.margin||r.margin?r.margin:I,isNaN(r.margin)||(r.margin=[Number(r.margin),Number(r.margin),Number(r.margin),Number(r.margin)]),1<r.lineWeight?r.lineWeight=1:r.lineWeight<-1&&(r.lineWeight=-1),r.color||(r.color=r.color||this.color||y);var l=b;if(p&&void 0!==p.margin&&(Array.isArray(p.margin)?l=p.margin:isNaN(Number(p.margin))||(l=[Number(p.margin),Number(p.margin),Number(p.margin),Number(p.margin)])),r.w||r.cx)r.cx=Y(r.w||r.cx,"X"),r.w=r.cx;else if(r.colW){if("string"==typeof r.colW||"number"==typeof r.colW)r.cx=Math.floor(Number(r.colW)*t[0].length),r.w=r.cx;else if(r.colW&&Array.isArray(r.colW)&&r.colW.length!=t[0].length){console.warn("addTable: colW.length != data.length! Defaulting to evenly distributed col widths.");var o=Math.floor((R.pptLayout.width/F-l[1]-l[3])/t[0].length);r.colW=[];for(var n=0;n<t[0].length;n++)r.colW.push(o);r.cx=Math.floor(o*t[0].length),r.w=r.cx}}else{var s=R.pptLayout.width/F-l[1]-l[3];r.cx=Math.floor(s),r.w=r.cx}return r.x<20&&(r.x=G(r.x)),r.y<20&&(r.y=G(r.y)),r.cx<20&&(r.cx=G(r.cx)),r.cy&&r.cy<20&&(r.cy=G(r.cy)),t.forEach(function(e,a){e.forEach(function(e,a){e&&e.text&&Array.isArray(e.text)&&(r.autoPage=!1)})}),q(t,R.slides[h].rels),r&&0==r.autoPage?R.slides[h].data[R.slides[h].data.length]={type:"table",arrTabRows:t,options:jQuery.extend(!0,{},r)}:X(t,r).forEach(function(e,a){var t=R.slides[h+a]?R.slides[h+a].slide:i(c);0<a&&(r.y=G(r.newPageStartY||l[0])),r.autoPage=!1,t.addTable(e,jQuery.extend(!0,{},r))}),this},e.addText=function(e,a){return D.addTextDefinition(e,a,R.slides[h],!1),this},p&&p.slideNumberObj&&!e.slideNumber()&&(R.slides[h].slideNumberObj=p.slideNumberObj),e},this.defineSlideMaster=function(e){if(!e.title)throw Error("defineSlideMaster() object argument requires a `title` value.");var a={name:e.title,slide:{},data:[],rels:[],margin:e.margin||b,slideNumberObj:e.slideNumber||null};return D.createSlideObject(e,a),R.slideLayouts.push(a),a.slideNumberObj&&!R.masterSlide.slideNumberObj&&(R.masterSlide.slideNumberObj=a.slideNumberObj),this},this.addSlidesForTable=function(o,e){var r=this,l=e||{},n=[],s=[],i=[],c=[],p=[],d=0;if(0!=jQuery("#"+o).length){var m=[.5,.5,.5,.5];if(l.margin=l.margin||0==l.margin?l.margin:.5,l.master&&"string"==typeof l.master){var a=R.slideLayouts.filter(function(e){return e.name==l.master})[0];a&&a.margin&&(Array.isArray(a.margin)?m=a.margin:isNaN(a.margin)||(m=[a.margin,a.margin,a.margin,a.margin]),l.margin=m)}else l&&l.margin&&(Array.isArray(l.margin)?m=l.margin:isNaN(l.margin)||(m=[l.margin,l.margin,l.margin,l.margin]));var f=l.w?G(l.w):R.pptLayout.width-G(m[1]+m[3]);l.h?G(l.h):(R.pptLayout.height,G(m[0]+m[2]));jQuery.each(["thead","tbody","tfoot"],function(e,a){if(0<jQuery("#"+o+" > "+a+" > tr").length)return jQuery("#"+o+" > "+a+" > tr:first-child").find("> th, > td").each(function(e,a){if(jQuery(this).attr("colspan"))for(var t=0;t<jQuery(this).attr("colspan");t++)p.push(Math.round(jQuery(this).outerWidth()/jQuery(this).attr("colspan")));else p.push(jQuery(this).outerWidth())}),!1}),jQuery.each(p,function(e,a){d+=a}),jQuery.each(p,function(e,a){var t=Number((f*(a/d*100)/100/F).toFixed(2)),r=jQuery("#"+o+" thead tr:first-child th:nth-child("+(e+1)+")").data("pptx-min-width"),l=jQuery("#"+o+" thead tr:first-child th:nth-child("+(e+1)+")").data("pptx-width");c.push(l||(t<r?r:t))}),jQuery.each(["thead","tbody","tfoot"],function(e,t){jQuery("#"+o+" > "+t+" > tr").each(function(e,a){var l=[];switch(jQuery(a).find("> th, > td").each(function(e,o){var a,t=[];a=jQuery(o).css("color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(","),t=jQuery(o).css("background-color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(","),"rgba(0, 0, 0, 0)"!=jQuery(o).css("background-color")&&"transparent"!=jQuery(o).css("background-color")||(t=[255,255,255]);var n={fontSize:jQuery(o).css("font-size").replace(/[a-z]/gi,""),bold:"bold"==jQuery(o).css("font-weight")||500<=Number(jQuery(o).css("font-weight")),color:Q(Number(a[0]),Number(a[1]),Number(a[2])),fill:Q(Number(t[0]),Number(t[1]),Number(t[2]))};-1<["left","center","right","start","end"].indexOf(jQuery(o).css("text-align"))&&(n.align=jQuery(o).css("text-align").replace("start","left").replace("end","right")),-1<["top","middle","bottom"].indexOf(jQuery(o).css("vertical-align"))&&(n.valign=jQuery(o).css("vertical-align")),jQuery(o).css("padding-left")&&(n.margin=[],jQuery.each(["padding-top","padding-right","padding-bottom","padding-left"],function(e,a){n.margin.push(Math.round(jQuery(o).css(a).replace(/\D/gi,"")))})),jQuery(o).attr("colspan")&&(n.colspan=jQuery(o).attr("colspan")),jQuery(o).attr("rowspan")&&(n.rowspan=jQuery(o).attr("rowspan")),(jQuery(o).css("border-top-width")||jQuery(o).css("border-right-width")||jQuery(o).css("border-bottom-width")||jQuery(o).css("border-left-width"))&&(n.border=[],jQuery.each(["top","right","bottom","left"],function(e,a){var t,r=Math.round(Number(jQuery(o).css("border-"+a+"-width").replace("px","")));t=jQuery(o).css("border-"+a+"-color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(",");var l=Q(Number(t[0]),Number(t[1]),Number(t[2]));n.border.push({pt:r,color:l})}));var r=jQuery(o).clone();r.html(jQuery(o).html().replace(/<br[^>]*>/gi,"\n")),l.push({text:jQuery.trim(r.text()),opts:n})}),t){case"thead":n.push(l);break;case"tbody":s.push(l);break;case"tfoot":i.push(l)}})}),l.margin&&(l.slideMargin=l.margin,delete l.margin),l.arrObjTabHeadRows=n||"",l.colW=c,X(n.concat(s).concat(i),l).forEach(function(e,a){var t=l.master?r.addNewSlide(l.master):r.addNewSlide();0==a&&(l.y=l.y||m[0]),0<a&&(l.y=l.newPageStartY||m[0]),l.debug&&console.log("opts.newPageStartY:"+l.newPageStartY+" / arrInchMargins[0]:"+m[0]+" => opts.y = "+l.y),t.addTable(e,{x:l.x||m[3],y:l.y,w:f/F,colW:c,autoPage:!1}),l.addImage&&t.addImage({path:l.addImage.url,x:l.addImage.x,y:l.addImage.y,w:l.addImage.w,h:l.addImage.h}),l.addShape&&t.addShape(l.addShape.shape,l.addShape.opts||l.addShape.options||{}),l.addTable&&t.addTable(l.addTable.rows,l.addTable.opts||l.addTable.options||{}),l.addText&&t.addText(l.addText.text,l.addText.opts||l.addText.options||{})})}else console.error('Table "'+o+'" does not exist!')}};function getUuid(e){return e.replace(/[xy]/g,function(e){var a=16*Math.random()|0;return("x"==e?a:3&a|8).toString(16)})}if(NODEJS){var jQuery=null,fs=null,JSZip=null,sizeOf=null;try{var jsdom=__webpack_require__(/*! jsdom */ 4),dom=new jsdom.JSDOM("<!DOCTYPE html>");jQuery=__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")(dom.window)}catch(e){throw console.error("Unable to load `jquery`!\n"+e),"LIB-MISSING-JQUERY"}try{fs=__webpack_require__(/*! fs */ 3)}catch(e){throw console.error("Unable to load `fs`"),"LIB-MISSING-FS"}try{https=__webpack_require__(/*! https */ 5)}catch(e){throw console.error("Unable to load `https`"),"LIB-MISSING-HTTPS"}try{JSZip=__webpack_require__(/*! jszip */ "./node_modules/jszip/lib/index.js")}catch(e){throw console.error("Unable to load `jszip`"),"LIB-MISSING-JSZIP"}try{sizeOf=__webpack_require__(/*! image-size */ 8)}catch(e){throw console.error("Unable to load `image-size`"),"LIB-MISSING-IMGSIZE"}module.exports=PptxGenJS}else if(APPJS){try{jQuery=__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")}catch(e){throw console.error("Unable to load `jquery`!\n"+e),"LIB-MISSING-JQUERY"}try{JSZip=__webpack_require__(/*! jszip */ "./node_modules/jszip/lib/index.js")}catch(e){throw console.error("Unable to load `jszip`"),"LIB-MISSING-JSZIP"}module.exports=PptxGenJS}
+Number.isInteger=Number.isInteger||function(e){return"number"==typeof e&&isFinite(e)&&Math.floor(e)===e};var NODEJS=!1,APPJS=!1;if( true&&module.exports&&"function"=="function"&&"undefined"==typeof window)try{/*require.resolve*/(/*! fs */ 4),NODEJS=!0}catch(e){NODEJS=!1}else true&&module.exports&&"function"=="function"&&"undefined"!=typeof window&&(APPJS=!0);if(NODEJS||APPJS)var gObjPptxColors=__webpack_require__(/*! ../dist/pptxgen.colors.js */ "./node_modules/pptxgenjs/dist/pptxgen.colors.js"),gObjPptxShapes=__webpack_require__(/*! ../dist/pptxgen.shapes.js */ "./node_modules/pptxgenjs/dist/pptxgen.shapes.js");var PptxGenJS=function(){var o={chart:{name:"chart"},image:{name:"image"},line:{name:"line"},rect:{name:"rect"},text:{name:"text"},placeholder:{name:"placeholder"}},a={LAYOUT_4x3:{name:"screen4x3",width:9144e3,height:6858e3},LAYOUT_16x9:{name:"screen16x9",width:9144e3,height:5143500},LAYOUT_16x10:{name:"screen16x10",width:9144e3,height:5715e3},LAYOUT_WIDE:{name:"custom",width:12192e3,height:6858e3},LAYOUT_USER:{name:"custom",width:12192e3,height:6858e3}},l={title:{name:"title"},body:{name:"body"},image:{name:"pic"},chart:{name:"chart"},table:{name:"tbl"},media:{name:"media"}},c={DEFAULT:"&#x2022;",CHECK:"&#x2713;",STAR:"&#x2605;",TRIANGLE:"&#x25B6;"},n={AREA:{displayName:"Area Chart",name:"area"},BAR:{displayName:"Bar Chart",name:"bar"},BAR3D:{displayName:"3D Bar Chart",name:"bar3D"},BUBBLE:{displayName:"Bubble Chart",name:"bubble"},DOUGHNUT:{displayName:"Doughnut Chart",name:"doughnut"},LINE:{displayName:"Line Chart",name:"line"},PIE:{displayName:"Pie Chart",name:"pie"},RADAR:{displayName:"Radar Chart",name:"radar"},SCATTER:{displayName:"Scatter Chart",name:"scatter"}},d=["5DA5DA","FAA43A","60BD68","F17CB0","B2912F","B276B2","DECF3F","F15854","A7A7A7","5DA5DA","FAA43A","60BD68","F17CB0","B2912F","B276B2","DECF3F","F15854","A7A7A7"],m=["C0504D","4F81BD","9BBB59","8064A2","4BACC6","F79646","628FC6","C86360","C0504D","4F81BD","9BBB59","8064A2","4BACC6","F79646","628FC6","C86360"],s="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB3CAYAAAD1oOVhAAAGAUlEQVR4Xu2dT0xcRRzHf7tAYSsc0EBSIq2xEg8mtTGebVzEqOVIolz0siRE4gGTStqKwdpWsXoyGhMuyAVJOHBgqyvLNgonDkabeCBYW/8kTUr0wsJC+Wfm0bfuvn37Znbem9mR9303mJnf/Pb7ed95M7PDI5JIJPYJV5EC7e3t1N/fT62trdqViQCIu+bVgpIHEo/Hqbe3V/sdYVKHyWSSZmZm8ilVA0oeyNjYmEnaVC2Xvr6+qg5fAOJAz4DU1dURGzFSqZRVqtMpAFIGyMjICC0vL9PExIRWKADiAYTNshYWFrRCARAOEFZcCKWtrY0GBgaUTYkBRACIE4rKZwqACALR5RQAqQCIDqcASIVAVDsFQCSAqHQKgEgCUeUUAPEBRIVTAMQnEBvK5OQkbW9vk991CoAEAMQJxc86BUACAhKUUwAkQCBBOAVAAgbi1ykAogCIH6cAiCIgsk4BEIVAZJwCIIqBVLqiBxANQFgXS0tLND4+zl08AogmIG5OSSQS1gGKwgtANAIRcQqAaAbCe6YASBWA2E6xDyeyDUl7+AKQMkDYYevm5mZHabA/Li4uUiaTsYLau8QA4gLE/hU7wajyYtv1hReDAiAOxQcHBymbzark4BkbQKom/X8dp9Npmpqasn4BIAYAYSnYp+4BBEAMUcCwNOCQsAKZnp62NtQOw8WmwT09PUo+ijaHsOMx7GppaaH6+nolH0Z10K2tLVpdXbW6UfV3mNqBdHd3U1NTk2rtlMRfW1uj2dlZAFGirkRQAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAFGprkRsAJEQTWUTAGHqrm8caPzQ0WC1logbeiC7X3xJm0PvUmRzh45cuki1588FAmVn9BO6P3yF9utrqGH0MtW82S8UN9RA9v/4k7InjhcJFTs/TLVXLwmJV67S7vD7tHF5pKi46fYdosdOcOOGG8j1OcqefbFEJD9Q3GCwDhqT31HklS4A8VRgfYM2Op6k3bt/BQJl58J7lPvwg5JYNccepaMry0LPqFA7hCm39+NNyp2J0172b19QysGINj5CsRtpij57musOViH0QPJQXn6J9u7dlYJSFkbrMYolrwvDAJAC+WWdEpQz7FTgECeUCpzi6YxvvqXoM6eEhqnCSgDikEzUKUE7Aw7xuHctKB5OYU3dZlNR9syQdAaAcAYTC0pXF+39c09o2Ik+3EqxVKqiB7hbYAxZkk4pbBaEM+AQofv+wTrFwylBOQNABIGwavdfe4O2pg5elO+86l99nY58/VUF0byrYsjiSFluNlXYrOHcBar7+EogUADEQ0YRGHbzoKAASBkg2+9cpM1rV0tK2QOcXW7bLEFAARAXIF4w2DrDWoeUWaf4hQIgDiA8GPZ2iNfi0Q8UACkAIgrDbrJ385eDxaPLLrEsFAB5oG6lMPJQPLZZZKAACBGVhcG2Q+bmuLu2nk55e4jqPv1IeEoceiBeX7s2zCa5MAqdstl91vfXwaEGsv/rb5TtOFk6tWXOuJGh6KmnhO9sayrMninPx103JBtXblHkice58cINZP4Hyr5wpkgkdiChEmc4FWazLzenNKa/p0jncwDiqcD6BuWePk07t1asatZGoYQzSqA4nFJ7soNiP/+EUyfc25GI2GG53dHPrKo1g/1Cw4pIXLrzO+1c+/wg7tBbFDle/EbQcjFCPWQJCau5EoBoFpzXHYDwFNJcDiCaBed1ByA8hTSXA4hmwXndAQhPIc3lAKJZcF53AMJTSHM5gGgWnNcdgPAU0lwOIJoF53UHIDyFNJcfSiCdnZ0Ui8U0SxlMd7lcjubn561gh+Y1scFIU/0o/3sgeLO12E2k7UXKYumgFoAYdg8ACIAYpoBh6cAhAGKYAoalA4cAiGEKGJYOHAIghilgWDpwCIAYpoBh6cAhAGKYAoalA4cAiGEKGJYOHAIghilgWDpwCIAYpoBh6ZQ4JB6PKzviYthnNy4d9h+1M5mMlVckkUjsG5dhiBMCEMPg/wuOfrZZ/RSywQAAAABJRU5ErkJggg==",A="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAHCCAYAAAAXY63IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAFRdJREFUeNrs3WFz2lbagOEnkiVLxsYQsP//z9uZZmMswJIlS3k/tPb23U3TOAUM6Lpm8qkzbXM4A7p1dI4+/etf//oWAAAAB3ARETGdTo0EAACwV1VVRWIYAACAQxEgAACAAAEAAAQIAACAAAEAAAQIAACAAAEAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAAAAAECAAAgQAAAAAECAAAgQAAAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAIAAAQAAECAAAIAAAQAAECAAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAECAAAgAABAAAECAAAgAABAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAACAAAEAABAgAACAAAEAABAgAACAAAEAAAQIAACAAAEAAAQIAACAAAEAAAQIAAAgQAAAAPbnwhAA8CuGYYiXl5fv/7hcXESSuMcFgAAB4G90XRffvn2L5+fniIho2zYiIvq+j77vf+nfmaZppGkaERF5nkdExOXlZXz69CmyLDPoAAIEgDFo2zaen5/j5eUl+r6Pruv28t/5c7y8Bs1ms3n751mWRZqmcXFxEZeXl2+RAoAAAeBEDcMQbdu+/dlXbPyKruve/n9ewyTLssjz/O2PR7oABAgAR67v+2iaJpqmeVt5OBWvUbLdbiPi90e3iqKIoijeHucCQIAAcATRsd1uo2maX96zcYxeV26qqoo0TaMoiphMJmIEQIAAcGjDMERd11HX9VE9WrXvyNput5FlWZRlGWVZekwLQIAAsE+vjyjVdT3qMei6LqqqirIsYzKZOFkLQIAAsEt1XcfT09PJ7es4xLjUdR15nsfV1VWUZWlQAAQIAP/kAnu9Xp/V3o59eN0vsl6v4+bmRogACBAAhMf+9X0fq9VKiAAIEAB+RtM0UVWV8NhhiEyn0yiKwqAACBAAXr1uqrbHY/ch8vDwEHmex3Q6tVkdQIAAjNswDLHZbN5evsd+tG0bX758iclkEtfX147vBRAgAOPTNE08Pj7GMAwG40BejzC+vb31WBaAAAEYh9f9CR63+hjDMLw9ljWfz62GAOyZb1mAD9Q0TXz58kV8HIG2beO3336LpmkMBsAeWQEB+ADDMERVVaN+g/mxfi4PDw9RlmVMp1OrIQACBOD0dV0XDw8PjtY9YnVdR9u2MZ/PnZQFsGNu7QAc+ML269ev4uME9H0fX79+tUoFsGNWQAAOZLVauZg9McMwxGq1iufn55jNZgYEQIAAnMZF7MPDg43mJ6yu6+j73ilZADvgWxRgj7qui69fv4qPM9C2rcfnAAQIwPHHR9d1BuOMPtMvX774TAEECMBxxoe3mp+fYRiEJYAAATgeryddiY/zjxAvLQQQIAAfHh+r1Up8jCRCHh4enGwGIEAAPkbTNLFarQzEyKxWKyshAAIE4LC6rovHx0cDMVKPj4/2hAAIEIDDxYc9H+NmYzqAAAEQH4gQAAECcF4XnI+Pj+IDcwJAgADs38PDg7vd/I+u6+Lh4cFAAAgQgN1ZrVbRtq2B4LvatnUiGoAAAdiNuq69+wHzBECAAOxf13VRVZWB4KdUVeUxPQABAvBrXt98bYMx5gyAAAHYu6qqou97A8G79H1v1QxAgAC8T9M0nufnl9V1HU3TGAgAAQLw9/q+j8fHx5P6f86yLMqy9OEdEe8HARAgAD9ltVqd3IXjp0+fYjabxWKxiDzPfYhH4HU/CIAAAeAvNU1z0u/7yPM8FotFzGazSBJf+R+tbVuPYgECxBAAfN8wDCf36NVfKcsy7u7u4vr62gf7wTyKBQgQAL5rs9mc1YVikiRxc3MT9/f3URSFD/gDw3az2RgIQIAA8B9d18V2uz3Lv1uapjGfz2OxWESWZT7sD7Ddbr2gEBAgAPzHGN7bkOd5LJfLmE6n9oeYYwACBOCjnPrG8/eaTCZxd3cXk8nEh39ANqQDAgSAiBjnnekkSWI6ncb9/b1je801AAECcCh1XUff96P9+6dpGovFIhaLRaRpakLsWd/3Ude1gQAECMBYrddrgxC/7w+5v7+P6+tr+0PMOQABArAPY1/9+J6bm5u4u7uLsiwNxp5YBQEECMBIuRP9Fz8USRKz2SyWy6X9IeYegAAB2AWrH38vy7JYLBYxn8/tD9kxqyCAAAEYmaenJ4Pwk4qiiOVyaX+IOQggQAB+Rdd1o3rvx05+PJIkbm5uYrlc2h+yI23bejs6IEAAxmC73RqEX5Smacxms1gsFpFlmQExFwEECMCPDMPg2fsdyPM8lstlzGYzj2X9A3VdxzAMBgIQIADnfMHH7pRlGXd3d3F9fW0wzEkAAQLgYu8APyx/7A+5v7+PoigMiDkJIEAAIn4/+tSm3/1J0zTm83ksFgvH9r5D13WOhAYECMA5suH3MPI8j/v7+5hOp/aHmJsAAgQYr6ZpDMIBTSaTuLu7i8lkYjDMTUCAAIxL3/cec/mIH50kiel0Gvf395HnuQExPwEBAjAO7jB/rDRNY7FYxHw+tz/EHAUECICLOw6jKIq4v7+P6+tr+0PMUUCAAJynYRiibVsDcURubm7i7u4uyrI0GH9o29ZLCQEBAnAuF3Yc4Q9SksRsNovlcml/iLkKCBAAF3UcRpZlsVgsYjabjX5/iLkKnKMLQwC4qOMYlWUZl5eXsd1u4+npaZSPI5mrwDmyAgKMjrefn9CPVJLEzc1NLJfLUe4PMVcBAQJw4txRPk1pmsZsNovFYhFZlpmzAAIE4DQ8Pz8bhBOW53ksl8uYzWajObbXnAXOjT0gwKi8vLwYhDPw5/0hm83GnAU4IVZAgFHp+94gnMsP2B/7Q+7v78/62F5zFhAgACfMpt7zk6ZpLBaLWCwWZ3lsrzkLCBAAF3IcoTzP4/7+PqbT6dntDzF3AQECcIK+fftmEEZgMpnE3d1dTCYTcxdAgAB8HKcJjejHLUliOp3Gcrk8i/0h5i4gQADgBGRZFovFIubz+VnuDwE4RY7hBUbDC93GqyiKKIoi1ut1PD09xTAM5i7AB7ECAsBo3NzcxN3dXZRlaTAABAjAfnmfAhG/7w+ZzWaxWCxOZn+IuQsIEAABwonL8zwWi0XMZrOj3x9i7gLnxB4QAEatLMu4vLyM7XZ7kvtDAE6NFRAA/BgmSdzc3MRyuYyiKAwIgAAB+Gfc1eZnpGka8/k8FotFZFlmDgMIEIBf8/LyYhD4aXmex3K5jNlsFkmSmMMAO2QPCAD8hT/vD9lsNgYEYAesgADAj34o/9gfcn9/fzLH9gIIEAAAgPAIFgD80DAMsdlsYrvdGgwAAQIA+/O698MJVAACBOB9X3YXvu74eW3bRlVV0XWdOQwgQADe71iOUuW49X0fVVVF0zTmMIAAAYD9GIbBUbsAAgQA9q+u61iv19H3vcEAECAAu5OmqYtM3rRtG+v1Otq2PYm5CyBAAAQIJ6jv+1iv11HX9UnNXQABAgAnZr1ex9PTk2N1AQQIwP7leX4Sj9uwe03TRFVVJ7sClue5DxEQIABw7Lqui6qqhCeAAAE4vMvLS8esjsQwDLHZbGK73Z7N3AUQIAAn5tOnTwZhBF7f53FO+zzMXUCAAJygLMsMwhlr2zZWq9VZnnRm7gICBOCEL+S6rjMQZ6Tv+1itVme7z0N8AAIE4ISlaSpAzsQwDG+PW537nAUQIACn+qV34WvvHNR1HVVVjeJ9HuYsIEAATpiTsE5b27ZRVdWoVrGcgAUIEIBT/tJzN/kk9X0fVVVF0zSj+7t7CSEgQABOWJIkNqKfkNd9Hk9PT6N43Oq/2YAOCBCAM5DnuQA5AXVdx3q9Pstjdd8zVwEECMAZXNSdyxuyz1HXdVFV1dkeqytAAAEC4KKOIzAMQ1RVFXVdGwxzFRAgAOcjSZLI89wd9iOyXq9Hu8/jR/GRJImBAAQIwDkoikKAHIGmaaKqqlHv8/jRHAUQIABndHFXVZWB+CB938dqtRKBAgQQIADjkKZppGnqzvuBDcMQm83GIQA/OT8BBAjAGSmKwoXwAW2329hsNvZ5/OTcBBAgAGdmMpkIkANo2zZWq5XVpnfOTQABAnBm0jT1VvQ96vs+qqqKpmkMxjtkWebxK0CAAJyrsiwFyI4Nw/D2uBW/NicBBAjAGV/sOQ1rd+q6jqqq7PMQIAACBOB7kiSJsiy9ffsfats2qqqymrSD+PDyQUCAAJy5q6srAfKL+r6P9Xpt/HY4FwEECMCZy/M88jz3Urx3eN3n8fT05HGrHc9DAAECMAJXV1cC5CfVdR3r9dqxunuYgwACBGAkyrJ0Uf03uq6LqqqE2h6kaWrzOSBAAMbm5uYmVquVgfgvwzBEVVX2eex57gEIEICRsQryv9brtX0ee2b1AxAgACNmFeR3bdvGarUSYweacwACBGCkxr4K0vd9rFYr+zwOxOoHIEAAGOUqyDAMsdlsYrvdmgAHnmsAAgRg5MqyjKenp9GsAmy329hsNvZ5HFie51Y/gFFKDAHA/xrDnem2bePLly9RVZX4MMcADsYKCMB3vN6dPsejZ/u+j6qqomkaH/QHKcvSW88BAQLA/zedTuP5+flsVgeGYXh73IqPkyRJTKdTAwGM93vQEAD89YXi7e3tWfxd6rqO3377TXwcgdvb20gSP7/AeFkBAfiBoigiz/OT3ZDetm2s12vH6h6JPM+jKAoDAYyaWzAAf2M2m53cHetv377FarWKf//73+LjWH5wkyRms5mBAHwfGgKAH0vT9OQexeq67iw30J+y29vbSNPUQAACxBAA/L2iKDw6g/kDIEAADscdbH7FKa6gAQgQgGP4wkySmM/nBoJ3mc/nTr0CECAAvybLMhuJ+Wmz2SyyLDMQAAIE4NeVZRllWRoIzBMAAQJwGO5s8yNWygAECMDOff78WYTw3fj4/PmzgQAQIAA7/gJNkri9vbXBGHMCQIAAHMbr3W4XnCRJYlUMQIAAiBDEB4AAATjDCJlOpwZipKbTqfgAECAAh1WWpZOPRmg2mzluF+AdLgwBwG4jJCKiqqoYhsGAnLEkSWI6nYoPgPd+fxoCgN1HiD0h5x8fnz9/Fh8AAgTgONiYfv7xYc8HgAABOMoIcaHqMwVAgAC4YOVd8jz3WQIIEIAT+KJNklgul/YLnLCyLGOxWHikDkCAAJyO2WzmmF6fG8DoOYYX4IDKsoyLi4t4eHiIvu8NyBFL0zTm87lHrgB2zAoIwIFlWRbL5TKKojAYR6ooilgul+IDYA+sgAB8gCRJYj6fR9M08fj46KWFR/S53N7eikMAAQJwnoqiiCzLYrVaRdu2BuQD5Xkes9ks0jQ1GAACBOB8pWkai8XCasgHseoBIEAARqkoisjzPKqqirquDcgBlGUZ0+nU8boAAgRgnJIkidlsFldXV7Ferz2WtSd5nsd0OrXJHECAAPB6gbxYLKKu61iv147s3ZE0TWM6nXrcCkCAAPA9ZVlGWZZCZAfhcXNz4230AAIEACEiPAAECABHHyJPT0/2iPyFPM/j6upKeAAIEAB2GSJt28bT05NTs/40LpPJxOZyAAECwD7kef52olNd11HXdXRdN6oxyLLsLcgcpwsgQAA4gCRJYjKZxGQyib7vY7vdRtM0Z7tXJE3TKIoiJpOJN5cDCBAAPvrifDqdxnQ6jb7vo2maaJrm5PeL5HkeRVFEURSiA0CAAHCsMfK6MjIMQ7Rt+/bn2B/VyrLs7RGzPM89XgUgQAA4JUmSvK0gvGrbNp6fn+Pl5SX6vv+wKMmyLNI0jYuLi7i8vIw8z31gAAIEgHPzurrwZ13Xxbdv3+L5+fktUiIi+r7/5T0laZq+PTb1+t+7vLyMT58+ObEKQIAAMGavQfB3qxDDMMTLy8v3f1wuLjwyBYAAAWB3kiTxqBQA7//9MAQAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAAAAQIAACBAAAAAAQIAACBAAAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAABAgAAAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAgAABAAAQIAAAgAABAAAQIAAAgAABAAAECAAAgAABAAAECAAAgAABAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAAIEAAAAABAgAACBAAAAABAgAACBAAAAABAgAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAAAgQAAECAAAAAAgQAAECAAAAAAgQAABAgAAAAAgQAABAgAAAAAgQAABAgAACAAAEAABAgAACAAAEAABAgAACAAAEAAASIIQAAAAQIAAAgQAAAAAQIAAAgQAAAAAQIAAAgQAAAAAECAAAgQAAAAAECAAAgQAAAAAECAAAIEAAAAAECAAAIEAAAAAECAAAIEAAAQIAAAAAIEAAAQIAAAAAIEAAAQIAAAAACBAAAQIAAAAACBAAAQIAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAAACBAAAECAAAIAAAQAAECAAAIAAAQAAECAAAIAAAQAABAgAAIAAAQAABAgAAIAAAQAABAgAACBAAAAAdu0iIqKqKiMBAADs3f8NAFFjCf5mB+leAAAAAElFTkSuQmCC",g="\r\n",F=914400,T=12700,h=2147483649,f="ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""),u=["arraybuffer","base64","binarystring","blob","nodebuffer","uint8array"],i=/^[0-9a-fA-F]{6}$/,r="{F7021451-1387-4CA6-816F-3879F97B5CBC}",B="666666",I=[3,3,3,3],y="000000",v=12,x=18,b=[.5,.5,.5,.5],P={color:"888888",style:"solid",size:1},p={type:"outer",blur:3,offset:23e3/12700,angle:90,color:"000000",opacity:.35,rotateWithShape:!0},C="2094734552",S="2094734553",w="2094734554",L="2094734555",k="2094734556",R={author:"PptxGenJS",company:"PptxGenJS",revision:"1",subject:"PptxGenJS Presentation",title:"PptxGenJS Presentation",isBrowser:!1,fileName:"Presentation",fileExtn:".pptx"};R.pptLayout=a.LAYOUT_16x9,R.rtlMode=!1,R.saveCallback=null,R.masterSlide={slide:{},data:[],rels:[],slideNumberObj:null},R.chartCounter=0,R.imageCounter=0,R.slides=[],R.slideLayouts=[{name:"BLANK",slide:{},data:[],rels:[],margin:b,slideNumberObj:null}],this.charts=n,this.colors=void 0!==gObjPptxColors?gObjPptxColors:{},this.shapes=void 0!==gObjPptxShapes?gObjPptxShapes:{RECTANGLE:{displayName:"Rectangle",name:"rect",avLst:{}},LINE:{displayName:"Line",name:"line",avLst:{}}};var E=Object.keys(this.colors).map(function(e){return this.colors[e]}.bind(this));gObjPptxShapes=gObjPptxShapes||this.shapes;var D={addBackgroundDefinition:function(e,a){if("object"==typeof e&&(e.src||e.path||e.data)){e.src=e.src||e.path||null,e.src||(e.src="preencoded.png");var t=a.rels,r=e.src.split(".").pop()||"png";"jpg"==r&&(r="jpeg");var l=t.length+1;t.push({path:e.src,type:"image/"+r,extn:r,data:e.data||"",rId:l,Target:"../media/image"+ ++R.imageCounter+"."+r}),a.slide.bkgdImgRid=l}else e&&"string"==typeof e&&(a.slide.back=e)},addTextDefinition:function(e,a,t,r){a=a&&"object"==typeof a?a:{};var l={};e=e||"";return Array.isArray(e)&&0==e.length&&(e=""),a.placeholder||(a.color=a.color||t.slide.color||y),a.valign&&(a.valign=a.valign.toLowerCase().replace(/^c.*/i,"ctr").replace(/^m.*/i,"ctr").replace(/^t.*/i,"t").replace(/^b.*/i,"b")),a.align&&(a.align=a.align.toLowerCase().replace(/^c.*/i,"center").replace(/^m.*/i,"center").replace(/^l.*/i,"left").replace(/^r.*/i,"right")),J(a.shadow),l.type=r?"placeholder":"text",l.text=e,(l.options=a).shape&&"line"==a.shape.name&&(a.line=a.line||"333333",a.lineSize=a.lineSize||1),l.options.bodyProp={},l.options.bodyProp.autoFit=a.autoFit||!1,l.options.bodyProp.anchor=a.valign||(a.placeholder?null:"ctr"),l.options.bodyProp.rot=a.rotate||null,l.options.bodyProp.vert=a.vert||null,l.options.lineSpacing=a.lineSpacing&&!isNaN(a.lineSpacing)?a.lineSpacing:null,(a.inset&&!isNaN(Number(a.inset))||0==a.inset)&&(l.options.bodyProp.lIns=G(a.inset),l.options.bodyProp.rIns=G(a.inset),l.options.bodyProp.tIns=G(a.inset),l.options.bodyProp.bIns=G(a.inset)),t.data.push(l),q(e||"",t.rels),l},addNotesDefinition:function(e,a,t){var r={type:"notes"};return r.text=e,t.data.push(r),r},addPlaceholderDefinition:function(e,a,t){return D.addTextDefinition(e,a,t,!0)},addShapeDefinition:function(e,a,t){var r={},l="object"==typeof a?a:{};if(e&&"object"==typeof e)return r.type="text",(r.options=l).shape=e,l.x=l.x||(0==l.x?0:1),l.y=l.y||(0==l.y?0:1),l.w=l.w||(0==l.w?0:1),l.h=l.h||(0==l.h?0:1),l.line=l.line||("line"==e.name?"333333":null),l.lineSize=l.lineSize||("line"==e.name?1:null),["dash","dashDot","lgDash","lgDashDot","lgDashDotDot","solid","sysDash","sysDot"].indexOf(l.lineDash||"")<0&&(l.lineDash="solid"),t.data.push(r),r;console.error("Missing/Invalid shape parameter! Example: `addShape(pptx.shapes.LINE, {x:1, y:1, w:1, h:1});` ")},addImageDefinition:function(e,a){var t={},r=e.x||0,l=e.y||0,o=e.w||0,n=e.h||0,s=e.sizing||null,i=e.hyperlink||"",c=e.data||"",p=e.path||"",d=a.rels.length+1;if(!p&&!c)return console.error("ERROR: `addImage()` requires either 'data' or 'path' parameter!"),null;if(c&&-1==c.toLowerCase().indexOf("base64,"))return console.error("ERROR: Image `data` value lacks a base64 header! Ex: 'image/png;base64,NMP[...]')"),null;var m=p.split(".").pop().split("?")[0].split("#")[0]||"png";c&&/image\/(\w+)\;/.exec(c)&&0</image\/(\w+)\;/.exec(c).length?m=/image\/(\w+)\;/.exec(c)[1]:c&&-1<c.toLowerCase().indexOf("image/svg+xml")&&(m="svg"),t.type="image",t.image=p||"preencoded.png";var f=1,h=1;if(t.options={x:r||0,y:l||0,cx:o||f,cy:n||h,rounding:e.rounding||!1,sizing:s,placeholder:e.placeholder},"svg"==m?(a.rels.push({path:p||c+"png",type:"image/png",extn:"png",data:c||"",rId:d,Target:"../media/image"+ ++R.imageCounter+".png",isSvgPng:!0,svgSize:{w:t.options.cx,h:t.options.cy}}),t.imageRid=d,a.rels.push({path:p||c,type:"image/"+m,extn:m,data:c||"",rId:d+1,Target:"../media/image"+ ++R.imageCounter+"."+m}),t.imageRid=d+1):(a.rels.push({path:p||"preencoded."+m,type:"image/"+m,extn:m,data:c||"",rId:d,Target:"../media/image"+ ++R.imageCounter+"."+m}),t.imageRid=d),"object"==typeof i)if(i.url||i.slide){var A=d+1;a.rels.push({type:"hyperlink",data:i.slide?"slide":"dummy",rId:A,Target:i.url||i.slide}),i.rId=A,t.hyperlink=i}else console.log("ERROR: 'hyperlink requires either: `url` or `slide`'");return a.data.push(t),t},addChartDefinition:function(e,a,t,r){var l,o,n=r.rels,s=++R.chartCounter,i=r.rels.length+1,c={},p=[];return Array.isArray(e)?(e.forEach(function(e){p=p.concat(e.data)}),l=a||t):(p=a,l=t),p.forEach(function(e,a){e.index=a}),(o=l&&"object"==typeof l?l:{}).type=e,o.x=void 0===o.x||null==o.x||isNaN(o.x)?1:o.x,o.y=void 0===o.y||null==o.y||isNaN(o.y)?1:o.y,o.w=o.w||"50%",o.h=o.h||"50%",["bar","col"].indexOf(o.barDir||"")<0&&(o.barDir="col"),["bestFit","b","ctr","inBase","inEnd","l","outEnd","r","t"].indexOf(o.dataLabelPosition||"")<0&&(o.dataLabelPosition="pie"==o.type.name||"doughnut"==o.type.name?"bestFit":"ctr"),o.dataLabelBkgrdColors=(1==o.dataLabelBkgrdColors||0==o.dataLabelBkgrdColors)&&o.dataLabelBkgrdColors,["b","l","r","t","tr"].indexOf(o.legendPos||"")<0&&(o.legendPos="r"),["clustered","standard","stacked","percentStacked"].indexOf(o.barGrouping||"")<0&&(o.barGrouping="standard"),-1<o.barGrouping.indexOf("tacked")&&(o.dataLabelPosition="ctr",o.barGapWidthPct||(o.barGapWidthPct=50)),["cone","coneToMax","box","cylinder","pyramid","pyramidToMax"].indexOf(o.bar3DShape||"")<0&&(o.bar3DShape="box"),["circle","dash","diamond","dot","none","square","triangle"].indexOf(o.lineDataSymbol||"")<0&&(o.lineDataSymbol="circle"),["gap","span"].indexOf(o.displayBlanksAs||"")<0&&(o.displayBlanksAs="span"),["standard","marker","filled"].indexOf(o.radarStyle||"")<0&&(o.radarStyle="standard"),o.lineDataSymbolSize=o.lineDataSymbolSize&&!isNaN(o.lineDataSymbolSize)?o.lineDataSymbolSize:6,o.lineDataSymbolLineSize=o.lineDataSymbolLineSize&&!isNaN(o.lineDataSymbolLineSize)?o.lineDataSymbolLineSize*T:.75*T,o.layout&&["x","y","w","h"].forEach(function(e){var a=o.layout[e];(isNaN(Number(a))||a<0||1<a)&&(console.warn("Warning: chart.layout."+e+" can only be 0-1"),delete o.layout[e])}),o.catGridLine=o.catGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:"none"),o.valGridLine=o.valGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:{}),o.serGridLine=o.serGridLine||("scatter"==e.name?{color:"D9D9D9",pt:1}:"none"),Z(o.catGridLine),Z(o.valGridLine),Z(o.serGridLine),J(o.shadow),o.showDataTable=(1==o.showDataTable||0==o.showDataTable)&&o.showDataTable,o.showDataTableHorzBorder=1!=o.showDataTableHorzBorder&&0!=o.showDataTableHorzBorder||o.showDataTableHorzBorder,o.showDataTableVertBorder=1!=o.showDataTableVertBorder&&0!=o.showDataTableVertBorder||o.showDataTableVertBorder,o.showDataTableOutline=1!=o.showDataTableOutline&&0!=o.showDataTableOutline||o.showDataTableOutline,o.showDataTableKeys=1!=o.showDataTableKeys&&0!=o.showDataTableKeys||o.showDataTableKeys,o.showLabel=(1==o.showLabel||0==o.showLabel)&&o.showLabel,o.showLegend=(1==o.showLegend||0==o.showLegend)&&o.showLegend,o.showPercent=1!=o.showPercent&&0!=o.showPercent||o.showPercent,o.showTitle=(1==o.showTitle||0==o.showTitle)&&o.showTitle,o.showValue=(1==o.showValue||0==o.showValue)&&o.showValue,o.catAxisLineShow=void 0===o.catAxisLineShow||o.catAxisLineShow,o.valAxisLineShow=void 0===o.valAxisLineShow||o.valAxisLineShow,o.serAxisLineShow=void 0===o.serAxisLineShow||o.serAxisLineShow,o.v3DRotX=!isNaN(o.v3DRotX)&&-90<=o.v3DRotX&&o.v3DRotX<=90?o.v3DRotX:30,o.v3DRotY=!isNaN(o.v3DRotY)&&0<=o.v3DRotY&&o.v3DRotY<=360?o.v3DRotY:30,o.v3DRAngAx=1!=o.v3DRAngAx&&0!=o.v3DRAngAx||o.v3DRAngAx,o.v3DPerspective=!isNaN(o.v3DPerspective)&&0<=o.v3DPerspective&&o.v3DPerspective<=240?o.v3DPerspective:30,o.barGapWidthPct=!isNaN(o.barGapWidthPct)&&0<=o.barGapWidthPct&&o.barGapWidthPct<=1e3?o.barGapWidthPct:150,o.barGapDepthPct=!isNaN(o.barGapDepthPct)&&0<=o.barGapDepthPct&&o.barGapDepthPct<=1e3?o.barGapDepthPct:150,o.chartColors=Array.isArray(o.chartColors)?o.chartColors:"pie"==o.type.name||"doughnut"==o.type.name?d:m,o.chartColorsOpacity=o.chartColorsOpacity&&!isNaN(o.chartColorsOpacity)?o.chartColorsOpacity:null,o.border=o.border&&"object"==typeof o.border?o.border:null,!o.border||o.border.pt&&!isNaN(o.border.pt)||(o.border.pt=1),!o.border||o.border.color&&"string"==typeof o.border.color&&6==o.border.color.length||(o.border.color="363636"),o.dataBorder=o.dataBorder&&"object"==typeof o.dataBorder?o.dataBorder:null,!o.dataBorder||o.dataBorder.pt&&!isNaN(o.dataBorder.pt)||(o.dataBorder.pt=.75),!o.dataBorder||o.dataBorder.color&&"string"==typeof o.dataBorder.color&&6==o.dataBorder.color.length||(o.dataBorder.color="F9F9F9"),o.dataLabelFormatCode||"scatter"!==o.type.name||(o.dataLabelFormatCode="General"),o.dataLabelFormatCode=o.dataLabelFormatCode&&"string"==typeof o.dataLabelFormatCode?o.dataLabelFormatCode:"pie"==o.type.name||"doughnut"==o.type.name?"0%":"#,##0",o.dataLabelFormatScatter||"scatter"!==o.type.name||(o.dataLabelFormatScatter="custom"),o.lineSize="number"==typeof o.lineSize?o.lineSize:2,o.valAxisMajorUnit="number"==typeof o.valAxisMajorUnit?o.valAxisMajorUnit:null,o.valAxisCrossesAt=o.valAxisCrossesAt||"autoZero",c.type="chart",c.options=o,n.push({rId:i,data:p,opts:o,type:"chart",globalId:s,fileName:"chart"+s+".xml",Target:"/ppt/charts/chart"+s+".xml"}),c.chartRid=i,r.data.push(c),c},createSlideObject:function(e,r){e.bkgd&&D.addBackgroundDefinition(e.bkgd,r),e.objects&&Array.isArray(e.objects)&&0<e.objects.length&&e.objects.forEach(function(e,a){var t=Object.keys(e)[0];o[t]&&"chart"==t?D.addChartDefinition(n[(e.chart.type||"").toUpperCase()],e.chart.data,e.chart.opts,r):o[t]&&"image"==t?D.addImageDefinition(e[t],r):o[t]&&"line"==t?D.addShapeDefinition(gObjPptxShapes.LINE,e[t],r):o[t]&&"rect"==t?D.addShapeDefinition(gObjPptxShapes.RECTANGLE,e[t],r):o[t]&&"text"==t?D.addTextDefinition(e[t].text,e[t].options,r,!1):o[t]&&"placeholder"==t&&(e[t].options.placeholderName=e[t].options.name,delete e[t].options.name,e[t].options.placeholderType=e[t].options.type,delete e[t].options.type,e[t].options.placeholderIdx=100+a,D.addPlaceholderDefinition(e[t].text,e[t].options,r))}),e.slideNumber&&"object"==typeof e.slideNumber&&(r.slideNumberObj=e.slideNumber)},slideObjectToXml:function(S){var w=S.name?'<p:cSld name="'+S.name+'">':"<p:cSld>",L=1;return S.slide.back&&(w+=ie(!1,S.slide.back)),S.slide.bkgdImgRid&&(w+='<p:bg><p:bgPr><a:blipFill dpi="0" rotWithShape="1"><a:blip r:embed="rId'+S.slide.bkgdImgRid+'"><a:lum/></a:blip><a:srcRect/><a:stretch><a:fillRect/></a:stretch></a:blipFill><a:effectLst/></p:bgPr></p:bg>'),w+="<p:spTree>",w+='<p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>',w+='<p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/>',w+='<a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>',S.data.forEach(function(r,e){var a,t=0,l=0,o=Y("75%","X"),n=0,s="",i=null;switch(S.layoutObj&&S.layoutObj.data&&r.options&&r.options.placeholder&&(a=S.layoutObj.data.filter(function(e){return e.options.placeholderName==r.options.placeholder})[0]),r.options=r.options||{},(r.options.w||0==r.options.w)&&(r.options.cx=r.options.w),(r.options.h||0==r.options.h)&&(r.options.cy=r.options.h),(r.options.x||0==r.options.x)&&(t=Y(r.options.x,"X")),(r.options.y||0==r.options.y)&&(l=Y(r.options.y,"Y")),(r.options.cx||0==r.options.cx)&&(o=Y(r.options.cx,"X")),(r.options.cy||0==r.options.cy)&&(n=Y(r.options.cy,"Y")),a&&((a.options.x||0==a.options.x)&&(t=Y(a.options.x,"X")),(a.options.y||0==a.options.y)&&(l=Y(a.options.y,"Y")),(a.options.cx||0==a.options.cx)&&(o=Y(a.options.cx,"X")),(a.options.cy||0==a.options.cy)&&(n=Y(a.options.cy,"Y"))),r.options.shape&&(i=W(r.options.shape)),r.options.flipH&&(s+=' flipH="1"'),r.options.flipV&&(s+=' flipV="1"'),r.options.rotate&&(s+=' rot="'+re(r.options.rotate)+'"'),r.type){case"table":if(!r.arrTabRows||Array.isArray(r.arrTabRows)&&0==r.arrTabRows.length)break;var c={},p=r.arrTabRows,m=r.options,d=0,f=0;p[0].forEach(function(e,a){var t=e.options||e.opts||null;d+=t&&t.colspan?Number(t.colspan):1});var h='<p:graphicFrame>  <p:nvGraphicFramePr>    <p:cNvPr id="'+(L*S.numb+1)+'" name="Table '+L*S.numb+'"/>    <p:cNvGraphicFramePr><a:graphicFrameLocks noGrp="1"/></p:cNvGraphicFramePr>    <p:nvPr><p:extLst><p:ext uri="{D42A27DB-BD31-4B8C-83A1-F6EECF244321}"><p14:modId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1579011935"/></p:ext></p:extLst></p:nvPr>  </p:nvGraphicFramePr>  <p:xfrm>    <a:off  x="'+(t||(0==t?0:F))+'"  y="'+(l||(0==l?0:F))+'"/>    <a:ext cx="'+(o||(0==o?0:F))+'" cy="'+(n||(0==n?0:F))+'"/>  </p:xfrm>  <a:graphic>    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/table">      <a:tbl>        <a:tblPr/>';if(Array.isArray(m.colW)){h+="<a:tblGrid>";for(var A=0;A<d;A++)h+='  <a:gridCol w="'+Math.round(G(m.colW[A])||r.options.cx/d)+'"/>';h+="</a:tblGrid>"}else{f=m.colW?m.colW:F,r.options.cx&&!m.colW&&(f=Math.round(r.options.cx/d)),h+="<a:tblGrid>";for(A=0;A<d;A++)h+='<a:gridCol w="'+f+'"/>';h+="</a:tblGrid>"}jQuery.each(p,function(n,e){c[n]||(c[n]={}),jQuery(e).each(function(e,a){for(var t=0;e+t<d;t++){var r=e+t;if(!c[n][r]){if((c[n][r]=a)&&a.opts&&a.opts.colspan&&!isNaN(Number(a.opts.colspan)))for(var l=1;l<Number(a.opts.colspan);l++)c[n][r+l]={hmerge:!0,text:"hmerge"};else if(a&&a.opts&&a.opts.rowspan&&!isNaN(Number(a.opts.rowspan)))for(var o=1;o<Number(a.opts.rowspan);o++)c[n+o]||(c[n+o]={}),c[n+o][r]={vmerge:!0,text:"vmerge"};break}}})}),jQuery.each(c,function(e,a){var t=0;Array.isArray(m.rowH)&&m.rowH[e]?t=G(Number(m.rowH[e])):m.rowH&&!isNaN(Number(m.rowH))?t=G(Number(m.rowH)):(r.options.cy||r.options.h)&&(t=(r.options.h?G(r.options.h):r.options.cy)/p.length),h+='<a:tr h="'+t+'">',jQuery.each(a,function(e,a){if(!a.hmerge){var l=a.options||a.opts||{};"number"!=typeof a&&"string"!=typeof a||(a={text:a.toString()}),l.isTableCell=!0,a.options=l,["align","bold","border","color","fill","fontFace","fontSize","margin","underline","valign"].forEach(function(e,a){m[e]&&!l[e]&&0!=l[e]&&(l[e]=m[e])});var t=l.valign?' anchor="'+l.valign.replace(/^c$/i,"ctr").replace(/^m$/i,"ctr").replace("center","ctr").replace("middle","ctr").replace("top","t").replace("btm","b").replace("bottom","b")+'"':"",r=l.colspan?' gridSpan="'+l.colspan+'"':"",o=l.rowspan?' rowSpan="'+l.rowspan+'"':"",n=a.optImp&&a.optImp.fill||l.fill?' <a:solidFill><a:srgbClr val="'+(a.optImp&&a.optImp.fill||l.fill.replace("#",""))+'"/></a:solidFill>':"",s=0==l.margin||l.margin?l.margin:I;if(Array.isArray(s)||"number"!=typeof s||(s=[s,s,s,s]),s=' marL="'+s[3]*T+'" marR="'+s[1]*T+'" marT="'+s[0]*T+'" marB="'+s[2]*T+'"',a.vmerge)h+='<a:tc vMerge="1"><a:tcPr/></a:tc>';else{if(h+="<a:tc"+r+o+">"+oe(a)+"<a:tcPr"+s+t+">",l.border&&"string"==typeof l.border&&"none"==l.border.toLowerCase())h+='  <a:lnL w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnL>',h+='  <a:lnR w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnR>',h+='  <a:lnT w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnT>',h+='  <a:lnB w="0" cap="flat" cmpd="sng" algn="ctr"><a:noFill/></a:lnB>';else if(l.border&&"string"==typeof l.border)h+='  <a:lnL w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnL>',h+='  <a:lnR w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnR>',h+='  <a:lnT w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnT>',h+='  <a:lnB w="'+T+'" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:srgbClr val="'+l.border+'"/></a:solidFill></a:lnB>';else if(l.border&&Array.isArray(l.border))jQuery.each([{idx:3,name:"lnL"},{idx:1,name:"lnR"},{idx:0,name:"lnT"},{idx:2,name:"lnB"}],function(e,a){if(l.border[a.idx]){var t='<a:solidFill><a:srgbClr val="'+(l.border[a.idx].color?l.border[a.idx].color:B)+'"/></a:solidFill>',r=l.border[a.idx]&&(l.border[a.idx].pt||0==l.border[a.idx].pt)?T*Number(l.border[a.idx].pt):T;h+="<a:"+a.name+' w="'+r+'" cap="flat" cmpd="sng" algn="ctr">'+t+"</a:"+a.name+">"}else h+="<a:"+a.name+' w="0"><a:miter lim="400000" /></a:'+a.name+">"});else if(l.border&&"object"==typeof l.border){var i=l.border&&(l.border.pt||0==l.border.pt)?T*Number(l.border.pt):T,c='<a:solidFill><a:srgbClr val="'+(l.border.color?l.border.color.replace("#",""):B)+'"/></a:solidFill>',p='<a:prstDash val="';p+=l.border.type&&-1<l.border.type.toLowerCase().indexOf("dash")?"sysDash":"solid",h+='<a:lnL w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+(p+='"/><a:round/><a:headEnd type="none" w="med" len="med"/><a:tailEnd type="none" w="med" len="med"/>')+"</a:lnL>",h+='<a:lnR w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnR>",h+='<a:lnT w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnT>",h+='<a:lnB w="'+i+'" cap="flat" cmpd="sng" algn="ctr">'+c+p+"</a:lnB>"}if(h+=n,h+="  </a:tcPr>",h+=" </a:tc>",l.colspan)for(var d=1;d<Number(l.colspan);d++)h+='<a:tc hMerge="1"><a:tcPr/></a:tc>'}}}),h+="</a:tr>"}),h+="      </a:tbl>",h+="    </a:graphicData>",h+="  </a:graphic>",w+=h+="</p:graphicFrame>",L++;break;case"text":case"placeholder":r.options.line||0!=n||(n=.3*F),r.options.margin&&Array.isArray(r.options.margin)?(r.options.bodyProp.lIns=r.options.margin[0]*T||0,r.options.bodyProp.rIns=r.options.margin[1]*T||0,r.options.bodyProp.bIns=r.options.margin[2]*T||0,r.options.bodyProp.tIns=r.options.margin[3]*T||0):(r.options.margin||0==r.options.margin)&&Number.isInteger(r.options.margin)&&(r.options.bodyProp.lIns=r.options.margin*T,r.options.bodyProp.rIns=r.options.margin*T,r.options.bodyProp.bIns=r.options.margin*T,r.options.bodyProp.tIns=r.options.margin*T);null==i&&(i=W(null)),w+="<p:sp>",w+='<p:nvSpPr><p:cNvPr id="'+(e+2)+'" name="Object '+(e+1)+'"/>',w+="<p:cNvSpPr"+(r.options&&r.options.isTextBox?' txBox="1"/>':"/>"),w+="<p:nvPr>",w+="placeholder"===r.type?ce(r):ce(a),w+="</p:nvPr>",w+="</p:nvSpPr><p:spPr>",w+="<a:xfrm"+s+">",w+='<a:off x="'+t+'" y="'+l+'"/>',w+='<a:ext cx="'+o+'" cy="'+n+'"/></a:xfrm>',w+='<a:prstGeom prst="'+i.name+'"><a:avLst>'+(r.options.rectRadius?'<a:gd name="adj" fmla="val '+Math.round(r.options.rectRadius*F*1e5/Math.min(o,n))+'" />':"")+"</a:avLst></a:prstGeom>",w+=r.options.fill?ie(r.options.fill):"<a:noFill/>",r.options.line&&(w+="<a:ln"+(r.options.lineSize?' w="'+r.options.lineSize*T+'"':"")+">",w+=ie(r.options.line),r.options.lineDash&&(w+='<a:prstDash val="'+r.options.lineDash+'"/>'),r.options.lineHead&&(w+='<a:headEnd type="'+r.options.lineHead+'"/>'),r.options.lineTail&&(w+='<a:tailEnd type="'+r.options.lineTail+'"/>'),w+="</a:ln>"),r.options.shadow&&(r.options.shadow.type=r.options.shadow.type||"outer",r.options.shadow.blur=(r.options.shadow.blur||8)*T,r.options.shadow.offset=(r.options.shadow.offset||4)*T,r.options.shadow.angle=6e4*(r.options.shadow.angle||270),r.options.shadow.color=r.options.shadow.color||"000000",r.options.shadow.opacity=1e5*(r.options.shadow.opacity||.75),w+="<a:effectLst>",w+="<a:"+r.options.shadow.type+'Shdw sx="100000" sy="100000" kx="0" ky="0" ',w+=' algn="bl" rotWithShape="0" blurRad="'+r.options.shadow.blur+'" ',w+=' dist="'+r.options.shadow.offset+'" dir="'+r.options.shadow.angle+'">',w+='<a:srgbClr val="'+r.options.shadow.color+'">',w+='<a:alpha val="'+r.options.shadow.opacity+'"/></a:srgbClr>',w+="</a:outerShdw>",w+="</a:effectLst>"),w+="</p:spPr>",w+=oe(r),w+="</p:sp>";break;case"image":var g=r.options.sizing,u=r.options.rounding,y=o,v=n;if(w+="<p:pic>",w+="  <p:nvPicPr>",w+='    <p:cNvPr id="'+(e+2)+'" name="Object '+(e+1)+'" descr="'+H(r.image)+'">',r.hyperlink&&r.hyperlink.url&&(w+='<a:hlinkClick r:id="rId'+r.hyperlink.rId+'" tooltip="'+(r.hyperlink.tooltip?H(r.hyperlink.tooltip):"")+'" />'),r.hyperlink&&r.hyperlink.slide&&(w+='<a:hlinkClick r:id="rId'+r.hyperlink.rId+'" tooltip="'+(r.hyperlink.tooltip?H(r.hyperlink.tooltip):"")+'" action="ppaction://hlinksldjump" />'),w+="    </p:cNvPr>",w+='    <p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr>',w+="    <p:nvPr>"+ce(a)+"</p:nvPr>",w+="  </p:nvPicPr>",w+="<p:blipFill>","svg"==S.rels.filter(function(e){return e.rId==r.imageRid})[0].extn?(w+='<a:blip r:embed="rId'+(r.imageRid-1)+'"/>',w+="<a:extLst>",w+='  <a:ext uri="{96DAC541-7B7A-43D3-8B79-37D633B846F1}">',w+='    <asvg:svgBlip xmlns:asvg="http://schemas.microsoft.com/office/drawing/2016/SVG/main" r:embed="rId'+r.imageRid+'"/>',w+="  </a:ext>",w+="</a:extLst>"):w+='<a:blip r:embed="rId'+r.imageRid+'"/>',g&&g.type){var x=g.w?Y(g.w,"X"):o,b=g.h?Y(g.h,"Y"):n,P=Y(g.x||0,"X"),C=Y(g.y||0,"Y");w+=D.imageSizingXml[g.type]({w:y,h:v},{w:x,h:b,x:P,y:C}),y=x,v=b}else w+="  <a:stretch><a:fillRect/></a:stretch>";w+="</p:blipFill>",w+="<p:spPr>",w+=" <a:xfrm"+s+">",w+='  <a:off  x="'+t+'"  y="'+l+'"/>',w+='  <a:ext cx="'+y+'" cy="'+v+'"/>',w+=" </a:xfrm>",w+=' <a:prstGeom prst="'+(u?"ellipse":"rect")+'"><a:avLst/></a:prstGeom>',w+="</p:spPr>",w+="</p:pic>";break;case"media":"online"==r.mtype?(w+="<p:pic>",w+=" <p:nvPicPr>",w+=' <p:cNvPr id="'+(r.mediaRid+2)+'" name="Picture'+(e+1)+'"/>',w+=" <p:cNvPicPr/>",w+=" <p:nvPr>",w+='  <a:videoFile r:link="rId'+r.mediaRid+'"/>',w+=" </p:nvPr>",w+=" </p:nvPicPr>",w+=' <p:blipFill><a:blip r:embed="rId'+(r.mediaRid+1)+'"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>'):(w+="<p:pic>",w+=" <p:nvPicPr>",w+=' <p:cNvPr id="'+(r.mediaRid+2)+'" name="'+r.media.split("/").pop().split(".").shift()+'"><a:hlinkClick r:id="" action="ppaction://media"/></p:cNvPr>',w+=' <p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr>',w+=" <p:nvPr>",w+='  <a:videoFile r:link="rId'+r.mediaRid+'"/>',w+="  <p:extLst>",w+='   <p:ext uri="{DAA4B4D4-6D71-4841-9C94-3DE7FCFB9230}">',w+='    <p14:media xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" r:embed="rId'+(r.mediaRid+1)+'"/>',w+="   </p:ext>",w+="  </p:extLst>",w+=" </p:nvPr>",w+=" </p:nvPicPr>",w+=' <p:blipFill><a:blip r:embed="rId'+(r.mediaRid+2)+'"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>'),w+=" <p:spPr>",w+="  <a:xfrm"+s+">",w+='   <a:off x="'+t+'" y="'+l+'"/>',w+='   <a:ext cx="'+o+'" cy="'+n+'"/>',w+="  </a:xfrm>",w+='  <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>',w+=" </p:spPr>",w+="</p:pic>";break;case"chart":w+="<p:graphicFrame>",w+=" <p:nvGraphicFramePr>",w+='   <p:cNvPr id="'+(e+2)+'" name="Chart '+(e+1)+'"/>',w+="   <p:cNvGraphicFramePr/>",w+="   <p:nvPr>"+ce(a)+"</p:nvPr>",w+=" </p:nvGraphicFramePr>",w+=" <p:xfrm>",w+='  <a:off  x="'+t+'"  y="'+l+'"/>',w+='  <a:ext cx="'+o+'" cy="'+n+'"/>',w+=" </p:xfrm>",w+=' <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">',w+='  <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/chart">',w+='   <c:chart r:id="rId'+r.chartRid+'" xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart"/>',w+="  </a:graphicData>",w+=" </a:graphic>",w+="</p:graphicFrame>"}}),S.slideNumberObj&&(S.slideNumberObj||(S.slideNumberObj={x:.3,y:"90%"}),w+='<p:sp>  <p:nvSpPr>    <p:cNvPr id="25" name="Slide Number Placeholder 24"/>    <p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr>    <p:nvPr><p:ph type="sldNum" sz="quarter" idx="4294967295"/></p:nvPr>  </p:nvSpPr>  <p:spPr>    <a:xfrm>      <a:off x="'+Y(S.slideNumberObj.x,"X")+'" y="'+Y(S.slideNumberObj.y,"Y")+'"/>      <a:ext cx="'+(S.slideNumberObj.w?Y(S.slideNumberObj.w,"X"):8e5)+'" cy="'+(S.slideNumberObj.h?Y(S.slideNumberObj.h,"Y"):3e5)+'"/>    </a:xfrm>    <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>    <a:extLst><a:ext uri="{C572A759-6A51-4108-AA02-DFA0A04FC94B}"><ma14:wrappingTextBoxFlag val="0" xmlns:ma14="http://schemas.microsoft.com/office/mac/drawingml/2011/main"/></a:ext></a:extLst>  </p:spPr>',w+="<p:txBody>",w+="  <a:bodyPr/>",w+="  <a:lstStyle><a:lvl1pPr>",(S.slideNumberObj.fontFace||S.slideNumberObj.fontSize||S.slideNumberObj.color)&&(w+='<a:defRPr sz="'+(S.slideNumberObj.fontSize?Math.round(S.slideNumberObj.fontSize):"12")+'00">',S.slideNumberObj.color&&(w+=ie(S.slideNumberObj.color)),S.slideNumberObj.fontFace&&(w+='<a:latin typeface="'+S.slideNumberObj.fontFace+'"/><a:ea typeface="'+S.slideNumberObj.fontFace+'"/><a:cs typeface="'+S.slideNumberObj.fontFace+'"/>'),w+="</a:defRPr>"),w+="</a:lvl1pPr></a:lstStyle>",w+='<a:p><a:fld id="'+r+'" type="slidenum"><a:rPr lang="en-US" smtClean="0"/><a:t></a:t></a:fld><a:endParaRPr lang="en-US"/></a:p>',w+="</p:txBody></p:sp>"),w+="</p:spTree>",w+="</p:cSld>"},slideObjectRelationsToXml:function(e,a){var t=0,r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return r+='<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">',e.rels.forEach(function(e,a){t=Math.max(t,e.rId),-1<e.type.toLowerCase().indexOf("image")?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"/>':-1<e.type.toLowerCase().indexOf("chart")?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"/>':-1<e.type.toLowerCase().indexOf("audio")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/media"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/audio"/>':-1<e.type.toLowerCase().indexOf("video")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/media"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/video"/>':-1<e.type.toLowerCase().indexOf("online")?-1<r.indexOf(' Target="'+e.Target+'"')?r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.microsoft.com/office/2007/relationships/image"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" TargetMode="External" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/video"/>':-1<e.type.toLowerCase().indexOf("hyperlink")?"slide"==e.data?r+='<Relationship Id="rId'+e.rId+'" Target="slide'+e.Target+'.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide"/>':r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" TargetMode="External" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"/>':-1<res.type.toLowerCase().indexOf("notesSlide")&&(r+='<Relationship Id="rId'+e.rId+'" Target="'+e.Target+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"/>')}),a.forEach(function(e,a){r+='<Relationship Id="rId'+(t+a+1)+'" Target="'+e.target+'" Type="'+e.type+'"/>'}),r+="</Relationships>"},imageSizingXml:{cover:function(e,a){var t=e.h/e.w,r=t<a.h/a.w,l=r?a.h/t:a.w,o=r?a.h:a.w*t,n=Math.round(5e4*(1-a.w/l)),s=Math.round(5e4*(1-a.h/o));return'<a:srcRect l="'+n+'" r="'+n+'" t="'+s+'" b="'+s+'" /><a:stretch/>'},contain:function(e,a){var t=e.h/e.w,r=t<a.h/a.w;return width=r?a.w:a.h/t,height=r?a.w*t:a.h,hzPerc=Math.round(5e4*(1-a.w/width)),vzPerc=Math.round(5e4*(1-a.h/height)),'<a:srcRect l="'+hzPerc+'" r="'+hzPerc+'" t="'+vzPerc+'" b="'+vzPerc+'" /><a:stretch/>'},crop:function(e,a){var t=a.x,r=e.w-(a.x+a.w),l=a.y,o=e.h-(a.y+a.h);return'<a:srcRect l="'+Math.round(t/e.w*1e5)+'" r="'+Math.round(r/e.w*1e5)+'" t="'+Math.round(l/e.h*1e5)+'" b="'+Math.round(o/e.h*1e5)+'" /><a:stretch/>'}},createExcelWorksheet:function(i,c){var p=i.data;return new Promise(function(a,t){var e=new JSZip,l=2*(p.length-1)+1;e.folder("_rels"),e.folder("docProps"),e.folder("xl/_rels"),e.folder("xl/tables"),e.folder("xl/theme"),e.folder("xl/worksheets"),e.folder("xl/worksheets/_rels"),e.file("[Content_Types].xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">  <Default Extension="xml" ContentType="application/xml"/>  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>  <Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>  <Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>  <Override PartName="/xl/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>  <Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>  <Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/>  <Override PartName="/xl/tables/table1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml"/>  <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>  <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/></Types>\n'),e.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>\n'),e.file("docProps/app.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"><Application>Microsoft Excel</Application><DocSecurity>0</DocSecurity><ScaleCrop>false</ScaleCrop><HeadingPairs><vt:vector size="2" baseType="variant"><vt:variant><vt:lpstr>Worksheets</vt:lpstr></vt:variant><vt:variant><vt:i4>1</vt:i4></vt:variant></vt:vector></HeadingPairs><TitlesOfParts><vt:vector size="1" baseType="lpstr"><vt:lpstr>Sheet1</vt:lpstr></vt:vector></TitlesOfParts></Properties>\n'),e.file("docProps/core.xml",'<?xml version="1.0" encoding="UTF-8"?><cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:creator>PptxGenJS</dc:creator><cp:lastModifiedBy>Ely, Brent</cp:lastModifiedBy><dcterms:created xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+'</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:modified></cp:coreProperties>\n"),e.file("xl/_rels/workbook.xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/></Relationships>\n'),e.file("xl/styles.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><numFmts count="1"><numFmt numFmtId="0" formatCode="General"/></numFmts><fonts count="4"><font><sz val="9"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="9"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="10"/><color indexed="8"/><name val="Geneva"/></font><font><sz val="18"/><color indexed="8"/><name val="Arial"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><dxfs count="0"/><tableStyles count="0"/><colors><indexedColors><rgbColor rgb="ff000000"/><rgbColor rgb="ffffffff"/><rgbColor rgb="ffff0000"/><rgbColor rgb="ff00ff00"/><rgbColor rgb="ff0000ff"/><rgbColor rgb="ffffff00"/><rgbColor rgb="ffff00ff"/><rgbColor rgb="ff00ffff"/><rgbColor rgb="ff000000"/><rgbColor rgb="ffffffff"/><rgbColor rgb="ff878787"/><rgbColor rgb="fff9f9f9"/></indexedColors></colors></styleSheet>\n'),e.file("xl/theme/theme1.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme"><a:themeElements><a:clrScheme name="Office"><a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1><a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1><a:dk2><a:srgbClr val="44546A"/></a:dk2><a:lt2><a:srgbClr val="E7E6E6"/></a:lt2><a:accent1><a:srgbClr val="4472C4"/></a:accent1><a:accent2><a:srgbClr val="ED7D31"/></a:accent2><a:accent3><a:srgbClr val="A5A5A5"/></a:accent3><a:accent4><a:srgbClr val="FFC000"/></a:accent4><a:accent5><a:srgbClr val="5B9BD5"/></a:accent5><a:accent6><a:srgbClr val="70AD47"/></a:accent6><a:hlink><a:srgbClr val="0563C1"/></a:hlink><a:folHlink><a:srgbClr val="954F72"/></a:folHlink></a:clrScheme><a:fontScheme name="Office"><a:majorFont><a:latin typeface="Calibri Light" panose="020F0302020204030204"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic Light"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian Light"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Times New Roman"/><a:font script="Hebr" typeface="Times New Roman"/><a:font script="Thai" typeface="Tahoma"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="MoolBoran"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Times New Roman"/><a:font script="Uigh" typeface="Microsoft Uighur"/><a:font script="Geor" typeface="Sylfaen"/></a:majorFont><a:minorFont><a:latin typeface="Calibri" panose="020F0502020204030204"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Arial"/><a:font script="Hebr" typeface="Arial"/><a:font script="Thai" typeface="Tahoma"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="DaunPenh"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Arial"/><a:font script="Uigh" typeface="Microsoft Uighur"/><a:font script="Geor" typeface="Sylfaen"/></a:minorFont></a:fontScheme><a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:lumMod val="110000"/><a:satMod val="105000"/><a:tint val="67000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:lumMod val="105000"/><a:satMod val="103000"/><a:tint val="73000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:lumMod val="105000"/><a:satMod val="109000"/><a:tint val="81000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:satMod val="103000"/><a:lumMod val="102000"/><a:tint val="94000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:satMod val="110000"/><a:lumMod val="100000"/><a:shade val="100000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:lumMod val="99000"/><a:satMod val="120000"/><a:shade val="78000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="6350" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln><a:ln w="12700" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln><a:ln w="19050" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/><a:miter lim="800000"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst/></a:effectStyle><a:effectStyle><a:effectLst/></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="57150" dist="19050" dir="5400000" algn="ctr" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="63000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:solidFill><a:schemeClr val="phClr"><a:tint val="95000"/><a:satMod val="170000"/></a:schemeClr></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="93000"/><a:satMod val="150000"/><a:shade val="98000"/><a:lumMod val="102000"/></a:schemeClr></a:gs><a:gs pos="50000"><a:schemeClr val="phClr"><a:tint val="98000"/><a:satMod val="130000"/><a:shade val="90000"/><a:lumMod val="103000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="63000"/><a:satMod val="120000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="5400000" scaled="0"/></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/><a:extLst><a:ext uri="{05A4C25C-085E-4340-85A3-A5531E510DB2}"><thm15:themeFamily xmlns:thm15="http://schemas.microsoft.com/office/thememl/2012/main" name="Office Theme" id="{62F939B6-93AF-4DB8-9C6B-D6C7DFDC589F}" vid="{4A3C46E8-61CC-4603-A589-7422A47A8E4A}"/></a:ext></a:extLst></a:theme>'),e.file("xl/workbook.xml",'<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x15" xmlns:x15="http://schemas.microsoft.com/office/spreadsheetml/2010/11/main"><fileVersion appName="xl" lastEdited="6" lowestEdited="6" rupBuild="14420"/><workbookPr /><bookViews><workbookView xWindow="0" yWindow="0" windowWidth="15960" windowHeight="18080"/></bookViews><sheets><sheet name="Sheet1" sheetId="1" r:id="rId1" /></sheets><calcPr calcId="171026" concurrentCalc="0"/></workbook>\n'),e.file("xl/worksheets/_rels/sheet1.xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/table" Target="../tables/table1.xml"/></Relationships>\n');var r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';"bubble"===i.opts.type.name?r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(l+1)+'" uniqueCount="'+(l+1)+'">':"scatter"===i.opts.type.name?r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(p.length+1)+'" uniqueCount="'+(p.length+1)+'">':(r+='<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="'+(p[0].labels.length+p.length+1)+'" uniqueCount="'+(p[0].labels.length+p.length+1)+'">',r+='<si><t xml:space="preserve"></t></si>'),"bubble"===i.opts.type.name?p.forEach(function(e,a){0==a?r+="<si><t>X-Axis</t></si>":(r+="<si><t>"+H(e.name||" ")+"</t></si>",r+="<si><t>"+H("Size "+a)+"</t></si>")}):p.forEach(function(e,a){r+="<si><t>"+H((e.name||" ").replace("X-Axis","X-Values"))+"</t></si>"}),"bubble"!=i.opts.type.name&&"scatter"!=i.opts.type.name&&p[0].labels.forEach(function(e,a){r+="<si><t>"+H(e)+"</t></si>"}),r+="</sst>\n",e.file("xl/sharedStrings.xml",r);var o='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';"bubble"==i.opts.type.name||("scatter"==i.opts.type.name?(o+='<table xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" id="1" name="Table1" displayName="Table1" ref="A1:'+f[p.length-1]+(p[0].values.length+1)+'" totalsRowShown="0">',o+='<tableColumns count="'+p.length+'">',p.forEach(function(e,a){o+='<tableColumn id="'+(a+1)+'" name="'+(0==a?"X-Values":"Y-Value "+a)+'" />'})):(o+='<table xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" id="1" name="Table1" displayName="Table1" ref="A1:'+f[p.length]+(p[0].labels.length+1)+'" totalsRowShown="0">',o+='<tableColumns count="'+(p.length+1)+'">',o+='<tableColumn id="1" name=" " />',p.forEach(function(e,a){o+='<tableColumn id="'+(a+2)+'" name="'+H(e.name)+'" />'}))),o+="</tableColumns>",o+='<tableStyleInfo showFirstColumn="0" showLastColumn="0" showRowStripes="1" showColumnStripes="0" />',o+="</table>",e.file("xl/tables/table1.xml",o);var n='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';if(n+='<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x14ac" xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">',"bubble"===i.opts.type.name?n+='<dimension ref="A1:'+f[l-1]+(p[0].values.length+1)+'" />':"scatter"===i.opts.type.name?n+='<dimension ref="A1:'+f[p.length-1]+(p[0].values.length+1)+'" />':n+='<dimension ref="A1:'+f[p.length]+(p[0].labels.length+1)+'" />',n+='<sheetViews><sheetView tabSelected="1" workbookViewId="0"><selection activeCell="B1" sqref="B1" /></sheetView></sheetViews>',n+='<sheetFormatPr baseColWidth="10" defaultColWidth="11.5" defaultRowHeight="12" />',"bubble"==i.opts.type.name){n+="<cols>",n+='<col min="1" max="'+p.length+'" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+l+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(var s=1;s<l;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].values.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+l+'">',n+='<c r="A'+(a+2)+'"><v>'+e+"</v></c>";for(var t=1,r=1;r<p.length;r++)n+='<c r="'+(t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[r].values[a]||"")+"</v>",n+="</c>",n+='<c r="'+(++t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[r].sizes[a]||"")+"</v>",n+="</c>",t++;n+="</row>"})}else if("scatter"==i.opts.type.name){n+="<cols>",n+='<col min="1" max="'+p.length+'" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+p.length+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(s=1;s<p.length;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].values.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+p.length+'">',n+='<c r="A'+(a+2)+'"><v>'+e+"</v></c>";for(var t=1;t<p.length;t++)n+='<c r="'+(t<26?f[t]:"A"+f[t%f.length])+(a+2)+'">',n+="<v>"+(p[t].values[a]||0==p[t].values[a]?p[t].values[a]:"")+"</v>",n+="</c>";n+="</row>"})}else{n+="<cols>",n+='<col min="1" max="1" width="11" customWidth="1" />',n+="</cols>",n+="<sheetData>",n+='<row r="1" spans="1:'+(p.length+1)+'">',n+='<c r="A1" t="s"><v>0</v></c>';for(s=1;s<=p.length;s++)n+='<c r="'+(s<26?f[s]:"A"+f[s%f.length])+'1" t="s">',n+="<v>"+s+"</v>",n+="</c>";n+="</row>",p[0].labels.forEach(function(e,a){n+='<row r="'+(a+2)+'" spans="1:'+(p.length+1)+'">',n+='<c r="A'+(a+2)+'" t="s">',n+="<v>"+(p.length+a+1)+"</v>",n+="</c>";for(var t=0;t<p.length;t++)n+='<c r="'+(t+1<26?f[t+1]:"A"+f[(t+1)%f.length])+(a+2)+'">',n+="<v>"+(p[t].values[a]||"")+"</v>",n+="</c>";n+="</row>"})}n+="</sheetData>",n+='<pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3" />',n+="</worksheet>\n",e.file("xl/worksheets/sheet1.xml",n),e.generateAsync({type:"base64"}).then(function(e){c.file("ppt/embeddings/Microsoft_Excel_Worksheet"+i.globalId+".xlsx",e,{base64:!0}),c.file("ppt/charts/_rels/"+i.fileName+".rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/package" Target="../embeddings/Microsoft_Excel_Worksheet'+i.globalId+'.xlsx"/></Relationships>'),c.file("ppt/charts/"+i.fileName,function(n){var s='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';s+='<c:chartSpace xmlns:c="http://schemas.openxmlformats.org/drawingml/2006/chart" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">',s+='<c:date1904 val="0"/>',s+="<c:chart>",n.opts.showTitle?(s+=le({title:n.opts.title||"Chart Title",fontSize:n.opts.titleFontSize||x,color:n.opts.titleColor,fontFace:n.opts.titleFontFace,rotate:n.opts.titleRotate,titleAlign:n.opts.titleAlign,titlePos:n.opts.titlePos}),s+='<c:autoTitleDeleted val="0"/>'):s+='<c:autoTitleDeleted val="1"/>';"bar3D"==n.opts.type.name&&(s+="<c:view3D>",s+=' <c:rotX val="'+n.opts.v3DRotX+'"/>',s+=' <c:rotY val="'+n.opts.v3DRotY+'"/>',s+=' <c:rAngAx val="'+(0==n.opts.v3DRAngAx?0:1)+'"/>',s+=' <c:perspective val="'+n.opts.v3DPerspective+'"/>',s+="</c:view3D>");s+="<c:plotArea>",n.opts.layout?(s+="<c:layout>",s+=" <c:manualLayout>",s+='  <c:layoutTarget val="inner" />',s+='  <c:xMode val="edge" />',s+='  <c:yMode val="edge" />',s+='  <c:x val="'+(n.opts.layout.x||0)+'" />',s+='  <c:y val="'+(n.opts.layout.y||0)+'" />',s+='  <c:w val="'+(n.opts.layout.w||1)+'" />',s+='  <c:h val="'+(n.opts.layout.h||1)+'" />',s+=" </c:manualLayout>",s+="</c:layout>"):s+="<c:layout/>";var i=!1;if(Array.isArray(n.opts.type))n.opts.type.forEach(function(e){var a=e.type.name,t=e.data,r=_(n.opts,e.options),l=r.secondaryValAxis?S:C,o=r.secondaryCatAxis?L:w;i=i||r.secondaryValAxis,s+=ee(a,t,r,l,o,!0)});else{var e=n.opts.type.name;s+=ee(e,n.data,n.opts,C,w,!1)}if("pie"!==n.opts.type.name&&"doughnut"!==n.opts.type.name){if(n.opts.valAxes&&!i)throw new Error("Secondary axis must be used by one of the multiple charts");if(n.opts.catAxes){if(!n.opts.valAxes||n.opts.valAxes.length!==n.opts.catAxes.length)throw new Error("There must be the same number of value and category axes.");s+=ae(_(n.opts,n.opts.catAxes[0]),w,C),n.opts.catAxes[1]&&(s+=ae(_(n.opts,n.opts.catAxes[1]),L,C))}else s+=ae(n.opts,w,C);n.opts.hasArea=function(e){if(Array.isArray(e))return a="area",e.some(function(e){return e.type.name===a});var a;return"area"===e.name}(n.opts.type),n.opts.valAxes?(s+=te(_(n.opts,n.opts.valAxes[0]),C),n.opts.valAxes[1]&&(s+=te(_(n.opts,n.opts.valAxes[1]),S))):(s+=te(n.opts,C),"bar3D"==n.opts.type.name&&(s+=function(t,e,a){var r="";r+="<c:serAx>",r+='  <c:axId val="'+e+'"/>',r+='  <c:scaling><c:orientation val="'+(t.serAxisOrientation||(t.barDir,"minMax"))+'"/></c:scaling>',r+='  <c:delete val="'+(t.serAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+("col"==t.barDir?"b":"l")+'"/>',r+="none"!==t.serGridLine?$(t.serGridLine,P):"",t.showSerAxisTitle&&(r+=le({color:t.serAxisTitleColor,fontFace:t.serAxisTitleFontFace,fontSize:t.serAxisTitleFontSize,rotate:t.serAxisTitleRotate,title:t.serAxisTitle||"Axis Title"}));r+='  <c:numFmt formatCode="'+(t.serLabelFormatCode||"General")+'" sourceLinked="0"/>',r+='  <c:majorTickMark val="out"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="'+(t.serAxisLabelPos||"col"==t.barDir?"low":"nextTo")+'"/>',r+="  <c:spPr>",r+='    <a:ln w="12700" cap="flat">',r+=0==t.serAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='      <a:prstDash val="solid"/>',r+="      <a:round/>",r+="    </a:ln>",r+="  </c:spPr>",r+="  <c:txPr>",r+="    <a:bodyPr/>",r+="    <a:lstStyle/>",r+="    <a:p>",r+="    <a:pPr>",r+='    <a:defRPr sz="'+(t.serAxisLabelFontSize||v)+'00" b="0" i="0" u="none" strike="noStrike">',r+='      <a:solidFill><a:srgbClr val="'+(t.serAxisLabelColor||y)+'"/></a:solidFill>',r+='      <a:latin typeface="'+(t.serAxisLabelFontFace||"Arial")+'"/>',r+="   </a:defRPr>",r+="  </a:pPr>",r+='  <a:endParaRPr lang="'+(t.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+a+'"/>',r+=' <c:crosses val="autoZero"/>',t.serAxisLabelFrequency&&(r+=' <c:tickLblSkip val="'+t.serAxisLabelFrequency+'"/>');t.serLabelFormatCode&&(["serAxisBaseTimeUnit","serAxisMajorTimeUnit","serAxisMinorTimeUnit"].forEach(function(e,a){!t[e]||"string"==typeof t[e]&&-1!=["days","months","years"].indexOf(e.toLowerCase())||(console.warn("`"+e+"` must be one of: 'days','months','years' !"),t[e]=null)}),t.serAxisBaseTimeUnit&&(r+=' <c:baseTimeUnit  val="'+t.serAxisBaseTimeUnit.toLowerCase()+'"/>'),t.serAxisMajorTimeUnit&&(r+=' <c:majorTimeUnit val="'+t.serAxisMajorTimeUnit.toLowerCase()+'"/>'),t.serAxisMinorTimeUnit&&(r+=' <c:minorTimeUnit val="'+t.serAxisMinorTimeUnit.toLowerCase()+'"/>'),t.serAxisMajorUnit&&(r+=' <c:majorUnit     val="'+t.serAxisMajorUnit+'"/>'),t.serAxisMinorUnit&&(r+=' <c:minorUnit     val="'+t.serAxisMinorUnit+'"/>'));return r+="</c:serAx>"}(n.opts,k,C)))}n.opts.showDataTable&&(s+="<c:dTable>",s+='  <c:showHorzBorder val="'+(0==n.opts.showDataTableHorzBorder?0:1)+'"/>',s+='  <c:showVertBorder val="'+(0==n.opts.showDataTableVertBorder?0:1)+'"/>',s+='  <c:showOutline    val="'+(0==n.opts.showDataTableOutline?0:1)+'"/>',s+='  <c:showKeys       val="'+(0==n.opts.showDataTableKeys?0:1)+'"/>',s+="  <c:spPr>",s+="    <a:noFill/>",s+='    <a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="tx1"><a:lumMod val="15000"/><a:lumOff val="85000"/></a:schemeClr></a:solidFill><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+='  <c:txPr>\t\t\t\t\t          <a:bodyPr rot="0" spcFirstLastPara="1" vertOverflow="ellipsis" vert="horz" wrap="square" anchor="ctr" anchorCtr="1"/>\t\t\t\t\t          <a:lstStyle/>\t\t\t\t\t          <a:p>\t\t\t\t\t            <a:pPr rtl="0">\t\t\t\t\t              <a:defRPr sz="1197" b="0" i="0" u="none" strike="noStrike" kern="1200" baseline="0">\t\t\t\t\t                <a:solidFill><a:schemeClr val="tx1"><a:lumMod val="65000"/><a:lumOff val="35000"/></a:schemeClr></a:solidFill>\t\t\t\t\t                <a:latin typeface="+mn-lt"/>\t\t\t\t\t                <a:ea typeface="+mn-ea"/>\t\t\t\t\t                <a:cs typeface="+mn-cs"/>\t\t\t\t\t              </a:defRPr>\t\t\t\t\t            </a:pPr>\t\t\t\t\t            <a:endParaRPr lang="en-US"/>\t\t\t\t\t          </a:p>\t\t\t\t\t        </c:txPr>\t\t\t\t\t      </c:dTable>');s+="  <c:spPr>",s+=n.opts.fill?ie(n.opts.fill):"<a:noFill/>",s+=n.opts.border?'<a:ln w="'+n.opts.border.pt*T+'" cap="flat">'+ie(n.opts.border.color)+"</a:ln>":"<a:ln><a:noFill/></a:ln>",s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:plotArea>",n.opts.showLegend&&(s+="<c:legend>",s+='<c:legendPos val="'+n.opts.legendPos+'"/>',s+="<c:layout/>",s+='<c:overlay val="0"/>',(n.opts.legendFontFace||n.opts.legendFontSize||n.opts.legendColor)&&(s+="<c:txPr>",s+="  <a:bodyPr/>",s+="  <a:lstStyle/>",s+="  <a:p>",s+="    <a:pPr>",s+=n.opts.legendFontSize?'<a:defRPr sz="'+100*Number(n.opts.legendFontSize)+'">':"<a:defRPr>",n.opts.legendColor&&(s+=ie(n.opts.legendColor)),n.opts.legendFontFace&&(s+='<a:latin typeface="'+n.opts.legendFontFace+'"/>'),n.opts.legendFontFace&&(s+='<a:cs    typeface="'+n.opts.legendFontFace+'"/>'),s+="      </a:defRPr>",s+="    </a:pPr>",s+='    <a:endParaRPr lang="en-US"/>',s+="  </a:p>",s+="</c:txPr>"),s+="</c:legend>");s+='  <c:plotVisOnly val="1"/>',s+='  <c:dispBlanksAs val="'+n.opts.displayBlanksAs+'"/>',"scatter"===n.opts.type.name&&(s+='<c:showDLblsOverMax val="1"/>');return s+="</c:chart>",s+="<c:spPr>",s+="  <a:noFill/>",s+='  <a:ln w="12700" cap="flat"><a:noFill/><a:miter lim="400000"/></a:ln>',s+="  <a:effectLst/>",s+="</c:spPr>",s+='<c:externalData r:id="rId1"><c:autoUpdate val="0"/></c:externalData>',s+="</c:chartSpace>"}(i)),a()}).catch(function(e){t(e)})})}};function N(t){var r,l,e,a,o,n,s,i,c,p=[],d=0,m=new JSZip;m.folder("_rels"),m.folder("docProps"),m.folder("ppt").folder("_rels"),m.folder("ppt/charts").folder("_rels"),m.folder("ppt/embeddings"),m.folder("ppt/media"),m.folder("ppt/slideLayouts").folder("_rels"),m.folder("ppt/slideMasters").folder("_rels"),m.folder("ppt/slides").folder("_rels"),m.folder("ppt/theme"),m.folder("ppt/notesMasters").folder("_rels"),m.folder("ppt/notesSlides").folder("_rels"),m.file("[Content_Types].xml",(r='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,r+='<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">',r+=' <Default Extension="xml" ContentType="application/xml"/>',r+=' <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>',r+=' <Default Extension="jpeg" ContentType="image/jpeg"/>',r+=' <Default Extension="jpg" ContentType="image/jpg"/>',r+=' <Default Extension="png" ContentType="image/png"/>',r+=' <Default Extension="gif" ContentType="image/gif"/>',r+=' <Default Extension="m4v" ContentType="video/mp4"/>',r+=' <Default Extension="mp4" ContentType="video/mp4"/>',R.slides.forEach(function(e,a){e.rels.forEach(function(e,a){"image"!=e.type&&"online"!=e.type&&"chart"!=e.type&&"m4v"!=e.extn&&-1==r.indexOf(e.type)&&(r+=' <Default Extension="'+e.extn+'" ContentType="'+e.type+'"/>')})}),r+=' <Default Extension="vml" ContentType="application/vnd.openxmlformats-officedocument.vmlDrawing"/>',r+=' <Default Extension="xlsx" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>',r+=' <Override PartName="/ppt/presentation.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml"/>',r+=' <Override PartName="/ppt/notesMasters/notesMaster1.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml"/>',R.slides.forEach(function(e,a){r+='<Override PartName="/ppt/slideMasters/slideMaster'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml"/>',r+='<Override PartName="/ppt/slides/slide'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml"/>',e.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>')})}),r+=' <Override PartName="/ppt/presProps.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.presProps+xml"/>',r+=' <Override PartName="/ppt/viewProps.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml"/>',r+=' <Override PartName="/ppt/theme/theme1.xml" ContentType="application/vnd.openxmlformats-officedocument.theme+xml"/>',r+=' <Override PartName="/ppt/tableStyles.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml"/>',R.slideLayouts.forEach(function(e,a){r+='<Override PartName="/ppt/slideLayouts/slideLayout'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml"/>',e.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>')})}),R.slides.forEach(function(e,a){r+=' <Override PartName="/ppt/notesSlides/notesSlide'+(a+1)+'.xml" ContentType="application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml"/>'}),R.masterSlide.rels.forEach(function(e){"chart"==e.type&&(r+=' <Override PartName="'+e.Target+'" ContentType="application/vnd.openxmlformats-officedocument.drawingml.chart+xml"/>'),"image"!=e.type&&"online"!=e.type&&"chart"!=e.type&&"m4v"!=e.extn&&-1==r.indexOf(e.type)&&(r+=' <Default Extension="'+e.extn+'" ContentType="'+e.type+'"/>')}),r+=' <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>',r+=' <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>',r+="</Types>")),m.file("_rels/.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="ppt/presentation.xml"/></Relationships>'),m.file("docProps/app.xml",(l='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,l+='<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">',l+="<TotalTime>0</TotalTime>",l+="<Words>0</Words>",l+="<Application>Microsoft Office PowerPoint</Application>",l+="<PresentationFormat>On-screen Show</PresentationFormat>",l+="<Paragraphs>0</Paragraphs>",l+="<Slides>"+R.slides.length+"</Slides>",l+="<Notes>"+R.slides.length+"</Notes>",l+="<HiddenSlides>0</HiddenSlides>",l+="<MMClips>0</MMClips>",l+="<ScaleCrop>false</ScaleCrop>",l+="<HeadingPairs>",l+='  <vt:vector size="4" baseType="variant">',l+="    <vt:variant><vt:lpstr>Theme</vt:lpstr></vt:variant>",l+="    <vt:variant><vt:i4>1</vt:i4></vt:variant>",l+="    <vt:variant><vt:lpstr>Slide Titles</vt:lpstr></vt:variant>",l+="    <vt:variant><vt:i4>"+R.slides.length+"</vt:i4></vt:variant>",l+="  </vt:vector>",l+="</HeadingPairs>",l+="<TitlesOfParts>",l+='<vt:vector size="'+(R.slides.length+1)+'" baseType="lpstr">',l+="<vt:lpstr>Office Theme</vt:lpstr>",R.slides.forEach(function(e,a){l+="<vt:lpstr>Slide "+(a+1)+"</vt:lpstr>"}),l+="</vt:vector>",l+="</TitlesOfParts>",l+="<Company>"+R.company+"</Company>",l+="<LinksUpToDate>false</LinksUpToDate>",l+="<SharedDoc>false</SharedDoc>",l+="<HyperlinksChanged>false</HyperlinksChanged>",l+="<AppVersion>15.0000</AppVersion>",l+="</Properties>")),m.file("docProps/core.xml",(e='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,e+='<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">',e+="<dc:title>"+H(R.title)+"</dc:title>",e+="<dc:subject>"+H(R.subject)+"</dc:subject>",e+="<dc:creator>"+H(R.author)+"</dc:creator>",e+="<cp:lastModifiedBy>"+H(R.author)+"</cp:lastModifiedBy>",e+="<cp:revision>"+R.revision+"</cp:revision>",e+='<dcterms:created xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:created>",e+='<dcterms:modified xsi:type="dcterms:W3CDTF">'+(new Date).toISOString()+"</dcterms:modified>",e+="</cp:coreProperties>")),m.file("ppt/_rels/presentation.xml.rels",function(){var e=0,a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;a+='<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">',a+='  <Relationship Id="rId1" Target="slideMasters/slideMaster1.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster"/>',e++;for(var t=1;t<=R.slides.length;t++)a+='  <Relationship Id="rId'+ ++e+'" Target="slides/slide'+t+'.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide"/>';return a+='  <Relationship Id="rId'+ ++e+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/presProps" Target="presProps.xml"/>  <Relationship Id="rId'+(e+1)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/viewProps" Target="viewProps.xml"/>  <Relationship Id="rId'+(e+2)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>  <Relationship Id="rId'+(e+3)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/tableStyles" Target="tableStyles.xml"/>  <Relationship Id="rId'+(e+4)+'" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesMaster" Target="notesMasters/notesMaster1.xml"/></Relationships>'}()),m.file("ppt/theme/theme1.xml",(a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,a+='<a:theme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Office Theme">\t\t\t\t\t\t<a:themeElements>\t\t\t\t\t\t  <a:clrScheme name="Office"><a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1><a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1>\t\t\t\t\t\t  <a:dk2><a:srgbClr val="A7A7A7"/></a:dk2>\t\t\t\t\t\t  <a:lt2><a:srgbClr val="535353"/></a:lt2>\t\t\t\t\t\t  <a:accent1><a:srgbClr val="4F81BD"/></a:accent1><a:accent2><a:srgbClr val="C0504D"/></a:accent2><a:accent3><a:srgbClr val="9BBB59"/></a:accent3><a:accent4><a:srgbClr val="8064A2"/></a:accent4><a:accent5><a:srgbClr val="4BACC6"/></a:accent5>\t\t\t\t\t\t  <a:accent6><a:srgbClr val="F79646"/></a:accent6><a:hlink><a:srgbClr val="0000FF"/></a:hlink><a:folHlink><a:srgbClr val="800080"/></a:folHlink></a:clrScheme>\t\t\t\t\t\t  <a:fontScheme name="Office">\t\t\t\t\t\t  <a:majorFont><a:latin typeface="Arial"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic Light"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian Light"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Times New Roman"/><a:font script="Hebr" typeface="Times New Roman"/><a:font script="Thai" typeface="Angsana New"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="MoolBoran"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Times New Roman"/><a:font script="Uigh" typeface="Microsoft Uighur"/></a:majorFont>\t\t\t\t\t\t  <a:minorFont><a:latin typeface="Arial"/><a:ea typeface=""/><a:cs typeface=""/><a:font script="Jpan" typeface="Yu Gothic"/><a:font script="Hang" typeface="맑은 고딕"/><a:font script="Hans" typeface="DengXian"/><a:font script="Hant" typeface="新細明體"/><a:font script="Arab" typeface="Arial"/><a:font script="Hebr" typeface="Arial"/><a:font script="Thai" typeface="Cordia New"/><a:font script="Ethi" typeface="Nyala"/><a:font script="Beng" typeface="Vrinda"/><a:font script="Gujr" typeface="Shruti"/><a:font script="Khmr" typeface="DaunPenh"/><a:font script="Knda" typeface="Tunga"/><a:font script="Guru" typeface="Raavi"/><a:font script="Cans" typeface="Euphemia"/><a:font script="Cher" typeface="Plantagenet Cherokee"/><a:font script="Yiii" typeface="Microsoft Yi Baiti"/><a:font script="Tibt" typeface="Microsoft Himalaya"/><a:font script="Thaa" typeface="MV Boli"/><a:font script="Deva" typeface="Mangal"/><a:font script="Telu" typeface="Gautami"/><a:font script="Taml" typeface="Latha"/><a:font script="Syrc" typeface="Estrangelo Edessa"/><a:font script="Orya" typeface="Kalinga"/><a:font script="Mlym" typeface="Kartika"/><a:font script="Laoo" typeface="DokChampa"/><a:font script="Sinh" typeface="Iskoola Pota"/><a:font script="Mong" typeface="Mongolian Baiti"/><a:font script="Viet" typeface="Arial"/><a:font script="Uigh" typeface="Microsoft Uighur"/>\t\t\t\t\t\t  </a:minorFont></a:fontScheme>\t\t\t\t\t\t  <a:fmtScheme name="Office"><a:fillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="50000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="35000"><a:schemeClr val="phClr"><a:tint val="37000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:tint val="15000"/><a:satMod val="350000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="1"/></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:shade val="51000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="80000"><a:schemeClr val="phClr"><a:shade val="93000"/><a:satMod val="130000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="94000"/><a:satMod val="135000"/></a:schemeClr></a:gs></a:gsLst><a:lin ang="16200000" scaled="0"/></a:gradFill></a:fillStyleLst><a:lnStyleLst><a:ln w="9525" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"><a:shade val="95000"/><a:satMod val="105000"/></a:schemeClr></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="25400" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln><a:ln w="38100" cap="flat" cmpd="sng" algn="ctr"><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:prstDash val="solid"/></a:ln></a:lnStyleLst><a:effectStyleLst><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="38000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst></a:effectStyle><a:effectStyle><a:effectLst><a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0"><a:srgbClr val="000000"><a:alpha val="35000"/></a:srgbClr></a:outerShdw></a:effectLst><a:scene3d><a:camera prst="orthographicFront"><a:rot lat="0" lon="0" rev="0"/></a:camera><a:lightRig rig="threePt" dir="t"><a:rot lat="0" lon="0" rev="1200000"/></a:lightRig></a:scene3d><a:sp3d><a:bevelT w="63500" h="25400"/></a:sp3d></a:effectStyle></a:effectStyleLst><a:bgFillStyleLst><a:solidFill><a:schemeClr val="phClr"/></a:solidFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="40000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="40000"><a:schemeClr val="phClr"><a:tint val="45000"/><a:shade val="99000"/><a:satMod val="350000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="20000"/><a:satMod val="255000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="-80000" r="50000" b="180000"/></a:path></a:gradFill><a:gradFill rotWithShape="1"><a:gsLst><a:gs pos="0"><a:schemeClr val="phClr"><a:tint val="80000"/><a:satMod val="300000"/></a:schemeClr></a:gs><a:gs pos="100000"><a:schemeClr val="phClr"><a:shade val="30000"/><a:satMod val="200000"/></a:schemeClr></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="50000" t="50000" r="50000" b="50000"/></a:path></a:gradFill></a:bgFillStyleLst></a:fmtScheme></a:themeElements><a:objectDefaults/><a:extraClrSchemeLst/>\t\t\t\t\t\t</a:theme>')),m.file("ppt/presentation.xml",function(){var e=0,a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:presentation xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" '+(R.rtlMode?'rtl="1"':"")+' saveSubsetFonts="1" autoCompressPictures="0">';a+='<p:sldMasterIdLst><p:sldMasterId id="2147483648" r:id="rId1"/></p:sldMasterIdLst>',a+="<p:sldIdLst>";for(var t=0;t<R.slides.length;t++)a+='<p:sldId id="'+(t+256)+'" r:id="rId'+(t+2)+'"/>';a+="</p:sldIdLst>",a+='<p:notesMasterIdLst><p:notesMasterId r:id="rId'+(R.slides.length+2+4)+'"/></p:notesMasterIdLst>',a+='<p:sldSz cx="'+R.pptLayout.width+'" cy="'+R.pptLayout.height+'" type="'+R.pptLayout.name+'"/><p:notesSz cx="'+R.pptLayout.height+'" cy="'+R.pptLayout.width+'"/><p:defaultTextStyle>';for(var t=1;t<10;t++)a+="  <a:lvl"+t+'pPr marL="'+e+'" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">    <a:defRPr sz="1800" kern="1200">      <a:solidFill><a:schemeClr val="tx1"/></a:solidFill>      <a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/>    </a:defRPr>  </a:lvl'+t+"pPr>",e+=457200;return a+="</p:defaultTextStyle>",a+="</p:presentation>"}()),m.file("ppt/presProps.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:presentationPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"/>'),m.file("ppt/tableStyles.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<a:tblStyleLst xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" def="{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}"/>'),m.file("ppt/viewProps.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:viewPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"><p:normalViewPr><p:restoredLeft sz="15610" /><p:restoredTop sz="94613" /></p:normalViewPr><p:slideViewPr>  <p:cSldViewPr snapToGrid="0" snapToObjects="1">    <p:cViewPr varScale="1"><p:scale><a:sx n="119" d="100" /><a:sy n="119" d="100" /></p:scale><p:origin x="312" y="184" /></p:cViewPr>    <p:guideLst />  </p:cSldViewPr></p:slideViewPr><p:notesTextViewPr>  <p:cViewPr><p:scale><a:sx n="1" d="1" /><a:sy n="1" d="1" /></p:scale><p:origin x="0" y="0" /></p:cViewPr></p:notesTextViewPr><p:gridSpacing cx="76200" cy="76200" /></p:viewPr>');for(var f=1;f<=R.slideLayouts.length;f++)m.file("ppt/slideLayouts/slideLayout"+f+".xml",me(R.slideLayouts[f-1])),m.file("ppt/slideLayouts/_rels/slideLayout"+f+".xml.rels",(o=f,D.slideObjectRelationsToXml(R.slideLayouts[o-1],[{target:"../slideMasters/slideMaster1.xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster"}])));for(f=0;f<R.slides.length;f++)d++,m.file("ppt/slides/slide"+d+".xml",pe(R.slides[f])),m.file("ppt/slides/_rels/slide"+d+".xml.rels",(n=d,D.slideObjectRelationsToXml(R.slides[n-1],[{target:"../slideLayouts/slideLayout"+function(e){for(var a=R.slides[e-1].layout,t=0;t<R.slideLayouts.length;t++)if(R.slideLayouts[t].name===a)return t+1;return 1}(n)+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"},{target:"../notesSlides/notesSlide"+n+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide"}]))),m.file("ppt/notesSlides/notesSlide"+d+".xml",de(R.slides[f])),m.file("ppt/notesSlides/_rels/notesSlide"+d+".xml.rels",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesMaster" Target="../notesMasters/notesMaster1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="../slides/slide'+d+'.xml"/></Relationships>');m.file("ppt/slideMasters/slideMaster1.xml",(s=R.masterSlide,i=R.slideLayouts.map(function(e,a){return'<p:sldLayoutId id="'+(h+a)+'" r:id="rId'+(s.rels.length+a+1)+'"/>'}),c='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g,c+='<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">',c+=D.slideObjectToXml(s),c+='<p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>',c+="<p:sldLayoutIdLst>"+i.join("")+"</p:sldLayoutIdLst>",c+='<p:hf sldNum="0" hdr="0" ftr="0" dt="0"/>',c+='<p:txStyles> <p:titleStyle>  <a:lvl1pPr algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="0"/></a:spcBef><a:buNone/><a:defRPr sz="4400" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mj-lt"/><a:ea typeface="+mj-ea"/><a:cs typeface="+mj-cs"/></a:defRPr></a:lvl1pPr> </p:titleStyle> <p:bodyStyle>  <a:lvl1pPr marL="342900" indent="-342900" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="3200" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl1pPr>  <a:lvl2pPr marL="742950" indent="-285750" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="–"/><a:defRPr sz="2800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl2pPr>  <a:lvl3pPr marL="1143000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2400" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl3pPr>  <a:lvl4pPr marL="1600200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="–"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl4pPr>  <a:lvl5pPr marL="2057400" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="»"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl5pPr>  <a:lvl6pPr marL="2514600" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl6pPr>  <a:lvl7pPr marL="2971800" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl7pPr>  <a:lvl8pPr marL="3429000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl8pPr>  <a:lvl9pPr marL="3886200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:spcBef><a:spcPct val="20000"/></a:spcBef><a:buFont typeface="Arial" pitchFamily="34" charset="0"/><a:buChar char="•"/><a:defRPr sz="2000" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl9pPr> </p:bodyStyle> <p:otherStyle>  <a:defPPr><a:defRPr lang="en-US"/></a:defPPr>  <a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl1pPr>  <a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl2pPr>  <a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl3pPr>  <a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl4pPr>  <a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl5pPr>  <a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl6pPr>  <a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl7pPr>  <a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl8pPr>  <a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1800" kern="1200"><a:solidFill><a:schemeClr val="tx1"/></a:solidFill><a:latin typeface="+mn-lt"/><a:ea typeface="+mn-ea"/><a:cs typeface="+mn-cs"/></a:defRPr></a:lvl9pPr> </p:otherStyle></p:txStyles>',c+="</p:sldMaster>")),m.file("ppt/slideMasters/_rels/slideMaster1.xml.rels",function(e){e.rels.length;var a=R.slideLayouts.map(function(e,a){return{target:"../slideLayouts/slideLayout"+(a+1)+".xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout"}});return a.push({target:"../theme/theme1.xml",type:"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"}),D.slideObjectRelationsToXml(e,a)}(R.masterSlide)),m.file("ppt/notesMasters/notesMaster1.xml",'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g+'<p:notesMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"><p:cSld><p:bg><p:bgRef idx="1001"><a:schemeClr val="bg1" /></p:bgRef></p:bg><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name="" /><p:cNvGrpSpPr /><p:nvPr /></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="0" cy="0" /><a:chOff x="0" y="0" /><a:chExt cx="0" cy="0" /></a:xfrm></p:grpSpPr><p:sp><p:nvSpPr><p:cNvPr id="2" name="Header Placeholder 1" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="hdr" sz="quarter" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="2971800" cy="458788" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle><a:lvl1pPr algn="l"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="3" name="Date Placeholder 2" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="dt" idx="1" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="3884613" y="0" /><a:ext cx="2971800" cy="458788" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle><a:lvl1pPr algn="r"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:fld id="{5282F153-3F37-0F45-9E97-73ACFA13230C}" type="datetimeFigureOut"><a:rPr lang="en-US" smtClean="0" /><a:t>6/20/18</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="4" name="Slide Image Placeholder 3" /><p:cNvSpPr><a:spLocks noGrp="1" noRot="1" noChangeAspect="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldImg" idx="2" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="685800" y="1143000" /><a:ext cx="5486400" cy="3086100" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom><a:noFill /><a:ln w="12700"><a:solidFill><a:prstClr val="black" /></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr" /><a:lstStyle /><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="5" name="Notes Placeholder 4" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="body" sz="quarter" idx="3" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="685800" y="4400550" /><a:ext cx="5486400" cy="3600450" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" /><a:lstStyle /><a:p><a:pPr lvl="0" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Click to edit Master text styles</a:t></a:r></a:p><a:p><a:pPr lvl="1" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Second level</a:t></a:r></a:p><a:p><a:pPr lvl="2" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Third level</a:t></a:r></a:p><a:p><a:pPr lvl="3" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Fourth level</a:t></a:r></a:p><a:p><a:pPr lvl="4" /><a:r><a:rPr lang="en-US" smtClean="0" /><a:t>Fifth level</a:t></a:r><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="6" name="Footer Placeholder 5" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="ftr" sz="quarter" idx="4" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="8685213" /><a:ext cx="2971800" cy="458787" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="b" /><a:lstStyle><a:lvl1pPr algn="l"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="7" name="Slide Number Placeholder 6" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldNum" sz="quarter" idx="5" /></p:nvPr></p:nvSpPr><p:spPr><a:xfrm><a:off x="3884613" y="8685213" /><a:ext cx="2971800" cy="458787" /></a:xfrm><a:prstGeom prst="rect"><a:avLst /></a:prstGeom></p:spPr><p:txBody><a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="b" /><a:lstStyle><a:lvl1pPr algn="r"><a:defRPr sz="1200" /></a:lvl1pPr></a:lstStyle><a:p><a:fld id="{CE5E9CC1-C706-0F49-92D6-E571CC5EEA8F}" type="slidenum"><a:rPr lang="en-US" smtClean="0" /><a:t>‹#›</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp></p:spTree><p:extLst><p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}"><p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1024086991" /></p:ext></p:extLst></p:cSld><p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink" /><p:notesStyle><a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl1pPr><a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl2pPr><a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl3pPr><a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl4pPr><a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl5pPr><a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl6pPr><a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl7pPr><a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl8pPr><a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1"><a:defRPr sz="1200" kern="1200"><a:solidFill><a:schemeClr val="tx1" /></a:solidFill><a:latin typeface="+mn-lt" /><a:ea typeface="+mn-ea" /><a:cs typeface="+mn-cs" /></a:defRPr></a:lvl9pPr></p:notesStyle></p:notesMaster>'),m.file("ppt/notesMasters/_rels/notesMaster1.xml.rels",'<?xml version="1.0" encoding="UTF-8"?>'+g+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="../theme/theme1.xml"/></Relationships>'),R.slideLayouts.forEach(function(e){M(e,m,p)}),R.slides.forEach(function(e){M(e,m,p)}),M(R.masterSlide,m,p),Promise.all(p).then(function(e){var a=-1<R.fileName.toLowerCase().indexOf(".ppt")?R.fileName:R.fileName+R.fileExtn;t&&0<=u.indexOf(t)?m.generateAsync({type:t}).then(R.saveCallback):NODEJS&&!R.isBrowser?R.saveCallback?0==a.indexOf("http")?m.generateAsync({type:"nodebuffer"}).then(function(e){R.saveCallback(e)}):m.generateAsync({type:"nodebuffer"}).then(function(e){fs.writeFile(a,e,function(){R.saveCallback(a)})}):m.generateAsync({type:"nodebuffer"}).then(function(e){fs.writeFile(a,e,function(){})}):m.generateAsync({type:"blob"}).then(function(e){!function(e,a){var t=document.createElement("a");if(document.body.appendChild(t),t.style="display: none",window.navigator.msSaveOrOpenBlob)blobObject=new Blob([a]),jQuery(t).click(function(){window.navigator.msSaveOrOpenBlob(blobObject,e)}),t.click(),document.body.removeChild(t),R.saveCallback&&R.saveCallback(e);else if(window.URL.createObjectURL){var r=new Blob([a],{type:"octet/stream"}),l=window.URL.createObjectURL(r);t.href=l,t.download=e,t.click(),setTimeout(function(){window.URL.revokeObjectURL(l),document.body.removeChild(t)},100),R.saveCallback&&R.saveCallback(e)}R.saveCallback=null}(a,e)})}).catch(function(e){console.error(e)})}function M(e,t,r){e.rels.forEach(function(e){if("chart"==e.type)r.push(D.createExcelWorksheet(e,t));else if("online"!=e.type&&"hyperlink"!=e.type){var a=e.data;-1==a.indexOf(",")&&-1==a.indexOf(";")?a="image/png;base64,"+a:-1==a.indexOf(",")?a="image/png;base64,"+a:-1==a.indexOf(";")&&(a="image/png;"+a),t.file(e.Target.replace("..","ppt"),a.split(",").pop(),{base64:!0})}})}function O(e){var a="";return e<=26?a=f[e]:(a+=f[Math.floor(e/f.length)-1],a+=f[e%f.length]),a}function j(e){var a=e.toString(16);return 1==a.length?"0"+a:a}function z(e,a){var t=i.test(e);t||-1!==E.indexOf(e)||(console.warn('"'+e+'" is not a valid scheme color or hexa RGB! "'+y+'" is used as a fallback. Pass 6-digit RGB or these `pptx.colors` values:\n'+E.join(", ")),e=y);var r=t?"srgbClr":"schemeClr",l=' val="'+e+'"';return a?"<a:"+r+l+">"+a+"</a:"+r+">":"<a:"+r+l+" />"}function Q(e,a,t){if(!Number.isInteger(e))try{console.warn("Integer expected!")}catch(e){}return(j(e)+j(a)+j(t)).toUpperCase()}function G(e){return 100<e?e:("string"==typeof e&&(e=Number(e.replace(/in*/gi,""))),Math.round(F*e))}function U(e,o){var n=0;return e.rels.forEach(function(a){if("online"==a.type||"chart"==a.type||a.data||-1!=o.indexOf(a.path))a.isSvgPng&&a.data&&-1<a.data.toLowerCase().indexOf("image/svg")&&(n++,V(a.data,a),o.push(a.path));else if(NODEJS&&0!=a.path.indexOf("http"))try{var e=fs.readFileSync(a.path);a.data=Buffer.from(e).toString("base64")}catch(e){console.error('ERROR....: Unable to read media: "'+a.path+'"'),console.error("DETAILS..: "+e),a.data=s}else NODEJS&&0==a.path.indexOf("http")?(n++,l=a,https.get(l.path,function(e){var a="";e.setEncoding("binary"),e.on("data",function(e){a+=e}),e.on("end",function(){var e=Buffer.from(a,"binary").toString("base64");V(e,l)}),e.on("error",function(e){reject(e)})})):(n++,t=a,(r=new XMLHttpRequest).onload=function(){var e=new FileReader;e.onloadend=function(){V(e.result,t)},e.readAsDataURL(r.response)},r.onerror=function(e){console.error('Unable to load image: "'+t.path),console.error(e||""),V(s,t)},r.open("GET",t.path),r.responseType="blob",r.send()),o.push(a.path);var t,r,l}),n}function V(a,t){if(t.isSvgPng&&-1<a.indexOf("image/svg"))return t.data=a,void(NODEJS?console.log("SVG is not supported in Node"):(r=t,(e=new Image).onload=function(){if(this.width+this.height!=0){var e=document.createElement("CANVAS"),a=e.getContext("2d");e.width=this.width,e.height=this.height,a.drawImage(this,0,0);try{V(e.toDataURL(r.type),r)}catch(e){return void this.onerror(e)}e=null}else this.onerror("h/w=0")},e.onerror=function(e){console.error(e||""),V(s,r)},e.src=r.data));var r,e,l=0,o=function(e){e.path==t.path&&(e.data=a),e.data||l++};R.slides.forEach(function(e){e.rels.forEach(o)}),R.slideLayouts.forEach(function(e){e.rels.forEach(o)}),R.masterSlide.rels.forEach(o),0==l&&N()}function W(a){if(!a)return gObjPptxShapes.RECTANGLE;if("object"==typeof a&&a.name&&a.displayName&&a.avLst)return a;if(gObjPptxShapes[a])return gObjPptxShapes[a];var e=gObjPptxShapes.filter(function(e){return e.name==a||e.displayName})[0];return void 0!==e&&null!=e?e:gObjPptxShapes.RECTANGLE}function Y(e,a){return"string"!=typeof e||isNaN(Number(e))||(e=Number(e)),"number"==typeof e&&e<100?G(e):"number"==typeof e&&100<=e?e:"string"==typeof e&&-1<e.indexOf("%")?a&&"X"==a?Math.round(parseFloat(e,10)/100*R.pptLayout.width):a&&"Y"==a?Math.round(parseFloat(e,10)/100*R.pptLayout.height):Math.round(parseFloat(e,10)/100*R.pptLayout.width):0}function H(e){return void 0===e||null==e?"":e.toString().replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/\'/g,"&apos;")}function q(e,l){var a=[];"string"!=typeof e&&"number"!=typeof e&&(Array.isArray(e)?a=e:"object"==typeof e&&(a=[e]),a.forEach(function(e,a){if(Array.isArray(e))q(e,l);else if(e&&"object"==typeof e&&e.options&&e.options.hyperlink&&!e.options.hyperlink.rId)if("object"!=typeof e.options.hyperlink)console.log("ERROR: text `hyperlink` option should be an object. Ex: `hyperlink: {url:'https://github.com'}` ");else if(e.options.hyperlink.url||e.options.hyperlink.slide){var t=0;R.slides.forEach(function(e,a){t+=e.rels.length});var r=t+1;l.push({type:"hyperlink",data:e.options.hyperlink.slide?"slide":"dummy",rId:r,Target:e.options.hyperlink.url||e.options.hyperlink.slide}),e.options.hyperlink.rId=r}else console.log("ERROR: 'hyperlink requires either: `url` or `slide`'")}))}function X(e,c){var a,l=b,p=[],d=[],m=[],f=0,h=1*F,A=(c=c||{}).arrObjTabHeadRows||"",r=0;if(c.debug&&console.log("------------------------------------"),c.debug&&console.log("opts.w ............. = "+(c.w||"").toString()),c.debug&&console.log("opts.colW .......... = "+(c.colW||"").toString()),c.debug&&console.log("opts.slideMargin ... = "+(c.slideMargin||"").toString()),c.slideMargin||0==c.slideMargin||(c.slideMargin=b[0]),c.slideMargin||0==c.slideMargin?Array.isArray(c.slideMargin)?l=c.slideMargin:isNaN(c.slideMargin)||(l=[c.slideMargin,c.slideMargin,c.slideMargin,c.slideMargin]):c&&c.master&&c.master.margin&&(Array.isArray(c.master.margin)?l=c.master.margin:isNaN(c.master.margin)||(l=[c.master.margin,c.master.margin,c.master.margin,c.master.margin])),e[0].forEach(function(e,a){e||(e={});var t=e.options||e.opts||null;r+=t&&t.colspan?t.colspan:1}),c.debug&&console.log("arrInchMargins ..... = "+l.toString()),c.debug&&console.log("numCols ............ = "+r),!c.w&&c.colW&&(Array.isArray(c.colW)?c.colW.forEach(function(e,a){c.w+=e}):c.w=c.colW*r),a=c.w?G(c.w):R.pptLayout.width-G((c.x||l[1])+l[3]),c.debug&&console.log("emuSlideTabW (in) ........ = "+(a/F).toFixed(1)),c.debug&&console.log("gObjPptx.pptLayout.h ..... = "+R.pptLayout.height/F),!c.colW||!Array.isArray(c.colW))if(c.colW&&!isNaN(Number(c.colW))){var t=[];e[0].forEach(function(e,a){t.push(c.colW)}),c.colW=[],t.forEach(function(e,a){c.colW.push(e)})}else{c.colW=[];for(var o=0;o<r;o++)c.colW.push(a/F/r)}return e.forEach(function(e,a){var o=[],n=[],s=0,i=0;0<p.length?(h=R.pptLayout.height-G((c.y/F<l[0]?c.y/F:l[0])+l[2]))<c.h&&(h=c.h):h=c.h?c.h:R.pptLayout.height-G((c.y/F||l[0])+l[2]),c.debug&&console.log("* Slide "+p.length+": emuSlideTabH (in) ........ = "+(h/F).toFixed(1)),e.forEach(function(e,a){e||(e={});if(isNaN(e)&&"string"!=typeof e){if("object"==typeof e){"number"==typeof e.text?e.text=e.text.toString():void 0!==e.text&&null!=e.text||(e.text="");var t=e.options||e.opts||{};e.opts=t}}else e={text:e.toString(),opts:c};e.opts.lineWeight=c.lineWeight,m.push({text:"",opts:e.opts});var r=function(e,a){var t=2.2+(e.opts&&e.opts.lineWeight?e.opts.lineWeight:0),r=a*F/((e.opts.fontSize||v)/t),l=[],o="";if(e.text&&""==e.text.trim())return[" "];var n=(e.text||"").toString().trim();return jQuery.each(n.split("\n"),function(e,a){jQuery.each(a.split(" "),function(e,a){o.length+a.length+1<r?o+=a+" ":(o&&l.push(o),o=a+" ")}),o&&l.push(jQuery.trim(o)+g),o=""}),l[l.length-1]=jQuery.trim(l[l.length-1]),l}(e,c.colW[a]/T);o.push(r),r.length>s&&(s=r.length,i=a);var l=G(1.9*(e.opts.fontSize||c.fontSize||v)/100);e.opts&&e.opts.rowspan&&(l=0),e.opts.margin&&(e.opts.margin[0]&&(l+=e.opts.margin[0]*T/s),e.opts.margin[2]&&(l+=e.opts.margin[2]*T/s)),n.push(Math.round(l))});for(var t=0;t<s;t++){for(var r=0;r<o.length;r++)f+n[i]>h&&(c.debug&&console.log("--------------- New Slide Created ---------------"),c.debug&&console.log(" (calc) "+(f/F).toFixed(1)+"+"+(n[i]/F).toFixed(1)+" > "+h/F.toFixed(1)),c.debug&&console.log("--------------- New Slide Created ---------------"),jQuery.each(m,function(e,a){if(0<a.text.length)return d.push(jQuery.extend(!0,[],m)),!1}),p.push(jQuery.extend(!0,[],d)),d.length=0,f=0,jQuery.each(m,function(e,a){a.text=""}),c.addHeaderToEach&&A&&(d=d.concat(A))),o[r][t]&&(m[r].text+=o[r][t]);f+=n[i]}c.debug&&console.log("-> "+a+" row done!"),c.debug&&console.log("-> emuTabCurrH (in) . = "+(f/F).toFixed(1)),m.length&&d.push(jQuery.extend(!0,[],m)),m.length=0}),p.push(jQuery.extend(!0,[],d)),c.debug&&(console.log("arrObjSlides count = "+p.length),console.log(p)),p}function K(e,a,t){if("none"===e)return"<a:effectLst/>";var r="<a:effectLst>",l=_(a,e),o=l.type||"outer",n=l.blur*T,s=l.offset*T,i=6e4*l.angle,c=l.color,p=1e5*l.opacity;return r+="<a:"+o+'Shdw sx="100000" sy="100000" kx="0" ky="0"  algn="bl" blurRad="'+n+'" ',r+='rotWithShape="'+ +(l.rotateWithShape?1:0)+'"',r+=' dist="'+s+'" dir="'+i+'">',r+='<a:srgbClr val="'+c+'">',r+='<a:alpha val="'+p+'"/></a:srgbClr>',r+="</a:"+o+"Shdw>",r+="</a:effectLst>"}function J(e){e&&"none"!==e&&("outer"!=e.type&&"inner"!=e.type&&(console.warn("Warning: shadow.type options are `outer` or `inner`."),e.type="outer"),e.angle&&((isNaN(Number(e.angle))||e.angle<0||359<e.angle)&&(console.warn("Warning: shadow.angle can only be 0-359"),e.angle=270),e.angle=Math.round(Number(e.angle))),e.opacity&&((isNaN(Number(e.opacity))||e.opacity<0||1<e.opacity)&&(console.warn("Warning: shadow.opacity can only be 0-1"),e.opacity=.75),e.opacity=Number(e.opacity)))}function Z(e){e&&"none"!==e&&(void 0!==e.size&&(isNaN(Number(e.size))||e.size<=0)&&(console.warn("Warning: chart.gridLine.size must be greater than 0."),delete e.size),e.style&&["solid","dash","dot"].indexOf(e.style)<0&&(console.warn("Warning: chart.gridLine.style options: `solid`, `dash`, `dot`."),delete e.style))}function $(e,a,t){var r="c:"+(t=t||"major")+"Gridlines";return strXml="<"+r+">",strXml+=" <c:spPr>",strXml+='  <a:ln w="'+Math.round((e.size||a.size)*T)+'" cap="flat">',strXml+='  <a:solidFill><a:srgbClr val="'+(e.color||a.color)+'"/></a:solidFill>',strXml+='   <a:prstDash val="'+(e.style||a.style)+'"/><a:round/>',strXml+="  </a:ln>",strXml+=" </c:spPr>",strXml+="</"+r+">",strXml}function _(e,a,t){for(var r={},l=0;l<=arguments.length;l++){var o=arguments[l];o&&Object.keys(o).forEach(function(e){r[e]=o[e]})}return r}function ee(l,o,n,e,a,t){var s="";switch(l){case"area":case"bar":case"bar3D":case"line":case"radar":s+="<c:"+l+"Chart>","bar"!=l&&"bar3D"!=l||(s+='<c:barDir val="'+n.barDir+'"/>',s+='<c:grouping val="'+n.barGrouping+'"/>'),"radar"==l&&(s+='<c:radarStyle val="'+n.radarStyle+'"/>'),s+='<c:varyColors val="0"/>';var i=-1;o.forEach(function(e){i++;var a=e.index;s+="<c:ser>",s+='  <c:idx val="'+a+'"/>',s+='  <c:order val="'+a+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+O(a+1)+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+H(e.name)+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+='  <c:invertIfNegative val="0"/>';var t=n.chartColors[i%n.chartColors.length];if(s+="  <c:spPr>","transparent"==t?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(t,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(t)+"</a:solidFill>","line"==l?0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(t)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'):n.dataBorder&&(s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>","radar"!=l&&(s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',n.dataLabelBkgrdColors&&(s+="    <c:spPr>",s+="       <a:solidFill>"+z(t)+"</a:solidFill>",s+="    </c:spPr>"),s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","area"!=l&&"bar3D"!=l&&(s+='<c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='    <c:showLeaderLines val="0"/>',s+="  </c:dLbls>"),"line"==l||"radar"==l){s+="<c:marker>",s+='  <c:symbol val="'+n.lineDataSymbol+'"/>',n.lineDataSymbolSize&&(s+='  <c:size val="'+n.lineDataSymbolSize+'"/>'),s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[a+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):a])+"</a:solidFill>";var r=n.lineDataSymbolLineColor||t;s+='    <a:ln w="'+n.lineDataSymbolLineSize+'" cap="flat"><a:solidFill>'+z(r)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:marker>"}"bar"!=l&&"bar3D"!=l||1!==o.length&&!n.valueBarColors||n.chartColors==m||e.values.forEach(function(e,a){var t=e<0?n.invertedColors||m:n.chartColors;s+="  <c:dPt>",s+='    <c:idx val="'+a+'"/>',s+='      <c:invertIfNegative val="'+(n.invertedColors?0:1)+'"/>',s+='    <c:bubble3D val="0"/>',s+="    <c:spPr>",0===n.lineSize?s+="<a:ln><a:noFill/></a:ln>":"bar"===l?(s+="<a:solidFill>",s+='  <a:srgbClr val="'+t[a%t.length]+'"/>',s+="</a:solidFill>"):(s+="<a:ln>",s+="  <a:solidFill>",s+='   <a:srgbClr val="'+t[a%t.length]+'"/>',s+="  </a:solidFill>",s+="</a:ln>"),s+=K(n.shadow,p),s+="    </c:spPr>",s+="  </c:dPt>"}),s+="<c:cat>",n.catLabelFormatCode?(s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(e.labels.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>"+n.catLabelFormatCode+"</c:formatCode>",s+='      <c:ptCount val="'+e.labels.length+'"/>',e.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>"):(s+="  <c:strRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(e.labels.length+1)+"</c:f>",s+="    <c:strCache>",s+='\t     <c:ptCount val="'+e.labels.length+'"/>',e.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:strCache>",s+="  </c:strRef>"),s+="</c:cat>",s+="  <c:val>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$"+O(a+1)+"$2:$"+O(a+1)+"$"+(e.labels.length+1)+"</c:f>",s+="      <c:numCache>",s+="        <c:formatCode>General</c:formatCode>",s+='\t       <c:ptCount val="'+e.labels.length+'"/>',e.values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:val>","line"==l&&(s+='<c:smooth val="'+(n.lineSmooth?"1":"0")+'"/>'),s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="'+(n.dataLabelFontBold?1:0)+'" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","area"==n.type.name||"radar"==n.type.name||t||(s+='<c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='    <c:showLeaderLines val="0"/>',s+="  </c:dLbls>","bar"==l?(s+='  <c:gapWidth val="'+n.barGapWidthPct+'"/>',s+='  <c:overlap val="'+(-1<n.barGrouping.indexOf("tacked")?100:0)+'"/>'):"bar3D"==l?(s+='  <c:gapWidth val="'+n.barGapWidthPct+'"/>',s+='  <c:gapDepth val="'+n.barGapDepthPct+'"/>',s+='  <c:shape val="'+n.bar3DShape+'"/>'):"line"==l&&(s+='  <c:marker val="1"/>'),s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+='  <c:axId val="'+k+'"/>',s+="</c:"+l+"Chart>";break;case"scatter":s+="<c:"+l+"Chart>",s+='<c:scatterStyle val="lineMarker"/>',s+='<c:varyColors val="0"/>';i=-1;o.filter(function(e,a){return 0<a}).forEach(function(t,e){i++,s+="<c:ser>",s+='  <c:idx val="'+e+'"/>',s+='  <c:order val="'+e+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+f[e+1]+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+t.name+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="  <c:spPr>";var a=n.chartColors[i%n.chartColors.length];"transparent"==a?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(a,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(a)+"</a:solidFill>",0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(a)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>",s+="<c:marker>",s+='  <c:symbol val="'+n.lineDataSymbol+'"/>',n.lineDataSymbolSize&&(s+='  <c:size val="'+n.lineDataSymbolSize+'"/>'),s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[e+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):e])+"</a:solidFill>";var r=n.lineDataSymbolLineColor||a;if(s+='    <a:ln w="'+n.lineDataSymbolLineSize+'" cap="flat"><a:solidFill>'+z(r)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',s+="    <a:effectLst/>",s+="  </c:spPr>",s+="</c:marker>",n.showLabel){var l=getUuid("-xxxx-xxxx-xxxx-xxxxxxxxxxxx");!t.labels||"custom"!=n.dataLabelFormatScatter&&"customXY"!=n.dataLabelFormatScatter||(s+="<c:dLbls>",t.labels.forEach(function(e,a){"custom"!=n.dataLabelFormatScatter&&"customXY"!=n.dataLabelFormatScatter||(s+="  <c:dLbl>",s+='    <c:idx val="'+a+'"/>',s+="    <c:tx>",s+="      <c:rich>",s+="\t\t\t<a:bodyPr>",s+="\t\t\t\t<a:spAutoFit/>",s+="\t\t\t</a:bodyPr>",s+="        \t<a:lstStyle/>",s+="        \t<a:p>",s+="\t\t\t\t<a:pPr>",s+="\t\t\t\t\t<a:defRPr/>",s+="\t\t\t\t</a:pPr>",s+="          \t<a:r>",s+='            \t\t<a:rPr lang="'+(n.lang||"en-US")+'" dirty="0"/>',s+="            \t\t<a:t>"+H(e)+"</a:t>",s+="          \t</a:r>","customXY"!=n.dataLabelFormatScatter||/^ *$/.test(e)||(s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t> (</a:t>",s+="          \t</a:r>",s+='          \t<a:fld id="{'+getUuid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")+'}" type="XVALUE">',s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0"/>',s+="          \t\t<a:pPr>",s+="          \t\t\t<a:defRPr/>",s+="          \t\t</a:pPr>",s+="          \t\t<a:t>["+H(t.name)+"</a:t>",s+="          \t</a:fld>",s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t>, </a:t>",s+="          \t</a:r>",s+='          \t<a:fld id="{'+getUuid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")+'}" type="YVALUE">',s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0"/>',s+="          \t\t<a:pPr>",s+="          \t\t\t<a:defRPr/>",s+="          \t\t</a:pPr>",s+="          \t\t<a:t>["+H(t.name)+"]</a:t>",s+="          \t</a:fld>",s+="          \t<a:r>",s+='          \t\t<a:rPr lang="'+(n.lang||"en-US")+'" baseline="0" dirty="0"/>',s+="          \t\t<a:t>)</a:t>",s+="          \t</a:r>",s+='          \t<a:endParaRPr lang="'+(n.lang||"en-US")+'" dirty="0"/>'),s+="        \t</a:p>",s+="      </c:rich>",s+="    </c:tx>",s+="    <c:spPr>",s+="    \t<a:noFill/>",s+="    \t<a:ln>",s+="    \t\t<a:noFill/>",s+="    \t</a:ln>",s+="    \t<a:effectLst/>",s+="    </c:spPr>",s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="0"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+='\t  <c:showLeaderLines val="1"/>',s+="    <c:extLst>",s+='      <c:ext uri="{CE6537A1-D6FC-4f65-9D91-7224C49458BB}" xmlns:c15="http://schemas.microsoft.com/office/drawing/2012/chart">',s+="\t\t\t<c15:dlblFieldTable/>",s+='\t\t\t<c15:showDataLabelsRange val="0"/>',s+="\t\t</c:ext>",s+='      <c:ext uri="{C3380CC4-5D6E-409C-BE32-E72D297353CC}" xmlns:c16="http://schemas.microsoft.com/office/drawing/2014/chart">',s+='\t\t\t<c16:uniqueId val="{'+"00000000".substring(0,8-(a+1).toString().length).toString()+(a+1)+l+'}"/>',s+="      </c:ext>",s+="\t\t</c:extLst>",s+="</c:dLbl>")}),s+="</c:dLbls>"),"XY"==n.dataLabelFormatScatter&&(s+="<c:dLbls>",s+="\t<c:spPr>",s+="\t\t<a:noFill/>",s+="\t\t<a:ln>",s+="\t\t\t<a:noFill/>",s+="\t\t</a:ln>",s+="\t  \t<a:effectLst/>",s+="\t</c:spPr>",s+="\t<c:txPr>",s+="\t\t<a:bodyPr>",s+="\t\t\t<a:spAutoFit/>",s+="\t\t</a:bodyPr>",s+="\t\t<a:lstStyle/>",s+="\t\t<a:p>",s+="\t    \t<a:pPr>",s+="        \t\t<a:defRPr/>",s+="\t    \t</a:pPr>",s+='\t    \t<a:endParaRPr lang="en-US"/>',s+="\t\t</a:p>",s+="\t</c:txPr>",s+='\t<c:showLegendKey val="0"/>',s+=(n.showLabel,"1"),s+=(n.showLabel,"1"),s+='\t<c:showSerName val="0"/>',s+='\t<c:showPercent val="0"/>',s+='\t<c:showBubbleSize val="0"/>',s+="\t<c:extLst>",s+='\t\t<c:ext uri="{CE6537A1-D6FC-4f65-9D91-7224C49458BB}" xmlns:c15="http://schemas.microsoft.com/office/drawing/2012/chart">',s+='\t\t\t<c15:showLeaderLines val="1"/>',s+="\t\t</c:ext>",s+="\t</c:extLst>",s+="</c:dLbls>")}1!==o.length&&!n.valueBarColors||n.chartColors==m||t.values.forEach(function(e,a){var t=e<0?n.invertedColors||m:n.chartColors;s+="  <c:dPt>",s+='    <c:idx val="'+a+'"/>',s+='      <c:invertIfNegative val="'+(n.invertedColors?0:1)+'"/>',s+='    <c:bubble3D val="0"/>',s+="    <c:spPr>",0===n.lineSize?s+="<a:ln><a:noFill/></a:ln>":(s+="<a:solidFill>",s+=' <a:srgbClr val="'+t[a%t.length]+'"/>',s+="</a:solidFill>"),s+=K(n.shadow,p),s+="    </c:spPr>",s+="  </c:dPt>"}),s+="<c:xVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:xVal>",s+="<c:yVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$"+O(e+1)+"$2:$"+O(e+1)+"$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(t.values[a]||0==t.values[a]?t.values[a]:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:yVal>",s+='<c:smooth val="'+(n.lineSmooth?"1":"0")+'"/>',s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>",s+='    <c:dLblPos val="'+(n.dataLabelPosition||"outEnd")+'"/>',s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbls>",s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+="</c:"+l+"Chart>";break;case"bubble":s+="<c:"+l+"Chart>",s+='<c:varyColors val="0"/>';i=-1;var r=1;o.filter(function(e,a){return 0<a}).forEach(function(t,e){i++,s+="<c:ser>",s+='  <c:idx val="'+e+'"/>',s+='  <c:order val="'+e+'"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$"+f[r]+"$1</c:f>",s+='      <c:strCache><c:ptCount val="1"/><c:pt idx="0"><c:v>'+t.name+"</c:v></c:pt></c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="<c:spPr>";var a=n.chartColors[i%n.chartColors.length];"transparent"==a?s+="<a:noFill/>":n.chartColorsOpacity?s+="<a:solidFill>"+z(a,'<a:alpha val="'+n.chartColorsOpacity+'000"/>')+"</a:solidFill>":s+="<a:solidFill>"+z(a)+"</a:solidFill>",0==n.lineSize?s+="<a:ln><a:noFill/></a:ln>":n.dataBorder?s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>':(s+='<a:ln w="'+n.lineSize*T+'" cap="flat"><a:solidFill>'+z(a)+"</a:solidFill>",s+='<a:prstDash val="'+(n.lineDash||"solid")+'"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="</c:spPr>",s+="<c:xVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(o[0].values.length+1)+"</c:f>",s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:xVal>",s+="<c:yVal>",s+="  <c:numRef>",s+="    <c:f>Sheet1!$"+O(r)+"$2:$"+O(r)+"$"+(o[0].values.length+1)+"</c:f>",r++,s+="    <c:numCache>",s+="      <c:formatCode>General</c:formatCode>",s+='      <c:ptCount val="'+o[0].values.length+'"/>',o[0].values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(t.values[a]||0==t.values[a]?t.values[a]:"")+"</c:v></c:pt>"}),s+="    </c:numCache>",s+="  </c:numRef>",s+="</c:yVal>",s+="  <c:bubbleSize>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$"+O(r)+"$2:$"+O(e+2)+"$"+(t.sizes.length+1)+"</c:f>",r++,s+="      <c:numCache>",s+="        <c:formatCode>General</c:formatCode>",s+='\t       <c:ptCount val="'+t.sizes.length+'"/>',t.sizes.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:bubbleSize>",s+='  <c:bubble3D val="0"/>',s+="</c:ser>"}),s+="  <c:dLbls>",s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/>",s+="      <a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="0" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>",s+='    <c:dLblPos val="ctr"/>',s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="0"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="0"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbls>",s+='  <c:axId val="'+a+'"/>',s+='  <c:axId val="'+e+'"/>',s+="</c:"+l+"Chart>";break;case"pie":case"doughnut":var c=o[0];s+="<c:"+l+"Chart>",s+='  <c:varyColors val="0"/>',s+="<c:ser>",s+='  <c:idx val="0"/>',s+='  <c:order val="0"/>',s+="  <c:tx>",s+="    <c:strRef>",s+="      <c:f>Sheet1!$B$1</c:f>",s+="      <c:strCache>",s+='        <c:ptCount val="1"/>',s+='        <c:pt idx="0"><c:v>'+H(c.name)+"</c:v></c:pt>",s+="      </c:strCache>",s+="    </c:strRef>",s+="  </c:tx>",s+="  <c:spPr>",s+='    <a:solidFill><a:schemeClr val="accent1"/></a:solidFill>',s+='    <a:ln w="9525" cap="flat"><a:solidFill><a:srgbClr val="F9F9F9"/></a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>',n.dataNoEffects?s+="<a:effectLst/>":s+=K(n.shadow,p),s+="  </c:spPr>",s+='<c:explosion val="0"/>',c.labels.forEach(function(e,a){s+="<c:dPt>",s+='  <c:idx val="'+a+'"/>',s+='  <c:explosion val="0"/>',s+="  <c:spPr>",s+="    <a:solidFill>"+z(n.chartColors[a+1>n.chartColors.length?Math.floor(Math.random()*n.chartColors.length):a])+"</a:solidFill>",n.dataBorder&&(s+='<a:ln w="'+n.dataBorder.pt*T+'" cap="flat"><a:solidFill>'+z(n.dataBorder.color)+'</a:solidFill><a:prstDash val="solid"/><a:round/></a:ln>'),s+=K(n.shadow,p),s+="  </c:spPr>",s+="</c:dPt>"}),s+="<c:dLbls>",c.labels.forEach(function(e,a){s+="<c:dLbl>",s+='  <c:idx val="'+a+'"/>',s+='    <c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>',s+="    <c:txPr>",s+="      <a:bodyPr/><a:lstStyle/>",s+="      <a:p><a:pPr>",s+='        <a:defRPr b="'+(n.dataLabelFontBold?1:0)+'" i="0" strike="noStrike" sz="'+(n.dataLabelFontSize||v)+'00" u="none">',s+="          <a:solidFill>"+z(n.dataLabelColor||y)+"</a:solidFill>",s+='          <a:latin typeface="'+(n.dataLabelFontFace||"Arial")+'"/>',s+="        </a:defRPr>",s+="      </a:pPr></a:p>",s+="    </c:txPr>","pie"==l&&(s+='    <c:dLblPos val="'+(n.dataLabelPosition||"inEnd")+'"/>'),s+='    <c:showLegendKey val="0"/>',s+='    <c:showVal val="'+(n.showValue?"1":"0")+'"/>',s+='    <c:showCatName val="'+(n.showLabel?"1":"0")+'"/>',s+='    <c:showSerName val="0"/>',s+='    <c:showPercent val="'+(n.showPercent?"1":"0")+'"/>',s+='    <c:showBubbleSize val="0"/>',s+="  </c:dLbl>"}),s+='<c:numFmt formatCode="'+n.dataLabelFormatCode+'" sourceLinked="0"/>\t\t            <c:txPr>\t\t              <a:bodyPr/>\t\t              <a:lstStyle/>\t\t              <a:p>\t\t                <a:pPr>\t\t                  <a:defRPr b="0" i="0" strike="noStrike" sz="1800" u="none">\t\t                    <a:solidFill><a:srgbClr val="000000"/></a:solidFill><a:latin typeface="Arial"/>\t\t                  </a:defRPr>\t\t                </a:pPr>\t\t              </a:p>\t\t            </c:txPr>\t\t            '+("pie"==l?'<c:dLblPos val="ctr"/>':"")+'\t\t            <c:showLegendKey val="0"/>\t\t            <c:showVal val="0"/>\t\t            <c:showCatName val="1"/>\t\t            <c:showSerName val="0"/>\t\t            <c:showPercent val="1"/>\t\t            <c:showBubbleSize val="0"/>\t\t            <c:showLeaderLines val="0"/>',s+="</c:dLbls>",s+="<c:cat>",s+="  <c:strRef>",s+="    <c:f>Sheet1!$A$2:$A$"+(c.labels.length+1)+"</c:f>",s+="    <c:strCache>",s+='\t     <c:ptCount val="'+c.labels.length+'"/>',c.labels.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+H(e)+"</c:v></c:pt>"}),s+="    </c:strCache>",s+="  </c:strRef>",s+="</c:cat>",s+="  <c:val>",s+="    <c:numRef>",s+="      <c:f>Sheet1!$B$2:$B$"+(c.labels.length+1)+"</c:f>",s+="      <c:numCache>",s+='\t       <c:ptCount val="'+c.labels.length+'"/>',c.values.forEach(function(e,a){s+='<c:pt idx="'+a+'"><c:v>'+(e||0==e?e:"")+"</c:v></c:pt>"}),s+="      </c:numCache>",s+="    </c:numRef>",s+="  </c:val>",s+="  </c:ser>",s+='  <c:firstSliceAng val="0"/>',"doughnut"==l&&(s+='  <c:holeSize val="'+(n.holeSize||50)+'"/>'),s+="</c:"+l+"Chart>"}return s}function ae(t,e,a){var r="";return"scatter"==t.type.name||"bubble"==t.type.name?r+="<c:valAx>":r+="<c:"+(t.catLabelFormatCode?"dateAx":"catAx")+">",r+='  <c:axId val="'+e+'"/>',r+="  <c:scaling>",r+='<c:orientation val="'+(t.catAxisOrientation||(t.barDir,"minMax"))+'"/>',(t.catAxisMaxVal||0==t.catAxisMaxVal)&&(r+='<c:max val="'+t.catAxisMaxVal+'"/>'),(t.catAxisMinVal||0==t.catAxisMinVal)&&(r+='<c:min val="'+t.catAxisMinVal+'"/>'),r+="</c:scaling>",r+='  <c:delete val="'+(t.catAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+("col"==t.barDir?"b":"l")+'"/>',r+="none"!==t.catGridLine?$(t.catGridLine,P):"",t.showCatAxisTitle&&(r+=le({color:t.catAxisTitleColor,fontFace:t.catAxisTitleFontFace,fontSize:t.catAxisTitleFontSize,rotate:t.catAxisTitleRotate,title:t.catAxisTitle||"Axis Title"})),"scatter"==t.type.name||"bubble"==t.type.name?r+='  <c:numFmt formatCode="'+(t.valAxisLabelFormatCode?t.valAxisLabelFormatCode:"General")+'" sourceLinked="0"/>':r+='  <c:numFmt formatCode="'+(t.catLabelFormatCode||"General")+'" sourceLinked="0"/>',"scatter"===t.type.name?(r+='  <c:majorTickMark val="none"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="nextTo"/>'):(r+='  <c:majorTickMark val="out"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="'+(t.catAxisLabelPos||"col"==t.barDir?"low":"nextTo")+'"/>'),r+="  <c:spPr>",r+='    <a:ln w="12700" cap="flat">',r+=0==t.catAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='      <a:prstDash val="solid"/>',r+="      <a:round/>",r+="    </a:ln>",r+="  </c:spPr>",r+="  <c:txPr>",r+="    <a:bodyPr "+(t.catAxisLabelRotate?'rot="'+re(t.catAxisLabelRotate)+'"':"")+"/>",r+="    <a:lstStyle/>",r+="    <a:p>",r+="    <a:pPr>",r+='    <a:defRPr sz="'+(t.catAxisLabelFontSize||v)+'00" b="'+(t.catAxisLabelFontBold?1:0)+'" i="0" u="none" strike="noStrike">',r+='      <a:solidFill><a:srgbClr val="'+(t.catAxisLabelColor||y)+'"/></a:solidFill>',r+='      <a:latin typeface="'+(t.catAxisLabelFontFace||"Arial")+'"/>',r+="   </a:defRPr>",r+="  </a:pPr>",r+='  <a:endParaRPr lang="'+(t.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+a+'"/>',r+=" <c:"+("number"==typeof t.valAxisCrossesAt?"crossesAt":"crosses")+' val="'+t.valAxisCrossesAt+'"/>',r+=' <c:auto val="1"/>',r+=' <c:lblAlgn val="ctr"/>',r+=' <c:noMultiLvlLbl val="1"/>',t.catAxisLabelFrequency&&(r+=' <c:tickLblSkip val="'+t.catAxisLabelFrequency+'"/>'),t.catLabelFormatCode&&(["catAxisBaseTimeUnit","catAxisMajorTimeUnit","catAxisMinorTimeUnit"].forEach(function(e,a){!t[e]||"string"==typeof t[e]&&-1!=["days","months","years"].indexOf(e.toLowerCase())||(console.warn("`"+e+"` must be one of: 'days','months','years' !"),t[e]=null)}),t.catAxisBaseTimeUnit&&(r+=' <c:baseTimeUnit  val="'+t.catAxisBaseTimeUnit.toLowerCase()+'"/>'),t.catAxisMajorTimeUnit&&(r+=' <c:majorTimeUnit val="'+t.catAxisMajorTimeUnit.toLowerCase()+'"/>'),t.catAxisMinorTimeUnit&&(r+=' <c:minorTimeUnit val="'+t.catAxisMinorTimeUnit.toLowerCase()+'"/>'),t.catAxisMajorUnit&&(r+=' <c:majorUnit     val="'+t.catAxisMajorUnit+'"/>'),t.catAxisMinorUnit&&(r+=' <c:minorUnit     val="'+t.catAxisMinorUnit+'"/>')),"scatter"==t.type.name||"bubble"==t.type.name?r+="</c:valAx>":r+="</c:"+(t.catLabelFormatCode?"dateAx":"catAx")+">",r}function te(e,a){var t=a===C?"col"==e.barDir?"l":"b":"col"==e.barDir?"r":"t",r="",l="r"===t||"t"===t?"max":"autoZero",o=a===C?w:L;return r+="<c:valAx>",r+='  <c:axId val="'+a+'"/>',r+="  <c:scaling>",r+='    <c:orientation val="'+(e.valAxisOrientation||(e.barDir,"minMax"))+'"/>',(e.valAxisMaxVal||0==e.valAxisMaxVal)&&(r+='<c:max val="'+e.valAxisMaxVal+'"/>'),(e.valAxisMinVal||0==e.valAxisMinVal)&&(r+='<c:min val="'+e.valAxisMinVal+'"/>'),r+="  </c:scaling>",r+='  <c:delete val="'+(e.valAxisHidden?1:0)+'"/>',r+='  <c:axPos val="'+t+'"/>',"none"!=e.valGridLine&&(r+=$(e.valGridLine,P)),e.showValAxisTitle&&(r+=le({color:e.valAxisTitleColor,fontFace:e.valAxisTitleFontFace,fontSize:e.valAxisTitleFontSize,rotate:e.valAxisTitleRotate,title:e.valAxisTitle||"Axis Title"})),r+=' <c:numFmt formatCode="'+(e.valAxisLabelFormatCode?e.valAxisLabelFormatCode:"General")+'" sourceLinked="0"/>',"scatter"===e.type.name?(r+='  <c:majorTickMark val="none"/>',r+='  <c:minorTickMark val="none"/>',r+='  <c:tickLblPos val="nextTo"/>'):(r+=' <c:majorTickMark val="out"/>',r+=' <c:minorTickMark val="none"/>',r+=' <c:tickLblPos val="'+(e.catAxisLabelPos||"col"==e.barDir?"nextTo":"low")+'"/>'),r+=" <c:spPr>",r+='   <a:ln w="12700" cap="flat">',r+=0==e.valAxisLineShow?"<a:noFill/>":'<a:solidFill><a:srgbClr val="'+P.color+'"/></a:solidFill>',r+='     <a:prstDash val="solid"/>',r+="     <a:round/>",r+="   </a:ln>",r+=" </c:spPr>",r+=" <c:txPr>",r+="  <a:bodyPr "+(e.valAxisLabelRotate?'rot="'+re(e.valAxisLabelRotate)+'"':"")+"/>",r+="  <a:lstStyle/>",r+="  <a:p>",r+="    <a:pPr>",r+='      <a:defRPr sz="'+(e.valAxisLabelFontSize||v)+'00" b="'+(e.valAxisLabelFontBold?1:0)+'" i="0" u="none" strike="noStrike">',r+='        <a:solidFill><a:srgbClr val="'+(e.valAxisLabelColor||y)+'"/></a:solidFill>',r+='        <a:latin typeface="'+(e.valAxisLabelFontFace||"Arial")+'"/>',r+="      </a:defRPr>",r+="    </a:pPr>",r+='  <a:endParaRPr lang="'+(e.lang||"en-US")+'"/>',r+="  </a:p>",r+=" </c:txPr>",r+=' <c:crossAx val="'+o+'"/>',r+=' <c:crosses val="'+l+'"/>',r+=' <c:crossBetween val="'+("scatter"===e.type.name||e.hasArea?"midCat":"between")+'"/>',e.valAxisMajorUnit&&(r+=' <c:majorUnit val="'+e.valAxisMajorUnit+'"/>'),r+="</c:valAx>"}function re(e){return 6e4*(360<(e=e||0)?e-360:e)}function le(e){var a="left"==e.titleAlign?"l":"right"==e.titleAlign&&"r",t="";t+="<c:title>",t+=" <c:tx>",t+="  <c:rich>",e.rotate?t+='  <a:bodyPr rot="'+re(e.rotate)+'"/>':t+="  <a:bodyPr/>",t+="  <a:lstStyle/>",t+="  <a:p>",t+=a?'<a:pPr algn="'+a+'">':"<a:pPr>";var r="";return e.fontSize&&(r='sz="'+Math.round(e.fontSize)+'00"'),t+="      <a:defRPr "+r+' b="0" i="0" u="none" strike="noStrike">',t+='        <a:solidFill><a:srgbClr val="'+(e.color||y)+'"/></a:solidFill>',t+='        <a:latin typeface="'+(e.fontFace||"Arial")+'"/>',t+="      </a:defRPr>",t+="    </a:pPr>",t+="    <a:r>",t+="      <a:rPr "+r+' b="0" i="0" u="none" strike="noStrike">',t+='        <a:solidFill><a:srgbClr val="'+(e.color||y)+'"/></a:solidFill>',t+='        <a:latin typeface="'+(e.fontFace||"Arial")+'"/>',t+="      </a:rPr>",t+="      <a:t>"+(H(e.title)||"")+"</a:t>",t+="    </a:r>",t+="  </a:p>",t+="  </c:rich>",t+=" </c:tx>",e.titlePos&&e.titlePos.x&&e.titlePos.y?(t+="<c:layout>",t+="  <c:manualLayout>",t+='    <c:xMode val="edge"/>',t+='    <c:yMode val="edge"/>',t+='    <c:x val="'+e.titlePos.x+'"/>',t+='    <c:y val="'+e.titlePos.y+'"/>',t+="  </c:manualLayout>",t+="</c:layout>"):t+=" <c:layout/>",t+=' <c:overlay val="0"/>',t+="</c:title>"}function oe(r){if(!r.options.isTableCell&&(void 0===r.text||null==r.text))return"";r.options||(r.options={});var l=[],e=r.options.isTableCell?"<a:txBody>":"<p:txBody>",a=r.options.isTableCell?"</a:txBody>":"</p:txBody>",o=e;return"string"!=typeof r.text&&"number"!=typeof r.text||(r.text=[{text:r.text.toString(),options:r.options||{}}]),Array.isArray(r.text)&&r.text.forEach(function(t,e){t.options=t.options||r.options||{},0==e&&t.options&&!t.options.bullet&&r.options.bullet&&(t.options.bullet=r.options.bullet),"string"!=typeof t.text&&"number"!=typeof t.text||(t.text=t.text.toString().replace(/\r*\n/g,g),-1<t.text.indexOf(g)&&(t.options.breakLine=!0)),0<t.text.split(g).length?t.text.toString().split(g).forEach(function(e,a){e+=!t.options.breakLine||t.options.bullet||t.options.align?"":g,l.push({text:e,options:t.options})}):l.push(t)}),o+=function(e){var a="<a:bodyPr";e&&e.bodyProp?(e.bodyProp.wrap?a+=' wrap="'+e.bodyProp.wrap+'" rtlCol="0"':a+=' wrap="square" rtlCol="0"',e.bodyProp.anchor&&(a+=' anchor="'+e.bodyProp.anchor+'"'),e.bodyProp.vert&&(a+=' vert="'+e.bodyProp.vert+'"'),(e.bodyProp.bIns||0==e.bodyProp.bIns)&&(a+=' bIns="'+e.bodyProp.bIns+'"'),(e.bodyProp.lIns||0==e.bodyProp.lIns)&&(a+=' lIns="'+e.bodyProp.lIns+'"'),(e.bodyProp.rIns||0==e.bodyProp.rIns)&&(a+=' rIns="'+e.bodyProp.rIns+'"'),(e.bodyProp.tIns||0==e.bodyProp.tIns)&&(a+=' tIns="'+e.bodyProp.tIns+'"'),a+=">",e.shrinkText&&(a+='<a:normAutofit fontScale="85000" lnSpcReduction="20000" />'),a+=!1!==e.bodyProp.autoFit?"<a:spAutoFit/>":""):a+=' wrap="square" rtlCol="0">',a+="</a:bodyPr>";return e.isTableCell?"<a:bodyPr/>":a}(r.options),0==r.options.h&&r.options.line&&r.options.align?o+='<a:lstStyle><a:lvl1pPr algn="l"/></a:lstStyle>':"placeholder"===r.type?(o+="<a:lstStyle>",o+=ne(r,!0),o+="</a:lstStyle>"):o+="<a:lstStyle/>",l.forEach(function(t,e){t.options.rtlMode,strXmlBullet="",strXmlParaSpc="",t.options.lineIdx=e,t.options.align=t.options.align||r.options.align,t.options.lineSpacing=t.options.lineSpacing||r.options.lineSpacing,t.options.indentLevel=t.options.indentLevel||r.options.indentLevel,t.options.paraSpaceBefore=t.options.paraSpaceBefore||r.options.paraSpaceBefore,t.options.paraSpaceAfter=t.options.paraSpaceAfter||r.options.paraSpaceAfter,t.options.lineIdx=e;var a=ne(t,!1);0==e?o+="<a:p>"+a:0<e&&(void 0!==t.options.bullet||void 0!==t.options.align)&&(o+="</a:p><a:p>"+a),jQuery.each(r.options,function(e,a){"bullet"==e||t.options[e]||(t.options[e]=a)}),o+=function(e,a){var t,r="",l=se(e,!1);if(1<(t=a.split(g)).length){for(var o="",n=0,s=t.length;n<s;n++)o+="<a:r>"+l+"<a:t>"+H(t[n]),n+1<s&&(o+=(e.breakLine?g:"")+"</a:t></a:r>");r=o}else e.align&&e.lineIdx,r="<a:r>"+l+"<a:t>"+H(a);return r+"</a:t></a:r>"}(t.options,t.text)}),r.options.isTableCell&&(r.options.fontSize||r.options.fontFace)?(o+='<a:endParaRPr lang="'+(r.options.lang?r.options.lang:"en-US")+'" '+(r.options.fontSize?' sz="'+Math.round(r.options.fontSize)+'00"':"")+' dirty="0">',r.options.fontFace&&(o+='  <a:latin typeface="'+r.options.fontFace+'" charset="0" />',o+='  <a:ea    typeface="'+r.options.fontFace+'" charset="0" />',o+='  <a:cs    typeface="'+r.options.fontFace+'" charset="0" />'),o+="</a:endParaRPr>"):o+='<a:endParaRPr lang="'+(r.options.lang||"en-US")+'" dirty="0"/>',o+="</a:p>",o+=a}function ne(e,a){var t="",r="",l="",o=342900,n=a?"a:lvl1pPr":"a:pPr",s="<"+n+(e.options.rtlMode?' rtl="1" ':"");if(e.options.align)switch(e.options.align){case"l":case"left":s+=' algn="l"';break;case"r":case"right":s+=' algn="r"';break;case"c":case"ctr":case"center":s+=' algn="ctr"';break;case"justify":s+=' algn="just"'}if(e.options.lineSpacing&&(r='<a:lnSpc><a:spcPts val="'+e.options.lineSpacing+'00"/></a:lnSpc>'),e.options.indentLevel&&!isNaN(Number(e.options.indentLevel))&&0<e.options.indentLevel&&(s+=' lvl="'+e.options.indentLevel+'"'),e.options.paraSpaceBefore&&!isNaN(Number(e.options.paraSpaceBefore))&&0<e.options.paraSpaceBefore&&(l+='<a:spcBef><a:spcPts val="'+100*e.options.paraSpaceBefore+'"/></a:spcBef>'),e.options.paraSpaceAfter&&!isNaN(Number(e.options.paraSpaceAfter))&&0<e.options.paraSpaceAfter&&(l+='<a:spcAft><a:spcPts val="'+100*e.options.paraSpaceAfter+'"/></a:spcAft>'),paraPropXmlCore=s,"object"==typeof e.options.bullet){if(e.options.bullet.type)"number"==e.options.bullet.type.toString().toLowerCase()&&(s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buFont typeface="+mj-lt"/><a:buAutoNum type="arabicPeriod"/>');else if(e.options.bullet.code){var i="&#x"+e.options.bullet.code+";";0==/^[0-9A-Fa-f]{4}$/.test(e.options.bullet.code)&&(console.warn("Warning: `bullet.code should be a 4-digit hex code (ex: 22AB)`!"),i=c.DEFAULT),s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buChar char="'+i+'"/>'}}else 1==e.options.bullet?(s+=' marL="'+(e.options.indentLevel&&0<e.options.indentLevel?o+o*e.options.indentLevel:o)+'" indent="-'+o+'"',t='<a:buSzPct val="100000"/><a:buChar char="'+c.DEFAULT+'"/>'):t="<a:buNone/>";return s+=">"+r+l+t,a&&(s+=se(e.options,!0)),s+="</"+n+">"}function se(e,a){var t="",r=a?"a:defRPr":"a:rPr";return t+="<"+r+' lang="'+(e.lang?e.lang:"en-US")+'" '+(e.lang?' altLang="en-US"':""),t+=e.bold?' b="1"':"",t+=e.fontSize?' sz="'+Math.round(e.fontSize)+'00"':"",t+=e.italic?' i="1"':"",t+=e.strike?' strike="sngStrike"':"",t+=e.underline||e.hyperlink?' u="sng"':"",t+=e.subscript?' baseline="-40000"':e.superscript?' baseline="30000"':"",t+=e.charSpacing?' spc="'+100*e.charSpacing+'" kern="0"':"",t+=' dirty="0" smtClean="0">',(e.color||e.fontFace||e.outline)&&(e.outline&&"object"==typeof e.outline&&(t+='<a:ln w="'+Math.round((e.outline.size||.75)*T)+'">'+ie(e.outline.color||"FFFFFF")+"</a:ln>"),e.color&&(t+=ie(e.color)),e.fontFace&&(t+='<a:latin typeface="'+e.fontFace+'" pitchFamily="34" charset="0" /><a:ea typeface="'+e.fontFace+'" pitchFamily="34" charset="-122" /><a:cs typeface="'+e.fontFace+'" pitchFamily="34" charset="-120" />')),e.hyperlink&&("object"!=typeof e.hyperlink?console.log("ERROR: text `hyperlink` option should be an object. Ex: `hyperlink:{url:'https://github.com'}` "):e.hyperlink.url||e.hyperlink.slide?e.hyperlink.url?t+='<a:hlinkClick r:id="rId'+e.hyperlink.rId+'" invalidUrl="" action="" tgtFrame="" tooltip="'+(e.hyperlink.tooltip?H(e.hyperlink.tooltip):"")+'" history="1" highlightClick="0" endSnd="0" />':e.hyperlink.slide&&(t+='<a:hlinkClick r:id="rId'+e.hyperlink.rId+'" action="ppaction://hlinksldjump" tooltip="'+(e.hyperlink.tooltip?H(e.hyperlink.tooltip):"")+'" />'):console.log("ERROR: 'hyperlink requires either `url` or `slide`'")),t+="</"+r+">"}function ie(e,a){var t,r="solid",l="",o="";if(a&&"string"==typeof a&&(o+="<p:bg><p:bgPr>",o+=ie(a.replace("#",""),!1),o+="<a:effectLst/>",o+="</p:bgPr></p:bg>"),e)switch("string"==typeof e?t=e:(e.type&&(r=e.type),e.color&&(t=e.color),e.alpha&&(l+='<a:alpha val="'+(100-e.alpha)+'000"/>')),r){case"solid":o+="<a:solidFill>"+z(t,l)+"</a:solidFill>"}return o}function ce(e){var a="";if(e){var t=e.options&&e.options.placeholderIdx?e.options.placeholderIdx:"",r=e.options&&e.options.placeholderType?e.options.placeholderType:"";a+="<p:ph"+(t?' idx="'+t+'"':"")+(r&&l[r]?' type="'+l[r].name+'"':"")+(e.text&&0<e.text.length?' hasCustomPrompt="1"':"")+"/>"}return a}function pe(e){var a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return a+='<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"'+(e.slide.hidden?' show="0"':"")+">",a+=D.slideObjectToXml(e),a+="<p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>",a+="</p:sld>"}function de(e){var a,t='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return t+='<p:notes xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">',t+='<p:cSld><p:spTree><p:nvGrpSpPr><p:cNvPr id="1" name="" /><p:cNvGrpSpPr /><p:nvPr /></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x="0" y="0" /><a:ext cx="0" cy="0" /><a:chOff x="0" y="0" /><a:chExt cx="0" cy="0" /></a:xfrm></p:grpSpPr><p:sp><p:nvSpPr><p:cNvPr id="2" name="Slide Image Placeholder 1" /><p:cNvSpPr><a:spLocks noGrp="1" noRot="1" noChangeAspect="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldImg" /></p:nvPr></p:nvSpPr><p:spPr /></p:sp><p:sp><p:nvSpPr><p:cNvPr id="3" name="Notes Placeholder 2" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="body" idx="1" /></p:nvPr></p:nvSpPr><p:spPr /><p:txBody><a:bodyPr /><a:lstStyle /><a:p><a:r><a:rPr lang="en-US" dirty="0" smtClean="0" /><a:t>'+H((a="",e.data.forEach(function(e){"notes"===e.type&&(a+=e.text)}),a.replace(/\r*\n/g,g)))+'</a:t></a:r><a:endParaRPr lang="en-US" dirty="0" /></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="4" name="Slide Number Placeholder 3" /><p:cNvSpPr><a:spLocks noGrp="1" /></p:cNvSpPr><p:nvPr><p:ph type="sldNum" sz="quarter" idx="10" /></p:nvPr></p:nvSpPr><p:spPr /><p:txBody><a:bodyPr /><a:lstStyle /><a:p><a:fld id="'+r+'" type="slidenum"><a:rPr lang="en-US" smtClean="0" /><a:t>'+e.numb+'</a:t></a:fld><a:endParaRPr lang="en-US" /></a:p></p:txBody></p:sp></p:spTree><p:extLst><p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}"><p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1024086991" /></p:ext></p:extLst></p:cSld><p:clrMapOvr><a:masterClrMapping /></p:clrMapOvr></p:notes>'}function me(e){var a='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'+g;return a+='<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" preserve="1">',a+=D.slideObjectToXml(e),a+="<p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>",a+="</p:sldLayout>"}this.version="2.5.0.20190208",this.inch2Emu=G,this.rgbToHex=Q,this.getLayout=function(){return R.pptLayout},this.setRTL=function(e){"boolean"==typeof e&&(R.rtlMode=e)},this.setLayout=function(e){if("object"==typeof e&&e.width&&e.height)a.LAYOUT_USER.width=Math.round(Number(e.width)*F),a.LAYOUT_USER.height=Math.round(Number(e.height)*F),R.pptLayout=a.LAYOUT_USER;else if(-1<Object.keys(a).indexOf(e))R.pptLayout=a[e];else try{console.warn("UNKNOWN LAYOUT! Valid values = "+Object.keys(a))}catch(e){}},this.setTitle=function(e){R.title=e||"PptxGenJS Presentation"},this.setBrowser=function(e){R.isBrowser=e||!1},this.setAuthor=function(e){R.author=e||"PptxGenJS"},this.setRevision=function(e){R.revision=e||"1",R.revision=R.revision.replace(/[\.\,\-]+/gi,""),isNaN(R.revision)&&(R.revision="1")},this.setSubject=function(e){R.subject=e||"PptxGenJS Presentation"},this.setCompany=function(e){R.company=e||"PptxGenJS"},this.save=function(e,a,t){var r=0,l=[];R.slides.forEach(function(e,a){var t;e.layoutObj&&(t=e).layoutObj.data.forEach(function(a){a.type===o.placeholder.name&&0==t.data.filter(function(e){return e.options&&e.options.placeholder==a.options.placeholderName}).length&&D.addTextDefinition("",{placeholder:a.options.placeholderName},t,!1)})}),a&&(R.saveCallback=a),e&&(R.fileName=e),R.slides.forEach(function(e,a){r+=U(e,l)}),R.slideLayouts.forEach(function(e,a){r+=U(e,l)}),0==(r+=U(R.masterSlide,l))&&N(t)},this.addNewSlide=function i(c){var e={},h=R.slides.length,a=h+1,p=R.slideLayouts.filter(function(e){return e.name==c})[0];return R.slides[h]={slide:e,name:"Slide "+a,numb:a,data:[],rels:[],slideNumberObj:null,layout:c||"[ default ]",layoutObj:p},e.getPageNumber=function(){return a},e.slideNumber=function(e){if(!e||"object"!=typeof e)return R.slides[h].slideNumberObj;R.slides[h].slideNumberObj=e,R.masterSlide.slideNumberObj||(R.masterSlide.slideNumberObj=e),R.slideLayouts[0].slideNumberObj||(R.slideLayouts[0].slideNumberObj=e)},e.addChart=function(e,a,t){return D.addChartDefinition(e,a,t,R.slides[h]),this},e.addImage=function(e){return D.addImageDefinition(e,R.slides[h]),this},e.addMedia=function(e){var a,t=1,r=++R.imageCounter,l=e.x||0,o=e.y||0,n=e.w||2,s=e.h||2,i=e.data||"",c=e.link||"",p=e.path||"",d=e.type||"audio";if(!p&&!i&&"online"!=d)return console.error("ERROR: `addMedia()` requires either 'data' or 'path' values!"),null;if(i&&-1==i.toLowerCase().indexOf("base64,"))return console.error("ERROR: Media `data` value lacks a base64 header! Ex: 'video/mpeg;base64,NMP[...]')"),null;if("online"==d&&!c)return console.error("addMedia() error: online videos require `link` value"),null;var m=R.slides[h].data.length,f=R.slides[h].rels;return d=i?i.split(";")[0].split("/")[0]:d,a=i?i.split(";")[0].split("/")[1]:p.split(".").pop(),R.slides[h].data[m]={},R.slides[h].data[m].type="media",R.slides[h].data[m].mtype=d,R.slides[h].data[m].media=p||"preencoded.mov",R.slides[h].data[m].options={},R.slides[h].data[m].options.x=l,R.slides[h].data[m].options.y=o,R.slides[h].data[m].options.cx=n,R.slides[h].data[m].options.cy=s,R.slides.forEach(function(e){t+=e.rels.length}),"online"==d?(f.push({path:p||"preencoded"+a,data:"dummy",type:"online",extn:a,rId:t+1,Target:c}),R.slides[h].data[m].mediaRid=f[f.length-1].rId,f.push({path:"preencoded.png",data:A,type:"image/png",extn:"png",rId:t+2,Target:"../media/image"+t+".png"})):(f.push({path:p||"preencoded"+a,type:d+"/"+a,extn:a,data:i||"",rId:t+0,Target:"../media/media"+r+"."+a}),R.slides[h].data[m].mediaRid=f[f.length-1].rId,f.push({path:p||"preencoded"+a,type:d+"/"+a,extn:a,data:i||"",rId:t+1,Target:"../media/media"+r+"."+a}),f.push({data:A,path:"preencoded.png",type:"image/png",extn:"png",rId:t+2,Target:"../media/image"+r+".png"})),this},e.addNotes=function(e,a){return D.addNotesDefinition(e,a,R.slides[h]),this},e.addShape=function(e,a){return D.addShapeDefinition(e,a,R.slides[h]),this},e.addTable=function(e,a){var r=a&&"object"==typeof a?a:{};if(null==e||0==e.length||!Array.isArray(e)){try{console.warn("[warn] addTable: Array expected! USAGE: slide.addTable( [rows], {options} );")}catch(e){}return null}var t=e;Array.isArray(t[0])||(t=[e]),r.x=Y(r.x||(0==r.x?0:F/2),"X"),r.y=Y(r.y||(0==r.y?0:F),"Y"),r.cy=r.h||r.cy,r.cy&&(r.cy=Y(r.cy,"Y")),r.h=r.cy,r.autoPage=0!=r.autoPage,r.fontSize=r.fontSize||v,r.lineWeight=void 0===r.lineWeight||isNaN(Number(r.lineWeight))?0:Number(r.lineWeight),r.margin=0==r.margin||r.margin?r.margin:I,isNaN(r.margin)||(r.margin=[Number(r.margin),Number(r.margin),Number(r.margin),Number(r.margin)]),1<r.lineWeight?r.lineWeight=1:r.lineWeight<-1&&(r.lineWeight=-1),r.color||(r.color=r.color||this.color||y);var l=b;if(p&&void 0!==p.margin&&(Array.isArray(p.margin)?l=p.margin:isNaN(Number(p.margin))||(l=[Number(p.margin),Number(p.margin),Number(p.margin),Number(p.margin)])),r.w||r.cx)r.cx=Y(r.w||r.cx,"X"),r.w=r.cx;else if(r.colW){if("string"==typeof r.colW||"number"==typeof r.colW)r.cx=Math.floor(Number(r.colW)*t[0].length),r.w=r.cx;else if(r.colW&&Array.isArray(r.colW)&&r.colW.length!=t[0].length){console.warn("addTable: colW.length != data.length! Defaulting to evenly distributed col widths.");var o=Math.floor((R.pptLayout.width/F-l[1]-l[3])/t[0].length);r.colW=[];for(var n=0;n<t[0].length;n++)r.colW.push(o);r.cx=Math.floor(o*t[0].length),r.w=r.cx}}else{var s=R.pptLayout.width/F-l[1]-l[3];r.cx=Math.floor(s),r.w=r.cx}return r.x<20&&(r.x=G(r.x)),r.y<20&&(r.y=G(r.y)),r.cx<20&&(r.cx=G(r.cx)),r.cy&&r.cy<20&&(r.cy=G(r.cy)),t.forEach(function(e,a){e.forEach(function(e,a){e&&e.text&&Array.isArray(e.text)&&(r.autoPage=!1)})}),q(t,R.slides[h].rels),r&&0==r.autoPage?R.slides[h].data[R.slides[h].data.length]={type:"table",arrTabRows:t,options:jQuery.extend(!0,{},r)}:X(t,r).forEach(function(e,a){var t=R.slides[h+a]?R.slides[h+a].slide:i(c);0<a&&(r.y=G(r.newPageStartY||l[0])),r.autoPage=!1,t.addTable(e,jQuery.extend(!0,{},r))}),this},e.addText=function(e,a){return D.addTextDefinition(e,a,R.slides[h],!1),this},p&&p.slideNumberObj&&!e.slideNumber()&&(R.slides[h].slideNumberObj=p.slideNumberObj),e},this.defineSlideMaster=function(e){if(!e.title)throw Error("defineSlideMaster() object argument requires a `title` value.");var a={name:e.title,slide:{},data:[],rels:[],margin:e.margin||b,slideNumberObj:e.slideNumber||null};return D.createSlideObject(e,a),R.slideLayouts.push(a),a.slideNumberObj&&!R.masterSlide.slideNumberObj&&(R.masterSlide.slideNumberObj=a.slideNumberObj),this},this.addSlidesForTable=function(o,e){var r=this,l=e||{},n=[],s=[],i=[],c=[],p=[],d=0;if(0!=jQuery("#"+o).length){var m=[.5,.5,.5,.5];if(l.margin=l.margin||0==l.margin?l.margin:.5,l.master&&"string"==typeof l.master){var a=R.slideLayouts.filter(function(e){return e.name==l.master})[0];a&&a.margin&&(Array.isArray(a.margin)?m=a.margin:isNaN(a.margin)||(m=[a.margin,a.margin,a.margin,a.margin]),l.margin=m)}else l&&l.margin&&(Array.isArray(l.margin)?m=l.margin:isNaN(l.margin)||(m=[l.margin,l.margin,l.margin,l.margin]));var f=l.w?G(l.w):R.pptLayout.width-G(m[1]+m[3]);l.h?G(l.h):(R.pptLayout.height,G(m[0]+m[2]));jQuery.each(["thead","tbody","tfoot"],function(e,a){if(0<jQuery("#"+o+" > "+a+" > tr").length)return jQuery("#"+o+" > "+a+" > tr:first-child").find("> th, > td").each(function(e,a){if(jQuery(this).attr("colspan"))for(var t=0;t<jQuery(this).attr("colspan");t++)p.push(Math.round(jQuery(this).outerWidth()/jQuery(this).attr("colspan")));else p.push(jQuery(this).outerWidth())}),!1}),jQuery.each(p,function(e,a){d+=a}),jQuery.each(p,function(e,a){var t=Number((f*(a/d*100)/100/F).toFixed(2)),r=jQuery("#"+o+" thead tr:first-child th:nth-child("+(e+1)+")").data("pptx-min-width"),l=jQuery("#"+o+" thead tr:first-child th:nth-child("+(e+1)+")").data("pptx-width");c.push(l||(t<r?r:t))}),jQuery.each(["thead","tbody","tfoot"],function(e,t){jQuery("#"+o+" > "+t+" > tr").each(function(e,a){var l=[];switch(jQuery(a).find("> th, > td").each(function(e,o){var a,t=[];a=jQuery(o).css("color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(","),t=jQuery(o).css("background-color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(","),"rgba(0, 0, 0, 0)"!=jQuery(o).css("background-color")&&"transparent"!=jQuery(o).css("background-color")||(t=[255,255,255]);var n={fontSize:jQuery(o).css("font-size").replace(/[a-z]/gi,""),bold:"bold"==jQuery(o).css("font-weight")||500<=Number(jQuery(o).css("font-weight")),color:Q(Number(a[0]),Number(a[1]),Number(a[2])),fill:Q(Number(t[0]),Number(t[1]),Number(t[2]))};-1<["left","center","right","start","end"].indexOf(jQuery(o).css("text-align"))&&(n.align=jQuery(o).css("text-align").replace("start","left").replace("end","right")),-1<["top","middle","bottom"].indexOf(jQuery(o).css("vertical-align"))&&(n.valign=jQuery(o).css("vertical-align")),jQuery(o).css("padding-left")&&(n.margin=[],jQuery.each(["padding-top","padding-right","padding-bottom","padding-left"],function(e,a){n.margin.push(Math.round(jQuery(o).css(a).replace(/\D/gi,"")))})),jQuery(o).attr("colspan")&&(n.colspan=jQuery(o).attr("colspan")),jQuery(o).attr("rowspan")&&(n.rowspan=jQuery(o).attr("rowspan")),(jQuery(o).css("border-top-width")||jQuery(o).css("border-right-width")||jQuery(o).css("border-bottom-width")||jQuery(o).css("border-left-width"))&&(n.border=[],jQuery.each(["top","right","bottom","left"],function(e,a){var t,r=Math.round(Number(jQuery(o).css("border-"+a+"-width").replace("px","")));t=jQuery(o).css("border-"+a+"-color").replace(/\s+/gi,"").replace("rgba(","").replace("rgb(","").replace(")","").split(",");var l=Q(Number(t[0]),Number(t[1]),Number(t[2]));n.border.push({pt:r,color:l})}));var r=jQuery(o).clone();r.html(jQuery(o).html().replace(/<br[^>]*>/gi,"\n")),l.push({text:jQuery.trim(r.text()),opts:n})}),t){case"thead":n.push(l);break;case"tbody":s.push(l);break;case"tfoot":i.push(l)}})}),l.margin&&(l.slideMargin=l.margin,delete l.margin),l.arrObjTabHeadRows=n||"",l.colW=c,X(n.concat(s).concat(i),l).forEach(function(e,a){var t=l.master?r.addNewSlide(l.master):r.addNewSlide();0==a&&(l.y=l.y||m[0]),0<a&&(l.y=l.newPageStartY||m[0]),l.debug&&console.log("opts.newPageStartY:"+l.newPageStartY+" / arrInchMargins[0]:"+m[0]+" => opts.y = "+l.y),t.addTable(e,{x:l.x||m[3],y:l.y,w:f/F,colW:c,autoPage:!1}),l.addImage&&t.addImage({path:l.addImage.url,x:l.addImage.x,y:l.addImage.y,w:l.addImage.w,h:l.addImage.h}),l.addShape&&t.addShape(l.addShape.shape,l.addShape.opts||l.addShape.options||{}),l.addTable&&t.addTable(l.addTable.rows,l.addTable.opts||l.addTable.options||{}),l.addText&&t.addText(l.addText.text,l.addText.opts||l.addText.options||{})})}else console.error('Table "'+o+'" does not exist!')}};function getUuid(e){return e.replace(/[xy]/g,function(e){var a=16*Math.random()|0;return("x"==e?a:3&a|8).toString(16)})}if(NODEJS){var jQuery=null,fs=null,JSZip=null,sizeOf=null;try{var jsdom=__webpack_require__(/*! jsdom */ 5),dom=new jsdom.JSDOM("<!DOCTYPE html>");jQuery=__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")(dom.window)}catch(e){throw console.error("Unable to load `jquery`!\n"+e),"LIB-MISSING-JQUERY"}try{fs=__webpack_require__(/*! fs */ 4)}catch(e){throw console.error("Unable to load `fs`"),"LIB-MISSING-FS"}try{https=__webpack_require__(/*! https */ 6)}catch(e){throw console.error("Unable to load `https`"),"LIB-MISSING-HTTPS"}try{JSZip=__webpack_require__(/*! jszip */ "./node_modules/pptxgenjs/node_modules/jszip/lib/index.js")}catch(e){throw console.error("Unable to load `jszip`"),"LIB-MISSING-JSZIP"}try{sizeOf=__webpack_require__(/*! image-size */ 7)}catch(e){throw console.error("Unable to load `image-size`"),"LIB-MISSING-IMGSIZE"}module.exports=PptxGenJS}else if(APPJS){try{jQuery=__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")}catch(e){throw console.error("Unable to load `jquery`!\n"+e),"LIB-MISSING-JQUERY"}try{JSZip=__webpack_require__(/*! jszip */ "./node_modules/pptxgenjs/node_modules/jszip/lib/index.js")}catch(e){throw console.error("Unable to load `jszip`"),"LIB-MISSING-JSZIP"}module.exports=PptxGenJS}
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
 
 /***/ }),
@@ -37153,6 +32916,4550 @@ if (  true && module.exports ) {
 
 /***/ }),
 
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/base64.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/base64.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+// private property
+var _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+
+// public method for encoding
+exports.encode = function(input) {
+    var output = [];
+    var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+    var i = 0, len = input.length, remainingBytes = len;
+
+    var isArray = utils.getTypeOf(input) !== "string";
+    while (i < input.length) {
+        remainingBytes = len - i;
+
+        if (!isArray) {
+            chr1 = input.charCodeAt(i++);
+            chr2 = i < len ? input.charCodeAt(i++) : 0;
+            chr3 = i < len ? input.charCodeAt(i++) : 0;
+        } else {
+            chr1 = input[i++];
+            chr2 = i < len ? input[i++] : 0;
+            chr3 = i < len ? input[i++] : 0;
+        }
+
+        enc1 = chr1 >> 2;
+        enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+        enc3 = remainingBytes > 1 ? (((chr2 & 15) << 2) | (chr3 >> 6)) : 64;
+        enc4 = remainingBytes > 2 ? (chr3 & 63) : 64;
+
+        output.push(_keyStr.charAt(enc1) + _keyStr.charAt(enc2) + _keyStr.charAt(enc3) + _keyStr.charAt(enc4));
+
+    }
+
+    return output.join("");
+};
+
+// public method for decoding
+exports.decode = function(input) {
+    var chr1, chr2, chr3;
+    var enc1, enc2, enc3, enc4;
+    var i = 0, resultIndex = 0;
+
+    var dataUrlPrefix = "data:";
+
+    if (input.substr(0, dataUrlPrefix.length) === dataUrlPrefix) {
+        // This is a common error: people give a data url
+        // (data:image/png;base64,iVBOR...) with a {base64: true} and
+        // wonders why things don't work.
+        // We can detect that the string input looks like a data url but we
+        // *can't* be sure it is one: removing everything up to the comma would
+        // be too dangerous.
+        throw new Error("Invalid base64 input, it looks like a data url.");
+    }
+
+    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+
+    var totalLength = input.length * 3 / 4;
+    if(input.charAt(input.length - 1) === _keyStr.charAt(64)) {
+        totalLength--;
+    }
+    if(input.charAt(input.length - 2) === _keyStr.charAt(64)) {
+        totalLength--;
+    }
+    if (totalLength % 1 !== 0) {
+        // totalLength is not an integer, the length does not match a valid
+        // base64 content. That can happen if:
+        // - the input is not a base64 content
+        // - the input is *almost* a base64 content, with a extra chars at the
+        //   beginning or at the end
+        // - the input uses a base64 variant (base64url for example)
+        throw new Error("Invalid base64 input, bad content length.");
+    }
+    var output;
+    if (support.uint8array) {
+        output = new Uint8Array(totalLength|0);
+    } else {
+        output = new Array(totalLength|0);
+    }
+
+    while (i < input.length) {
+
+        enc1 = _keyStr.indexOf(input.charAt(i++));
+        enc2 = _keyStr.indexOf(input.charAt(i++));
+        enc3 = _keyStr.indexOf(input.charAt(i++));
+        enc4 = _keyStr.indexOf(input.charAt(i++));
+
+        chr1 = (enc1 << 2) | (enc2 >> 4);
+        chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+        chr3 = ((enc3 & 3) << 6) | enc4;
+
+        output[resultIndex++] = chr1;
+
+        if (enc3 !== 64) {
+            output[resultIndex++] = chr2;
+        }
+        if (enc4 !== 64) {
+            output[resultIndex++] = chr3;
+        }
+
+    }
+
+    return output;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressedObject.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/compressedObject.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var external = __webpack_require__(/*! ./external */ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js");
+var DataWorker = __webpack_require__(/*! ./stream/DataWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataWorker.js");
+var DataLengthProbe = __webpack_require__(/*! ./stream/DataLengthProbe */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataLengthProbe.js");
+var Crc32Probe = __webpack_require__(/*! ./stream/Crc32Probe */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/Crc32Probe.js");
+var DataLengthProbe = __webpack_require__(/*! ./stream/DataLengthProbe */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataLengthProbe.js");
+
+/**
+ * Represent a compressed object, with everything needed to decompress it.
+ * @constructor
+ * @param {number} compressedSize the size of the data compressed.
+ * @param {number} uncompressedSize the size of the data after decompression.
+ * @param {number} crc32 the crc32 of the decompressed file.
+ * @param {object} compression the type of compression, see lib/compressions.js.
+ * @param {String|ArrayBuffer|Uint8Array|Buffer} data the compressed data.
+ */
+function CompressedObject(compressedSize, uncompressedSize, crc32, compression, data) {
+    this.compressedSize = compressedSize;
+    this.uncompressedSize = uncompressedSize;
+    this.crc32 = crc32;
+    this.compression = compression;
+    this.compressedContent = data;
+}
+
+CompressedObject.prototype = {
+    /**
+     * Create a worker to get the uncompressed content.
+     * @return {GenericWorker} the worker.
+     */
+    getContentWorker : function () {
+        var worker = new DataWorker(external.Promise.resolve(this.compressedContent))
+        .pipe(this.compression.uncompressWorker())
+        .pipe(new DataLengthProbe("data_length"));
+
+        var that = this;
+        worker.on("end", function () {
+            if(this.streamInfo['data_length'] !== that.uncompressedSize) {
+                throw new Error("Bug : uncompressed data size mismatch");
+            }
+        });
+        return worker;
+    },
+    /**
+     * Create a worker to get the compressed content.
+     * @return {GenericWorker} the worker.
+     */
+    getCompressedWorker : function () {
+        return new DataWorker(external.Promise.resolve(this.compressedContent))
+        .withStreamInfo("compressedSize", this.compressedSize)
+        .withStreamInfo("uncompressedSize", this.uncompressedSize)
+        .withStreamInfo("crc32", this.crc32)
+        .withStreamInfo("compression", this.compression)
+        ;
+    }
+};
+
+/**
+ * Chain the given worker with other workers to compress the content with the
+ * given compresion.
+ * @param {GenericWorker} uncompressedWorker the worker to pipe.
+ * @param {Object} compression the compression object.
+ * @param {Object} compressionOptions the options to use when compressing.
+ * @return {GenericWorker} the new worker compressing the content.
+ */
+CompressedObject.createWorkerFrom = function (uncompressedWorker, compression, compressionOptions) {
+    return uncompressedWorker
+    .pipe(new Crc32Probe())
+    .pipe(new DataLengthProbe("uncompressedSize"))
+    .pipe(compression.compressWorker(compressionOptions))
+    .pipe(new DataLengthProbe("compressedSize"))
+    .withStreamInfo("compression", compression);
+};
+
+module.exports = CompressedObject;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressions.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/compressions.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+exports.STORE = {
+    magic: "\x00\x00",
+    compressWorker : function (compressionOptions) {
+        return new GenericWorker("STORE compression");
+    },
+    uncompressWorker : function () {
+        return new GenericWorker("STORE decompression");
+    }
+};
+exports.DEFLATE = __webpack_require__(/*! ./flate */ "./node_modules/pptxgenjs/node_modules/jszip/lib/flate.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/crc32.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/crc32.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+/**
+ * The following functions come from pako, from pako/lib/zlib/crc32.js
+ * released under the MIT license, see pako https://github.com/nodeca/pako/
+ */
+
+// Use ordinary array, since untyped makes no boost here
+function makeTable() {
+    var c, table = [];
+
+    for(var n =0; n < 256; n++){
+        c = n;
+        for(var k =0; k < 8; k++){
+            c = ((c&1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1));
+        }
+        table[n] = c;
+    }
+
+    return table;
+}
+
+// Create table on load. Just 255 signed longs. Not a problem.
+var crcTable = makeTable();
+
+
+function crc32(crc, buf, len, pos) {
+    var t = crcTable, end = pos + len;
+
+    crc = crc ^ (-1);
+
+    for (var i = pos; i < end; i++ ) {
+        crc = (crc >>> 8) ^ t[(crc ^ buf[i]) & 0xFF];
+    }
+
+    return (crc ^ (-1)); // >>> 0;
+}
+
+// That's all for the pako functions.
+
+/**
+ * Compute the crc32 of a string.
+ * This is almost the same as the function crc32, but for strings. Using the
+ * same function for the two use cases leads to horrible performances.
+ * @param {Number} crc the starting value of the crc.
+ * @param {String} str the string to use.
+ * @param {Number} len the length of the string.
+ * @param {Number} pos the starting position for the crc32 computation.
+ * @return {Number} the computed crc32.
+ */
+function crc32str(crc, str, len, pos) {
+    var t = crcTable, end = pos + len;
+
+    crc = crc ^ (-1);
+
+    for (var i = pos; i < end; i++ ) {
+        crc = (crc >>> 8) ^ t[(crc ^ str.charCodeAt(i)) & 0xFF];
+    }
+
+    return (crc ^ (-1)); // >>> 0;
+}
+
+module.exports = function crc32wrapper(input, crc) {
+    if (typeof input === "undefined" || !input.length) {
+        return 0;
+    }
+
+    var isArray = utils.getTypeOf(input) !== "string";
+
+    if(isArray) {
+        return crc32(crc|0, input, input.length, 0);
+    } else {
+        return crc32str(crc|0, input, input.length, 0);
+    }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/defaults.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/defaults.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.base64 = false;
+exports.binary = false;
+exports.dir = false;
+exports.createFolders = true;
+exports.date = null;
+exports.compression = null;
+exports.compressionOptions = null;
+exports.comment = null;
+exports.unixPermissions = null;
+exports.dosPermissions = null;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/external.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* global Promise */
+
+
+// load the global object first:
+// - it should be better integrated in the system (unhandledRejection in node)
+// - the environment may have a custom Promise implementation (see zone.js)
+var ES6Promise = null;
+if (typeof Promise !== "undefined") {
+    ES6Promise = Promise;
+} else {
+    ES6Promise = __webpack_require__(/*! lie */ "./node_modules/lie/lib/browser.js");
+}
+
+/**
+ * Let the user use/change some implementations.
+ */
+module.exports = {
+    Promise: ES6Promise
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/flate.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/flate.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var USE_TYPEDARRAY = (typeof Uint8Array !== 'undefined') && (typeof Uint16Array !== 'undefined') && (typeof Uint32Array !== 'undefined');
+
+var pako = __webpack_require__(/*! pako */ "./node_modules/pako/index.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+var ARRAY_TYPE = USE_TYPEDARRAY ? "uint8array" : "array";
+
+exports.magic = "\x08\x00";
+
+/**
+ * Create a worker that uses pako to inflate/deflate.
+ * @constructor
+ * @param {String} action the name of the pako function to call : either "Deflate" or "Inflate".
+ * @param {Object} options the options to use when (de)compressing.
+ */
+function FlateWorker(action, options) {
+    GenericWorker.call(this, "FlateWorker/" + action);
+
+    this._pako = null;
+    this._pakoAction = action;
+    this._pakoOptions = options;
+    // the `meta` object from the last chunk received
+    // this allow this worker to pass around metadata
+    this.meta = {};
+}
+
+utils.inherits(FlateWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+FlateWorker.prototype.processChunk = function (chunk) {
+    this.meta = chunk.meta;
+    if (this._pako === null) {
+        this._createPako();
+    }
+    this._pako.push(utils.transformTo(ARRAY_TYPE, chunk.data), false);
+};
+
+/**
+ * @see GenericWorker.flush
+ */
+FlateWorker.prototype.flush = function () {
+    GenericWorker.prototype.flush.call(this);
+    if (this._pako === null) {
+        this._createPako();
+    }
+    this._pako.push([], true);
+};
+/**
+ * @see GenericWorker.cleanUp
+ */
+FlateWorker.prototype.cleanUp = function () {
+    GenericWorker.prototype.cleanUp.call(this);
+    this._pako = null;
+};
+
+/**
+ * Create the _pako object.
+ * TODO: lazy-loading this object isn't the best solution but it's the
+ * quickest. The best solution is to lazy-load the worker list. See also the
+ * issue #446.
+ */
+FlateWorker.prototype._createPako = function () {
+    this._pako = new pako[this._pakoAction]({
+        raw: true,
+        level: this._pakoOptions.level || -1 // default compression
+    });
+    var self = this;
+    this._pako.onData = function(data) {
+        self.push({
+            data : data,
+            meta : self.meta
+        });
+    };
+};
+
+exports.compressWorker = function (compressionOptions) {
+    return new FlateWorker("Deflate", compressionOptions);
+};
+exports.uncompressWorker = function () {
+    return new FlateWorker("Inflate", {});
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/generate/ZipFileWorker.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/generate/ZipFileWorker.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ../stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+var utf8 = __webpack_require__(/*! ../utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var crc32 = __webpack_require__(/*! ../crc32 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/crc32.js");
+var signature = __webpack_require__(/*! ../signature */ "./node_modules/pptxgenjs/node_modules/jszip/lib/signature.js");
+
+/**
+ * Transform an integer into a string in hexadecimal.
+ * @private
+ * @param {number} dec the number to convert.
+ * @param {number} bytes the number of bytes to generate.
+ * @returns {string} the result.
+ */
+var decToHex = function(dec, bytes) {
+    var hex = "", i;
+    for (i = 0; i < bytes; i++) {
+        hex += String.fromCharCode(dec & 0xff);
+        dec = dec >>> 8;
+    }
+    return hex;
+};
+
+/**
+ * Generate the UNIX part of the external file attributes.
+ * @param {Object} unixPermissions the unix permissions or null.
+ * @param {Boolean} isDir true if the entry is a directory, false otherwise.
+ * @return {Number} a 32 bit integer.
+ *
+ * adapted from http://unix.stackexchange.com/questions/14705/the-zip-formats-external-file-attribute :
+ *
+ * TTTTsstrwxrwxrwx0000000000ADVSHR
+ * ^^^^____________________________ file type, see zipinfo.c (UNX_*)
+ *     ^^^_________________________ setuid, setgid, sticky
+ *        ^^^^^^^^^________________ permissions
+ *                 ^^^^^^^^^^______ not used ?
+ *                           ^^^^^^ DOS attribute bits : Archive, Directory, Volume label, System file, Hidden, Read only
+ */
+var generateUnixExternalFileAttr = function (unixPermissions, isDir) {
+
+    var result = unixPermissions;
+    if (!unixPermissions) {
+        // I can't use octal values in strict mode, hence the hexa.
+        //  040775 => 0x41fd
+        // 0100664 => 0x81b4
+        result = isDir ? 0x41fd : 0x81b4;
+    }
+    return (result & 0xFFFF) << 16;
+};
+
+/**
+ * Generate the DOS part of the external file attributes.
+ * @param {Object} dosPermissions the dos permissions or null.
+ * @param {Boolean} isDir true if the entry is a directory, false otherwise.
+ * @return {Number} a 32 bit integer.
+ *
+ * Bit 0     Read-Only
+ * Bit 1     Hidden
+ * Bit 2     System
+ * Bit 3     Volume Label
+ * Bit 4     Directory
+ * Bit 5     Archive
+ */
+var generateDosExternalFileAttr = function (dosPermissions, isDir) {
+
+    // the dir flag is already set for compatibility
+    return (dosPermissions || 0)  & 0x3F;
+};
+
+/**
+ * Generate the various parts used in the construction of the final zip file.
+ * @param {Object} streamInfo the hash with informations about the compressed file.
+ * @param {Boolean} streamedContent is the content streamed ?
+ * @param {Boolean} streamingEnded is the stream finished ?
+ * @param {number} offset the current offset from the start of the zip file.
+ * @param {String} platform let's pretend we are this platform (change platform dependents fields)
+ * @param {Function} encodeFileName the function to encode the file name / comment.
+ * @return {Object} the zip parts.
+ */
+var generateZipParts = function(streamInfo, streamedContent, streamingEnded, offset, platform, encodeFileName) {
+    var file = streamInfo['file'],
+    compression = streamInfo['compression'],
+    useCustomEncoding = encodeFileName !== utf8.utf8encode,
+    encodedFileName = utils.transformTo("string", encodeFileName(file.name)),
+    utfEncodedFileName = utils.transformTo("string", utf8.utf8encode(file.name)),
+    comment = file.comment,
+    encodedComment = utils.transformTo("string", encodeFileName(comment)),
+    utfEncodedComment = utils.transformTo("string", utf8.utf8encode(comment)),
+    useUTF8ForFileName = utfEncodedFileName.length !== file.name.length,
+    useUTF8ForComment = utfEncodedComment.length !== comment.length,
+    dosTime,
+    dosDate,
+    extraFields = "",
+    unicodePathExtraField = "",
+    unicodeCommentExtraField = "",
+    dir = file.dir,
+    date = file.date;
+
+
+    var dataInfo = {
+        crc32 : 0,
+        compressedSize : 0,
+        uncompressedSize : 0
+    };
+
+    // if the content is streamed, the sizes/crc32 are only available AFTER
+    // the end of the stream.
+    if (!streamedContent || streamingEnded) {
+        dataInfo.crc32 = streamInfo['crc32'];
+        dataInfo.compressedSize = streamInfo['compressedSize'];
+        dataInfo.uncompressedSize = streamInfo['uncompressedSize'];
+    }
+
+    var bitflag = 0;
+    if (streamedContent) {
+        // Bit 3: the sizes/crc32 are set to zero in the local header.
+        // The correct values are put in the data descriptor immediately
+        // following the compressed data.
+        bitflag |= 0x0008;
+    }
+    if (!useCustomEncoding && (useUTF8ForFileName || useUTF8ForComment)) {
+        // Bit 11: Language encoding flag (EFS).
+        bitflag |= 0x0800;
+    }
+
+
+    var extFileAttr = 0;
+    var versionMadeBy = 0;
+    if (dir) {
+        // dos or unix, we set the dos dir flag
+        extFileAttr |= 0x00010;
+    }
+    if(platform === "UNIX") {
+        versionMadeBy = 0x031E; // UNIX, version 3.0
+        extFileAttr |= generateUnixExternalFileAttr(file.unixPermissions, dir);
+    } else { // DOS or other, fallback to DOS
+        versionMadeBy = 0x0014; // DOS, version 2.0
+        extFileAttr |= generateDosExternalFileAttr(file.dosPermissions, dir);
+    }
+
+    // date
+    // @see http://www.delorie.com/djgpp/doc/rbinter/it/52/13.html
+    // @see http://www.delorie.com/djgpp/doc/rbinter/it/65/16.html
+    // @see http://www.delorie.com/djgpp/doc/rbinter/it/66/16.html
+
+    dosTime = date.getUTCHours();
+    dosTime = dosTime << 6;
+    dosTime = dosTime | date.getUTCMinutes();
+    dosTime = dosTime << 5;
+    dosTime = dosTime | date.getUTCSeconds() / 2;
+
+    dosDate = date.getUTCFullYear() - 1980;
+    dosDate = dosDate << 4;
+    dosDate = dosDate | (date.getUTCMonth() + 1);
+    dosDate = dosDate << 5;
+    dosDate = dosDate | date.getUTCDate();
+
+    if (useUTF8ForFileName) {
+        // set the unicode path extra field. unzip needs at least one extra
+        // field to correctly handle unicode path, so using the path is as good
+        // as any other information. This could improve the situation with
+        // other archive managers too.
+        // This field is usually used without the utf8 flag, with a non
+        // unicode path in the header (winrar, winzip). This helps (a bit)
+        // with the messy Windows' default compressed folders feature but
+        // breaks on p7zip which doesn't seek the unicode path extra field.
+        // So for now, UTF-8 everywhere !
+        unicodePathExtraField =
+            // Version
+            decToHex(1, 1) +
+            // NameCRC32
+            decToHex(crc32(encodedFileName), 4) +
+            // UnicodeName
+            utfEncodedFileName;
+
+        extraFields +=
+            // Info-ZIP Unicode Path Extra Field
+            "\x75\x70" +
+            // size
+            decToHex(unicodePathExtraField.length, 2) +
+            // content
+            unicodePathExtraField;
+    }
+
+    if(useUTF8ForComment) {
+
+        unicodeCommentExtraField =
+            // Version
+            decToHex(1, 1) +
+            // CommentCRC32
+            decToHex(crc32(encodedComment), 4) +
+            // UnicodeName
+            utfEncodedComment;
+
+        extraFields +=
+            // Info-ZIP Unicode Path Extra Field
+            "\x75\x63" +
+            // size
+            decToHex(unicodeCommentExtraField.length, 2) +
+            // content
+            unicodeCommentExtraField;
+    }
+
+    var header = "";
+
+    // version needed to extract
+    header += "\x0A\x00";
+    // general purpose bit flag
+    header += decToHex(bitflag, 2);
+    // compression method
+    header += compression.magic;
+    // last mod file time
+    header += decToHex(dosTime, 2);
+    // last mod file date
+    header += decToHex(dosDate, 2);
+    // crc-32
+    header += decToHex(dataInfo.crc32, 4);
+    // compressed size
+    header += decToHex(dataInfo.compressedSize, 4);
+    // uncompressed size
+    header += decToHex(dataInfo.uncompressedSize, 4);
+    // file name length
+    header += decToHex(encodedFileName.length, 2);
+    // extra field length
+    header += decToHex(extraFields.length, 2);
+
+
+    var fileRecord = signature.LOCAL_FILE_HEADER + header + encodedFileName + extraFields;
+
+    var dirRecord = signature.CENTRAL_FILE_HEADER +
+        // version made by (00: DOS)
+        decToHex(versionMadeBy, 2) +
+        // file header (common to file and central directory)
+        header +
+        // file comment length
+        decToHex(encodedComment.length, 2) +
+        // disk number start
+        "\x00\x00" +
+        // internal file attributes TODO
+        "\x00\x00" +
+        // external file attributes
+        decToHex(extFileAttr, 4) +
+        // relative offset of local header
+        decToHex(offset, 4) +
+        // file name
+        encodedFileName +
+        // extra field
+        extraFields +
+        // file comment
+        encodedComment;
+
+    return {
+        fileRecord: fileRecord,
+        dirRecord: dirRecord
+    };
+};
+
+/**
+ * Generate the EOCD record.
+ * @param {Number} entriesCount the number of entries in the zip file.
+ * @param {Number} centralDirLength the length (in bytes) of the central dir.
+ * @param {Number} localDirLength the length (in bytes) of the local dir.
+ * @param {String} comment the zip file comment as a binary string.
+ * @param {Function} encodeFileName the function to encode the comment.
+ * @return {String} the EOCD record.
+ */
+var generateCentralDirectoryEnd = function (entriesCount, centralDirLength, localDirLength, comment, encodeFileName) {
+    var dirEnd = "";
+    var encodedComment = utils.transformTo("string", encodeFileName(comment));
+
+    // end of central dir signature
+    dirEnd = signature.CENTRAL_DIRECTORY_END +
+        // number of this disk
+        "\x00\x00" +
+        // number of the disk with the start of the central directory
+        "\x00\x00" +
+        // total number of entries in the central directory on this disk
+        decToHex(entriesCount, 2) +
+        // total number of entries in the central directory
+        decToHex(entriesCount, 2) +
+        // size of the central directory   4 bytes
+        decToHex(centralDirLength, 4) +
+        // offset of start of central directory with respect to the starting disk number
+        decToHex(localDirLength, 4) +
+        // .ZIP file comment length
+        decToHex(encodedComment.length, 2) +
+        // .ZIP file comment
+        encodedComment;
+
+    return dirEnd;
+};
+
+/**
+ * Generate data descriptors for a file entry.
+ * @param {Object} streamInfo the hash generated by a worker, containing informations
+ * on the file entry.
+ * @return {String} the data descriptors.
+ */
+var generateDataDescriptors = function (streamInfo) {
+    var descriptor = "";
+    descriptor = signature.DATA_DESCRIPTOR +
+        // crc-32                          4 bytes
+        decToHex(streamInfo['crc32'], 4) +
+        // compressed size                 4 bytes
+        decToHex(streamInfo['compressedSize'], 4) +
+        // uncompressed size               4 bytes
+        decToHex(streamInfo['uncompressedSize'], 4);
+
+    return descriptor;
+};
+
+
+/**
+ * A worker to concatenate other workers to create a zip file.
+ * @param {Boolean} streamFiles `true` to stream the content of the files,
+ * `false` to accumulate it.
+ * @param {String} comment the comment to use.
+ * @param {String} platform the platform to use, "UNIX" or "DOS".
+ * @param {Function} encodeFileName the function to encode file names and comments.
+ */
+function ZipFileWorker(streamFiles, comment, platform, encodeFileName) {
+    GenericWorker.call(this, "ZipFileWorker");
+    // The number of bytes written so far. This doesn't count accumulated chunks.
+    this.bytesWritten = 0;
+    // The comment of the zip file
+    this.zipComment = comment;
+    // The platform "generating" the zip file.
+    this.zipPlatform = platform;
+    // the function to encode file names and comments.
+    this.encodeFileName = encodeFileName;
+    // Should we stream the content of the files ?
+    this.streamFiles = streamFiles;
+    // If `streamFiles` is false, we will need to accumulate the content of the
+    // files to calculate sizes / crc32 (and write them *before* the content).
+    // This boolean indicates if we are accumulating chunks (it will change a lot
+    // during the lifetime of this worker).
+    this.accumulate = false;
+    // The buffer receiving chunks when accumulating content.
+    this.contentBuffer = [];
+    // The list of generated directory records.
+    this.dirRecords = [];
+    // The offset (in bytes) from the beginning of the zip file for the current source.
+    this.currentSourceOffset = 0;
+    // The total number of entries in this zip file.
+    this.entriesCount = 0;
+    // the name of the file currently being added, null when handling the end of the zip file.
+    // Used for the emited metadata.
+    this.currentFile = null;
+
+
+
+    this._sources = [];
+}
+utils.inherits(ZipFileWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.push
+ */
+ZipFileWorker.prototype.push = function (chunk) {
+
+    var currentFilePercent = chunk.meta.percent || 0;
+    var entriesCount = this.entriesCount;
+    var remainingFiles = this._sources.length;
+
+    if(this.accumulate) {
+        this.contentBuffer.push(chunk);
+    } else {
+        this.bytesWritten += chunk.data.length;
+
+        GenericWorker.prototype.push.call(this, {
+            data : chunk.data,
+            meta : {
+                currentFile : this.currentFile,
+                percent : entriesCount ? (currentFilePercent + 100 * (entriesCount - remainingFiles - 1)) / entriesCount : 100
+            }
+        });
+    }
+};
+
+/**
+ * The worker started a new source (an other worker).
+ * @param {Object} streamInfo the streamInfo object from the new source.
+ */
+ZipFileWorker.prototype.openedSource = function (streamInfo) {
+    this.currentSourceOffset = this.bytesWritten;
+    this.currentFile = streamInfo['file'].name;
+
+    var streamedContent = this.streamFiles && !streamInfo['file'].dir;
+
+    // don't stream folders (because they don't have any content)
+    if(streamedContent) {
+        var record = generateZipParts(streamInfo, streamedContent, false, this.currentSourceOffset, this.zipPlatform, this.encodeFileName);
+        this.push({
+            data : record.fileRecord,
+            meta : {percent:0}
+        });
+    } else {
+        // we need to wait for the whole file before pushing anything
+        this.accumulate = true;
+    }
+};
+
+/**
+ * The worker finished a source (an other worker).
+ * @param {Object} streamInfo the streamInfo object from the finished source.
+ */
+ZipFileWorker.prototype.closedSource = function (streamInfo) {
+    this.accumulate = false;
+    var streamedContent = this.streamFiles && !streamInfo['file'].dir;
+    var record = generateZipParts(streamInfo, streamedContent, true, this.currentSourceOffset, this.zipPlatform, this.encodeFileName);
+
+    this.dirRecords.push(record.dirRecord);
+    if(streamedContent) {
+        // after the streamed file, we put data descriptors
+        this.push({
+            data : generateDataDescriptors(streamInfo),
+            meta : {percent:100}
+        });
+    } else {
+        // the content wasn't streamed, we need to push everything now
+        // first the file record, then the content
+        this.push({
+            data : record.fileRecord,
+            meta : {percent:0}
+        });
+        while(this.contentBuffer.length) {
+            this.push(this.contentBuffer.shift());
+        }
+    }
+    this.currentFile = null;
+};
+
+/**
+ * @see GenericWorker.flush
+ */
+ZipFileWorker.prototype.flush = function () {
+
+    var localDirLength = this.bytesWritten;
+    for(var i = 0; i < this.dirRecords.length; i++) {
+        this.push({
+            data : this.dirRecords[i],
+            meta : {percent:100}
+        });
+    }
+    var centralDirLength = this.bytesWritten - localDirLength;
+
+    var dirEnd = generateCentralDirectoryEnd(this.dirRecords.length, centralDirLength, localDirLength, this.zipComment, this.encodeFileName);
+
+    this.push({
+        data : dirEnd,
+        meta : {percent:100}
+    });
+};
+
+/**
+ * Prepare the next source to be read.
+ */
+ZipFileWorker.prototype.prepareNextSource = function () {
+    this.previous = this._sources.shift();
+    this.openedSource(this.previous.streamInfo);
+    if (this.isPaused) {
+        this.previous.pause();
+    } else {
+        this.previous.resume();
+    }
+};
+
+/**
+ * @see GenericWorker.registerPrevious
+ */
+ZipFileWorker.prototype.registerPrevious = function (previous) {
+    this._sources.push(previous);
+    var self = this;
+
+    previous.on('data', function (chunk) {
+        self.processChunk(chunk);
+    });
+    previous.on('end', function () {
+        self.closedSource(self.previous.streamInfo);
+        if(self._sources.length) {
+            self.prepareNextSource();
+        } else {
+            self.end();
+        }
+    });
+    previous.on('error', function (e) {
+        self.error(e);
+    });
+    return this;
+};
+
+/**
+ * @see GenericWorker.resume
+ */
+ZipFileWorker.prototype.resume = function () {
+    if(!GenericWorker.prototype.resume.call(this)) {
+        return false;
+    }
+
+    if (!this.previous && this._sources.length) {
+        this.prepareNextSource();
+        return true;
+    }
+    if (!this.previous && !this._sources.length && !this.generatedError) {
+        this.end();
+        return true;
+    }
+};
+
+/**
+ * @see GenericWorker.error
+ */
+ZipFileWorker.prototype.error = function (e) {
+    var sources = this._sources;
+    if(!GenericWorker.prototype.error.call(this, e)) {
+        return false;
+    }
+    for(var i = 0; i < sources.length; i++) {
+        try {
+            sources[i].error(e);
+        } catch(e) {
+            // the `error` exploded, nothing to do
+        }
+    }
+    return true;
+};
+
+/**
+ * @see GenericWorker.lock
+ */
+ZipFileWorker.prototype.lock = function () {
+    GenericWorker.prototype.lock.call(this);
+    var sources = this._sources;
+    for(var i = 0; i < sources.length; i++) {
+        sources[i].lock();
+    }
+};
+
+module.exports = ZipFileWorker;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/generate/index.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/generate/index.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var compressions = __webpack_require__(/*! ../compressions */ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressions.js");
+var ZipFileWorker = __webpack_require__(/*! ./ZipFileWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/generate/ZipFileWorker.js");
+
+/**
+ * Find the compression to use.
+ * @param {String} fileCompression the compression defined at the file level, if any.
+ * @param {String} zipCompression the compression defined at the load() level.
+ * @return {Object} the compression object to use.
+ */
+var getCompression = function (fileCompression, zipCompression) {
+
+    var compressionName = fileCompression || zipCompression;
+    var compression = compressions[compressionName];
+    if (!compression) {
+        throw new Error(compressionName + " is not a valid compression method !");
+    }
+    return compression;
+};
+
+/**
+ * Create a worker to generate a zip file.
+ * @param {JSZip} zip the JSZip instance at the right root level.
+ * @param {Object} options to generate the zip file.
+ * @param {String} comment the comment to use.
+ */
+exports.generateWorker = function (zip, options, comment) {
+
+    var zipFileWorker = new ZipFileWorker(options.streamFiles, comment, options.platform, options.encodeFileName);
+    var entriesCount = 0;
+    try {
+
+        zip.forEach(function (relativePath, file) {
+            entriesCount++;
+            var compression = getCompression(file.options.compression, options.compression);
+            var compressionOptions = file.options.compressionOptions || options.compressionOptions || {};
+            var dir = file.dir, date = file.date;
+
+            file._compressWorker(compression, compressionOptions)
+            .withStreamInfo("file", {
+                name : relativePath,
+                dir : dir,
+                date : date,
+                comment : file.comment || "",
+                unixPermissions : file.unixPermissions,
+                dosPermissions : file.dosPermissions
+            })
+            .pipe(zipFileWorker);
+        });
+        zipFileWorker.entriesCount = entriesCount;
+    } catch (e) {
+        zipFileWorker.error(e);
+    }
+
+    return zipFileWorker;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/index.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Representation a of zip file in js
+ * @constructor
+ */
+function JSZip() {
+    // if this constructor is used without `new`, it adds `new` before itself:
+    if(!(this instanceof JSZip)) {
+        return new JSZip();
+    }
+
+    if(arguments.length) {
+        throw new Error("The constructor with parameters has been removed in JSZip 3.0, please check the upgrade guide.");
+    }
+
+    // object containing the files :
+    // {
+    //   "folder/" : {...},
+    //   "folder/data.txt" : {...}
+    // }
+    this.files = {};
+
+    this.comment = null;
+
+    // Where we are in the hierarchy
+    this.root = "";
+    this.clone = function() {
+        var newObj = new JSZip();
+        for (var i in this) {
+            if (typeof this[i] !== "function") {
+                newObj[i] = this[i];
+            }
+        }
+        return newObj;
+    };
+}
+JSZip.prototype = __webpack_require__(/*! ./object */ "./node_modules/pptxgenjs/node_modules/jszip/lib/object.js");
+JSZip.prototype.loadAsync = __webpack_require__(/*! ./load */ "./node_modules/pptxgenjs/node_modules/jszip/lib/load.js");
+JSZip.support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+JSZip.defaults = __webpack_require__(/*! ./defaults */ "./node_modules/pptxgenjs/node_modules/jszip/lib/defaults.js");
+
+// TODO find a better way to handle this version,
+// a require('package.json').version doesn't work with webpack, see #327
+JSZip.version = "3.2.0";
+
+JSZip.loadAsync = function (content, options) {
+    return new JSZip().loadAsync(content, options);
+};
+
+JSZip.external = __webpack_require__(/*! ./external */ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js");
+module.exports = JSZip;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/load.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/load.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var external = __webpack_require__(/*! ./external */ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js");
+var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var ZipEntries = __webpack_require__(/*! ./zipEntries */ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntries.js");
+var Crc32Probe = __webpack_require__(/*! ./stream/Crc32Probe */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/Crc32Probe.js");
+var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js");
+
+/**
+ * Check the CRC32 of an entry.
+ * @param {ZipEntry} zipEntry the zip entry to check.
+ * @return {Promise} the result.
+ */
+function checkEntryCRC32(zipEntry) {
+    return new external.Promise(function (resolve, reject) {
+        var worker = zipEntry.decompressed.getContentWorker().pipe(new Crc32Probe());
+        worker.on("error", function (e) {
+            reject(e);
+        })
+        .on("end", function () {
+            if (worker.streamInfo.crc32 !== zipEntry.decompressed.crc32) {
+                reject(new Error("Corrupted zip : CRC32 mismatch"));
+            } else {
+                resolve();
+            }
+        })
+        .resume();
+    });
+}
+
+module.exports = function(data, options) {
+    var zip = this;
+    options = utils.extend(options || {}, {
+        base64: false,
+        checkCRC32: false,
+        optimizedBinaryString: false,
+        createFolders: false,
+        decodeFileName: utf8.utf8decode
+    });
+
+    if (nodejsUtils.isNode && nodejsUtils.isStream(data)) {
+        return external.Promise.reject(new Error("JSZip can't accept a stream when loading a zip file."));
+    }
+
+    return utils.prepareContent("the loaded zip file", data, true, options.optimizedBinaryString, options.base64)
+    .then(function(data) {
+        var zipEntries = new ZipEntries(options);
+        zipEntries.load(data);
+        return zipEntries;
+    }).then(function checkCRC32(zipEntries) {
+        var promises = [external.Promise.resolve(zipEntries)];
+        var files = zipEntries.files;
+        if (options.checkCRC32) {
+            for (var i = 0; i < files.length; i++) {
+                promises.push(checkEntryCRC32(files[i]));
+            }
+        }
+        return external.Promise.all(promises);
+    }).then(function addFiles(results) {
+        var zipEntries = results.shift();
+        var files = zipEntries.files;
+        for (var i = 0; i < files.length; i++) {
+            var input = files[i];
+            zip.file(input.fileNameStr, input.decompressed, {
+                binary: true,
+                optimizedBinaryString: true,
+                date: input.date,
+                dir: input.dir,
+                comment : input.fileCommentStr.length ? input.fileCommentStr : null,
+                unixPermissions : input.unixPermissions,
+                dosPermissions : input.dosPermissions,
+                createFolders: options.createFolders
+            });
+        }
+        if (zipEntries.zipComment.length) {
+            zip.comment = zipEntries.zipComment;
+        }
+
+        return zip;
+    });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ../stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+/**
+ * A worker that use a nodejs stream as source.
+ * @constructor
+ * @param {String} filename the name of the file entry for this stream.
+ * @param {Readable} stream the nodejs stream.
+ */
+function NodejsStreamInputAdapter(filename, stream) {
+    GenericWorker.call(this, "Nodejs stream input adapter for " + filename);
+    this._upstreamEnded = false;
+    this._bindStream(stream);
+}
+
+utils.inherits(NodejsStreamInputAdapter, GenericWorker);
+
+/**
+ * Prepare the stream and bind the callbacks on it.
+ * Do this ASAP on node 0.10 ! A lazy binding doesn't always work.
+ * @param {Stream} stream the nodejs stream to use.
+ */
+NodejsStreamInputAdapter.prototype._bindStream = function (stream) {
+    var self = this;
+    this._stream = stream;
+    stream.pause();
+    stream
+    .on("data", function (chunk) {
+        self.push({
+            data: chunk,
+            meta : {
+                percent : 0
+            }
+        });
+    })
+    .on("error", function (e) {
+        if(self.isPaused) {
+            this.generatedError = e;
+        } else {
+            self.error(e);
+        }
+    })
+    .on("end", function () {
+        if(self.isPaused) {
+            self._upstreamEnded = true;
+        } else {
+            self.end();
+        }
+    });
+};
+NodejsStreamInputAdapter.prototype.pause = function () {
+    if(!GenericWorker.prototype.pause.call(this)) {
+        return false;
+    }
+    this._stream.pause();
+    return true;
+};
+NodejsStreamInputAdapter.prototype.resume = function () {
+    if(!GenericWorker.prototype.resume.call(this)) {
+        return false;
+    }
+
+    if(this._upstreamEnded) {
+        this.end();
+    } else {
+        this._stream.resume();
+    }
+
+    return true;
+};
+
+module.exports = NodejsStreamInputAdapter;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Readable = __webpack_require__(/*! readable-stream */ "./node_modules/pptxgenjs/node_modules/jszip/lib/readable-stream-browser.js").Readable;
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+utils.inherits(NodejsStreamOutputAdapter, Readable);
+
+/**
+* A nodejs stream using a worker as source.
+* @see the SourceWrapper in http://nodejs.org/api/stream.html
+* @constructor
+* @param {StreamHelper} helper the helper wrapping the worker
+* @param {Object} options the nodejs stream options
+* @param {Function} updateCb the update callback.
+*/
+function NodejsStreamOutputAdapter(helper, options, updateCb) {
+    Readable.call(this, options);
+    this._helper = helper;
+
+    var self = this;
+    helper.on("data", function (data, meta) {
+        if (!self.push(data)) {
+            self._helper.pause();
+        }
+        if(updateCb) {
+            updateCb(meta);
+        }
+    })
+    .on("error", function(e) {
+        self.emit('error', e);
+    })
+    .on("end", function () {
+        self.push(null);
+    });
+}
+
+
+NodejsStreamOutputAdapter.prototype._read = function() {
+    this._helper.resume();
+};
+
+module.exports = NodejsStreamOutputAdapter;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(Buffer) {
+
+module.exports = {
+    /**
+     * True if this is running in Nodejs, will be undefined in a browser.
+     * In a browser, browserify won't include this file and the whole module
+     * will be resolved an empty object.
+     */
+    isNode : typeof Buffer !== "undefined",
+    /**
+     * Create a new nodejs Buffer from an existing content.
+     * @param {Object} data the data to pass to the constructor.
+     * @param {String} encoding the encoding to use.
+     * @return {Buffer} a new Buffer.
+     */
+    newBufferFrom: function(data, encoding) {
+        if (Buffer.from && Buffer.from !== Uint8Array.from) {
+            return Buffer.from(data, encoding);
+        } else {
+            if (typeof data === "number") {
+                // Safeguard for old Node.js versions. On newer versions,
+                // Buffer.from(number) / Buffer(number, encoding) already throw.
+                throw new Error("The \"data\" argument must not be a number");
+            }
+            return new Buffer(data, encoding);
+        }
+    },
+    /**
+     * Create a new nodejs Buffer with the specified size.
+     * @param {Integer} size the size of the buffer.
+     * @return {Buffer} a new Buffer.
+     */
+    allocBuffer: function (size) {
+        if (Buffer.alloc) {
+            return Buffer.alloc(size);
+        } else {
+            var buf = new Buffer(size);
+            buf.fill(0);
+            return buf;
+        }
+    },
+    /**
+     * Find out if an object is a Buffer.
+     * @param {Object} b the object to test.
+     * @return {Boolean} true if the object is a Buffer, false otherwise.
+     */
+    isBuffer : function(b){
+        return Buffer.isBuffer(b);
+    },
+
+    isStream : function (obj) {
+        return obj &&
+            typeof obj.on === "function" &&
+            typeof obj.pause === "function" &&
+            typeof obj.resume === "function";
+    }
+};
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/object.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/object.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+var StreamHelper = __webpack_require__(/*! ./stream/StreamHelper */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/StreamHelper.js");
+var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/pptxgenjs/node_modules/jszip/lib/defaults.js");
+var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressedObject.js");
+var ZipObject = __webpack_require__(/*! ./zipObject */ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipObject.js");
+var generate = __webpack_require__(/*! ./generate */ "./node_modules/pptxgenjs/node_modules/jszip/lib/generate/index.js");
+var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js");
+var NodejsStreamInputAdapter = __webpack_require__(/*! ./nodejs/NodejsStreamInputAdapter */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamInputAdapter.js");
+
+
+/**
+ * Add a file in the current folder.
+ * @private
+ * @param {string} name the name of the file
+ * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data of the file
+ * @param {Object} originalOptions the options of the file
+ * @return {Object} the new file.
+ */
+var fileAdd = function(name, data, originalOptions) {
+    // be sure sub folders exist
+    var dataType = utils.getTypeOf(data),
+        parent;
+
+
+    /*
+     * Correct options.
+     */
+
+    var o = utils.extend(originalOptions || {}, defaults);
+    o.date = o.date || new Date();
+    if (o.compression !== null) {
+        o.compression = o.compression.toUpperCase();
+    }
+
+    if (typeof o.unixPermissions === "string") {
+        o.unixPermissions = parseInt(o.unixPermissions, 8);
+    }
+
+    // UNX_IFDIR  0040000 see zipinfo.c
+    if (o.unixPermissions && (o.unixPermissions & 0x4000)) {
+        o.dir = true;
+    }
+    // Bit 4    Directory
+    if (o.dosPermissions && (o.dosPermissions & 0x0010)) {
+        o.dir = true;
+    }
+
+    if (o.dir) {
+        name = forceTrailingSlash(name);
+    }
+    if (o.createFolders && (parent = parentFolder(name))) {
+        folderAdd.call(this, parent, true);
+    }
+
+    var isUnicodeString = dataType === "string" && o.binary === false && o.base64 === false;
+    if (!originalOptions || typeof originalOptions.binary === "undefined") {
+        o.binary = !isUnicodeString;
+    }
+
+
+    var isCompressedEmpty = (data instanceof CompressedObject) && data.uncompressedSize === 0;
+
+    if (isCompressedEmpty || o.dir || !data || data.length === 0) {
+        o.base64 = false;
+        o.binary = true;
+        data = "";
+        o.compression = "STORE";
+        dataType = "string";
+    }
+
+    /*
+     * Convert content to fit.
+     */
+
+    var zipObjectContent = null;
+    if (data instanceof CompressedObject || data instanceof GenericWorker) {
+        zipObjectContent = data;
+    } else if (nodejsUtils.isNode && nodejsUtils.isStream(data)) {
+        zipObjectContent = new NodejsStreamInputAdapter(name, data);
+    } else {
+        zipObjectContent = utils.prepareContent(name, data, o.binary, o.optimizedBinaryString, o.base64);
+    }
+
+    var object = new ZipObject(name, zipObjectContent, o);
+    this.files[name] = object;
+    /*
+    TODO: we can't throw an exception because we have async promises
+    (we can have a promise of a Date() for example) but returning a
+    promise is useless because file(name, data) returns the JSZip
+    object for chaining. Should we break that to allow the user
+    to catch the error ?
+
+    return external.Promise.resolve(zipObjectContent)
+    .then(function () {
+        return object;
+    });
+    */
+};
+
+/**
+ * Find the parent folder of the path.
+ * @private
+ * @param {string} path the path to use
+ * @return {string} the parent folder, or ""
+ */
+var parentFolder = function (path) {
+    if (path.slice(-1) === '/') {
+        path = path.substring(0, path.length - 1);
+    }
+    var lastSlash = path.lastIndexOf('/');
+    return (lastSlash > 0) ? path.substring(0, lastSlash) : "";
+};
+
+/**
+ * Returns the path with a slash at the end.
+ * @private
+ * @param {String} path the path to check.
+ * @return {String} the path with a trailing slash.
+ */
+var forceTrailingSlash = function(path) {
+    // Check the name ends with a /
+    if (path.slice(-1) !== "/") {
+        path += "/"; // IE doesn't like substr(-1)
+    }
+    return path;
+};
+
+/**
+ * Add a (sub) folder in the current folder.
+ * @private
+ * @param {string} name the folder's name
+ * @param {boolean=} [createFolders] If true, automatically create sub
+ *  folders. Defaults to false.
+ * @return {Object} the new folder.
+ */
+var folderAdd = function(name, createFolders) {
+    createFolders = (typeof createFolders !== 'undefined') ? createFolders : defaults.createFolders;
+
+    name = forceTrailingSlash(name);
+
+    // Does this folder already exist?
+    if (!this.files[name]) {
+        fileAdd.call(this, name, null, {
+            dir: true,
+            createFolders: createFolders
+        });
+    }
+    return this.files[name];
+};
+
+/**
+* Cross-window, cross-Node-context regular expression detection
+* @param  {Object}  object Anything
+* @return {Boolean}        true if the object is a regular expression,
+* false otherwise
+*/
+function isRegExp(object) {
+    return Object.prototype.toString.call(object) === "[object RegExp]";
+}
+
+// return the actual prototype of JSZip
+var out = {
+    /**
+     * @see loadAsync
+     */
+    load: function() {
+        throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
+    },
+
+
+    /**
+     * Call a callback function for each entry at this folder level.
+     * @param {Function} cb the callback function:
+     * function (relativePath, file) {...}
+     * It takes 2 arguments : the relative path and the file.
+     */
+    forEach: function(cb) {
+        var filename, relativePath, file;
+        for (filename in this.files) {
+            if (!this.files.hasOwnProperty(filename)) {
+                continue;
+            }
+            file = this.files[filename];
+            relativePath = filename.slice(this.root.length, filename.length);
+            if (relativePath && filename.slice(0, this.root.length) === this.root) { // the file is in the current root
+                cb(relativePath, file); // TODO reverse the parameters ? need to be clean AND consistent with the filter search fn...
+            }
+        }
+    },
+
+    /**
+     * Filter nested files/folders with the specified function.
+     * @param {Function} search the predicate to use :
+     * function (relativePath, file) {...}
+     * It takes 2 arguments : the relative path and the file.
+     * @return {Array} An array of matching elements.
+     */
+    filter: function(search) {
+        var result = [];
+        this.forEach(function (relativePath, entry) {
+            if (search(relativePath, entry)) { // the file matches the function
+                result.push(entry);
+            }
+
+        });
+        return result;
+    },
+
+    /**
+     * Add a file to the zip file, or search a file.
+     * @param   {string|RegExp} name The name of the file to add (if data is defined),
+     * the name of the file to find (if no data) or a regex to match files.
+     * @param   {String|ArrayBuffer|Uint8Array|Buffer} data  The file data, either raw or base64 encoded
+     * @param   {Object} o     File options
+     * @return  {JSZip|Object|Array} this JSZip object (when adding a file),
+     * a file (when searching by string) or an array of files (when searching by regex).
+     */
+    file: function(name, data, o) {
+        if (arguments.length === 1) {
+            if (isRegExp(name)) {
+                var regexp = name;
+                return this.filter(function(relativePath, file) {
+                    return !file.dir && regexp.test(relativePath);
+                });
+            }
+            else { // text
+                var obj = this.files[this.root + name];
+                if (obj && !obj.dir) {
+                    return obj;
+                } else {
+                    return null;
+                }
+            }
+        }
+        else { // more than one argument : we have data !
+            name = this.root + name;
+            fileAdd.call(this, name, data, o);
+        }
+        return this;
+    },
+
+    /**
+     * Add a directory to the zip file, or search.
+     * @param   {String|RegExp} arg The name of the directory to add, or a regex to search folders.
+     * @return  {JSZip} an object with the new directory as the root, or an array containing matching folders.
+     */
+    folder: function(arg) {
+        if (!arg) {
+            return this;
+        }
+
+        if (isRegExp(arg)) {
+            return this.filter(function(relativePath, file) {
+                return file.dir && arg.test(relativePath);
+            });
+        }
+
+        // else, name is a new folder
+        var name = this.root + arg;
+        var newFolder = folderAdd.call(this, name);
+
+        // Allow chaining by returning a new object with this folder as the root
+        var ret = this.clone();
+        ret.root = newFolder.name;
+        return ret;
+    },
+
+    /**
+     * Delete a file, or a directory and all sub-files, from the zip
+     * @param {string} name the name of the file to delete
+     * @return {JSZip} this JSZip object
+     */
+    remove: function(name) {
+        name = this.root + name;
+        var file = this.files[name];
+        if (!file) {
+            // Look for any folders
+            if (name.slice(-1) !== "/") {
+                name += "/";
+            }
+            file = this.files[name];
+        }
+
+        if (file && !file.dir) {
+            // file
+            delete this.files[name];
+        } else {
+            // maybe a folder, delete recursively
+            var kids = this.filter(function(relativePath, file) {
+                return file.name.slice(0, name.length) === name;
+            });
+            for (var i = 0; i < kids.length; i++) {
+                delete this.files[kids[i].name];
+            }
+        }
+
+        return this;
+    },
+
+    /**
+     * Generate the complete zip file
+     * @param {Object} options the options to generate the zip file :
+     * - compression, "STORE" by default.
+     * - type, "base64" by default. Values are : string, base64, uint8array, arraybuffer, blob.
+     * @return {String|Uint8Array|ArrayBuffer|Buffer|Blob} the zip file
+     */
+    generate: function(options) {
+        throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
+    },
+
+    /**
+     * Generate the complete zip file as an internal stream.
+     * @param {Object} options the options to generate the zip file :
+     * - compression, "STORE" by default.
+     * - type, "base64" by default. Values are : string, base64, uint8array, arraybuffer, blob.
+     * @return {StreamHelper} the streamed zip file.
+     */
+    generateInternalStream: function(options) {
+      var worker, opts = {};
+      try {
+          opts = utils.extend(options || {}, {
+              streamFiles: false,
+              compression: "STORE",
+              compressionOptions : null,
+              type: "",
+              platform: "DOS",
+              comment: null,
+              mimeType: 'application/zip',
+              encodeFileName: utf8.utf8encode
+          });
+
+          opts.type = opts.type.toLowerCase();
+          opts.compression = opts.compression.toUpperCase();
+
+          // "binarystring" is prefered but the internals use "string".
+          if(opts.type === "binarystring") {
+            opts.type = "string";
+          }
+
+          if (!opts.type) {
+            throw new Error("No output type specified.");
+          }
+
+          utils.checkSupport(opts.type);
+
+          // accept nodejs `process.platform`
+          if(
+              opts.platform === 'darwin' ||
+              opts.platform === 'freebsd' ||
+              opts.platform === 'linux' ||
+              opts.platform === 'sunos'
+          ) {
+              opts.platform = "UNIX";
+          }
+          if (opts.platform === 'win32') {
+              opts.platform = "DOS";
+          }
+
+          var comment = opts.comment || this.comment || "";
+          worker = generate.generateWorker(this, opts, comment);
+      } catch (e) {
+        worker = new GenericWorker("error");
+        worker.error(e);
+      }
+      return new StreamHelper(worker, opts.type || "string", opts.mimeType);
+    },
+    /**
+     * Generate the complete zip file asynchronously.
+     * @see generateInternalStream
+     */
+    generateAsync: function(options, onUpdate) {
+        return this.generateInternalStream(options).accumulate(onUpdate);
+    },
+    /**
+     * Generate the complete zip file asynchronously.
+     * @see generateInternalStream
+     */
+    generateNodeStream: function(options, onUpdate) {
+        options = options || {};
+        if (!options.type) {
+            options.type = "nodebuffer";
+        }
+        return this.generateInternalStream(options).toNodejsStream(onUpdate);
+    }
+};
+module.exports = out;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/readable-stream-browser.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/readable-stream-browser.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+ * This file is used by module bundlers (browserify/webpack/etc) when
+ * including a stream implementation. We use "readable-stream" to get a
+ * consistent behavior between nodejs versions but bundlers often have a shim
+ * for "stream". Using this shim greatly improve the compatibility and greatly
+ * reduce the final size of the bundle (only one stream implementation, not
+ * two).
+ */
+module.exports = __webpack_require__(/*! stream */ "./node_modules/stream-browserify/index.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/ArrayReader.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/ArrayReader.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var DataReader = __webpack_require__(/*! ./DataReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/DataReader.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+function ArrayReader(data) {
+    DataReader.call(this, data);
+	for(var i = 0; i < this.data.length; i++) {
+		data[i] = data[i] & 0xFF;
+	}
+}
+utils.inherits(ArrayReader, DataReader);
+/**
+ * @see DataReader.byteAt
+ */
+ArrayReader.prototype.byteAt = function(i) {
+    return this.data[this.zero + i];
+};
+/**
+ * @see DataReader.lastIndexOfSignature
+ */
+ArrayReader.prototype.lastIndexOfSignature = function(sig) {
+    var sig0 = sig.charCodeAt(0),
+        sig1 = sig.charCodeAt(1),
+        sig2 = sig.charCodeAt(2),
+        sig3 = sig.charCodeAt(3);
+    for (var i = this.length - 4; i >= 0; --i) {
+        if (this.data[i] === sig0 && this.data[i + 1] === sig1 && this.data[i + 2] === sig2 && this.data[i + 3] === sig3) {
+            return i - this.zero;
+        }
+    }
+
+    return -1;
+};
+/**
+ * @see DataReader.readAndCheckSignature
+ */
+ArrayReader.prototype.readAndCheckSignature = function (sig) {
+    var sig0 = sig.charCodeAt(0),
+        sig1 = sig.charCodeAt(1),
+        sig2 = sig.charCodeAt(2),
+        sig3 = sig.charCodeAt(3),
+        data = this.readData(4);
+    return sig0 === data[0] && sig1 === data[1] && sig2 === data[2] && sig3 === data[3];
+};
+/**
+ * @see DataReader.readData
+ */
+ArrayReader.prototype.readData = function(size) {
+    this.checkOffset(size);
+    if(size === 0) {
+        return [];
+    }
+    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
+    this.index += size;
+    return result;
+};
+module.exports = ArrayReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/DataReader.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/DataReader.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+function DataReader(data) {
+    this.data = data; // type : see implementation
+    this.length = data.length;
+    this.index = 0;
+    this.zero = 0;
+}
+DataReader.prototype = {
+    /**
+     * Check that the offset will not go too far.
+     * @param {string} offset the additional offset to check.
+     * @throws {Error} an Error if the offset is out of bounds.
+     */
+    checkOffset: function(offset) {
+        this.checkIndex(this.index + offset);
+    },
+    /**
+     * Check that the specified index will not be too far.
+     * @param {string} newIndex the index to check.
+     * @throws {Error} an Error if the index is out of bounds.
+     */
+    checkIndex: function(newIndex) {
+        if (this.length < this.zero + newIndex || newIndex < 0) {
+            throw new Error("End of data reached (data length = " + this.length + ", asked index = " + (newIndex) + "). Corrupted zip ?");
+        }
+    },
+    /**
+     * Change the index.
+     * @param {number} newIndex The new index.
+     * @throws {Error} if the new index is out of the data.
+     */
+    setIndex: function(newIndex) {
+        this.checkIndex(newIndex);
+        this.index = newIndex;
+    },
+    /**
+     * Skip the next n bytes.
+     * @param {number} n the number of bytes to skip.
+     * @throws {Error} if the new index is out of the data.
+     */
+    skip: function(n) {
+        this.setIndex(this.index + n);
+    },
+    /**
+     * Get the byte at the specified index.
+     * @param {number} i the index to use.
+     * @return {number} a byte.
+     */
+    byteAt: function(i) {
+        // see implementations
+    },
+    /**
+     * Get the next number with a given byte size.
+     * @param {number} size the number of bytes to read.
+     * @return {number} the corresponding number.
+     */
+    readInt: function(size) {
+        var result = 0,
+            i;
+        this.checkOffset(size);
+        for (i = this.index + size - 1; i >= this.index; i--) {
+            result = (result << 8) + this.byteAt(i);
+        }
+        this.index += size;
+        return result;
+    },
+    /**
+     * Get the next string with a given byte size.
+     * @param {number} size the number of bytes to read.
+     * @return {string} the corresponding string.
+     */
+    readString: function(size) {
+        return utils.transformTo("string", this.readData(size));
+    },
+    /**
+     * Get raw data without conversion, <size> bytes.
+     * @param {number} size the number of bytes to read.
+     * @return {Object} the raw data, implementation specific.
+     */
+    readData: function(size) {
+        // see implementations
+    },
+    /**
+     * Find the last occurence of a zip signature (4 bytes).
+     * @param {string} sig the signature to find.
+     * @return {number} the index of the last occurence, -1 if not found.
+     */
+    lastIndexOfSignature: function(sig) {
+        // see implementations
+    },
+    /**
+     * Read the signature (4 bytes) at the current position and compare it with sig.
+     * @param {string} sig the expected signature
+     * @return {boolean} true if the signature matches, false otherwise.
+     */
+    readAndCheckSignature: function(sig) {
+        // see implementations
+    },
+    /**
+     * Get the next date.
+     * @return {Date} the date.
+     */
+    readDate: function() {
+        var dostime = this.readInt(4);
+        return new Date(Date.UTC(
+        ((dostime >> 25) & 0x7f) + 1980, // year
+        ((dostime >> 21) & 0x0f) - 1, // month
+        (dostime >> 16) & 0x1f, // day
+        (dostime >> 11) & 0x1f, // hour
+        (dostime >> 5) & 0x3f, // minute
+        (dostime & 0x1f) << 1)); // second
+    }
+};
+module.exports = DataReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/NodeBufferReader.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/NodeBufferReader.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Uint8ArrayReader = __webpack_require__(/*! ./Uint8ArrayReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/Uint8ArrayReader.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+function NodeBufferReader(data) {
+    Uint8ArrayReader.call(this, data);
+}
+utils.inherits(NodeBufferReader, Uint8ArrayReader);
+
+/**
+ * @see DataReader.readData
+ */
+NodeBufferReader.prototype.readData = function(size) {
+    this.checkOffset(size);
+    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
+    this.index += size;
+    return result;
+};
+module.exports = NodeBufferReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/StringReader.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/StringReader.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var DataReader = __webpack_require__(/*! ./DataReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/DataReader.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+function StringReader(data) {
+    DataReader.call(this, data);
+}
+utils.inherits(StringReader, DataReader);
+/**
+ * @see DataReader.byteAt
+ */
+StringReader.prototype.byteAt = function(i) {
+    return this.data.charCodeAt(this.zero + i);
+};
+/**
+ * @see DataReader.lastIndexOfSignature
+ */
+StringReader.prototype.lastIndexOfSignature = function(sig) {
+    return this.data.lastIndexOf(sig) - this.zero;
+};
+/**
+ * @see DataReader.readAndCheckSignature
+ */
+StringReader.prototype.readAndCheckSignature = function (sig) {
+    var data = this.readData(4);
+    return sig === data;
+};
+/**
+ * @see DataReader.readData
+ */
+StringReader.prototype.readData = function(size) {
+    this.checkOffset(size);
+    // this will work because the constructor applied the "& 0xff" mask.
+    var result = this.data.slice(this.zero + this.index, this.zero + this.index + size);
+    this.index += size;
+    return result;
+};
+module.exports = StringReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/Uint8ArrayReader.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/Uint8ArrayReader.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ArrayReader = __webpack_require__(/*! ./ArrayReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/ArrayReader.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+function Uint8ArrayReader(data) {
+    ArrayReader.call(this, data);
+}
+utils.inherits(Uint8ArrayReader, ArrayReader);
+/**
+ * @see DataReader.readData
+ */
+Uint8ArrayReader.prototype.readData = function(size) {
+    this.checkOffset(size);
+    if(size === 0) {
+        // in IE10, when using subarray(idx, idx), we get the array [0x00] instead of [].
+        return new Uint8Array(0);
+    }
+    var result = this.data.subarray(this.zero + this.index, this.zero + this.index + size);
+    this.index += size;
+    return result;
+};
+module.exports = Uint8ArrayReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/readerFor.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/reader/readerFor.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var support = __webpack_require__(/*! ../support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+var ArrayReader = __webpack_require__(/*! ./ArrayReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/ArrayReader.js");
+var StringReader = __webpack_require__(/*! ./StringReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/StringReader.js");
+var NodeBufferReader = __webpack_require__(/*! ./NodeBufferReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/NodeBufferReader.js");
+var Uint8ArrayReader = __webpack_require__(/*! ./Uint8ArrayReader */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/Uint8ArrayReader.js");
+
+/**
+ * Create a reader adapted to the data.
+ * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data to read.
+ * @return {DataReader} the data reader.
+ */
+module.exports = function (data) {
+    var type = utils.getTypeOf(data);
+    utils.checkSupport(type);
+    if (type === "string" && !support.uint8array) {
+        return new StringReader(data);
+    }
+    if (type === "nodebuffer") {
+        return new NodeBufferReader(data);
+    }
+    if (support.uint8array) {
+        return new Uint8ArrayReader(utils.transformTo("uint8array", data));
+    }
+    return new ArrayReader(utils.transformTo("array", data));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/signature.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/signature.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.LOCAL_FILE_HEADER = "PK\x03\x04";
+exports.CENTRAL_FILE_HEADER = "PK\x01\x02";
+exports.CENTRAL_DIRECTORY_END = "PK\x05\x06";
+exports.ZIP64_CENTRAL_DIRECTORY_LOCATOR = "PK\x06\x07";
+exports.ZIP64_CENTRAL_DIRECTORY_END = "PK\x06\x06";
+exports.DATA_DESCRIPTOR = "PK\x07\x08";
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/ConvertWorker.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/ConvertWorker.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+/**
+ * A worker which convert chunks to a specified type.
+ * @constructor
+ * @param {String} destType the destination type.
+ */
+function ConvertWorker(destType) {
+    GenericWorker.call(this, "ConvertWorker to " + destType);
+    this.destType = destType;
+}
+utils.inherits(ConvertWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+ConvertWorker.prototype.processChunk = function (chunk) {
+    this.push({
+        data : utils.transformTo(this.destType, chunk.data),
+        meta : chunk.meta
+    });
+};
+module.exports = ConvertWorker;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/Crc32Probe.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/Crc32Probe.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+var crc32 = __webpack_require__(/*! ../crc32 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/crc32.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+
+/**
+ * A worker which calculate the crc32 of the data flowing through.
+ * @constructor
+ */
+function Crc32Probe() {
+    GenericWorker.call(this, "Crc32Probe");
+    this.withStreamInfo("crc32", 0);
+}
+utils.inherits(Crc32Probe, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+Crc32Probe.prototype.processChunk = function (chunk) {
+    this.streamInfo.crc32 = crc32(chunk.data, this.streamInfo.crc32 || 0);
+    this.push(chunk);
+};
+module.exports = Crc32Probe;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataLengthProbe.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataLengthProbe.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+/**
+ * A worker which calculate the total length of the data flowing through.
+ * @constructor
+ * @param {String} propName the name used to expose the length
+ */
+function DataLengthProbe(propName) {
+    GenericWorker.call(this, "DataLengthProbe for " + propName);
+    this.propName = propName;
+    this.withStreamInfo(propName, 0);
+}
+utils.inherits(DataLengthProbe, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+DataLengthProbe.prototype.processChunk = function (chunk) {
+    if(chunk) {
+        var length = this.streamInfo[this.propName] || 0;
+        this.streamInfo[this.propName] = length + chunk.data.length;
+    }
+    GenericWorker.prototype.processChunk.call(this, chunk);
+};
+module.exports = DataLengthProbe;
+
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataWorker.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataWorker.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+// the size of the generated chunks
+// TODO expose this as a public variable
+var DEFAULT_BLOCK_SIZE = 16 * 1024;
+
+/**
+ * A worker that reads a content and emits chunks.
+ * @constructor
+ * @param {Promise} dataP the promise of the data to split
+ */
+function DataWorker(dataP) {
+    GenericWorker.call(this, "DataWorker");
+    var self = this;
+    this.dataIsReady = false;
+    this.index = 0;
+    this.max = 0;
+    this.data = null;
+    this.type = "";
+
+    this._tickScheduled = false;
+
+    dataP.then(function (data) {
+        self.dataIsReady = true;
+        self.data = data;
+        self.max = data && data.length || 0;
+        self.type = utils.getTypeOf(data);
+        if(!self.isPaused) {
+            self._tickAndRepeat();
+        }
+    }, function (e) {
+        self.error(e);
+    });
+}
+
+utils.inherits(DataWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.cleanUp
+ */
+DataWorker.prototype.cleanUp = function () {
+    GenericWorker.prototype.cleanUp.call(this);
+    this.data = null;
+};
+
+/**
+ * @see GenericWorker.resume
+ */
+DataWorker.prototype.resume = function () {
+    if(!GenericWorker.prototype.resume.call(this)) {
+        return false;
+    }
+
+    if (!this._tickScheduled && this.dataIsReady) {
+        this._tickScheduled = true;
+        utils.delay(this._tickAndRepeat, [], this);
+    }
+    return true;
+};
+
+/**
+ * Trigger a tick a schedule an other call to this function.
+ */
+DataWorker.prototype._tickAndRepeat = function() {
+    this._tickScheduled = false;
+    if(this.isPaused || this.isFinished) {
+        return;
+    }
+    this._tick();
+    if(!this.isFinished) {
+        utils.delay(this._tickAndRepeat, [], this);
+        this._tickScheduled = true;
+    }
+};
+
+/**
+ * Read and push a chunk.
+ */
+DataWorker.prototype._tick = function() {
+
+    if(this.isPaused || this.isFinished) {
+        return false;
+    }
+
+    var size = DEFAULT_BLOCK_SIZE;
+    var data = null, nextIndex = Math.min(this.max, this.index + size);
+    if (this.index >= this.max) {
+        // EOF
+        return this.end();
+    } else {
+        switch(this.type) {
+            case "string":
+                data = this.data.substring(this.index, nextIndex);
+            break;
+            case "uint8array":
+                data = this.data.subarray(this.index, nextIndex);
+            break;
+            case "array":
+            case "nodebuffer":
+                data = this.data.slice(this.index, nextIndex);
+            break;
+        }
+        this.index = nextIndex;
+        return this.push({
+            data : data,
+            meta : {
+                percent : this.max ? this.index / this.max * 100 : 0
+            }
+        });
+    }
+};
+
+module.exports = DataWorker;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * A worker that does nothing but passing chunks to the next one. This is like
+ * a nodejs stream but with some differences. On the good side :
+ * - it works on IE 6-9 without any issue / polyfill
+ * - it weights less than the full dependencies bundled with browserify
+ * - it forwards errors (no need to declare an error handler EVERYWHERE)
+ *
+ * A chunk is an object with 2 attributes : `meta` and `data`. The former is an
+ * object containing anything (`percent` for example), see each worker for more
+ * details. The latter is the real data (String, Uint8Array, etc).
+ *
+ * @constructor
+ * @param {String} name the name of the stream (mainly used for debugging purposes)
+ */
+function GenericWorker(name) {
+    // the name of the worker
+    this.name = name || "default";
+    // an object containing metadata about the workers chain
+    this.streamInfo = {};
+    // an error which happened when the worker was paused
+    this.generatedError = null;
+    // an object containing metadata to be merged by this worker into the general metadata
+    this.extraStreamInfo = {};
+    // true if the stream is paused (and should not do anything), false otherwise
+    this.isPaused = true;
+    // true if the stream is finished (and should not do anything), false otherwise
+    this.isFinished = false;
+    // true if the stream is locked to prevent further structure updates (pipe), false otherwise
+    this.isLocked = false;
+    // the event listeners
+    this._listeners = {
+        'data':[],
+        'end':[],
+        'error':[]
+    };
+    // the previous worker, if any
+    this.previous = null;
+}
+
+GenericWorker.prototype = {
+    /**
+     * Push a chunk to the next workers.
+     * @param {Object} chunk the chunk to push
+     */
+    push : function (chunk) {
+        this.emit("data", chunk);
+    },
+    /**
+     * End the stream.
+     * @return {Boolean} true if this call ended the worker, false otherwise.
+     */
+    end : function () {
+        if (this.isFinished) {
+            return false;
+        }
+
+        this.flush();
+        try {
+            this.emit("end");
+            this.cleanUp();
+            this.isFinished = true;
+        } catch (e) {
+            this.emit("error", e);
+        }
+        return true;
+    },
+    /**
+     * End the stream with an error.
+     * @param {Error} e the error which caused the premature end.
+     * @return {Boolean} true if this call ended the worker with an error, false otherwise.
+     */
+    error : function (e) {
+        if (this.isFinished) {
+            return false;
+        }
+
+        if(this.isPaused) {
+            this.generatedError = e;
+        } else {
+            this.isFinished = true;
+
+            this.emit("error", e);
+
+            // in the workers chain exploded in the middle of the chain,
+            // the error event will go downward but we also need to notify
+            // workers upward that there has been an error.
+            if(this.previous) {
+                this.previous.error(e);
+            }
+
+            this.cleanUp();
+        }
+        return true;
+    },
+    /**
+     * Add a callback on an event.
+     * @param {String} name the name of the event (data, end, error)
+     * @param {Function} listener the function to call when the event is triggered
+     * @return {GenericWorker} the current object for chainability
+     */
+    on : function (name, listener) {
+        this._listeners[name].push(listener);
+        return this;
+    },
+    /**
+     * Clean any references when a worker is ending.
+     */
+    cleanUp : function () {
+        this.streamInfo = this.generatedError = this.extraStreamInfo = null;
+        this._listeners = [];
+    },
+    /**
+     * Trigger an event. This will call registered callback with the provided arg.
+     * @param {String} name the name of the event (data, end, error)
+     * @param {Object} arg the argument to call the callback with.
+     */
+    emit : function (name, arg) {
+        if (this._listeners[name]) {
+            for(var i = 0; i < this._listeners[name].length; i++) {
+                this._listeners[name][i].call(this, arg);
+            }
+        }
+    },
+    /**
+     * Chain a worker with an other.
+     * @param {Worker} next the worker receiving events from the current one.
+     * @return {worker} the next worker for chainability
+     */
+    pipe : function (next) {
+        return next.registerPrevious(this);
+    },
+    /**
+     * Same as `pipe` in the other direction.
+     * Using an API with `pipe(next)` is very easy.
+     * Implementing the API with the point of view of the next one registering
+     * a source is easier, see the ZipFileWorker.
+     * @param {Worker} previous the previous worker, sending events to this one
+     * @return {Worker} the current worker for chainability
+     */
+    registerPrevious : function (previous) {
+        if (this.isLocked) {
+            throw new Error("The stream '" + this + "' has already been used.");
+        }
+
+        // sharing the streamInfo...
+        this.streamInfo = previous.streamInfo;
+        // ... and adding our own bits
+        this.mergeStreamInfo();
+        this.previous =  previous;
+        var self = this;
+        previous.on('data', function (chunk) {
+            self.processChunk(chunk);
+        });
+        previous.on('end', function () {
+            self.end();
+        });
+        previous.on('error', function (e) {
+            self.error(e);
+        });
+        return this;
+    },
+    /**
+     * Pause the stream so it doesn't send events anymore.
+     * @return {Boolean} true if this call paused the worker, false otherwise.
+     */
+    pause : function () {
+        if(this.isPaused || this.isFinished) {
+            return false;
+        }
+        this.isPaused = true;
+
+        if(this.previous) {
+            this.previous.pause();
+        }
+        return true;
+    },
+    /**
+     * Resume a paused stream.
+     * @return {Boolean} true if this call resumed the worker, false otherwise.
+     */
+    resume : function () {
+        if(!this.isPaused || this.isFinished) {
+            return false;
+        }
+        this.isPaused = false;
+
+        // if true, the worker tried to resume but failed
+        var withError = false;
+        if(this.generatedError) {
+            this.error(this.generatedError);
+            withError = true;
+        }
+        if(this.previous) {
+            this.previous.resume();
+        }
+
+        return !withError;
+    },
+    /**
+     * Flush any remaining bytes as the stream is ending.
+     */
+    flush : function () {},
+    /**
+     * Process a chunk. This is usually the method overridden.
+     * @param {Object} chunk the chunk to process.
+     */
+    processChunk : function(chunk) {
+        this.push(chunk);
+    },
+    /**
+     * Add a key/value to be added in the workers chain streamInfo once activated.
+     * @param {String} key the key to use
+     * @param {Object} value the associated value
+     * @return {Worker} the current worker for chainability
+     */
+    withStreamInfo : function (key, value) {
+        this.extraStreamInfo[key] = value;
+        this.mergeStreamInfo();
+        return this;
+    },
+    /**
+     * Merge this worker's streamInfo into the chain's streamInfo.
+     */
+    mergeStreamInfo : function () {
+        for(var key in this.extraStreamInfo) {
+            if (!this.extraStreamInfo.hasOwnProperty(key)) {
+                continue;
+            }
+            this.streamInfo[key] = this.extraStreamInfo[key];
+        }
+    },
+
+    /**
+     * Lock the stream to prevent further updates on the workers chain.
+     * After calling this method, all calls to pipe will fail.
+     */
+    lock: function () {
+        if (this.isLocked) {
+            throw new Error("The stream '" + this + "' has already been used.");
+        }
+        this.isLocked = true;
+        if (this.previous) {
+            this.previous.lock();
+        }
+    },
+
+    /**
+     *
+     * Pretty print the workers chain.
+     */
+    toString : function () {
+        var me = "Worker " + this.name;
+        if (this.previous) {
+            return this.previous + " -> " + me;
+        } else {
+            return me;
+        }
+    }
+};
+
+module.exports = GenericWorker;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/StreamHelper.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/stream/StreamHelper.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(Buffer) {
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var ConvertWorker = __webpack_require__(/*! ./ConvertWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/ConvertWorker.js");
+var GenericWorker = __webpack_require__(/*! ./GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+var base64 = __webpack_require__(/*! ../base64 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/base64.js");
+var support = __webpack_require__(/*! ../support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+var external = __webpack_require__(/*! ../external */ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js");
+
+var NodejsStreamOutputAdapter = null;
+if (support.nodestream) {
+    try {
+        NodejsStreamOutputAdapter = __webpack_require__(/*! ../nodejs/NodejsStreamOutputAdapter */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejs/NodejsStreamOutputAdapter.js");
+    } catch(e) {}
+}
+
+/**
+ * Apply the final transformation of the data. If the user wants a Blob for
+ * example, it's easier to work with an U8intArray and finally do the
+ * ArrayBuffer/Blob conversion.
+ * @param {String} type the name of the final type
+ * @param {String|Uint8Array|Buffer} content the content to transform
+ * @param {String} mimeType the mime type of the content, if applicable.
+ * @return {String|Uint8Array|ArrayBuffer|Buffer|Blob} the content in the right format.
+ */
+function transformZipOutput(type, content, mimeType) {
+    switch(type) {
+        case "blob" :
+            return utils.newBlob(utils.transformTo("arraybuffer", content), mimeType);
+        case "base64" :
+            return base64.encode(content);
+        default :
+            return utils.transformTo(type, content);
+    }
+}
+
+/**
+ * Concatenate an array of data of the given type.
+ * @param {String} type the type of the data in the given array.
+ * @param {Array} dataArray the array containing the data chunks to concatenate
+ * @return {String|Uint8Array|Buffer} the concatenated data
+ * @throws Error if the asked type is unsupported
+ */
+function concat (type, dataArray) {
+    var i, index = 0, res = null, totalLength = 0;
+    for(i = 0; i < dataArray.length; i++) {
+        totalLength += dataArray[i].length;
+    }
+    switch(type) {
+        case "string":
+            return dataArray.join("");
+          case "array":
+            return Array.prototype.concat.apply([], dataArray);
+        case "uint8array":
+            res = new Uint8Array(totalLength);
+            for(i = 0; i < dataArray.length; i++) {
+                res.set(dataArray[i], index);
+                index += dataArray[i].length;
+            }
+            return res;
+        case "nodebuffer":
+            return Buffer.concat(dataArray);
+        default:
+            throw new Error("concat : unsupported type '"  + type + "'");
+    }
+}
+
+/**
+ * Listen a StreamHelper, accumulate its content and concatenate it into a
+ * complete block.
+ * @param {StreamHelper} helper the helper to use.
+ * @param {Function} updateCallback a callback called on each update. Called
+ * with one arg :
+ * - the metadata linked to the update received.
+ * @return Promise the promise for the accumulation.
+ */
+function accumulate(helper, updateCallback) {
+    return new external.Promise(function (resolve, reject){
+        var dataArray = [];
+        var chunkType = helper._internalType,
+            resultType = helper._outputType,
+            mimeType = helper._mimeType;
+        helper
+        .on('data', function (data, meta) {
+            dataArray.push(data);
+            if(updateCallback) {
+                updateCallback(meta);
+            }
+        })
+        .on('error', function(err) {
+            dataArray = [];
+            reject(err);
+        })
+        .on('end', function (){
+            try {
+                var result = transformZipOutput(resultType, concat(chunkType, dataArray), mimeType);
+                resolve(result);
+            } catch (e) {
+                reject(e);
+            }
+            dataArray = [];
+        })
+        .resume();
+    });
+}
+
+/**
+ * An helper to easily use workers outside of JSZip.
+ * @constructor
+ * @param {Worker} worker the worker to wrap
+ * @param {String} outputType the type of data expected by the use
+ * @param {String} mimeType the mime type of the content, if applicable.
+ */
+function StreamHelper(worker, outputType, mimeType) {
+    var internalType = outputType;
+    switch(outputType) {
+        case "blob":
+        case "arraybuffer":
+            internalType = "uint8array";
+        break;
+        case "base64":
+            internalType = "string";
+        break;
+    }
+
+    try {
+        // the type used internally
+        this._internalType = internalType;
+        // the type used to output results
+        this._outputType = outputType;
+        // the mime type
+        this._mimeType = mimeType;
+        utils.checkSupport(internalType);
+        this._worker = worker.pipe(new ConvertWorker(internalType));
+        // the last workers can be rewired without issues but we need to
+        // prevent any updates on previous workers.
+        worker.lock();
+    } catch(e) {
+        this._worker = new GenericWorker("error");
+        this._worker.error(e);
+    }
+}
+
+StreamHelper.prototype = {
+    /**
+     * Listen a StreamHelper, accumulate its content and concatenate it into a
+     * complete block.
+     * @param {Function} updateCb the update callback.
+     * @return Promise the promise for the accumulation.
+     */
+    accumulate : function (updateCb) {
+        return accumulate(this, updateCb);
+    },
+    /**
+     * Add a listener on an event triggered on a stream.
+     * @param {String} evt the name of the event
+     * @param {Function} fn the listener
+     * @return {StreamHelper} the current helper.
+     */
+    on : function (evt, fn) {
+        var self = this;
+
+        if(evt === "data") {
+            this._worker.on(evt, function (chunk) {
+                fn.call(self, chunk.data, chunk.meta);
+            });
+        } else {
+            this._worker.on(evt, function () {
+                utils.delay(fn, arguments, self);
+            });
+        }
+        return this;
+    },
+    /**
+     * Resume the flow of chunks.
+     * @return {StreamHelper} the current helper.
+     */
+    resume : function () {
+        utils.delay(this._worker.resume, [], this._worker);
+        return this;
+    },
+    /**
+     * Pause the flow of chunks.
+     * @return {StreamHelper} the current helper.
+     */
+    pause : function () {
+        this._worker.pause();
+        return this;
+    },
+    /**
+     * Return a nodejs stream for this helper.
+     * @param {Function} updateCb the update callback.
+     * @return {NodejsStreamOutputAdapter} the nodejs stream.
+     */
+    toNodejsStream : function (updateCb) {
+        utils.checkSupport("nodestream");
+        if (this._outputType !== "nodebuffer") {
+            // an object stream containing blob/arraybuffer/uint8array/string
+            // is strange and I don't know if it would be useful.
+            // I you find this comment and have a good usecase, please open a
+            // bug report !
+            throw new Error(this._outputType + " is not supported by this method");
+        }
+
+        return new NodejsStreamOutputAdapter(this, {
+            objectMode : this._outputType !== "nodebuffer"
+        }, updateCb);
+    }
+};
+
+
+module.exports = StreamHelper;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/support.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(Buffer) {
+
+exports.base64 = true;
+exports.array = true;
+exports.string = true;
+exports.arraybuffer = typeof ArrayBuffer !== "undefined" && typeof Uint8Array !== "undefined";
+exports.nodebuffer = typeof Buffer !== "undefined";
+// contains true if JSZip can read/generate Uint8Array, false otherwise.
+exports.uint8array = typeof Uint8Array !== "undefined";
+
+if (typeof ArrayBuffer === "undefined") {
+    exports.blob = false;
+}
+else {
+    var buffer = new ArrayBuffer(0);
+    try {
+        exports.blob = new Blob([buffer], {
+            type: "application/zip"
+        }).size === 0;
+    }
+    catch (e) {
+        try {
+            var Builder = self.BlobBuilder || self.WebKitBlobBuilder || self.MozBlobBuilder || self.MSBlobBuilder;
+            var builder = new Builder();
+            builder.append(buffer);
+            exports.blob = builder.getBlob('application/zip').size === 0;
+        }
+        catch (e) {
+            exports.blob = false;
+        }
+    }
+}
+
+try {
+    exports.nodestream = !!__webpack_require__(/*! readable-stream */ "./node_modules/pptxgenjs/node_modules/jszip/lib/readable-stream-browser.js").Readable;
+} catch(e) {
+    exports.nodestream = false;
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../buffer/index.js */ "./node_modules/buffer/index.js").Buffer))
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js");
+var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+/**
+ * The following functions come from pako, from pako/lib/utils/strings
+ * released under the MIT license, see pako https://github.com/nodeca/pako/
+ */
+
+// Table with utf8 lengths (calculated by first byte of sequence)
+// Note, that 5 & 6-byte values and some 4-byte values can not be represented in JS,
+// because max possible codepoint is 0x10ffff
+var _utf8len = new Array(256);
+for (var i=0; i<256; i++) {
+  _utf8len[i] = (i >= 252 ? 6 : i >= 248 ? 5 : i >= 240 ? 4 : i >= 224 ? 3 : i >= 192 ? 2 : 1);
+}
+_utf8len[254]=_utf8len[254]=1; // Invalid sequence start
+
+// convert string to array (typed, when possible)
+var string2buf = function (str) {
+    var buf, c, c2, m_pos, i, str_len = str.length, buf_len = 0;
+
+    // count binary size
+    for (m_pos = 0; m_pos < str_len; m_pos++) {
+        c = str.charCodeAt(m_pos);
+        if ((c & 0xfc00) === 0xd800 && (m_pos+1 < str_len)) {
+            c2 = str.charCodeAt(m_pos+1);
+            if ((c2 & 0xfc00) === 0xdc00) {
+                c = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
+                m_pos++;
+            }
+        }
+        buf_len += c < 0x80 ? 1 : c < 0x800 ? 2 : c < 0x10000 ? 3 : 4;
+    }
+
+    // allocate buffer
+    if (support.uint8array) {
+        buf = new Uint8Array(buf_len);
+    } else {
+        buf = new Array(buf_len);
+    }
+
+    // convert
+    for (i=0, m_pos = 0; i < buf_len; m_pos++) {
+        c = str.charCodeAt(m_pos);
+        if ((c & 0xfc00) === 0xd800 && (m_pos+1 < str_len)) {
+            c2 = str.charCodeAt(m_pos+1);
+            if ((c2 & 0xfc00) === 0xdc00) {
+                c = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
+                m_pos++;
+            }
+        }
+        if (c < 0x80) {
+            /* one byte */
+            buf[i++] = c;
+        } else if (c < 0x800) {
+            /* two bytes */
+            buf[i++] = 0xC0 | (c >>> 6);
+            buf[i++] = 0x80 | (c & 0x3f);
+        } else if (c < 0x10000) {
+            /* three bytes */
+            buf[i++] = 0xE0 | (c >>> 12);
+            buf[i++] = 0x80 | (c >>> 6 & 0x3f);
+            buf[i++] = 0x80 | (c & 0x3f);
+        } else {
+            /* four bytes */
+            buf[i++] = 0xf0 | (c >>> 18);
+            buf[i++] = 0x80 | (c >>> 12 & 0x3f);
+            buf[i++] = 0x80 | (c >>> 6 & 0x3f);
+            buf[i++] = 0x80 | (c & 0x3f);
+        }
+    }
+
+    return buf;
+};
+
+// Calculate max possible position in utf8 buffer,
+// that will not break sequence. If that's not possible
+// - (very small limits) return max size as is.
+//
+// buf[] - utf8 bytes array
+// max   - length limit (mandatory);
+var utf8border = function(buf, max) {
+    var pos;
+
+    max = max || buf.length;
+    if (max > buf.length) { max = buf.length; }
+
+    // go back from last position, until start of sequence found
+    pos = max-1;
+    while (pos >= 0 && (buf[pos] & 0xC0) === 0x80) { pos--; }
+
+    // Fuckup - very small and broken sequence,
+    // return max, because we should return something anyway.
+    if (pos < 0) { return max; }
+
+    // If we came to start of buffer - that means vuffer is too small,
+    // return max too.
+    if (pos === 0) { return max; }
+
+    return (pos + _utf8len[buf[pos]] > max) ? pos : max;
+};
+
+// convert array to string
+var buf2string = function (buf) {
+    var str, i, out, c, c_len;
+    var len = buf.length;
+
+    // Reserve max possible length (2 words per char)
+    // NB: by unknown reasons, Array is significantly faster for
+    //     String.fromCharCode.apply than Uint16Array.
+    var utf16buf = new Array(len*2);
+
+    for (out=0, i=0; i<len;) {
+        c = buf[i++];
+        // quick process ascii
+        if (c < 0x80) { utf16buf[out++] = c; continue; }
+
+        c_len = _utf8len[c];
+        // skip 5 & 6 byte codes
+        if (c_len > 4) { utf16buf[out++] = 0xfffd; i += c_len-1; continue; }
+
+        // apply mask on first byte
+        c &= c_len === 2 ? 0x1f : c_len === 3 ? 0x0f : 0x07;
+        // join the rest
+        while (c_len > 1 && i < len) {
+            c = (c << 6) | (buf[i++] & 0x3f);
+            c_len--;
+        }
+
+        // terminated by end of string?
+        if (c_len > 1) { utf16buf[out++] = 0xfffd; continue; }
+
+        if (c < 0x10000) {
+            utf16buf[out++] = c;
+        } else {
+            c -= 0x10000;
+            utf16buf[out++] = 0xd800 | ((c >> 10) & 0x3ff);
+            utf16buf[out++] = 0xdc00 | (c & 0x3ff);
+        }
+    }
+
+    // shrinkBuf(utf16buf, out)
+    if (utf16buf.length !== out) {
+        if(utf16buf.subarray) {
+            utf16buf = utf16buf.subarray(0, out);
+        } else {
+            utf16buf.length = out;
+        }
+    }
+
+    // return String.fromCharCode.apply(null, utf16buf);
+    return utils.applyFromCharCode(utf16buf);
+};
+
+
+// That's all for the pako functions.
+
+
+/**
+ * Transform a javascript string into an array (typed if possible) of bytes,
+ * UTF-8 encoded.
+ * @param {String} str the string to encode
+ * @return {Array|Uint8Array|Buffer} the UTF-8 encoded string.
+ */
+exports.utf8encode = function utf8encode(str) {
+    if (support.nodebuffer) {
+        return nodejsUtils.newBufferFrom(str, "utf-8");
+    }
+
+    return string2buf(str);
+};
+
+
+/**
+ * Transform a bytes array (or a representation) representing an UTF-8 encoded
+ * string into a javascript string.
+ * @param {Array|Uint8Array|Buffer} buf the data de decode
+ * @return {String} the decoded string.
+ */
+exports.utf8decode = function utf8decode(buf) {
+    if (support.nodebuffer) {
+        return utils.transformTo("nodebuffer", buf).toString("utf-8");
+    }
+
+    buf = utils.transformTo(support.uint8array ? "uint8array" : "array", buf);
+
+    return buf2string(buf);
+};
+
+/**
+ * A worker to decode utf8 encoded binary chunks into string chunks.
+ * @constructor
+ */
+function Utf8DecodeWorker() {
+    GenericWorker.call(this, "utf-8 decode");
+    // the last bytes if a chunk didn't end with a complete codepoint.
+    this.leftOver = null;
+}
+utils.inherits(Utf8DecodeWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+Utf8DecodeWorker.prototype.processChunk = function (chunk) {
+
+    var data = utils.transformTo(support.uint8array ? "uint8array" : "array", chunk.data);
+
+    // 1st step, re-use what's left of the previous chunk
+    if (this.leftOver && this.leftOver.length) {
+        if(support.uint8array) {
+            var previousData = data;
+            data = new Uint8Array(previousData.length + this.leftOver.length);
+            data.set(this.leftOver, 0);
+            data.set(previousData, this.leftOver.length);
+        } else {
+            data = this.leftOver.concat(data);
+        }
+        this.leftOver = null;
+    }
+
+    var nextBoundary = utf8border(data);
+    var usableData = data;
+    if (nextBoundary !== data.length) {
+        if (support.uint8array) {
+            usableData = data.subarray(0, nextBoundary);
+            this.leftOver = data.subarray(nextBoundary, data.length);
+        } else {
+            usableData = data.slice(0, nextBoundary);
+            this.leftOver = data.slice(nextBoundary, data.length);
+        }
+    }
+
+    this.push({
+        data : exports.utf8decode(usableData),
+        meta : chunk.meta
+    });
+};
+
+/**
+ * @see GenericWorker.flush
+ */
+Utf8DecodeWorker.prototype.flush = function () {
+    if(this.leftOver && this.leftOver.length) {
+        this.push({
+            data : exports.utf8decode(this.leftOver),
+            meta : {}
+        });
+        this.leftOver = null;
+    }
+};
+exports.Utf8DecodeWorker = Utf8DecodeWorker;
+
+/**
+ * A worker to endcode string chunks into utf8 encoded binary chunks.
+ * @constructor
+ */
+function Utf8EncodeWorker() {
+    GenericWorker.call(this, "utf-8 encode");
+}
+utils.inherits(Utf8EncodeWorker, GenericWorker);
+
+/**
+ * @see GenericWorker.processChunk
+ */
+Utf8EncodeWorker.prototype.processChunk = function (chunk) {
+    this.push({
+        data : exports.utf8encode(chunk.data),
+        meta : chunk.meta
+    });
+};
+exports.Utf8EncodeWorker = Utf8EncodeWorker;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+var base64 = __webpack_require__(/*! ./base64 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/base64.js");
+var nodejsUtils = __webpack_require__(/*! ./nodejsUtils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/nodejsUtils.js");
+var setImmediate = __webpack_require__(/*! set-immediate-shim */ "./node_modules/set-immediate-shim/index.js");
+var external = __webpack_require__(/*! ./external */ "./node_modules/pptxgenjs/node_modules/jszip/lib/external.js");
+
+
+/**
+ * Convert a string that pass as a "binary string": it should represent a byte
+ * array but may have > 255 char codes. Be sure to take only the first byte
+ * and returns the byte array.
+ * @param {String} str the string to transform.
+ * @return {Array|Uint8Array} the string in a binary format.
+ */
+function string2binary(str) {
+    var result = null;
+    if (support.uint8array) {
+      result = new Uint8Array(str.length);
+    } else {
+      result = new Array(str.length);
+    }
+    return stringToArrayLike(str, result);
+}
+
+/**
+ * Create a new blob with the given content and the given type.
+ * @param {String|ArrayBuffer} part the content to put in the blob. DO NOT use
+ * an Uint8Array because the stock browser of android 4 won't accept it (it
+ * will be silently converted to a string, "[object Uint8Array]").
+ *
+ * Use only ONE part to build the blob to avoid a memory leak in IE11 / Edge:
+ * when a large amount of Array is used to create the Blob, the amount of
+ * memory consumed is nearly 100 times the original data amount.
+ *
+ * @param {String} type the mime type of the blob.
+ * @return {Blob} the created blob.
+ */
+exports.newBlob = function(part, type) {
+    exports.checkSupport("blob");
+
+    try {
+        // Blob constructor
+        return new Blob([part], {
+            type: type
+        });
+    }
+    catch (e) {
+
+        try {
+            // deprecated, browser only, old way
+            var Builder = self.BlobBuilder || self.WebKitBlobBuilder || self.MozBlobBuilder || self.MSBlobBuilder;
+            var builder = new Builder();
+            builder.append(part);
+            return builder.getBlob(type);
+        }
+        catch (e) {
+
+            // well, fuck ?!
+            throw new Error("Bug : can't construct the Blob.");
+        }
+    }
+
+
+};
+/**
+ * The identity function.
+ * @param {Object} input the input.
+ * @return {Object} the same input.
+ */
+function identity(input) {
+    return input;
+}
+
+/**
+ * Fill in an array with a string.
+ * @param {String} str the string to use.
+ * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to fill in (will be mutated).
+ * @return {Array|ArrayBuffer|Uint8Array|Buffer} the updated array.
+ */
+function stringToArrayLike(str, array) {
+    for (var i = 0; i < str.length; ++i) {
+        array[i] = str.charCodeAt(i) & 0xFF;
+    }
+    return array;
+}
+
+/**
+ * An helper for the function arrayLikeToString.
+ * This contains static informations and functions that
+ * can be optimized by the browser JIT compiler.
+ */
+var arrayToStringHelper = {
+    /**
+     * Transform an array of int into a string, chunk by chunk.
+     * See the performances notes on arrayLikeToString.
+     * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
+     * @param {String} type the type of the array.
+     * @param {Integer} chunk the chunk size.
+     * @return {String} the resulting string.
+     * @throws Error if the chunk is too big for the stack.
+     */
+    stringifyByChunk: function(array, type, chunk) {
+        var result = [], k = 0, len = array.length;
+        // shortcut
+        if (len <= chunk) {
+            return String.fromCharCode.apply(null, array);
+        }
+        while (k < len) {
+            if (type === "array" || type === "nodebuffer") {
+                result.push(String.fromCharCode.apply(null, array.slice(k, Math.min(k + chunk, len))));
+            }
+            else {
+                result.push(String.fromCharCode.apply(null, array.subarray(k, Math.min(k + chunk, len))));
+            }
+            k += chunk;
+        }
+        return result.join("");
+    },
+    /**
+     * Call String.fromCharCode on every item in the array.
+     * This is the naive implementation, which generate A LOT of intermediate string.
+     * This should be used when everything else fail.
+     * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
+     * @return {String} the result.
+     */
+    stringifyByChar: function(array){
+        var resultStr = "";
+        for(var i = 0; i < array.length; i++) {
+            resultStr += String.fromCharCode(array[i]);
+        }
+        return resultStr;
+    },
+    applyCanBeUsed : {
+        /**
+         * true if the browser accepts to use String.fromCharCode on Uint8Array
+         */
+        uint8array : (function () {
+            try {
+                return support.uint8array && String.fromCharCode.apply(null, new Uint8Array(1)).length === 1;
+            } catch (e) {
+                return false;
+            }
+        })(),
+        /**
+         * true if the browser accepts to use String.fromCharCode on nodejs Buffer.
+         */
+        nodebuffer : (function () {
+            try {
+                return support.nodebuffer && String.fromCharCode.apply(null, nodejsUtils.allocBuffer(1)).length === 1;
+            } catch (e) {
+                return false;
+            }
+        })()
+    }
+};
+
+/**
+ * Transform an array-like object to a string.
+ * @param {Array|ArrayBuffer|Uint8Array|Buffer} array the array to transform.
+ * @return {String} the result.
+ */
+function arrayLikeToString(array) {
+    // Performances notes :
+    // --------------------
+    // String.fromCharCode.apply(null, array) is the fastest, see
+    // see http://jsperf.com/converting-a-uint8array-to-a-string/2
+    // but the stack is limited (and we can get huge arrays !).
+    //
+    // result += String.fromCharCode(array[i]); generate too many strings !
+    //
+    // This code is inspired by http://jsperf.com/arraybuffer-to-string-apply-performance/2
+    // TODO : we now have workers that split the work. Do we still need that ?
+    var chunk = 65536,
+        type = exports.getTypeOf(array),
+        canUseApply = true;
+    if (type === "uint8array") {
+        canUseApply = arrayToStringHelper.applyCanBeUsed.uint8array;
+    } else if (type === "nodebuffer") {
+        canUseApply = arrayToStringHelper.applyCanBeUsed.nodebuffer;
+    }
+
+    if (canUseApply) {
+        while (chunk > 1) {
+            try {
+                return arrayToStringHelper.stringifyByChunk(array, type, chunk);
+            } catch (e) {
+                chunk = Math.floor(chunk / 2);
+            }
+        }
+    }
+
+    // no apply or chunk error : slow and painful algorithm
+    // default browser on android 4.*
+    return arrayToStringHelper.stringifyByChar(array);
+}
+
+exports.applyFromCharCode = arrayLikeToString;
+
+
+/**
+ * Copy the data from an array-like to an other array-like.
+ * @param {Array|ArrayBuffer|Uint8Array|Buffer} arrayFrom the origin array.
+ * @param {Array|ArrayBuffer|Uint8Array|Buffer} arrayTo the destination array which will be mutated.
+ * @return {Array|ArrayBuffer|Uint8Array|Buffer} the updated destination array.
+ */
+function arrayLikeToArrayLike(arrayFrom, arrayTo) {
+    for (var i = 0; i < arrayFrom.length; i++) {
+        arrayTo[i] = arrayFrom[i];
+    }
+    return arrayTo;
+}
+
+// a matrix containing functions to transform everything into everything.
+var transform = {};
+
+// string to ?
+transform["string"] = {
+    "string": identity,
+    "array": function(input) {
+        return stringToArrayLike(input, new Array(input.length));
+    },
+    "arraybuffer": function(input) {
+        return transform["string"]["uint8array"](input).buffer;
+    },
+    "uint8array": function(input) {
+        return stringToArrayLike(input, new Uint8Array(input.length));
+    },
+    "nodebuffer": function(input) {
+        return stringToArrayLike(input, nodejsUtils.allocBuffer(input.length));
+    }
+};
+
+// array to ?
+transform["array"] = {
+    "string": arrayLikeToString,
+    "array": identity,
+    "arraybuffer": function(input) {
+        return (new Uint8Array(input)).buffer;
+    },
+    "uint8array": function(input) {
+        return new Uint8Array(input);
+    },
+    "nodebuffer": function(input) {
+        return nodejsUtils.newBufferFrom(input);
+    }
+};
+
+// arraybuffer to ?
+transform["arraybuffer"] = {
+    "string": function(input) {
+        return arrayLikeToString(new Uint8Array(input));
+    },
+    "array": function(input) {
+        return arrayLikeToArrayLike(new Uint8Array(input), new Array(input.byteLength));
+    },
+    "arraybuffer": identity,
+    "uint8array": function(input) {
+        return new Uint8Array(input);
+    },
+    "nodebuffer": function(input) {
+        return nodejsUtils.newBufferFrom(new Uint8Array(input));
+    }
+};
+
+// uint8array to ?
+transform["uint8array"] = {
+    "string": arrayLikeToString,
+    "array": function(input) {
+        return arrayLikeToArrayLike(input, new Array(input.length));
+    },
+    "arraybuffer": function(input) {
+        return input.buffer;
+    },
+    "uint8array": identity,
+    "nodebuffer": function(input) {
+        return nodejsUtils.newBufferFrom(input);
+    }
+};
+
+// nodebuffer to ?
+transform["nodebuffer"] = {
+    "string": arrayLikeToString,
+    "array": function(input) {
+        return arrayLikeToArrayLike(input, new Array(input.length));
+    },
+    "arraybuffer": function(input) {
+        return transform["nodebuffer"]["uint8array"](input).buffer;
+    },
+    "uint8array": function(input) {
+        return arrayLikeToArrayLike(input, new Uint8Array(input.length));
+    },
+    "nodebuffer": identity
+};
+
+/**
+ * Transform an input into any type.
+ * The supported output type are : string, array, uint8array, arraybuffer, nodebuffer.
+ * If no output type is specified, the unmodified input will be returned.
+ * @param {String} outputType the output type.
+ * @param {String|Array|ArrayBuffer|Uint8Array|Buffer} input the input to convert.
+ * @throws {Error} an Error if the browser doesn't support the requested output type.
+ */
+exports.transformTo = function(outputType, input) {
+    if (!input) {
+        // undefined, null, etc
+        // an empty string won't harm.
+        input = "";
+    }
+    if (!outputType) {
+        return input;
+    }
+    exports.checkSupport(outputType);
+    var inputType = exports.getTypeOf(input);
+    var result = transform[inputType][outputType](input);
+    return result;
+};
+
+/**
+ * Return the type of the input.
+ * The type will be in a format valid for JSZip.utils.transformTo : string, array, uint8array, arraybuffer.
+ * @param {Object} input the input to identify.
+ * @return {String} the (lowercase) type of the input.
+ */
+exports.getTypeOf = function(input) {
+    if (typeof input === "string") {
+        return "string";
+    }
+    if (Object.prototype.toString.call(input) === "[object Array]") {
+        return "array";
+    }
+    if (support.nodebuffer && nodejsUtils.isBuffer(input)) {
+        return "nodebuffer";
+    }
+    if (support.uint8array && input instanceof Uint8Array) {
+        return "uint8array";
+    }
+    if (support.arraybuffer && input instanceof ArrayBuffer) {
+        return "arraybuffer";
+    }
+};
+
+/**
+ * Throw an exception if the type is not supported.
+ * @param {String} type the type to check.
+ * @throws {Error} an Error if the browser doesn't support the requested type.
+ */
+exports.checkSupport = function(type) {
+    var supported = support[type.toLowerCase()];
+    if (!supported) {
+        throw new Error(type + " is not supported by this platform");
+    }
+};
+
+exports.MAX_VALUE_16BITS = 65535;
+exports.MAX_VALUE_32BITS = -1; // well, "\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF" is parsed as -1
+
+/**
+ * Prettify a string read as binary.
+ * @param {string} str the string to prettify.
+ * @return {string} a pretty string.
+ */
+exports.pretty = function(str) {
+    var res = '',
+        code, i;
+    for (i = 0; i < (str || "").length; i++) {
+        code = str.charCodeAt(i);
+        res += '\\x' + (code < 16 ? "0" : "") + code.toString(16).toUpperCase();
+    }
+    return res;
+};
+
+/**
+ * Defer the call of a function.
+ * @param {Function} callback the function to call asynchronously.
+ * @param {Array} args the arguments to give to the callback.
+ */
+exports.delay = function(callback, args, self) {
+    setImmediate(function () {
+        callback.apply(self || null, args || []);
+    });
+};
+
+/**
+ * Extends a prototype with an other, without calling a constructor with
+ * side effects. Inspired by nodejs' `utils.inherits`
+ * @param {Function} ctor the constructor to augment
+ * @param {Function} superCtor the parent constructor to use
+ */
+exports.inherits = function (ctor, superCtor) {
+    var Obj = function() {};
+    Obj.prototype = superCtor.prototype;
+    ctor.prototype = new Obj();
+};
+
+/**
+ * Merge the objects passed as parameters into a new one.
+ * @private
+ * @param {...Object} var_args All objects to merge.
+ * @return {Object} a new object with the data of the others.
+ */
+exports.extend = function() {
+    var result = {}, i, attr;
+    for (i = 0; i < arguments.length; i++) { // arguments is not enumerable in some browsers
+        for (attr in arguments[i]) {
+            if (arguments[i].hasOwnProperty(attr) && typeof result[attr] === "undefined") {
+                result[attr] = arguments[i][attr];
+            }
+        }
+    }
+    return result;
+};
+
+/**
+ * Transform arbitrary content into a Promise.
+ * @param {String} name a name for the content being processed.
+ * @param {Object} inputData the content to process.
+ * @param {Boolean} isBinary true if the content is not an unicode string
+ * @param {Boolean} isOptimizedBinaryString true if the string content only has one byte per character.
+ * @param {Boolean} isBase64 true if the string content is encoded with base64.
+ * @return {Promise} a promise in a format usable by JSZip.
+ */
+exports.prepareContent = function(name, inputData, isBinary, isOptimizedBinaryString, isBase64) {
+
+    // if inputData is already a promise, this flatten it.
+    var promise = external.Promise.resolve(inputData).then(function(data) {
+        
+        
+        var isBlob = support.blob && (data instanceof Blob || ['[object File]', '[object Blob]'].indexOf(Object.prototype.toString.call(data)) !== -1);
+
+        if (isBlob && typeof FileReader !== "undefined") {
+            return new external.Promise(function (resolve, reject) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    resolve(e.target.result);
+                };
+                reader.onerror = function(e) {
+                    reject(e.target.error);
+                };
+                reader.readAsArrayBuffer(data);
+            });
+        } else {
+            return data;
+        }
+    });
+
+    return promise.then(function(data) {
+        var dataType = exports.getTypeOf(data);
+
+        if (!dataType) {
+            return external.Promise.reject(
+                new Error("Can't read the data of '" + name + "'. Is it " +
+                          "in a supported JavaScript type (String, Blob, ArrayBuffer, etc) ?")
+            );
+        }
+        // special case : it's way easier to work with Uint8Array than with ArrayBuffer
+        if (dataType === "arraybuffer") {
+            data = exports.transformTo("uint8array", data);
+        } else if (dataType === "string") {
+            if (isBase64) {
+                data = base64.decode(data);
+            }
+            else if (isBinary) {
+                // optimizedBinaryString === true means that the file has already been filtered with a 0xFF mask
+                if (isOptimizedBinaryString !== true) {
+                    // this is a string, not in a base64 format.
+                    // Be sure that this is a correct "binary string"
+                    data = string2binary(data);
+                }
+            }
+        }
+        return data;
+    });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntries.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntries.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var readerFor = __webpack_require__(/*! ./reader/readerFor */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/readerFor.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var sig = __webpack_require__(/*! ./signature */ "./node_modules/pptxgenjs/node_modules/jszip/lib/signature.js");
+var ZipEntry = __webpack_require__(/*! ./zipEntry */ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntry.js");
+var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+//  class ZipEntries {{{
+/**
+ * All the entries in the zip file.
+ * @constructor
+ * @param {Object} loadOptions Options for loading the stream.
+ */
+function ZipEntries(loadOptions) {
+    this.files = [];
+    this.loadOptions = loadOptions;
+}
+ZipEntries.prototype = {
+    /**
+     * Check that the reader is on the specified signature.
+     * @param {string} expectedSignature the expected signature.
+     * @throws {Error} if it is an other signature.
+     */
+    checkSignature: function(expectedSignature) {
+        if (!this.reader.readAndCheckSignature(expectedSignature)) {
+            this.reader.index -= 4;
+            var signature = this.reader.readString(4);
+            throw new Error("Corrupted zip or bug: unexpected signature " + "(" + utils.pretty(signature) + ", expected " + utils.pretty(expectedSignature) + ")");
+        }
+    },
+    /**
+     * Check if the given signature is at the given index.
+     * @param {number} askedIndex the index to check.
+     * @param {string} expectedSignature the signature to expect.
+     * @return {boolean} true if the signature is here, false otherwise.
+     */
+    isSignature: function(askedIndex, expectedSignature) {
+        var currentIndex = this.reader.index;
+        this.reader.setIndex(askedIndex);
+        var signature = this.reader.readString(4);
+        var result = signature === expectedSignature;
+        this.reader.setIndex(currentIndex);
+        return result;
+    },
+    /**
+     * Read the end of the central directory.
+     */
+    readBlockEndOfCentral: function() {
+        this.diskNumber = this.reader.readInt(2);
+        this.diskWithCentralDirStart = this.reader.readInt(2);
+        this.centralDirRecordsOnThisDisk = this.reader.readInt(2);
+        this.centralDirRecords = this.reader.readInt(2);
+        this.centralDirSize = this.reader.readInt(4);
+        this.centralDirOffset = this.reader.readInt(4);
+
+        this.zipCommentLength = this.reader.readInt(2);
+        // warning : the encoding depends of the system locale
+        // On a linux machine with LANG=en_US.utf8, this field is utf8 encoded.
+        // On a windows machine, this field is encoded with the localized windows code page.
+        var zipComment = this.reader.readData(this.zipCommentLength);
+        var decodeParamType = support.uint8array ? "uint8array" : "array";
+        // To get consistent behavior with the generation part, we will assume that
+        // this is utf8 encoded unless specified otherwise.
+        var decodeContent = utils.transformTo(decodeParamType, zipComment);
+        this.zipComment = this.loadOptions.decodeFileName(decodeContent);
+    },
+    /**
+     * Read the end of the Zip 64 central directory.
+     * Not merged with the method readEndOfCentral :
+     * The end of central can coexist with its Zip64 brother,
+     * I don't want to read the wrong number of bytes !
+     */
+    readBlockZip64EndOfCentral: function() {
+        this.zip64EndOfCentralSize = this.reader.readInt(8);
+        this.reader.skip(4);
+        // this.versionMadeBy = this.reader.readString(2);
+        // this.versionNeeded = this.reader.readInt(2);
+        this.diskNumber = this.reader.readInt(4);
+        this.diskWithCentralDirStart = this.reader.readInt(4);
+        this.centralDirRecordsOnThisDisk = this.reader.readInt(8);
+        this.centralDirRecords = this.reader.readInt(8);
+        this.centralDirSize = this.reader.readInt(8);
+        this.centralDirOffset = this.reader.readInt(8);
+
+        this.zip64ExtensibleData = {};
+        var extraDataSize = this.zip64EndOfCentralSize - 44,
+            index = 0,
+            extraFieldId,
+            extraFieldLength,
+            extraFieldValue;
+        while (index < extraDataSize) {
+            extraFieldId = this.reader.readInt(2);
+            extraFieldLength = this.reader.readInt(4);
+            extraFieldValue = this.reader.readData(extraFieldLength);
+            this.zip64ExtensibleData[extraFieldId] = {
+                id: extraFieldId,
+                length: extraFieldLength,
+                value: extraFieldValue
+            };
+        }
+    },
+    /**
+     * Read the end of the Zip 64 central directory locator.
+     */
+    readBlockZip64EndOfCentralLocator: function() {
+        this.diskWithZip64CentralDirStart = this.reader.readInt(4);
+        this.relativeOffsetEndOfZip64CentralDir = this.reader.readInt(8);
+        this.disksCount = this.reader.readInt(4);
+        if (this.disksCount > 1) {
+            throw new Error("Multi-volumes zip are not supported");
+        }
+    },
+    /**
+     * Read the local files, based on the offset read in the central part.
+     */
+    readLocalFiles: function() {
+        var i, file;
+        for (i = 0; i < this.files.length; i++) {
+            file = this.files[i];
+            this.reader.setIndex(file.localHeaderOffset);
+            this.checkSignature(sig.LOCAL_FILE_HEADER);
+            file.readLocalPart(this.reader);
+            file.handleUTF8();
+            file.processAttributes();
+        }
+    },
+    /**
+     * Read the central directory.
+     */
+    readCentralDir: function() {
+        var file;
+
+        this.reader.setIndex(this.centralDirOffset);
+        while (this.reader.readAndCheckSignature(sig.CENTRAL_FILE_HEADER)) {
+            file = new ZipEntry({
+                zip64: this.zip64
+            }, this.loadOptions);
+            file.readCentralPart(this.reader);
+            this.files.push(file);
+        }
+
+        if (this.centralDirRecords !== this.files.length) {
+            if (this.centralDirRecords !== 0 && this.files.length === 0) {
+                // We expected some records but couldn't find ANY.
+                // This is really suspicious, as if something went wrong.
+                throw new Error("Corrupted zip or bug: expected " + this.centralDirRecords + " records in central dir, got " + this.files.length);
+            } else {
+                // We found some records but not all.
+                // Something is wrong but we got something for the user: no error here.
+                // console.warn("expected", this.centralDirRecords, "records in central dir, got", this.files.length);
+            }
+        }
+    },
+    /**
+     * Read the end of central directory.
+     */
+    readEndOfCentral: function() {
+        var offset = this.reader.lastIndexOfSignature(sig.CENTRAL_DIRECTORY_END);
+        if (offset < 0) {
+            // Check if the content is a truncated zip or complete garbage.
+            // A "LOCAL_FILE_HEADER" is not required at the beginning (auto
+            // extractible zip for example) but it can give a good hint.
+            // If an ajax request was used without responseType, we will also
+            // get unreadable data.
+            var isGarbage = !this.isSignature(0, sig.LOCAL_FILE_HEADER);
+
+            if (isGarbage) {
+                throw new Error("Can't find end of central directory : is this a zip file ? " +
+                                "If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html");
+            } else {
+                throw new Error("Corrupted zip: can't find end of central directory");
+            }
+
+        }
+        this.reader.setIndex(offset);
+        var endOfCentralDirOffset = offset;
+        this.checkSignature(sig.CENTRAL_DIRECTORY_END);
+        this.readBlockEndOfCentral();
+
+
+        /* extract from the zip spec :
+            4)  If one of the fields in the end of central directory
+                record is too small to hold required data, the field
+                should be set to -1 (0xFFFF or 0xFFFFFFFF) and the
+                ZIP64 format record should be created.
+            5)  The end of central directory record and the
+                Zip64 end of central directory locator record must
+                reside on the same disk when splitting or spanning
+                an archive.
+         */
+        if (this.diskNumber === utils.MAX_VALUE_16BITS || this.diskWithCentralDirStart === utils.MAX_VALUE_16BITS || this.centralDirRecordsOnThisDisk === utils.MAX_VALUE_16BITS || this.centralDirRecords === utils.MAX_VALUE_16BITS || this.centralDirSize === utils.MAX_VALUE_32BITS || this.centralDirOffset === utils.MAX_VALUE_32BITS) {
+            this.zip64 = true;
+
+            /*
+            Warning : the zip64 extension is supported, but ONLY if the 64bits integer read from
+            the zip file can fit into a 32bits integer. This cannot be solved : JavaScript represents
+            all numbers as 64-bit double precision IEEE 754 floating point numbers.
+            So, we have 53bits for integers and bitwise operations treat everything as 32bits.
+            see https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Operators/Bitwise_Operators
+            and http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf section 8.5
+            */
+
+            // should look for a zip64 EOCD locator
+            offset = this.reader.lastIndexOfSignature(sig.ZIP64_CENTRAL_DIRECTORY_LOCATOR);
+            if (offset < 0) {
+                throw new Error("Corrupted zip: can't find the ZIP64 end of central directory locator");
+            }
+            this.reader.setIndex(offset);
+            this.checkSignature(sig.ZIP64_CENTRAL_DIRECTORY_LOCATOR);
+            this.readBlockZip64EndOfCentralLocator();
+
+            // now the zip64 EOCD record
+            if (!this.isSignature(this.relativeOffsetEndOfZip64CentralDir, sig.ZIP64_CENTRAL_DIRECTORY_END)) {
+                // console.warn("ZIP64 end of central directory not where expected.");
+                this.relativeOffsetEndOfZip64CentralDir = this.reader.lastIndexOfSignature(sig.ZIP64_CENTRAL_DIRECTORY_END);
+                if (this.relativeOffsetEndOfZip64CentralDir < 0) {
+                    throw new Error("Corrupted zip: can't find the ZIP64 end of central directory");
+                }
+            }
+            this.reader.setIndex(this.relativeOffsetEndOfZip64CentralDir);
+            this.checkSignature(sig.ZIP64_CENTRAL_DIRECTORY_END);
+            this.readBlockZip64EndOfCentral();
+        }
+
+        var expectedEndOfCentralDirOffset = this.centralDirOffset + this.centralDirSize;
+        if (this.zip64) {
+            expectedEndOfCentralDirOffset += 20; // end of central dir 64 locator
+            expectedEndOfCentralDirOffset += 12 /* should not include the leading 12 bytes */ + this.zip64EndOfCentralSize;
+        }
+
+        var extraBytes = endOfCentralDirOffset - expectedEndOfCentralDirOffset;
+
+        if (extraBytes > 0) {
+            // console.warn(extraBytes, "extra bytes at beginning or within zipfile");
+            if (this.isSignature(endOfCentralDirOffset, sig.CENTRAL_FILE_HEADER)) {
+                // The offsets seem wrong, but we have something at the specified offset.
+                // So… we keep it.
+            } else {
+                // the offset is wrong, update the "zero" of the reader
+                // this happens if data has been prepended (crx files for example)
+                this.reader.zero = extraBytes;
+            }
+        } else if (extraBytes < 0) {
+            throw new Error("Corrupted zip: missing " + Math.abs(extraBytes) + " bytes.");
+        }
+    },
+    prepareReader: function(data) {
+        this.reader = readerFor(data);
+    },
+    /**
+     * Read a zip file and create ZipEntries.
+     * @param {String|ArrayBuffer|Uint8Array|Buffer} data the binary string representing a zip file.
+     */
+    load: function(data) {
+        this.prepareReader(data);
+        this.readEndOfCentral();
+        this.readCentralDir();
+        this.readLocalFiles();
+    }
+};
+// }}} end of ZipEntries
+module.exports = ZipEntries;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntry.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/zipEntry.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var readerFor = __webpack_require__(/*! ./reader/readerFor */ "./node_modules/pptxgenjs/node_modules/jszip/lib/reader/readerFor.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utils.js");
+var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressedObject.js");
+var crc32fn = __webpack_require__(/*! ./crc32 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/crc32.js");
+var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var compressions = __webpack_require__(/*! ./compressions */ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressions.js");
+var support = __webpack_require__(/*! ./support */ "./node_modules/pptxgenjs/node_modules/jszip/lib/support.js");
+
+var MADE_BY_DOS = 0x00;
+var MADE_BY_UNIX = 0x03;
+
+/**
+ * Find a compression registered in JSZip.
+ * @param {string} compressionMethod the method magic to find.
+ * @return {Object|null} the JSZip compression object, null if none found.
+ */
+var findCompression = function(compressionMethod) {
+    for (var method in compressions) {
+        if (!compressions.hasOwnProperty(method)) {
+            continue;
+        }
+        if (compressions[method].magic === compressionMethod) {
+            return compressions[method];
+        }
+    }
+    return null;
+};
+
+// class ZipEntry {{{
+/**
+ * An entry in the zip file.
+ * @constructor
+ * @param {Object} options Options of the current file.
+ * @param {Object} loadOptions Options for loading the stream.
+ */
+function ZipEntry(options, loadOptions) {
+    this.options = options;
+    this.loadOptions = loadOptions;
+}
+ZipEntry.prototype = {
+    /**
+     * say if the file is encrypted.
+     * @return {boolean} true if the file is encrypted, false otherwise.
+     */
+    isEncrypted: function() {
+        // bit 1 is set
+        return (this.bitFlag & 0x0001) === 0x0001;
+    },
+    /**
+     * say if the file has utf-8 filename/comment.
+     * @return {boolean} true if the filename/comment is in utf-8, false otherwise.
+     */
+    useUTF8: function() {
+        // bit 11 is set
+        return (this.bitFlag & 0x0800) === 0x0800;
+    },
+    /**
+     * Read the local part of a zip file and add the info in this object.
+     * @param {DataReader} reader the reader to use.
+     */
+    readLocalPart: function(reader) {
+        var compression, localExtraFieldsLength;
+
+        // we already know everything from the central dir !
+        // If the central dir data are false, we are doomed.
+        // On the bright side, the local part is scary  : zip64, data descriptors, both, etc.
+        // The less data we get here, the more reliable this should be.
+        // Let's skip the whole header and dash to the data !
+        reader.skip(22);
+        // in some zip created on windows, the filename stored in the central dir contains \ instead of /.
+        // Strangely, the filename here is OK.
+        // I would love to treat these zip files as corrupted (see http://www.info-zip.org/FAQ.html#backslashes
+        // or APPNOTE#4.4.17.1, "All slashes MUST be forward slashes '/'") but there are a lot of bad zip generators...
+        // Search "unzip mismatching "local" filename continuing with "central" filename version" on
+        // the internet.
+        //
+        // I think I see the logic here : the central directory is used to display
+        // content and the local directory is used to extract the files. Mixing / and \
+        // may be used to display \ to windows users and use / when extracting the files.
+        // Unfortunately, this lead also to some issues : http://seclists.org/fulldisclosure/2009/Sep/394
+        this.fileNameLength = reader.readInt(2);
+        localExtraFieldsLength = reader.readInt(2); // can't be sure this will be the same as the central dir
+        // the fileName is stored as binary data, the handleUTF8 method will take care of the encoding.
+        this.fileName = reader.readData(this.fileNameLength);
+        reader.skip(localExtraFieldsLength);
+
+        if (this.compressedSize === -1 || this.uncompressedSize === -1) {
+            throw new Error("Bug or corrupted zip : didn't get enough informations from the central directory " + "(compressedSize === -1 || uncompressedSize === -1)");
+        }
+
+        compression = findCompression(this.compressionMethod);
+        if (compression === null) { // no compression found
+            throw new Error("Corrupted zip : compression " + utils.pretty(this.compressionMethod) + " unknown (inner file : " + utils.transformTo("string", this.fileName) + ")");
+        }
+        this.decompressed = new CompressedObject(this.compressedSize, this.uncompressedSize, this.crc32, compression, reader.readData(this.compressedSize));
+    },
+
+    /**
+     * Read the central part of a zip file and add the info in this object.
+     * @param {DataReader} reader the reader to use.
+     */
+    readCentralPart: function(reader) {
+        this.versionMadeBy = reader.readInt(2);
+        reader.skip(2);
+        // this.versionNeeded = reader.readInt(2);
+        this.bitFlag = reader.readInt(2);
+        this.compressionMethod = reader.readString(2);
+        this.date = reader.readDate();
+        this.crc32 = reader.readInt(4);
+        this.compressedSize = reader.readInt(4);
+        this.uncompressedSize = reader.readInt(4);
+        var fileNameLength = reader.readInt(2);
+        this.extraFieldsLength = reader.readInt(2);
+        this.fileCommentLength = reader.readInt(2);
+        this.diskNumberStart = reader.readInt(2);
+        this.internalFileAttributes = reader.readInt(2);
+        this.externalFileAttributes = reader.readInt(4);
+        this.localHeaderOffset = reader.readInt(4);
+
+        if (this.isEncrypted()) {
+            throw new Error("Encrypted zip are not supported");
+        }
+
+        // will be read in the local part, see the comments there
+        reader.skip(fileNameLength);
+        this.readExtraFields(reader);
+        this.parseZIP64ExtraField(reader);
+        this.fileComment = reader.readData(this.fileCommentLength);
+    },
+
+    /**
+     * Parse the external file attributes and get the unix/dos permissions.
+     */
+    processAttributes: function () {
+        this.unixPermissions = null;
+        this.dosPermissions = null;
+        var madeBy = this.versionMadeBy >> 8;
+
+        // Check if we have the DOS directory flag set.
+        // We look for it in the DOS and UNIX permissions
+        // but some unknown platform could set it as a compatibility flag.
+        this.dir = this.externalFileAttributes & 0x0010 ? true : false;
+
+        if(madeBy === MADE_BY_DOS) {
+            // first 6 bits (0 to 5)
+            this.dosPermissions = this.externalFileAttributes & 0x3F;
+        }
+
+        if(madeBy === MADE_BY_UNIX) {
+            this.unixPermissions = (this.externalFileAttributes >> 16) & 0xFFFF;
+            // the octal permissions are in (this.unixPermissions & 0x01FF).toString(8);
+        }
+
+        // fail safe : if the name ends with a / it probably means a folder
+        if (!this.dir && this.fileNameStr.slice(-1) === '/') {
+            this.dir = true;
+        }
+    },
+
+    /**
+     * Parse the ZIP64 extra field and merge the info in the current ZipEntry.
+     * @param {DataReader} reader the reader to use.
+     */
+    parseZIP64ExtraField: function(reader) {
+
+        if (!this.extraFields[0x0001]) {
+            return;
+        }
+
+        // should be something, preparing the extra reader
+        var extraReader = readerFor(this.extraFields[0x0001].value);
+
+        // I really hope that these 64bits integer can fit in 32 bits integer, because js
+        // won't let us have more.
+        if (this.uncompressedSize === utils.MAX_VALUE_32BITS) {
+            this.uncompressedSize = extraReader.readInt(8);
+        }
+        if (this.compressedSize === utils.MAX_VALUE_32BITS) {
+            this.compressedSize = extraReader.readInt(8);
+        }
+        if (this.localHeaderOffset === utils.MAX_VALUE_32BITS) {
+            this.localHeaderOffset = extraReader.readInt(8);
+        }
+        if (this.diskNumberStart === utils.MAX_VALUE_32BITS) {
+            this.diskNumberStart = extraReader.readInt(4);
+        }
+    },
+    /**
+     * Read the central part of a zip file and add the info in this object.
+     * @param {DataReader} reader the reader to use.
+     */
+    readExtraFields: function(reader) {
+        var end = reader.index + this.extraFieldsLength,
+            extraFieldId,
+            extraFieldLength,
+            extraFieldValue;
+
+        if (!this.extraFields) {
+            this.extraFields = {};
+        }
+
+        while (reader.index < end) {
+            extraFieldId = reader.readInt(2);
+            extraFieldLength = reader.readInt(2);
+            extraFieldValue = reader.readData(extraFieldLength);
+
+            this.extraFields[extraFieldId] = {
+                id: extraFieldId,
+                length: extraFieldLength,
+                value: extraFieldValue
+            };
+        }
+    },
+    /**
+     * Apply an UTF8 transformation if needed.
+     */
+    handleUTF8: function() {
+        var decodeParamType = support.uint8array ? "uint8array" : "array";
+        if (this.useUTF8()) {
+            this.fileNameStr = utf8.utf8decode(this.fileName);
+            this.fileCommentStr = utf8.utf8decode(this.fileComment);
+        } else {
+            var upath = this.findExtraFieldUnicodePath();
+            if (upath !== null) {
+                this.fileNameStr = upath;
+            } else {
+                // ASCII text or unsupported code page
+                var fileNameByteArray =  utils.transformTo(decodeParamType, this.fileName);
+                this.fileNameStr = this.loadOptions.decodeFileName(fileNameByteArray);
+            }
+
+            var ucomment = this.findExtraFieldUnicodeComment();
+            if (ucomment !== null) {
+                this.fileCommentStr = ucomment;
+            } else {
+                // ASCII text or unsupported code page
+                var commentByteArray =  utils.transformTo(decodeParamType, this.fileComment);
+                this.fileCommentStr = this.loadOptions.decodeFileName(commentByteArray);
+            }
+        }
+    },
+
+    /**
+     * Find the unicode path declared in the extra field, if any.
+     * @return {String} the unicode path, null otherwise.
+     */
+    findExtraFieldUnicodePath: function() {
+        var upathField = this.extraFields[0x7075];
+        if (upathField) {
+            var extraReader = readerFor(upathField.value);
+
+            // wrong version
+            if (extraReader.readInt(1) !== 1) {
+                return null;
+            }
+
+            // the crc of the filename changed, this field is out of date.
+            if (crc32fn(this.fileName) !== extraReader.readInt(4)) {
+                return null;
+            }
+
+            return utf8.utf8decode(extraReader.readData(upathField.length - 5));
+        }
+        return null;
+    },
+
+    /**
+     * Find the unicode comment declared in the extra field, if any.
+     * @return {String} the unicode comment, null otherwise.
+     */
+    findExtraFieldUnicodeComment: function() {
+        var ucommentField = this.extraFields[0x6375];
+        if (ucommentField) {
+            var extraReader = readerFor(ucommentField.value);
+
+            // wrong version
+            if (extraReader.readInt(1) !== 1) {
+                return null;
+            }
+
+            // the crc of the comment changed, this field is out of date.
+            if (crc32fn(this.fileComment) !== extraReader.readInt(4)) {
+                return null;
+            }
+
+            return utf8.utf8decode(extraReader.readData(ucommentField.length - 5));
+        }
+        return null;
+    }
+};
+module.exports = ZipEntry;
+
+
+/***/ }),
+
+/***/ "./node_modules/pptxgenjs/node_modules/jszip/lib/zipObject.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/pptxgenjs/node_modules/jszip/lib/zipObject.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var StreamHelper = __webpack_require__(/*! ./stream/StreamHelper */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/StreamHelper.js");
+var DataWorker = __webpack_require__(/*! ./stream/DataWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/DataWorker.js");
+var utf8 = __webpack_require__(/*! ./utf8 */ "./node_modules/pptxgenjs/node_modules/jszip/lib/utf8.js");
+var CompressedObject = __webpack_require__(/*! ./compressedObject */ "./node_modules/pptxgenjs/node_modules/jszip/lib/compressedObject.js");
+var GenericWorker = __webpack_require__(/*! ./stream/GenericWorker */ "./node_modules/pptxgenjs/node_modules/jszip/lib/stream/GenericWorker.js");
+
+/**
+ * A simple object representing a file in the zip file.
+ * @constructor
+ * @param {string} name the name of the file
+ * @param {String|ArrayBuffer|Uint8Array|Buffer} data the data
+ * @param {Object} options the options of the file
+ */
+var ZipObject = function(name, data, options) {
+    this.name = name;
+    this.dir = options.dir;
+    this.date = options.date;
+    this.comment = options.comment;
+    this.unixPermissions = options.unixPermissions;
+    this.dosPermissions = options.dosPermissions;
+
+    this._data = data;
+    this._dataBinary = options.binary;
+    // keep only the compression
+    this.options = {
+        compression : options.compression,
+        compressionOptions : options.compressionOptions
+    };
+};
+
+ZipObject.prototype = {
+    /**
+     * Create an internal stream for the content of this object.
+     * @param {String} type the type of each chunk.
+     * @return StreamHelper the stream.
+     */
+    internalStream: function (type) {
+        var result = null, outputType = "string";
+        try {
+            if (!type) {
+                throw new Error("No output type specified.");
+            }
+            outputType = type.toLowerCase();
+            var askUnicodeString = outputType === "string" || outputType === "text";
+            if (outputType === "binarystring" || outputType === "text") {
+                outputType = "string";
+            }
+            result = this._decompressWorker();
+
+            var isUnicodeString = !this._dataBinary;
+
+            if (isUnicodeString && !askUnicodeString) {
+                result = result.pipe(new utf8.Utf8EncodeWorker());
+            }
+            if (!isUnicodeString && askUnicodeString) {
+                result = result.pipe(new utf8.Utf8DecodeWorker());
+            }
+        } catch (e) {
+            result = new GenericWorker("error");
+            result.error(e);
+        }
+
+        return new StreamHelper(result, outputType, "");
+    },
+
+    /**
+     * Prepare the content in the asked type.
+     * @param {String} type the type of the result.
+     * @param {Function} onUpdate a function to call on each internal update.
+     * @return Promise the promise of the result.
+     */
+    async: function (type, onUpdate) {
+        return this.internalStream(type).accumulate(onUpdate);
+    },
+
+    /**
+     * Prepare the content as a nodejs stream.
+     * @param {String} type the type of each chunk.
+     * @param {Function} onUpdate a function to call on each internal update.
+     * @return Stream the stream.
+     */
+    nodeStream: function (type, onUpdate) {
+        return this.internalStream(type || "nodebuffer").toNodejsStream(onUpdate);
+    },
+
+    /**
+     * Return a worker for the compressed content.
+     * @private
+     * @param {Object} compression the compression object to use.
+     * @param {Object} compressionOptions the options to use when compressing.
+     * @return Worker the worker.
+     */
+    _compressWorker: function (compression, compressionOptions) {
+        if (
+            this._data instanceof CompressedObject &&
+            this._data.compression.magic === compression.magic
+        ) {
+            return this._data.getCompressedWorker();
+        } else {
+            var result = this._decompressWorker();
+            if(!this._dataBinary) {
+                result = result.pipe(new utf8.Utf8EncodeWorker());
+            }
+            return CompressedObject.createWorkerFrom(result, compression, compressionOptions);
+        }
+    },
+    /**
+     * Return a worker for the decompressed content.
+     * @private
+     * @return Worker the worker.
+     */
+    _decompressWorker : function () {
+        if (this._data instanceof CompressedObject) {
+            return this._data.getContentWorker();
+        } else if (this._data instanceof GenericWorker) {
+            return this._data;
+        } else {
+            return new DataWorker(this._data);
+        }
+    }
+};
+
+var removedMethods = ["asText", "asBinary", "asNodeBuffer", "asUint8Array", "asArrayBuffer"];
+var removedFn = function () {
+    throw new Error("This method has been removed in JSZip 3.0, please check the upgrade guide.");
+};
+
+for(var i = 0; i < removedMethods.length; i++) {
+    ZipObject.prototype[removedMethods[i]] = removedFn;
+}
+module.exports = ZipObject;
+
+
+/***/ }),
+
 /***/ "./node_modules/process-nextick-args/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/process-nextick-args/index.js ***!
@@ -38262,7 +38569,7 @@ util.inherits = __webpack_require__(/*! inherits */ "./node_modules/inherits/inh
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 6);
+var debugUtil = __webpack_require__(/*! util */ 1);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -38362,7 +38669,7 @@ function ReadableState(options, stream) {
   this.decoder = null;
   this.encoding = null;
   if (options.encoding) {
-    if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ "./node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
+    if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ "./node_modules/node-libs-browser/node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
     this.decoder = new StringDecoder(options.encoding);
     this.encoding = options.encoding;
   }
@@ -38518,7 +38825,7 @@ Readable.prototype.isPaused = function () {
 
 // backwards compatibility.
 Readable.prototype.setEncoding = function (enc) {
-  if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ "./node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
+  if (!StringDecoder) StringDecoder = __webpack_require__(/*! string_decoder/ */ "./node_modules/node-libs-browser/node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
   this._readableState.decoder = new StringDecoder(enc);
   this._readableState.encoding = enc;
   return this;
@@ -40151,7 +40458,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 7);
+var util = __webpack_require__(/*! util */ 2);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -41614,313 +41921,6 @@ function hash(str) {
 
 module.exports = hash;
 
-
-/***/ }),
-
-/***/ "./node_modules/string_decoder/lib/string_decoder.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/string_decoder/lib/string_decoder.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-/*<replacement>*/
-
-var Buffer = __webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer;
-/*</replacement>*/
-
-var isEncoding = Buffer.isEncoding || function (encoding) {
-  encoding = '' + encoding;
-  switch (encoding && encoding.toLowerCase()) {
-    case 'hex':case 'utf8':case 'utf-8':case 'ascii':case 'binary':case 'base64':case 'ucs2':case 'ucs-2':case 'utf16le':case 'utf-16le':case 'raw':
-      return true;
-    default:
-      return false;
-  }
-};
-
-function _normalizeEncoding(enc) {
-  if (!enc) return 'utf8';
-  var retried;
-  while (true) {
-    switch (enc) {
-      case 'utf8':
-      case 'utf-8':
-        return 'utf8';
-      case 'ucs2':
-      case 'ucs-2':
-      case 'utf16le':
-      case 'utf-16le':
-        return 'utf16le';
-      case 'latin1':
-      case 'binary':
-        return 'latin1';
-      case 'base64':
-      case 'ascii':
-      case 'hex':
-        return enc;
-      default:
-        if (retried) return; // undefined
-        enc = ('' + enc).toLowerCase();
-        retried = true;
-    }
-  }
-};
-
-// Do not cache `Buffer.isEncoding` when checking encoding names as some
-// modules monkey-patch it to support additional encodings
-function normalizeEncoding(enc) {
-  var nenc = _normalizeEncoding(enc);
-  if (typeof nenc !== 'string' && (Buffer.isEncoding === isEncoding || !isEncoding(enc))) throw new Error('Unknown encoding: ' + enc);
-  return nenc || enc;
-}
-
-// StringDecoder provides an interface for efficiently splitting a series of
-// buffers into a series of JS strings without breaking apart multi-byte
-// characters.
-exports.StringDecoder = StringDecoder;
-function StringDecoder(encoding) {
-  this.encoding = normalizeEncoding(encoding);
-  var nb;
-  switch (this.encoding) {
-    case 'utf16le':
-      this.text = utf16Text;
-      this.end = utf16End;
-      nb = 4;
-      break;
-    case 'utf8':
-      this.fillLast = utf8FillLast;
-      nb = 4;
-      break;
-    case 'base64':
-      this.text = base64Text;
-      this.end = base64End;
-      nb = 3;
-      break;
-    default:
-      this.write = simpleWrite;
-      this.end = simpleEnd;
-      return;
-  }
-  this.lastNeed = 0;
-  this.lastTotal = 0;
-  this.lastChar = Buffer.allocUnsafe(nb);
-}
-
-StringDecoder.prototype.write = function (buf) {
-  if (buf.length === 0) return '';
-  var r;
-  var i;
-  if (this.lastNeed) {
-    r = this.fillLast(buf);
-    if (r === undefined) return '';
-    i = this.lastNeed;
-    this.lastNeed = 0;
-  } else {
-    i = 0;
-  }
-  if (i < buf.length) return r ? r + this.text(buf, i) : this.text(buf, i);
-  return r || '';
-};
-
-StringDecoder.prototype.end = utf8End;
-
-// Returns only complete characters in a Buffer
-StringDecoder.prototype.text = utf8Text;
-
-// Attempts to complete a partial non-UTF-8 character using bytes from a Buffer
-StringDecoder.prototype.fillLast = function (buf) {
-  if (this.lastNeed <= buf.length) {
-    buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, this.lastNeed);
-    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
-  }
-  buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, buf.length);
-  this.lastNeed -= buf.length;
-};
-
-// Checks the type of a UTF-8 byte, whether it's ASCII, a leading byte, or a
-// continuation byte. If an invalid byte is detected, -2 is returned.
-function utf8CheckByte(byte) {
-  if (byte <= 0x7F) return 0;else if (byte >> 5 === 0x06) return 2;else if (byte >> 4 === 0x0E) return 3;else if (byte >> 3 === 0x1E) return 4;
-  return byte >> 6 === 0x02 ? -1 : -2;
-}
-
-// Checks at most 3 bytes at the end of a Buffer in order to detect an
-// incomplete multi-byte UTF-8 character. The total number of bytes (2, 3, or 4)
-// needed to complete the UTF-8 character (if applicable) are returned.
-function utf8CheckIncomplete(self, buf, i) {
-  var j = buf.length - 1;
-  if (j < i) return 0;
-  var nb = utf8CheckByte(buf[j]);
-  if (nb >= 0) {
-    if (nb > 0) self.lastNeed = nb - 1;
-    return nb;
-  }
-  if (--j < i || nb === -2) return 0;
-  nb = utf8CheckByte(buf[j]);
-  if (nb >= 0) {
-    if (nb > 0) self.lastNeed = nb - 2;
-    return nb;
-  }
-  if (--j < i || nb === -2) return 0;
-  nb = utf8CheckByte(buf[j]);
-  if (nb >= 0) {
-    if (nb > 0) {
-      if (nb === 2) nb = 0;else self.lastNeed = nb - 3;
-    }
-    return nb;
-  }
-  return 0;
-}
-
-// Validates as many continuation bytes for a multi-byte UTF-8 character as
-// needed or are available. If we see a non-continuation byte where we expect
-// one, we "replace" the validated continuation bytes we've seen so far with
-// a single UTF-8 replacement character ('\ufffd'), to match v8's UTF-8 decoding
-// behavior. The continuation byte check is included three times in the case
-// where all of the continuation bytes for a character exist in the same buffer.
-// It is also done this way as a slight performance increase instead of using a
-// loop.
-function utf8CheckExtraBytes(self, buf, p) {
-  if ((buf[0] & 0xC0) !== 0x80) {
-    self.lastNeed = 0;
-    return '\ufffd';
-  }
-  if (self.lastNeed > 1 && buf.length > 1) {
-    if ((buf[1] & 0xC0) !== 0x80) {
-      self.lastNeed = 1;
-      return '\ufffd';
-    }
-    if (self.lastNeed > 2 && buf.length > 2) {
-      if ((buf[2] & 0xC0) !== 0x80) {
-        self.lastNeed = 2;
-        return '\ufffd';
-      }
-    }
-  }
-}
-
-// Attempts to complete a multi-byte UTF-8 character using bytes from a Buffer.
-function utf8FillLast(buf) {
-  var p = this.lastTotal - this.lastNeed;
-  var r = utf8CheckExtraBytes(this, buf, p);
-  if (r !== undefined) return r;
-  if (this.lastNeed <= buf.length) {
-    buf.copy(this.lastChar, p, 0, this.lastNeed);
-    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
-  }
-  buf.copy(this.lastChar, p, 0, buf.length);
-  this.lastNeed -= buf.length;
-}
-
-// Returns all complete UTF-8 characters in a Buffer. If the Buffer ended on a
-// partial character, the character's bytes are buffered until the required
-// number of bytes are available.
-function utf8Text(buf, i) {
-  var total = utf8CheckIncomplete(this, buf, i);
-  if (!this.lastNeed) return buf.toString('utf8', i);
-  this.lastTotal = total;
-  var end = buf.length - (total - this.lastNeed);
-  buf.copy(this.lastChar, 0, end);
-  return buf.toString('utf8', i, end);
-}
-
-// For UTF-8, a replacement character is added when ending on a partial
-// character.
-function utf8End(buf) {
-  var r = buf && buf.length ? this.write(buf) : '';
-  if (this.lastNeed) return r + '\ufffd';
-  return r;
-}
-
-// UTF-16LE typically needs two bytes per character, but even if we have an even
-// number of bytes available, we need to check if we end on a leading/high
-// surrogate. In that case, we need to wait for the next two bytes in order to
-// decode the last character properly.
-function utf16Text(buf, i) {
-  if ((buf.length - i) % 2 === 0) {
-    var r = buf.toString('utf16le', i);
-    if (r) {
-      var c = r.charCodeAt(r.length - 1);
-      if (c >= 0xD800 && c <= 0xDBFF) {
-        this.lastNeed = 2;
-        this.lastTotal = 4;
-        this.lastChar[0] = buf[buf.length - 2];
-        this.lastChar[1] = buf[buf.length - 1];
-        return r.slice(0, -1);
-      }
-    }
-    return r;
-  }
-  this.lastNeed = 1;
-  this.lastTotal = 2;
-  this.lastChar[0] = buf[buf.length - 1];
-  return buf.toString('utf16le', i, buf.length - 1);
-}
-
-// For UTF-16LE we do not explicitly append special replacement characters if we
-// end on a partial character, we simply let v8 handle that.
-function utf16End(buf) {
-  var r = buf && buf.length ? this.write(buf) : '';
-  if (this.lastNeed) {
-    var end = this.lastTotal - this.lastNeed;
-    return r + this.lastChar.toString('utf16le', 0, end);
-  }
-  return r;
-}
-
-function base64Text(buf, i) {
-  var n = (buf.length - i) % 3;
-  if (n === 0) return buf.toString('base64', i);
-  this.lastNeed = 3 - n;
-  this.lastTotal = 3;
-  if (n === 1) {
-    this.lastChar[0] = buf[buf.length - 1];
-  } else {
-    this.lastChar[0] = buf[buf.length - 2];
-    this.lastChar[1] = buf[buf.length - 1];
-  }
-  return buf.toString('base64', i, buf.length - n);
-}
-
-function base64End(buf) {
-  var r = buf && buf.length ? this.write(buf) : '';
-  if (this.lastNeed) return r + this.lastChar.toString('base64', 0, 3 - this.lastNeed);
-  return r;
-}
-
-// Pass bytes on through for single-byte encodings (e.g. ascii, latin1, hex)
-function simpleWrite(buf) {
-  return buf.toString(this.encoding);
-}
-
-function simpleEnd(buf) {
-  return buf && buf.length ? this.write(buf) : '';
-}
 
 /***/ }),
 
@@ -43635,7 +43635,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\lyrics_check_view.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_check_view.js";
 
 
 
@@ -43832,18 +43832,40 @@ var arrayHandler = function arrayHandler(lyrics) {
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_check_view.js ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_check_view.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CUsers%5Cwkwk2%5COneDrive%5C%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4%5Creact%5Cpraise-project%5Cpages%5Clyrics_check_view.js!./");
+/* (ignored) */
 
+/***/ }),
+
+/***/ 2:
+/*!**********************!*\
+  !*** util (ignored) ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
 /***/ 3:
+/*!***************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_check_view.js ***!
+  \***************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_check_view.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flyrics_check_view&absolutePagePath=C%3A%5CReact%5Creact-tutorial%5Cpraise-project%5Cpages%5Clyrics_check_view.js!./");
+
+
+/***/ }),
+
+/***/ 4:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -43854,7 +43876,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!***********************!*\
   !*** jsdom (ignored) ***!
   \***********************/
@@ -43865,7 +43887,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!***********************!*\
   !*** https (ignored) ***!
   \***********************/
@@ -43876,29 +43898,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flyrics
 
 /***/ }),
 
-/***/ 6:
-/*!**********************!*\
-  !*** util (ignored) ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
 /***/ 7:
-/*!**********************!*\
-  !*** util (ignored) ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 8:
 /*!****************************!*\
   !*** image-size (ignored) ***!
   \****************************/
@@ -43920,5 +43920,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=lyrics_check_view.js.map

@@ -4,8 +4,6 @@ import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
-import JSZip from "jszip";
-import { saveAs } from "file-saver";
 
 const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
@@ -37,7 +35,6 @@ const LyricsList = ({ data }) => {
     if (e.target.checked) {
       const val = e.target.value.split("#");
       const id = e.target.id;
-      console.log(e.target);
       setChecked(
         checked.concat({
           id: id,
@@ -66,6 +63,7 @@ const LyricsList = ({ data }) => {
       method: "GET",
       responseType: "blob" // important
     }).then(response => {
+      console.log(response.data);
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
       link.href = url;
@@ -75,7 +73,6 @@ const LyricsList = ({ data }) => {
     });
   };
 
-  const downloadFiles = () => {};
   return (
     <>
       <Layout title="가사목록페이지">
@@ -195,9 +192,7 @@ const LyricsList = ({ data }) => {
                     <button className="btn btn-success">PPT 생성</button>
                   </Link>
                   <p />
-                  <button className="btn btn-primary" onClick={downloadFiles}>
-                    악보다운로드
-                  </button>
+                  <button className="btn btn-primary">악보다운로드</button>
                 </div>
               </div>
             </div>

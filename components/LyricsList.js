@@ -63,7 +63,6 @@ const LyricsList = ({ data }) => {
       method: "GET",
       responseType: "blob" // important
     }).then(response => {
-      console.log(response.data);
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
       link.href = url;
@@ -72,7 +71,12 @@ const LyricsList = ({ data }) => {
       link.click();
     });
   };
-
+  const downloadFiles = () => {
+    //나중에는 zip파일로 다운받도록 만들어보자
+    for (let i = 0; i < 3; i++) {
+      downloadFile("주이름찬양A.jpg");
+    }
+  };
   return (
     <>
       <Layout title="가사목록페이지">
@@ -192,7 +196,9 @@ const LyricsList = ({ data }) => {
                     <button className="btn btn-success">PPT 생성</button>
                   </Link>
                   <p />
-                  <button className="btn btn-primary">악보다운로드</button>
+                  <button className="btn btn-primary" onClick={downloadFiles}>
+                    악보다운로드
+                  </button>
                 </div>
               </div>
             </div>

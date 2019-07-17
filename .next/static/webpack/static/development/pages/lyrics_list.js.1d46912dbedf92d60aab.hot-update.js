@@ -19,17 +19,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_sagas__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/sagas */ "./modules/sagas.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var jszip__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! jszip */ "./node_modules/jszip/lib/index.js");
-/* harmony import */ var jszip__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(jszip__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var jszip_utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! jszip-utils */ "./node_modules/jszip-utils/lib/index.js");
-/* harmony import */ var jszip_utils__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(jszip_utils__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var file_saver__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! file-saver */ "./node_modules/file-saver/dist/FileSaver.min.js");
-/* harmony import */ var file_saver__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(file_saver__WEBPACK_IMPORTED_MODULE_9__);
 
 var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\components\\LyricsList.js";
-
-
-
 
 
 
@@ -113,7 +104,6 @@ var LyricsList = function LyricsList(_ref) {
       responseType: "blob" // important
 
     }).then(function (response) {
-      console.log(response.data);
       var url = window.URL.createObjectURL(new Blob([response.data]));
       var link = document.createElement("a");
       link.href = url;
@@ -123,42 +113,25 @@ var LyricsList = function LyricsList(_ref) {
     });
   };
 
-  var create_zip = function create_zip() {
-    var imgLinks = ["http://localhost:3001/uploads/주이름찬양A.jpg", "http://localhost:3001/uploads/주이름찬양A.jpg", "http://localhost:3001/uploads/주이름찬양A.jpg"];
-    var zip = new jszip__WEBPACK_IMPORTED_MODULE_7___default.a();
-
-    for (var i = 0; i < imgLinks.length; i++) {
-      jszip_utils__WEBPACK_IMPORTED_MODULE_8___default.a.getBinaryContent(imgLinks[i], function (err, data) {
-        if (err) {
-          alert("Problem happened when download img: " + imgLinks[i]);
-          console.error("Problem happened when download img: " + imgLinks[i]);
-        } else {
-          zip.file("picture" + i + ".jpg", data, {
-            binary: true
-          });
-        }
-      });
+  var downloadFiles = function downloadFiles() {
+    //나중에는 zip파일로 다운받도록 만들어보자
+    for (var i = 0; i < 3; i++) {
+      downloadFile("주이름찬양A.jpg");
     }
-
-    zip.generateAsync({
-      type: "binarystring"
-    }).then(function (blob) {
-      Object(file_saver__WEBPACK_IMPORTED_MODULE_9__["saveAs"])(blob, "downloadImages.zip");
-    });
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "\uAC00\uC0AC\uBAA9\uB85D\uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -168,7 +141,7 @@ var LyricsList = function LyricsList(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -177,42 +150,42 @@ var LyricsList = function LyricsList(_ref) {
     placeholder: "\uC81C\uBAA9 \uB610\uB294 \uAC00\uC0AC\uB97C \uC785\uB825\uD574 \uC8FC\uC138\uC694",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 88
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "input-group-append",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "input-group-text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fas fa-search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 95
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col-sm-9",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 100
     },
     __self: this
   }, lyrics.map(function (e) {
@@ -226,7 +199,7 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 122
+        lineNumber: 103
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -234,27 +207,27 @@ var LyricsList = function LyricsList(_ref) {
       className: "card-img-top",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131
+        lineNumber: 112
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139
+        lineNumber: 120
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
       className: "card-title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140
+        lineNumber: 121
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 141
+        lineNumber: 122
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -268,7 +241,7 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 142
+        lineNumber: 123
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
@@ -278,14 +251,14 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 149
+        lineNumber: 130
       },
       __self: this
     }, e.title + " " + (e.code ? "(".concat(e.code, ")") : "")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
       className: "card-text",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 157
+        lineNumber: 138
       },
       __self: this
     }, e.contents[0].statement), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
@@ -298,7 +271,7 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 159
+        lineNumber: 140
       },
       __self: this
     }, "\uC545\uBCF4 \uB2E4\uC6B4\uB85C\uB4DC")));
@@ -308,7 +281,7 @@ var LyricsList = function LyricsList(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 152
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -318,27 +291,27 @@ var LyricsList = function LyricsList(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 157
     },
     __self: this
   }, "\uAC00\uC0AC \uC81C\uBAA9"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 158
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     className: "list-group list-group-flush",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 159
     },
     __self: this
   }, checked.map(function (el, i) {
@@ -350,7 +323,7 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 182
+        lineNumber: 163
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -358,14 +331,14 @@ var LyricsList = function LyricsList(_ref) {
       id: "check",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 187
+        lineNumber: 168
       },
       __self: this
     }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
       htmlFor: "check",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 189
+        lineNumber: 170
       },
       __self: this
     }, el.title + " " + el.code), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
@@ -381,21 +354,21 @@ var LyricsList = function LyricsList(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 192
+        lineNumber: 173
       },
       __self: this
     }));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 188
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 189
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -407,28 +380,28 @@ var LyricsList = function LyricsList(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209
+      lineNumber: 190
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-success",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 196
     },
     __self: this
   }, "PPT \uC0DD\uC131")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 198
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "btn btn-primary",
-    onClick: create_zip,
+    onClick: downloadFiles,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218
+      lineNumber: 199
     },
     __self: this
   }, "\uC545\uBCF4\uB2E4\uC6B4\uB85C\uB4DC"))))))));
@@ -439,4 +412,4 @@ var LyricsList = function LyricsList(_ref) {
 /***/ })
 
 })
-//# sourceMappingURL=lyrics_list.js.be8eb5b77092ea00c523.hot-update.js.map
+//# sourceMappingURL=lyrics_list.js.1d46912dbedf92d60aab.hot-update.js.map

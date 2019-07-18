@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Layout from "./Layout";
-import Link from "next/link";
+import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
@@ -27,7 +27,7 @@ const LyricsList = ({ data }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      dispatch(selectData()); // 넣어준 값으로 다시 뿌려줄 준비하기
+      dispatch(selectData({ first: 1, next: 2 })); // 넣어준 값으로 다시 뿌려줄 준비하기
     }
   };
   // checkbox event
@@ -71,12 +71,27 @@ const LyricsList = ({ data }) => {
       link.click();
     });
   };
-  const downloadFiles = async () => {
+  const downloadFiles = () => {
+    const li = checkedList().map(e => `id=${e}&`);
+    if (!li || li.length === 0) {
+      alert("다운로드 할 악보가 없습니다. 악보를 선택해 주세요");
+      return;
+    }
     //나중에는 zip파일로 다운받도록 만들어보자
     const files = checked.map(e => e.file);
     files.forEach(name => {
       downloadFile(name);
     });
+  };
+  const createPpt = () => {
+    const li = checkedList().map(e => `id=${e}&`);
+    if (!li || li.length === 0) {
+      alert("PPT를 생성할 악보가 없습니다. 악보를 선택해 주세요");
+      return;
+    }
+    let str = li.join("");
+    str = str.substring(0, str.length - 1);
+    Router.push("/lyrics_check_view?" + str);
   };
   return (
     <>
@@ -184,14 +199,9 @@ const LyricsList = ({ data }) => {
                 </ul>
                 <p />
                 <div className="text-center">
-                  <Link
-                    href={{
-                      pathname: "/lyrics_check_view",
-                      query: { id: checkedList() }
-                    }}
-                  >
-                    <button className="btn btn-success">PPT 생성</button>
-                  </Link>
+                  <button className="btn btn-success" onClick={createPpt}>
+                    PPT 생성
+                  </button>
                   <p />
                   <button className="btn btn-primary" onClick={downloadFiles}>
                     악보다운로드

@@ -48,10 +48,10 @@ const LyricsList = ({ data }) => {
       setChecked(checked.filter(el => el.id !== id));
     }
   };
-  const removeChecked = (e, id) => {
+  const removeChecked = id => {
     const el = document.getElementById(id);
     el.checked = false;
-    e.target.parentElement && (e.target.parentElement.outerHTML = "");
+    setChecked(checked.filter(e2 => e2.id !== id));
   };
   const checkedList = () => {
     const id = checked.map(e => e.id.split("title_")[1] * 1);
@@ -71,11 +71,12 @@ const LyricsList = ({ data }) => {
       link.click();
     });
   };
-  const downloadFiles = () => {
+  const downloadFiles = async () => {
     //나중에는 zip파일로 다운받도록 만들어보자
-    for (let i = 0; i < 3; i++) {
-      downloadFile("주이름찬양A.jpg");
-    }
+    const files = checked.map(e => e.file);
+    files.forEach(name => {
+      downloadFile(name);
+    });
   };
   return (
     <>
@@ -165,11 +166,7 @@ const LyricsList = ({ data }) => {
                         className="list-group-item"
                         style={{ verticalAlign: "center" }}
                       >
-                        <input type="checkbox" id="check" />
-                        {` `}
-                        <label htmlFor="check">
-                          {el.title + " " + el.code}
-                        </label>
+                        {el.title + " " + el.code}
                         <i
                           className="fas fa-window-close"
                           style={{
@@ -178,7 +175,7 @@ const LyricsList = ({ data }) => {
                             float: "right",
                             fontSize: "20px"
                           }}
-                          onClick={e => removeChecked(e, el.id)}
+                          onClick={() => removeChecked(el.id)}
                         />
                       </li>
                     );

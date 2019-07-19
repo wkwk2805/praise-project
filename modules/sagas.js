@@ -2,6 +2,7 @@ import { put, takeEvery, all } from "redux-saga/effects";
 import axios from "axios";
 import { axiosResult, axiosError } from "./async";
 import { getData } from "./select";
+import host from "../util/hostname";
 
 const INSERT_DATA = "sagas/INSERT_DATA"; // 이 액션으로 체킹해서 호출
 const UPDATE_DATA = "sagas/UPDATE_DATA";
@@ -29,11 +30,10 @@ export const selectData = info => ({
   info
 });
 
-const axiosData = (payload, param) =>
-  axios[payload](`http://localhost:3001/api`, param);
+const axiosData = (payload, param) => axios[payload](`${host}/api`, param);
 
 const searchAxiosData = info => {
-  return axios.get("http://localhost:3001/api/search?info=" + info);
+  return axios.get(`${host}/api/search?info=` + info);
 };
 
 // dispatch => checking =>

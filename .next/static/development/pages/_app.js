@@ -173,6 +173,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _async__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./async */ "./modules/async.js");
 /* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./select */ "./modules/select.js");
+/* harmony import */ var _util_hostname__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/hostname */ "./util/hostname.js");
 
 
 var _marked =
@@ -187,6 +188,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(a
     _marked4 =
 /*#__PURE__*/
 _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(rootSaga);
+
 
 
 
@@ -227,11 +229,11 @@ var selectData = function selectData(info) {
 };
 
 var axiosData = function axiosData(payload, param) {
-  return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_5__["default"], "/api"), param);
 };
 
 var searchAxiosData = function searchAxiosData(info) {
-  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("http://localhost:3001/api/search?info=" + info);
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_5__["default"], "/api/search?info=") + info);
 }; // dispatch => checking =>
 
 
@@ -18132,6 +18134,19 @@ function (_App) {
 }(next_app__WEBPACK_IMPORTED_MODULE_9___default.a);
 
 /* harmony default export */ __webpack_exports__["default"] = (MyApp);
+
+/***/ }),
+
+/***/ "./util/hostname.js":
+/*!**************************!*\
+  !*** ./util/hostname.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("http://172.30.1.39:3001");
 
 /***/ }),
 

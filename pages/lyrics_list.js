@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import LyricsList from "../components/LyricsList";
 import axios from "axios";
+import host from "../util/hostname";
 
 const lyrics_list = ({ data }) => {
   useEffect(() => {
@@ -15,8 +16,8 @@ const lyrics_list = ({ data }) => {
 lyrics_list["getInitialProps"] = async req => {
   let param = encodeURI(req.query.value);
   const res = await (req.query.value
-    ? axios.get("http://localhost:3001/api/search?info=" + param)
-    : axios.get("http://localhost:3001/api"));
+    ? axios.get(host + "/api/search?info=" + param)
+    : axios.get(host + "/api"));
   return { data: res.data };
 };
 

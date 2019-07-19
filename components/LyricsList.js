@@ -4,6 +4,7 @@ import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
+import host from "../util/hostname";
 
 const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
@@ -14,6 +15,7 @@ const LyricsList = ({ data }) => {
 
   // init
   useEffect(() => {
+    console.log(host);
     let delta = 150;
     let timer = null;
 
@@ -44,7 +46,7 @@ const LyricsList = ({ data }) => {
     if (scrollHeight - innerHeight - scrollTop < 100) {
       if (lyrics.length !== 0) {
         const res = await axios.get(
-          "http://localhost:3001/api/scroll?first=" + (lyrics.length - 1)
+          `${host}/api/scroll?first=` + (lyrics.length - 1)
         );
         setLyrics(lyrics.concat(res.data));
       }
@@ -79,7 +81,7 @@ const LyricsList = ({ data }) => {
   };
   const downloadFile = name => {
     axios({
-      url: `http://localhost:3001/uploads/${name}`,
+      url: `${host}/uploads/${name}`,
       method: "GET",
       responseType: "blob" // important
     }).then(response => {
@@ -158,7 +160,7 @@ const LyricsList = ({ data }) => {
                     <img
                       src={
                         e.file
-                          ? `http://localhost:3001/uploads/${e.file}`
+                          ? `${host}/uploads/${e.file}`
                           : `./static/no_img.gif`
                       }
                       className="card-img-top"

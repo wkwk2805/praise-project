@@ -32,7 +32,7 @@ export const selectData = info => ({
 const axiosData = (payload, param) =>
   axios[payload](`http://localhost:3001/api`, param);
 
-const serachAxiosData = info => {
+const searchAxiosData = info => {
   return axios.get("http://localhost:3001/api/search?info=" + info);
 };
 
@@ -49,7 +49,7 @@ function* onAxiosData(action) {
 
 function* getAxiosData(action) {
   try {
-    const res = yield serachAxiosData(action.info); // select한 데이터 넣어주기
+    const res = yield searchAxiosData(action.info); // select한 데이터 넣어주기
     yield put(getData(res));
   } catch (error) {
     yield put(axiosError());

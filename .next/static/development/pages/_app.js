@@ -230,7 +230,7 @@ var axiosData = function axiosData(payload, param) {
   return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
 };
 
-var serachAxiosData = function serachAxiosData(info) {
+var searchAxiosData = function searchAxiosData(info) {
   return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("http://localhost:3001/api/search?info=" + info);
 }; // dispatch => checking =>
 
@@ -287,7 +287,7 @@ function getAxiosData(action) {
         case 0:
           _context2.prev = 0;
           _context2.next = 3;
-          return serachAxiosData(action.info);
+          return searchAxiosData(action.info);
 
         case 3:
           _res = _context2.sent;
@@ -18029,7 +18029,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\_app.js";
 
 
 

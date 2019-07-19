@@ -2,23 +2,36 @@ import React, { useEffect, useState } from "react";
 import Layout from "./Layout";
 import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
-import { selectData } from "../modules/sagas";
+import { selectData, scrollData } from "../modules/sagas";
 import axios from "axios";
 
 const LyricsList = ({ data }) => {
   const select = useSelector(state => state.select);
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
+  const [result, setResult] = useState(false);
   const dispatch = useDispatch();
   // init
   useEffect(() => {
-    addEventListener("scroll", scrollHandler);
-    select.length !== 0
-      ? setLyrics(select)
-      : alert("검색된 데이터가 없습니다.");
+    let delta = 150;
+    let timer = null;
+
+    window.addEventListener(
+      "scroll",
+      function() {
+        // resize 후 한번만 실행
+        clearTimeout(timer);
+        timer = setTimeout(scrollHandler, delta);
+      },
+      false
+    );
+    if (result && select.length === 0) {
+      alert("검색된 내용이 없습니다");
+    }
+    setLyrics(select);
   }, [select]);
   // scroll event
-  const scrollHandler = () => {
+  const scrollHandler = async () => {
     const { innerHeight } = window;
     const { scrollHeight } = document.body;
     // IE에서는 document.documentElement 를 사용.
@@ -27,7 +40,12 @@ const LyricsList = ({ data }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      dispatch(selectData()); // 넣어준 값으로 다시 뿌려줄 준비하기
+      if (lyrics.length !== 0) {
+        const res = await axios.get(
+          "http://localhost:3001/api/scroll?first=" + (lyrics.length - 1)
+        );
+        setLyrics(lyrics.concat(res.data));
+      }
     }
   };
   // checkbox event
@@ -93,9 +111,13 @@ const LyricsList = ({ data }) => {
     str = str.substring(0, str.length - 1);
     Router.push("/lyrics_check_view?" + str);
   };
-  const searching = e => {
+  const searching = async e => {
     if (e.keyCode === 13) {
-      dispatch(selectData(encodeURI(e.target.value)));
+      const res = await dispatch(selectData(encodeURI(e.target.value)));
+      setResult(res ? true : false);
+    } else if (!e.keyCode) {
+      const res = await dispatch(selectData(encodeURI(e.target.value)));
+      setResult(res ? true : false);
     }
   };
   return (
@@ -113,7 +135,7 @@ const LyricsList = ({ data }) => {
               onKeyDown={searching}
             />
             <div className="input-group-append">
-              <button className="input-group-text">
+              <button className="input-group-text" onClick={searching}>
                 <i className="fas fa-search" />
               </button>
             </div>
@@ -138,6 +160,7 @@ const LyricsList = ({ data }) => {
                           : `./static/no_img.gif`
                       }
                       className="card-img-top"
+                      style={{ maxHeight: "200px" }}
                     />
                     <div className="card-body">
                       <h5 className="card-title">
@@ -152,12 +175,18 @@ const LyricsList = ({ data }) => {
                           <label
                             htmlFor={`title_${e.l_id}`}
                             style={{ cursor: "pointer" }}
+                            className="txt_line_title"
+                            title={
+                              e.title + " " + (e.code ? `(${e.code})` : ``)
+                            }
                           >
                             {e.title + " " + (e.code ? `(${e.code})` : ``)}
                           </label>
                         </span>
                       </h5>
-                      <p className="card-text">{e.contents[0].statement}</p>
+                      <p className="card-text txt_line_content">
+                        {e.contents[0].statement}
+                      </p>
 
                       <button
                         className="btn btn-primary"
@@ -173,7 +202,7 @@ const LyricsList = ({ data }) => {
             </div>
             <div style={{ overflow: "auto" }}>
               <div
-                className="col-sm-3 position-fixed border"
+                className="col-sm-2 position-fixed border"
                 style={{ padding: "15px" }}
               >
                 <h4 className="text-center">가사 제목</h4>
@@ -185,7 +214,11 @@ const LyricsList = ({ data }) => {
                       <li
                         key={i}
                         className="list-group-item"
-                        style={{ verticalAlign: "center" }}
+                        style={{
+                          padding: "5px",
+                          verticalAlign: "center",
+                          fontSize: "12px"
+                        }}
                       >
                         {el.title + " " + el.code}
                         <i
@@ -194,7 +227,7 @@ const LyricsList = ({ data }) => {
                             color: "red",
                             cursor: "pointer",
                             float: "right",
-                            fontSize: "20px"
+                            fontSize: "15px"
                           }}
                           onClick={() => removeChecked(el.id)}
                         />
@@ -216,6 +249,23 @@ const LyricsList = ({ data }) => {
               </div>
             </div>
           </div>
+          <style jsx>
+            {`
+              .txt_line_content {
+                width: 14em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+              .txt_line_title {
+                width: 9em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-bottom: 0px;
+              }
+            `}
+          </style>
         </div>
       </Layout>
     </>

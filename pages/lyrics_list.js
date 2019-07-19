@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LyricsList from "../components/LyricsList";
 import axios from "axios";
 
 const lyrics_list = ({ data }) => {
+  useEffect(() => {
+    if (data.length === 0) {
+      alert("검색된 내용이 없습니다.");
+    }
+  }, []);
   return <LyricsList data={data} />;
 };
 

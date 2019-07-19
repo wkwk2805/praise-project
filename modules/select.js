@@ -11,7 +11,7 @@ const initalState = [];
 const select = (state = initalState, action) => {
   switch (action.type) {
     case GET_DATA:
-      return action.res;
+      return action.res.data;
     default:
       return state;
   }

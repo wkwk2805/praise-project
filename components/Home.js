@@ -6,7 +6,9 @@ const Home = () => {
   const keyEvent = e => {
     switch (e.keyCode) {
       case 13:
-        e.target.value && (window.location.href = "./lyrics_list");
+        e.target.value
+          ? (window.location.href = `./lyrics_list?value=${e.target.value}`)
+          : alert("검색어를 입력해 주세요");
         return;
     }
   };

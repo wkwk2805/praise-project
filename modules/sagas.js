@@ -23,14 +23,18 @@ export const deleteData = param => ({
   payload: "delete",
   param
 });
-export const selectData = param => ({
+export const selectData = info => ({
   type: SELECT_DATA,
   payload: "get",
-  param
+  info
 });
 
 const axiosData = (payload, param) =>
   axios[payload](`http://localhost:3001/api`, param);
+
+const serachAxiosData = info => {
+  return axios.get("http://localhost:3001/api/search?info=" + info);
+};
 
 // dispatch => checking =>
 function* onAxiosData(action) {
@@ -45,8 +49,8 @@ function* onAxiosData(action) {
 
 function* getAxiosData(action) {
   try {
-    const res = yield axiosData(action.payload, param); // select한 데이터 넣어주기
-    yield put(getData(res.data));
+    const res = yield serachAxiosData(action.info); // select한 데이터 넣어주기
+    yield put(getData(res));
   } catch (error) {
     yield put(axiosError());
   }

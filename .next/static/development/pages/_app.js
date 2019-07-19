@@ -218,16 +218,20 @@ var deleteData = function deleteData(param) {
     param: param
   };
 };
-var selectData = function selectData(param) {
+var selectData = function selectData(info) {
   return {
     type: SELECT_DATA,
     payload: "get",
-    param: param
+    info: info
   };
 };
 
 var axiosData = function axiosData(payload, param) {
   return axios__WEBPACK_IMPORTED_MODULE_2___default.a[payload]("http://localhost:3001/api", param);
+};
+
+var serachAxiosData = function serachAxiosData(info) {
+  return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("http://localhost:3001/api/search?info=" + info);
 }; // dispatch => checking =>
 
 
@@ -283,12 +287,12 @@ function getAxiosData(action) {
         case 0:
           _context2.prev = 0;
           _context2.next = 3;
-          return axiosData(action.payload, param);
+          return serachAxiosData(action.info);
 
         case 3:
           _res = _context2.sent;
           _context2.next = 6;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_select__WEBPACK_IMPORTED_MODULE_4__["getData"])(_res.data));
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])(Object(_select__WEBPACK_IMPORTED_MODULE_4__["getData"])(_res));
 
         case 6:
           _context2.next = 12;
@@ -383,7 +387,7 @@ var select = function select() {
 
   switch (action.type) {
     case GET_DATA:
-      return action.res;
+      return action.res.data;
 
     default:
       return state;
@@ -15533,7 +15537,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226
 /*!***********************************************************************!*\
   !*** ./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js ***!
   \***********************************************************************/
-/*! exports provided: default, CANCEL, SAGA_LOCATION, buffers, detach, runSaga, END, isEnd, eventChannel, channel, multicastChannel, stdChannel */
+/*! exports provided: CANCEL, SAGA_LOCATION, buffers, detach, runSaga, END, isEnd, eventChannel, channel, multicastChannel, stdChannel, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18025,7 +18029,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\wkwk2\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\react\\praise-project\\pages\\_app.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\_app.js";
 
 
 

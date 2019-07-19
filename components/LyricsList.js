@@ -13,9 +13,9 @@ const LyricsList = ({ data }) => {
   // init
   useEffect(() => {
     addEventListener("scroll", scrollHandler);
-    select.forEach(e => {
-      setLyrics(lyrics.concat(e));
-    });
+    select.length !== 0
+      ? setLyrics(select)
+      : alert("검색된 데이터가 없습니다.");
   }, [select]);
   // scroll event
   const scrollHandler = () => {
@@ -27,7 +27,7 @@ const LyricsList = ({ data }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      dispatch(selectData({ first: 1, next: 2 })); // 넣어준 값으로 다시 뿌려줄 준비하기
+      dispatch(selectData()); // 넣어준 값으로 다시 뿌려줄 준비하기
     }
   };
   // checkbox event
@@ -93,6 +93,11 @@ const LyricsList = ({ data }) => {
     str = str.substring(0, str.length - 1);
     Router.push("/lyrics_check_view?" + str);
   };
+  const searching = e => {
+    if (e.keyCode === 13) {
+      dispatch(selectData(encodeURI(e.target.value)));
+    }
+  };
   return (
     <>
       <Layout title="가사목록페이지">
@@ -105,6 +110,7 @@ const LyricsList = ({ data }) => {
               type="text"
               className="form-control"
               placeholder="제목 또는 가사를 입력해 주세요"
+              onKeyDown={searching}
             />
             <div className="input-group-append">
               <button className="input-group-text">

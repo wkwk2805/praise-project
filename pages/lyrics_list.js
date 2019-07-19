@@ -7,8 +7,11 @@ const lyrics_list = ({ data }) => {
 };
 
 // init
-lyrics_list["getInitialProps"] = async () => {
-  const res = await axios.get("http://localhost:3001/api");
+lyrics_list["getInitialProps"] = async req => {
+  let param = encodeURI(req.query.value);
+  const res = await (req.query.value
+    ? axios.get("http://localhost:3001/api/search?info=" + param)
+    : axios.get("http://localhost:3001/api"));
   return { data: res.data };
 };
 

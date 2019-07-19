@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Layout from "./Layout";
 import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
-import { selectData, scrollData } from "../modules/sagas";
+import { selectData } from "../modules/sagas";
 import axios from "axios";
 
 const LyricsList = ({ data }) => {
@@ -11,6 +11,7 @@ const LyricsList = ({ data }) => {
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(false);
   const dispatch = useDispatch();
+
   // init
   useEffect(() => {
     let delta = 150;
@@ -27,8 +28,9 @@ const LyricsList = ({ data }) => {
     );
     if (result && select.length === 0) {
       alert("검색된 내용이 없습니다");
+    } else {
+      setLyrics(select);
     }
-    setLyrics(select);
   }, [select]);
   // scroll event
   const scrollHandler = async () => {

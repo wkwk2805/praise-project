@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Layout from "./Layout";
 import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
@@ -6,19 +6,22 @@ import { selectData } from "../modules/sagas";
 import axios from "axios";
 import host from "../util/hostname";
 
-const LyricsList = ({ data }) => {
+const LyricsList = ({ data, param }) => {
   const select = useSelector(state => state.select);
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(false);
   const dispatch = useDispatch();
-
+  const inputRef = useRef();
   // init
   useEffect(() => {
-    console.log(host);
-    let delta = 150;
+    if (result && select.length === 0) {
+      alert("검색된 내용이 없습니다");
+    } else if (result) {
+      setLyrics(select);
+    }
+    let delta = 300;
     let timer = null;
-
     window.addEventListener(
       "scroll",
       function() {
@@ -28,12 +31,7 @@ const LyricsList = ({ data }) => {
       },
       false
     );
-    if (result && select.length === 0) {
-      alert("검색된 내용이 없습니다");
-    } else {
-      setLyrics(select);
-    }
-  }, [select]);
+  }, [select, lyrics]);
   // scroll event
   const scrollHandler = async () => {
     const { innerHeight } = window;
@@ -44,12 +42,7 @@ const LyricsList = ({ data }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      if (lyrics.length !== 0) {
-        const res = await axios.get(
-          `${host}/api/scroll?first=` + (lyrics.length - 1)
-        );
-        setLyrics(lyrics.concat(res.data));
-      }
+      // 스크롤 이벤트
     }
   };
   // checkbox event
@@ -137,6 +130,7 @@ const LyricsList = ({ data }) => {
               className="form-control"
               placeholder="제목 또는 가사를 입력해 주세요"
               onKeyDown={searching}
+              ref={inputRef}
             />
             <div className="input-group-append">
               <button className="input-group-text" onClick={searching}>
@@ -146,10 +140,10 @@ const LyricsList = ({ data }) => {
           </div>
           <div className="row">
             <div className="col-sm-9">
-              {lyrics.map(e => {
+              {lyrics.map((e, i) => {
                 return (
                   <div
-                    key={e.l_id}
+                    key={i}
                     className="card"
                     style={{
                       width: "16rem",

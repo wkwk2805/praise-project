@@ -11,29 +11,29 @@ const LyricsList = ({ data, param }) => {
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(false);
+  const [isAllData, setIsAllData] = useState(false);
   const dispatch = useDispatch();
   const inputRef = useRef();
   // init
   useEffect(() => {
     if (result && select.length === 0) {
       alert("검색된 내용이 없습니다");
+      param = false;
     } else if (result) {
       setLyrics(select);
+      param = false;
     }
-    let delta = 300;
-    let timer = null;
-    window.addEventListener(
-      "scroll",
-      function() {
-        // resize 후 한번만 실행
-        clearTimeout(timer);
-        timer = setTimeout(scrollHandler, delta);
-      },
-      false
-    );
-  }, [select, lyrics]);
+    if (param) inputRef.current.value = decodeURI(param);
+  }, [select]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      return window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   // scroll event
-  const scrollHandler = async () => {
+  const handleScroll = async () => {
     const { innerHeight } = window;
     const { scrollHeight } = document.body;
     // IE에서는 document.documentElement 를 사용.
@@ -42,7 +42,11 @@ const LyricsList = ({ data, param }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
-      // 스크롤 이벤트
+      let val = inputRef.current.value;
+      const res = await axios.get(
+        `${host}/api/scroll?info=${val}&first=${lyrics.length - 1}`
+      );
+      setLyrics(lyrics.concat(res.data));
     }
   };
   // checkbox event
@@ -111,9 +115,11 @@ const LyricsList = ({ data, param }) => {
   const searching = async e => {
     if (e.keyCode === 13) {
       const res = await dispatch(selectData(encodeURI(e.target.value)));
+      param = "";
       setResult(res ? true : false);
     } else if (!e.keyCode) {
       const res = await dispatch(selectData(encodeURI(e.target.value)));
+      param = "";
       setResult(res ? true : false);
     }
   };
@@ -245,6 +251,9 @@ const LyricsList = ({ data, param }) => {
                   </button>
                 </div>
               </div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <h1>{isAllData && "모든 악보가 다 나왔습니다."}</h1>
             </div>
           </div>
           <style jsx>

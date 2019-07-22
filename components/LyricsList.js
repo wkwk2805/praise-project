@@ -31,7 +31,8 @@ const LyricsList = ({ data, param }) => {
     return () => {
       return window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [lyrics]);
+
   // scroll event
   const handleScroll = async () => {
     const { innerHeight } = window;
@@ -42,6 +43,7 @@ const LyricsList = ({ data, param }) => {
       document.body.scrollTop;
     // 스크롤링 했을때, 브라우저의 가장 밑에서 100정도 높이가 남았을때에 실행하기위함.
     if (scrollHeight - innerHeight - scrollTop < 100) {
+      window.removeEventListener("scroll", handleScroll);
       let val = inputRef.current.value;
       const res = await axios.get(
         `${host}/api/scroll?info=${val}&first=${lyrics.length - 1}`

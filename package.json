@@ -19,8 +19,8 @@
     "redux-saga": "^1.0.4"
   },
   "scripts": {
-    "start": "next start",
-    "dev": "node server.js",
+    "start": "next start -p 80",
+    "dev": "next",
     "build": "next build"
   },
   "repository": "https://github.com/wkwk2805/praise-project.git",

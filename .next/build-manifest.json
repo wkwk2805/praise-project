@@ -1,27 +1,45 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_aa8f31c0c93a8f34edc5.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
+    ],
+    "/lyrics_check_view": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
     ],
     "/lyrics_list": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
+    ],
+    "/lyrics_registration": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
+    ],
+    "/lyrics_view": [
+      "static/runtime/webpack-a79426b5e11f0ba5879d.js",
+      "static/chunks/commons.38c044a7ecbcf86f0d11.js",
+      "static/runtime/main-541f01c65744a5c2c60b.js"
     ]
   }
 }

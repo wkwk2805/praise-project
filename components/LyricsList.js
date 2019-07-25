@@ -125,6 +125,34 @@ const LyricsList = ({ data, param }) => {
       setResult(res ? true : false);
     }
   };
+  const updateLyrics = e => {
+    let id = e.target.id.split("update_")[1];
+    axios({
+      url: `${host}/api`,
+      method: "patch",
+      data: {
+        id: id
+      }
+    })
+      .then(res => {
+        console.log(res);
+      })
+      .catch(err => console.log(err));
+  };
+  const removeLyrics = e => {
+    let id = e.target.id.split("remove_")[1];
+    axios({
+      url: `${host}/api`,
+      method: "delete",
+      data: {
+        id: id
+      }
+    })
+      .then(res => {
+        console.log(res);
+      })
+      .catch(err => console.log(err));
+  };
   return (
     <>
       <Layout title="가사목록페이지">
@@ -200,6 +228,20 @@ const LyricsList = ({ data, param }) => {
                         onClick={() => downloadFile(e.file)}
                       >
                         악보 다운로드
+                      </button>
+                      <button
+                        className="btn btn-success"
+                        onClick={updateLyrics}
+                        id={`update_${e.l_id}`}
+                      >
+                        수정
+                      </button>
+                      <button
+                        className="btn btn-danger"
+                        onClick={removeLyrics}
+                        id={`remove_${e.l_id}`}
+                      >
+                        삭제
                       </button>
                     </div>
                   </div>

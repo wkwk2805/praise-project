@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Layout from "./Layout";
 import Router from "next/router";
+import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
@@ -11,7 +12,6 @@ const LyricsList = ({ data, param }) => {
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(false);
-  const [isAllData, setIsAllData] = useState(false);
   const dispatch = useDispatch();
   const inputRef = useRef();
   // init
@@ -125,20 +125,6 @@ const LyricsList = ({ data, param }) => {
       setResult(res ? true : false);
     }
   };
-  const updateLyrics = e => {
-    let id = e.target.id.split("update_")[1];
-    axios({
-      url: `${host}/api`,
-      method: "patch",
-      data: {
-        id: id
-      }
-    })
-      .then(res => {
-        console.log(res);
-      })
-      .catch(err => console.log(err));
-  };
   const removeLyrics = e => {
     let id = e.target.id.split("remove_")[1];
     axios({
@@ -149,7 +135,13 @@ const LyricsList = ({ data, param }) => {
       }
     })
       .then(res => {
-        console.log(res);
+        alert(res.data.message);
+        if (res.data.result === "success") {
+          inputRef.current.focus();
+          setLyrics(lyrics.filter(e => e.l_id !== id * 1));
+        } else {
+          alert("삭제 실패");
+        }
       })
       .catch(err => console.log(err));
   };
@@ -229,13 +221,9 @@ const LyricsList = ({ data, param }) => {
                       >
                         악보 다운로드
                       </button>
-                      <button
-                        className="btn btn-success"
-                        onClick={updateLyrics}
-                        id={`update_${e.l_id}`}
-                      >
-                        수정
-                      </button>
+                      <Link href={`/lyrics_update_display?id=${e.l_id}`}>
+                        <button className="btn btn-success">수정</button>
+                      </Link>
                       <button
                         className="btn btn-danger"
                         onClick={removeLyrics}
@@ -295,9 +283,6 @@ const LyricsList = ({ data, param }) => {
                   </button>
                 </div>
               </div>
-            </div>
-            <div style={{ textAlign: "center" }}>
-              <h1>{isAllData && "모든 악보가 다 나왔습니다."}</h1>
             </div>
           </div>
           <style jsx>

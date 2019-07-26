@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Layout from "./Layout";
+import axios from "axios";
+import host from "../util/hostname";
 
 const UpdateDisplay = ({ lyrics }) => {
   const [info, setInfo] = useState(lyrics);
@@ -18,10 +20,13 @@ const UpdateDisplay = ({ lyrics }) => {
   const onChangeHandler = e => {
     switch (e.target.name) {
       case "file":
+        let formData = new FormData();
+        formData.append("file", e.target.files[0]);
         setInfo({
           ...info,
           [e.target.name]: e.target.value.split(/\\/)[2],
-          fileChange: fileName !== e.target.value.split(/\\/)[2]
+          preFile: fileName,
+          formData
         });
         break;
       case "contents":
@@ -32,14 +37,33 @@ const UpdateDisplay = ({ lyrics }) => {
         break;
     }
   };
+  // 업데이트 등록
   const _submit = () => {
     const data = { ...info, contents };
-    console.log(data);
-    for (key of data) {
+    for (let key in data) {
       if (data[key] === "") {
         delete data[key];
       }
     }
+    axios({
+      url: `${host}/api`,
+      method: "post",
+      data: data.formData
+    })
+      .then(result => {
+        data.formData && delete data.formData;
+        axios({
+          url: `${host}/api`,
+          method: "patch",
+          data: data
+        })
+          .then(res => {
+            console.log(res.data);
+            window.location.reload();
+          })
+          .catch(err => console.log("string", err));
+      })
+      .catch(er => console.log("file", er));
   };
   return (
     <Layout title="가사수정 페이지">

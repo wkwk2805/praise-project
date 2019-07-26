@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,19 +106,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
 
 
 
 var Layout = function Layout(_ref) {
   var children = _ref.children,
       title = _ref.title;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossOrigin: "anonymous"
+    crossOrigin: "anonymous",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    src: "https://kit.fontawesome.com/9607a2acfb.js"
+    src: "https://kit.fontawesome.com/9607a2acfb.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
   })), children);
 };
 
@@ -135,19 +164,21 @@ var Layout = function Layout(_ref) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/get-iterator */ "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _util_hostname__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/hostname */ "./util/hostname.js");
 
 
 
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\UpdateDisplay.js";
 
-var _jsxFileName = "C:\\React\\praise-project\\components\\UpdateDisplay.js";
+
 
 
 
@@ -156,22 +187,22 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
 
   var lyrics = _ref.lyrics;
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(lyrics),
-      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState, 2),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(lyrics),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState, 2),
       info = _useState2[0],
       setInfo = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(""),
-      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState3, 2),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(""),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState3, 2),
       contents = _useState4[0],
       setContents = _useState4[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(lyrics.file || ""),
-      _useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState5, 2),
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(lyrics.file || ""),
+      _useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_useState5, 2),
       fileName = _useState6[0],
       setFileName = _useState6[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_4__["useEffect"])(function () {
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
     setContents(info.contents.map(function (e) {
       return e.statement;
     }).join("\n\n"));
@@ -182,7 +213,9 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
 
     switch (e.target.name) {
       case "file":
-        setInfo(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__["default"])({}, info, (_objectSpread2 = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_objectSpread2, e.target.name, e.target.value.split(/\\/)[2]), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_objectSpread2, "fileChange", fileName !== e.target.value.split(/\\/)[2]), _objectSpread2)));
+        var formData = new FormData();
+        formData.append("file", e.target.files[0]);
+        setInfo(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, info, (_objectSpread2 = {}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_objectSpread2, e.target.name, e.target.value.split(/\\/)[2]), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_objectSpread2, "preFile", fileName), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_objectSpread2, "formData", formData), _objectSpread2)));
         break;
 
       case "contents":
@@ -190,77 +223,76 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
         break;
 
       default:
-        setInfo(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__["default"])({}, info, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])({}, e.target.name, e.target.value)));
+        setInfo(Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, info, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
         break;
     }
-  };
+  }; // 업데이트 등록
+
 
   var _submit = function _submit() {
-    var data = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_2__["default"])({}, info, {
+    var data = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, info, {
       contents: contents
     });
 
-    console.log(data);
-    var _iteratorNormalCompletion = true;
-    var _didIteratorError = false;
-    var _iteratorError = undefined;
-
-    try {
-      for (var _iterator = _babel_runtime_corejs2_core_js_get_iterator__WEBPACK_IMPORTED_MODULE_0___default()(data), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-        key = _step.value;
-
-        if (data[key] === "") {
-          delete data[key];
-        }
-      }
-    } catch (err) {
-      _didIteratorError = true;
-      _iteratorError = err;
-    } finally {
-      try {
-        if (!_iteratorNormalCompletion && _iterator.return != null) {
-          _iterator.return();
-        }
-      } finally {
-        if (_didIteratorError) {
-          throw _iteratorError;
-        }
+    for (var key in data) {
+      if (data[key] === "") {
+        delete data[key];
       }
     }
+
+    axios__WEBPACK_IMPORTED_MODULE_5___default()({
+      url: "".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_6__["default"], "/api"),
+      method: "post",
+      data: data.formData
+    }).then(function (result) {
+      data.formData && delete data.formData;
+      axios__WEBPACK_IMPORTED_MODULE_5___default()({
+        url: "".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_6__["default"], "/api"),
+        method: "patch",
+        data: data
+      }).then(function (res) {
+        console.log(res.data);
+        window.location.reload();
+      }).catch(function (err) {
+        return console.log("string", err);
+      });
+    }).catch(function (er) {
+      return console.log("file", er);
+    });
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: "\uAC00\uC0AC\uC218\uC815 \uD398\uC774\uC9C0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 69
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 70
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("h5", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h5", {
     className: "text-center",
     style: {
       margin: "20px 0px 0px 0px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 72
     },
     __self: this
-  }, "\uAC00\uC0AC\uB97C \uC218\uC815\uD574 \uC8FC\uC138\uC694"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
+  }, "\uAC00\uC0AC\uB97C \uC218\uC815\uD574 \uC8FC\uC138\uC694"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "text",
     placeholder: "\uC81C\uBAA9",
     className: "form-control",
@@ -272,99 +304,99 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 75
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("select", {
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("select", {
     className: "form-control",
     onChange: onChangeHandler,
     name: "code",
     value: info.code && info.code,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 84
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 90
     },
     __self: this
-  }, "\uC545\uBCF4\uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "\uC545\uBCF4\uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "C",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 91
     },
     __self: this
-  }, "C \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "C \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "D",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 92
     },
     __self: this
-  }, "D \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "D \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "E",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 93
     },
     __self: this
-  }, "E \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "E \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "F",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 94
     },
     __self: this
-  }, "F \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "F \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "G",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 95
     },
     __self: this
-  }, "G \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "G \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "A",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 96
     },
     __self: this
-  }, "A \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("option", {
+  }, "A \uCF54\uB4DC"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("option", {
     value: "B",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 97
     },
     __self: this
-  }, "B \uCF54\uB4DC")), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("p", {
+  }, "B \uCF54\uB4DC")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 99
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("textarea", (_React$createElement = {
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("textarea", (_React$createElement = {
     name: "",
     id: "",
     cols: "30",
     rows: "10",
     placeholder: "\uAC00\uC0AC",
     className: "form-control"
-  }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$createElement, "name", "contents"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$createElement, "onChange", onChangeHandler), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$createElement, "value", contents && contents), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$createElement, "__source", {
+  }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "name", "contents"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "onChange", onChangeHandler), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "value", contents && contents), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__source", {
     fileName: _jsxFileName,
-    lineNumber: 76
-  }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_React$createElement, "__self", this), _React$createElement))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    lineNumber: 100
+  }), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$createElement, "__self", this), _React$createElement))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 112
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "text",
     className: "form-control",
     placeholder: "\uD0ED\uC73C\uB85C TAG\uB97C \uAD6C\uBD84 \uD574\uC8FC\uC138\uC694",
@@ -373,10 +405,10 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     value: info.tag && info.tag,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 113
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
+  })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "file",
     id: "uploadFile",
     style: {
@@ -387,17 +419,17 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     accept: "image/jpeg,image/gif,image/png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 122
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
     className: "btn btn-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 130
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("label", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("label", {
     htmlFor: "uploadFile",
     style: {
       cursor: "pointer",
@@ -405,10 +437,10 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 131
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("i", {
     className: "fas fa-upload",
     style: {
       fontSize: "30px",
@@ -416,29 +448,29 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 135
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       cursor: "pointer"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 139
     },
     __self: this
-  }, "upload"))), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  }, "upload"))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       display: "inline-block",
       marginLeft: "10px"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 142
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
     type: "text",
     className: "form-control form-control-lg",
     readOnly: true,
@@ -449,35 +481,35 @@ var UpdateDisplay = function UpdateDisplay(_ref) {
     value: info.file && info.file,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 143
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "text-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 152
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
     className: "btn btn-primary",
     onClick: _submit,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 153
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 154
     },
     __self: this
-  }, "\uB4F1\uB85D"), " ", " ", react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("i", {
+  }, "\uB4F1\uB85D"), " ", " ", react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("i", {
     className: "fas fa-plus-circle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 155
     },
     __self: this
   })))));
@@ -819,7 +851,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_hostname__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/hostname */ "./util/hostname.js");
 
 
-var _jsxFileName = "C:\\React\\praise-project\\pages\\lyrics_update_display.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\lyrics_update_display.js";
 
 
 
@@ -895,14 +927,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!**********************************************!*\
   !*** multi ./pages/lyrics_update_display.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\React\praise-project\pages\lyrics_update_display.js */"./pages/lyrics_update_display.js");
+module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\lyrics_update_display.js */"./pages/lyrics_update_display.js");
 
 
 /***/ }),

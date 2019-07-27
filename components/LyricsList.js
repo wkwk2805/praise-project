@@ -6,11 +6,13 @@ import { useSelector, useDispatch } from "react-redux";
 import { selectData } from "../modules/sagas";
 import axios from "axios";
 import host from "../util/hostname";
+import Auth from "./Auth";
 
-const LyricsList = ({ data, param }) => {
+const LyricsList = ({ data, param, admins }) => {
   const select = useSelector(state => state.select);
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
+  const [admin, setAdmin] = useState(admins);
   const [result, setResult] = useState(false);
   const dispatch = useDispatch();
   const inputRef = useRef();
@@ -145,10 +147,14 @@ const LyricsList = ({ data, param }) => {
       })
       .catch(err => console.log(err));
   };
+  const insertPpt = () => {
+    Router.push("/lyrics_registration");
+  };
   return (
     <>
       <Layout title="가사목록페이지">
         <div className="container ">
+          <Auth />
           <div
             className="input-group mb-3"
             style={{ margin: "20px 0px 0px 0px" }}
@@ -216,21 +222,29 @@ const LyricsList = ({ data, param }) => {
 
                       <button
                         className="btn btn-primary"
-                        style={{ float: "left" }}
                         onClick={() => downloadFile(e.file)}
                       >
-                        악보 다운로드
+                        악보다운로드
                       </button>
-                      <Link href={`/lyrics_update_display?id=${e.l_id}`}>
-                        <button className="btn btn-success">수정</button>
-                      </Link>
-                      <button
-                        className="btn btn-danger"
-                        onClick={removeLyrics}
-                        id={`remove_${e.l_id}`}
-                      >
-                        삭제
-                      </button>
+                      {admin && (
+                        <div style={{ marginTop: "10px", textAlign: "right" }}>
+                          <Link href={`/lyrics_update_display?id=${e.l_id}`}>
+                            <button
+                              className="btn btn-success"
+                              style={{ marginRight: "10px" }}
+                            >
+                              수정
+                            </button>
+                          </Link>
+                          <button
+                            className="btn btn-danger"
+                            onClick={removeLyrics}
+                            id={`remove_${e.l_id}`}
+                          >
+                            삭제
+                          </button>
+                        </div>
+                      )}
                     </div>
                   </div>
                 );
@@ -281,6 +295,12 @@ const LyricsList = ({ data, param }) => {
                   <button className="btn btn-primary" onClick={downloadFiles}>
                     악보다운로드
                   </button>
+                  <p />
+                  {admin && (
+                    <button className="btn btn-danger" onClick={insertPpt}>
+                      악보넣기
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

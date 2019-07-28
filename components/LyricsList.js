@@ -8,14 +8,27 @@ import axios from "axios";
 import host from "../util/hostname";
 import Auth from "./Auth";
 
-const LyricsList = ({ data, param, admins }) => {
+const LyricsList = ({ data, param }) => {
   const select = useSelector(state => state.select);
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
-  const [admin, setAdmin] = useState(admins);
+  const [admin, setAdmin] = useState(false);
   const [result, setResult] = useState(false);
   const dispatch = useDispatch();
   const inputRef = useRef();
+  useEffect(() => {
+    init();
+  }, []);
+
+  const init = async () => {
+    const res = await axios({
+      url: `${host}/api/login`,
+      method: "post",
+      withCredentials: true
+    });
+    console.log(res.data);
+    res.data.success && setAdmin(true);
+  };
   // init
   useEffect(() => {
     if (result && select.length === 0) {

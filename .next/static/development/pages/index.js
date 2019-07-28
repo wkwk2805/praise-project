@@ -31,6 +31,10 @@ var _jsxFileName = "C:\\React\\praise-project\\components\\Auth.js";
 
 
 var Auth = function Auth() {
+  Object(react__WEBPACK_IMPORTED_MODULE_5__["useEffect"])(function () {
+    login();
+  }, []);
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(false),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState, 2),
       admin = _useState2[0],
@@ -92,14 +96,14 @@ var Auth = function Auth() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "form-inline justify-content-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
   }, admin || react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
@@ -110,7 +114,7 @@ var Auth = function Auth() {
     onChange: changeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
@@ -124,7 +128,7 @@ var Auth = function Auth() {
     onChange: changeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
@@ -135,7 +139,7 @@ var Auth = function Auth() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 51
     },
     __self: this
   }, admin ? "Log-out" : "Log-in")));
@@ -178,20 +182,20 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Auth__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -201,14 +205,14 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, "\uCC2C\uC591 \uAC00\uC0AC \uAC80\uC0C9"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -218,7 +222,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -228,7 +232,7 @@ var Home = function Home() {
     onKeyDown: keyEvent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   })))));

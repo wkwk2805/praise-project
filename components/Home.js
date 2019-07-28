@@ -14,7 +14,6 @@ const Home = () => {
         return;
     }
   };
-
   return (
     <Layout>
       <div className="container">

@@ -1,8 +1,11 @@
-import React, { useState } from "react";
-import Axios from "axios";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import host from "../util/hostname";
 
 const Auth = () => {
+  useEffect(() => {
+    login();
+  }, []);
   const [admin, setAdmin] = useState(false);
   const [info, setInfo] = useState({});
 
@@ -11,7 +14,7 @@ const Auth = () => {
   };
 
   const login = async () => {
-    const res = await Axios({
+    const res = await axios({
       url: `${host}/api/login`,
       data: info,
       method: "post",

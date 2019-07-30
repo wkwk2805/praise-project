@@ -42,7 +42,7 @@ const CheckView = ({ data, id }) => {
     <Layout title="Check View Page">
       <div className="container">
         <div className="text-right" style={{ marginTop: "10px" }}>
-          <Link href="/lyrics_list?value=1">
+          <Link href="/lyrics_list">
             <button className="btn btn-info">
               <span>HOME</span>
               {` `}
@@ -80,7 +80,10 @@ const CheckView = ({ data, id }) => {
                     >
                       {e.title}
                     </div>
-                    <div id={idx + "#" + i + "#" + e.id}>
+                    <div
+                      id={idx + "#" + i + "#" + e.id}
+                      className="lyr-contents"
+                    >
                       {item.split("\n").map((it, i2) => (
                         <span key={i2} id={idx + "#" + i + "#" + e.id}>
                           {it}
@@ -114,7 +117,10 @@ const CheckView = ({ data, id }) => {
           .lyr-title {
             text-align: left;
             margin: 10px 0px 10px 5px;
-            font-size: 10px;
+            font-size: 7px;
+          }
+          .lyr-contents {
+            font-size: 13px;
           }
           .col:hover {
             border: solid 5px yellow;

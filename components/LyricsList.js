@@ -29,7 +29,8 @@ const LyricsList = ({ data, param }) => {
       setLyrics(select);
       param = false;
     }
-    if (param) inputRef.current.value = decodeURI(param);
+    if (param && param !== "undefined")
+      inputRef.current.value = decodeURI(param);
   }, [select]);
 
   useEffect(() => {

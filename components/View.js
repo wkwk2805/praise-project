@@ -8,15 +8,14 @@ const styleSheet = {
     height: "1000px",
     color: "white",
     textAlign: "center",
-    fontSize: "4em"
+    fontSize: "3.5em"
   },
   title: {
     fontSize: "1em",
     textAlign: "left",
     background: "black",
     color: "white",
-    paddingTop: "15px",
-    paddingLeft: "15px"
+    padding: "15px 0px 65px 15px"
   }
 };
 

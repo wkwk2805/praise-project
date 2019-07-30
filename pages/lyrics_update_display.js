@@ -11,7 +11,7 @@ const lyrics_update_display = ({ lyrics }) => {
     setAdmin(setting.result || false);
   }, [setting]);
   const [admin, setAdmin] = useState(false);
-  return <>{true ? <UpdateDisplay lyrics={lyrics} /> : <Home />}</>;
+  return <>{admin ? <UpdateDisplay lyrics={lyrics} /> : <Home />}</>;
 };
 
 // 들어온 쿼리 id를 가지고 데이터를 부분적으로 불러와서 component에 넘겨주기

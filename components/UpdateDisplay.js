@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Layout from "./Layout";
+import Router from "next/router";
 import axios from "axios";
 import host from "../util/hostname";
 
@@ -58,7 +59,7 @@ const UpdateDisplay = ({ lyrics }) => {
           })
             .then(res => {
               console.log(res.data);
-              window.location.reload();
+              Router.push("/");
             })
             .catch(err => console.log("string", err));
         })
@@ -70,9 +71,8 @@ const UpdateDisplay = ({ lyrics }) => {
         data: data
       })
         .then(res => {
-          console.log("Hello world");
           console.log(res.data);
-          window.location.reload();
+          Router.push("/");
         })
         .catch(err => console.log("string", err));
     }

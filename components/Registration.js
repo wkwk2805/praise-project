@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Layout from "./Layout";
+import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
 import { changeHandler } from "../modules/lyrics";
 import { insertData } from "../modules/sagas";
@@ -13,6 +14,7 @@ const Registration = () => {
   useEffect(() => {
     if (async.data) {
       alert(async.data.message);
+      Router.push("/");
     }
   }, [async]);
 

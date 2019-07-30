@@ -42,7 +42,7 @@ const CheckView = ({ data, id }) => {
     <Layout title="Check View Page">
       <div className="container">
         <div className="text-right" style={{ marginTop: "10px" }}>
-          <Link href="/lyrics_list">
+          <Link href="/lyrics_list?value=1">
             <button className="btn btn-info">
               <span>HOME</span>
               {` `}

@@ -51,15 +51,15 @@ export const onDownloadPpt = data => {
     let slide = pptx.addNewSlide("MASTER");
     slide.back = "000000";
     slide.color = "FFFFFF";
-    slide.addText(item.title, { fontSize: 15, h: 0.5 });
+    slide.addText(item.title, { fontSize: 14, h: 0.5 });
     slide.addText(item.contents, {
-      fontSize: 65,
+      fontFace: "DX모던고딕RoundB",
+      fontSize: 48,
       align: "center",
       valign: "top",
-      w: "80%",
-      h: 2,
-      y: 1,
-      x: 1.5
+      w: "100%",
+      h: 3,
+      y: 1.8
     });
   }
   pptx.save(`가사모음` + new Date());

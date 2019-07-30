@@ -9,6 +9,7 @@ import host from "../util/hostname";
 import Auth from "./Auth";
 
 const LyricsList = ({ data, param }) => {
+  const lyricsSelector = useSelector(state => state.lyrics);
   const select = useSelector(state => state.select);
   const [lyrics, setLyrics] = useState(data);
   const [checked, setChecked] = useState([]);
@@ -17,18 +18,8 @@ const LyricsList = ({ data, param }) => {
   const dispatch = useDispatch();
   const inputRef = useRef();
   useEffect(() => {
-    init();
-  }, []);
-
-  const init = async () => {
-    const res = await axios({
-      url: `${host}/api/login`,
-      method: "post",
-      withCredentials: true
-    });
-    console.log(res.data);
-    res.data.success && setAdmin(true);
-  };
+    setAdmin(lyricsSelector.result || false);
+  }, [lyricsSelector]);
   // init
   useEffect(() => {
     if (result && select.length === 0) {

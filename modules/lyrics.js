@@ -1,9 +1,9 @@
 // action
 const CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
-
+const LOGIN_HANDLER = "lyrics/LOGIN_HANDLER";
 //action creator
 export const changeHandler = e => ({ type: CHANGE_HANDLER, e });
-
+export const lognHandler = result => ({ type: LOGIN_HANDLER, result });
 // initialState
 const initialState = {};
 
@@ -12,6 +12,8 @@ const lyrics = (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_HANDLER:
       return onChangeHandler(state, action.e);
+    case LOGIN_HANDLER:
+      return onLoginHandler(state, action.result);
     default:
       return state;
   }
@@ -32,4 +34,8 @@ const onChangeHandler = (state, e) => {
   return state;
 };
 
+const onLoginHandler = (state, result) => {
+  console.log("onLoginHandler");
+  return { result: result };
+};
 export default lyrics;

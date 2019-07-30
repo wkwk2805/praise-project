@@ -110,25 +110,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _util_hostname__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/hostname */ "./util/hostname.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _util_hostname__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/hostname */ "./util/hostname.js");
+/* harmony import */ var _modules_lyrics__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../modules/lyrics */ "./modules/lyrics.js");
 
 
 
 
 
-var _jsxFileName = "C:\\React\\praise-project\\components\\Auth.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Auth.js";
+
+
 
 
 
 
 var Auth = function Auth() {
+  var loginResult = Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["useSelector"])(function (state) {
+    return state.lyrics;
+  });
+  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["useDispatch"])();
   Object(react__WEBPACK_IMPORTED_MODULE_5__["useEffect"])(function () {
-    login();
-  }, []);
+    setAdmin(loginResult.result);
+  }, [loginResult]);
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(false),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(loginResult.result || false),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState, 2),
       admin = _useState2[0],
       setAdmin = _useState2[1];
@@ -154,8 +163,8 @@ var Auth = function Auth() {
           switch (_context.prev = _context.next) {
             case 0:
               _context.next = 2;
-              return axios__WEBPACK_IMPORTED_MODULE_6___default()({
-                url: "".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_7__["default"], "/api/login"),
+              return axios__WEBPACK_IMPORTED_MODULE_7___default()({
+                url: "".concat(_util_hostname__WEBPACK_IMPORTED_MODULE_8__["default"], "/api/login"),
                 data: info,
                 method: "post",
                 withCredentials: true
@@ -163,7 +172,12 @@ var Auth = function Auth() {
 
             case 2:
               res = _context.sent;
-              res.data.success && setAdmin(true);
+
+              if (res.data.success) {
+                dispatch(Object(_modules_lyrics__WEBPACK_IMPORTED_MODULE_9__["lognHandler"])(res.data.success));
+              } else {
+                alert("아이디와 비밀번호가 맞지 않습니다.");
+              }
 
             case 4:
             case "end":
@@ -179,7 +193,7 @@ var Auth = function Auth() {
   }();
 
   var logout = function logout() {
-    setAdmin(false);
+    window.location.reload();
   };
 
   return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -189,14 +203,14 @@ var Auth = function Auth() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
     className: "form-inline justify-content-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 39
     },
     __self: this
   }, admin || react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
@@ -207,7 +221,7 @@ var Auth = function Auth() {
     onChange: changeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("input", {
@@ -221,7 +235,7 @@ var Auth = function Auth() {
     onChange: changeHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 49
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
@@ -232,7 +246,7 @@ var Auth = function Auth() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 59
     },
     __self: this
   }, admin ? "Log-out" : "Log-in")));
@@ -257,7 +271,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Auth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Auth */ "./components/Auth.js");
-var _jsxFileName = "C:\\React\\praise-project\\components\\Home.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Home.js";
 
 
 
@@ -348,23 +362,133 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\components\\Layout.js";
 
 
 
 var Layout = function Layout(_ref) {
   var children = _ref.children,
       title = _ref.title;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossOrigin: "anonymous"
+    crossOrigin: "anonymous",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    src: "https://kit.fontawesome.com/9607a2acfb.js"
+    src: "https://kit.fontawesome.com/9607a2acfb.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
   })), children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./modules/lyrics.js":
+/*!***************************!*\
+  !*** ./modules/lyrics.js ***!
+  \***************************/
+/*! exports provided: changeHandler, lognHandler, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "changeHandler", function() { return changeHandler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "lognHandler", function() { return lognHandler; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+
+
+// action
+var CHANGE_HANDLER = "lyrics/CHANGE_HANDLER";
+var LOGIN_HANDLER = "lyrics/LOGIN_HANDLER"; //action creator
+
+var changeHandler = function changeHandler(e) {
+  return {
+    type: CHANGE_HANDLER,
+    e: e
+  };
+};
+var lognHandler = function lognHandler(result) {
+  return {
+    type: LOGIN_HANDLER,
+    result: result
+  };
+}; // initialState
+
+var initialState = {}; //Reducers
+
+var lyrics = function lyrics() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case CHANGE_HANDLER:
+      return onChangeHandler(state, action.e);
+
+    case LOGIN_HANDLER:
+      return onLoginHandler(state, action.result);
+
+    default:
+      return state;
+  }
+}; // create functions
+// 값이 변경될 때마다 값에 대한 내용을 넣어줌 // 사용안할듯
+
+
+var onChangeHandler = function onChangeHandler(state, e) {
+  e.target && (state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, e.target.name, e.target.value)));
+
+  if (e.target.value === "") {
+    delete state[e.target.name];
+  }
+
+  if (e.target.name === "file") {
+    var formData = new FormData();
+    formData.append("file", e.target.files[0]);
+    state = Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, state, {
+      formData: formData
+    });
+  }
+
+  return state;
+};
+
+var onLoginHandler = function onLoginHandler(state, result) {
+  console.log("onLoginHandler");
+  return {
+    result: result
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (lyrics);
 
 /***/ }),
 
@@ -692,7 +816,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Home */ "./components/Home.js");
-var _jsxFileName = "C:\\React\\praise-project\\pages\\index.js";
+var _jsxFileName = "C:\\React\\react-tutorial\\praise-project\\pages\\index.js";
 
 
 
@@ -730,7 +854,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\React\praise-project\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\React\react-tutorial\praise-project\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -853,6 +977,17 @@ module.exports = require("next/router");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
 
 /***/ }),
 

@@ -6,7 +6,6 @@ import host from "../util/hostname";
 const UpdateDisplay = ({ lyrics }) => {
   const [info, setInfo] = useState(lyrics);
   const [contents, setContents] = useState("");
-  const [fileName, setFileName] = useState(lyrics.file || "");
   useEffect(() => {
     setContents(
       info.contents
@@ -25,7 +24,6 @@ const UpdateDisplay = ({ lyrics }) => {
         setInfo({
           ...info,
           [e.target.name]: e.target.value.split(/\\/)[2],
-          preFile: fileName,
           formData
         });
         break;
@@ -45,25 +43,39 @@ const UpdateDisplay = ({ lyrics }) => {
         delete data[key];
       }
     }
-    axios({
-      url: `${host}/api`,
-      method: "post",
-      data: data.formData
-    })
-      .then(result => {
-        data.formData && delete data.formData;
-        axios({
-          url: `${host}/api`,
-          method: "patch",
-          data: data
-        })
-          .then(res => {
-            console.log(res.data);
-            window.location.reload();
-          })
-          .catch(err => console.log("string", err));
+    if (data.formData) {
+      axios({
+        url: `${host}/api`,
+        method: "post",
+        data: data.formData
       })
-      .catch(er => console.log("file", er));
+        .then(result => {
+          data.formData && delete data.formData;
+          axios({
+            url: `${host}/api`,
+            method: "patch",
+            data: data
+          })
+            .then(res => {
+              console.log(res.data);
+              window.location.reload();
+            })
+            .catch(err => console.log("string", err));
+        })
+        .catch(er => console.log("file", er));
+    } else {
+      axios({
+        url: `${host}/api`,
+        method: "patch",
+        data: data
+      })
+        .then(res => {
+          console.log("Hello world");
+          console.log(res.data);
+          window.location.reload();
+        })
+        .catch(err => console.log("string", err));
+    }
   };
   return (
     <Layout title="가사수정 페이지">

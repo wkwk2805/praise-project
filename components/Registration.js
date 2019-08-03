@@ -1,13 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import Layout from "./Layout";
 import Router from "next/router";
 import { useSelector, useDispatch } from "react-redux";
 import { changeHandler } from "../modules/lyrics";
-import { insertData } from "../modules/sagas";
+import axios from "axios";
+import hostname from "../util/hostname";
 
 // 가사 등록 컴포넌트
 const Registration = () => {
-  const async = useSelector(state => state.async);
   const lyrics = useSelector(state => state.lyrics);
   const dispatch = useDispatch();
   const fileNameRef = useRef();
@@ -32,9 +32,9 @@ const Registration = () => {
     if (!title || title.trim() === "" || !contents || contents.trim() === "") {
       alert("제목과 가사를 모두 입력해주세요");
     } else {
-      await dispatch(insertData(lyrics));
-      if (async.data) {
-        alert(async.data.message);
+      const res = await axios.put(`${hostname}/api`, lyrics);
+      alert(res.data.message);
+      if (res.data.result === "success") {
         Router.push("/");
       }
     }

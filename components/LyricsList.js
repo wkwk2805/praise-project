@@ -35,15 +35,15 @@ const LyricsList = ({ data, param }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    let checkboxs = document.getElementsByClassName("checkboxs");
+    for (let checkbox of checkboxs) {
+      checkbox.checked = false;
+    }
+    checked.forEach(item => {
+      let el = document.getElementById(item.id);
+      el && (el.checked = true);
+    });
     return () => {
-      let checkboxs = document.getElementsByClassName("checkboxs");
-      for (let checkbox of checkboxs) {
-        checkbox.checked = false;
-      }
-      checked.forEach(item => {
-        let el = document.getElementById(item.id);
-        el && (el.checked = true);
-      });
       return window.removeEventListener("scroll", handleScroll);
     };
   }, [lyrics]);

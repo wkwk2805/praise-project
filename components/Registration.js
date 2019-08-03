@@ -11,12 +11,6 @@ const Registration = () => {
   const lyrics = useSelector(state => state.lyrics);
   const dispatch = useDispatch();
   const fileNameRef = useRef();
-  useEffect(() => {
-    if (async.data) {
-      alert(async.data.message);
-      Router.push("/");
-    }
-  }, [async]);
 
   // 나중에 능력 될때 처리하자
   const tapEvent = e => {
@@ -33,12 +27,16 @@ const Registration = () => {
     dispatch(changeHandler(e));
   };
 
-  const _onSubmit = () => {
+  const _onSubmit = async () => {
     const { title, contents } = lyrics;
     if (!title || title.trim() === "" || !contents || contents.trim() === "") {
       alert("제목과 가사를 모두 입력해주세요");
     } else {
-      dispatch(insertData(lyrics));
+      await dispatch(insertData(lyrics));
+      if (async.data) {
+        alert(async.data.message);
+        Router.push("/");
+      }
     }
   };
 

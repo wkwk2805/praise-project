@@ -36,6 +36,14 @@ const LyricsList = ({ data, param }) => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
+      let checkboxs = document.getElementsByClassName("checkboxs");
+      for (let checkbox of checkboxs) {
+        checkbox.checked = false;
+      }
+      checked.forEach(item => {
+        let el = document.getElementById(item.id);
+        el && (el.checked = true);
+      });
       return window.removeEventListener("scroll", handleScroll);
     };
   }, [lyrics]);
@@ -78,7 +86,7 @@ const LyricsList = ({ data, param }) => {
   };
   const removeChecked = id => {
     const el = document.getElementById(id);
-    el.checked = false;
+    el && (el.checked = false);
     setChecked(checked.filter(e2 => e2.id !== id));
   };
   const checkedList = () => {
@@ -207,6 +215,7 @@ const LyricsList = ({ data, param }) => {
                             id={`title_${e.l_id}`}
                             value={e.title + "#" + e.code + "#" + e.file}
                             onChange={checkboxHandler}
+                            className="checkboxs"
                             style={{ width: "20px", cursor: "pointer" }}
                           />
                           <label

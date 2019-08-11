@@ -42,7 +42,11 @@ export const contentsHandler = data => {
 };
 
 // PPT 다운로드 함수
-export const onDownloadPpt = data => {
+export const onDownloadPpt = (
+  data,
+  fontMainFace = "DX모던고딕RoundB",
+  fontTitleFace = "DX모던고딕RoundB"
+) => {
   // data 모양새는 [{id:'0#0#0', title:'요게뱃의 노래', contents:"동그란 눈으로\n엄말 보고 있는"},{},{}]
   let pptx = new PptxGenJS();
   pptx.setTitle("Hello world Title");
@@ -51,9 +55,13 @@ export const onDownloadPpt = data => {
     let slide = pptx.addNewSlide("MASTER");
     slide.back = "000000";
     slide.color = "FFFFFF";
-    slide.addText(item.title, { fontSize: 14, h: 0.5 });
+    slide.addText(item.title, {
+      fontSize: 14,
+      h: 0.5,
+      fontFace: fontTitleFace
+    });
     slide.addText(item.contents, {
-      fontFace: "DX모던고딕RoundB",
+      fontFace: fontMainFace,
       fontSize: 48,
       align: "center",
       valign: "top",

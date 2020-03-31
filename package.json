@@ -9,7 +9,7 @@
     "file-saver": "^2.0.2",
     "jszip": "^3.2.2",
     "jszip-utils": "^0.1.0",
-    "next": "^8.1.0",
+    "next": "^9.3.2",
     "next-redux-wrapper": "^3.0.0-alpha.3",
     "pptxgenjs": "^2.5.0",
     "react": "^16.8.6",
